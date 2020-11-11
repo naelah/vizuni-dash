@@ -66,7 +66,47 @@ const SidebarContent = (props) => {
             <React.Fragment>
                  <div id="sidebar-menu">
                 <ul className="metismenu list-unstyled" id="side-menu">
-                    <li className="menu-title">{props.t('Menu') }  </li>
+                <li className="menu-title">{props.t('KPI Pages') }  </li>
+                    <li>
+                    <li>
+                        <Link to="/kpi-dashboard" className=" waves-effect">
+                            <i className="bx bx-calendar"></i>
+                            <span>{props.t('Dashboard') }</span>
+                        </Link>
+                    </li>
+                        <Link to="/#" className="has-arrow waves-effect">
+                            <i className="bx bx-share-alt"></i>
+                            <span>{props.t('Portfolio')}</span>
+                        </Link>
+                        <ul className="sub-menu" aria-expanded="false">
+                            <li><Link to="tnc-aa">{props.t('TNC A&A')}</Link></li>
+                            <li><Link to="tnc-pi">{props.t('TNC P&I')}</Link></li>
+                            <li><Link to="tnc-ican">{props.t('TNC ICAN')}</Link></li>
+                            <li><Link to="bendahari">{props.t('BENDAHARI')}</Link></li>
+                            <li><Link to="tnc-ppii">{props.t('TNC PPII')}</Link></li>
+                            <li><Link to="pendaftar">{props.t('PENDAFTAR')}</Link></li>
+                            <li><Link to="tnc-hep">{props.t('TNC HEP')}</Link></li>
+                            <li><Link to="pnc-masmed">{props.t('PNC MASMED')}</Link></li>
+                        </ul>
+                    </li>
+                    <li>
+                        
+                        <Link to="/#" className="has-arrow waves-effect">
+                            <i className="bx bx-share-alt"></i>
+                            <span>{props.t('Strategic Themes')}</span>
+                        </Link>
+                        <ul className="sub-menu" aria-expanded="false">
+                            <li><Link to="tnc-aa">{props.t('TNC A&A')}</Link></li>
+                            <li><Link to="tnc-pi">{props.t('TNC P&I')}</Link></li>
+                            <li><Link to="tnc-ican">{props.t('TNC ICAN')}</Link></li>
+                            <li><Link to="bendahari">{props.t('BENDAHARI')}</Link></li>
+                            <li><Link to="tnc-ppii">{props.t('TNC PPII')}</Link></li>
+                            <li><Link to="pendaftar">{props.t('PENDAFTAR')}</Link></li>
+                            <li><Link to="tnc-hep">{props.t('TNC HEP')}</Link></li>
+                            <li><Link to="pnc-masmed">{props.t('PNC MASMED')}</Link></li>
+                        </ul>
+                    </li>
+                    {/* <li className="menu-title">{props.t('Menu') }  </li>
                      <li>
                          <Link to="/#" className="waves-effect">
                                     <i className="bx bx-home-circle"></i><span className="badge badge-pill badge-info float-right">03</span>
@@ -338,7 +378,7 @@ const SidebarContent = (props) => {
                                 </ul>
                             </li>
                         </ul>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
             </React.Fragment>

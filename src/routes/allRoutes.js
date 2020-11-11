@@ -140,7 +140,45 @@ import ContactsGrid from "../pages/Contacts/contacts-grid";
 import ContactsList from "../pages/Contacts/contacts-list";
 import ContactsProfile from "../pages/Contacts/contacts-profile";
 
+//backup
+import Docs from "../pages/Doc" 
+
+// UITM
+import Bendahari from "../pages/Bendahari" // step 2: import file tadi sini
+import Pendaftar from "../pages/Pendaftar" 
+import PNCMasmed from "../pages/PNC-Masmed" 
+import TNCAA from "../pages/TNC-AA" 
+import TNCHEP from "../pages/TNC-HEP" 
+import TNCICAN from "../pages/TNC-ICAN" 
+import TNCPI from "../pages/TNC-PI" 
+import TNCPPII from "../pages/TNC-PPII" 
+import UitmPage from "../pages/Uitm" 
+import MainDash from "../pages/Main-Dashboard" 
+// import UitmPage from "../pages/Uitm" 
+// import UitmPage from "../pages/Uitm" 
+// import UitmPage from "../pages/Uitm" 
+// import UitmPage from "../pages/Uitm" 
+// import UitmPage from "../pages/Uitm" 
+// import UitmPage from "../pages/Uitm" 
+
 const userRoutes = [
+	// backup
+	{ path: "/docs", component: Docs },
+
+	// uitm pages finale
+	{ path: "/kpi-dashboard", component: MainDash },
+	{ path: "/bendahari", component: Bendahari },
+	{ path: "/pendaftar", component: Pendaftar },
+	{ path: "/pnc-masmed", component: PNCMasmed },
+	{ path: "/tnc-aa", component: TNCAA },
+	{ path: "/tnc-hep", component: TNCHEP },
+	{ path: "/tnc-ican", component: TNCICAN },
+	{ path: "/tnc-pi", component: TNCPI },
+	{ path: "/tnc-ppii", component: TNCPPII },
+	{ path: "/uitm", component: UitmPage },
+	// step 3: tambah path kat sini, dalam component kena nama import kat atas tu
+	//  nama path tu address dia. tengok browser
+	// ni just define routing, belum tambah menu kat sidebar
 
 	{ path: "/dashboard", component: Dashboard },
 	{ path: "/dashboard-saas", component: DashboardSaas },
@@ -264,7 +302,7 @@ const userRoutes = [
 	{ path: "/pages-pricing", component: PagesPricing },
 	
 	// this route should be at the end of all other routes
-	{ path: "/", exact: true, component: () => <Redirect to="/dashboard" /> }
+	{ path: "/", exact: true, component: () => <Redirect to="/kpi-dashboard" /> }
 ];
 
 const authRoutes = [

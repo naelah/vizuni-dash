@@ -22,7 +22,7 @@ import { initFirebaseBackend } from "./helpers/firebase_helper";
 
 import fakeBackend from './helpers/AuthType/fakeBackend';
 
-// Activating fake backend
+ //Activating fake backend
 fakeBackend();
 
 const firebaseConfig = {		
@@ -36,8 +36,8 @@ const firebaseConfig = {
   measurementId: process.env.REACT_APP_MEASUREMENTID,
 };
 
-// init firebase backend
-initFirebaseBackend(firebaseConfig);
+ //init firebase backend
+ initFirebaseBackend(firebaseConfig);
 
 const App = (props) => {
 
