@@ -153,56 +153,152 @@ const Header = (props) => {
                         </h5>
                         <ul className="list-unstyled megamenu-list">
                           <li>
-                            <Link to="#">PUSAT ASASI</Link>
+                            <div className="custom-control custom-checkbox">
+                                <input type="checkbox" className="custom-control-input" id="customCheck1" />
+                                <label className="custom-control-label" htmlFor="customCheck1">PUSAT ASASI</label>
+                            </div>
                           </li>
-                          <li><Link to="#">UiTM CAWANGAN JOHOR</Link></li>
-                          <li><Link to="#">UiTM CAWANGAN KEDAH</Link></li>
-                          <li><Link to="#">UiTM CAWANGAN KELANTAN</Link></li>
-                          <li><Link to="#">UiTM CAWANGAN MELAKA</Link></li>
-                          <li><Link to="#">UiTM CAWANGAN NEGERI SEMBILAN</Link></li>
-                          <li><Link to="#">UiTM CAWANGAN PAHANG</Link></li>
-                          <li><Link to="#">UiTM CAWANGAN PERAK</Link></li>
-                          <li><Link to="#">UiTM CAWANGAN PERLIS</Link></li>
-                          <li><Link to="#">UiTM CAWANGAN PULAU PINANG</Link></li>
-
+                          <li>
+                            <div className="custom-control custom-checkbox">
+                                <input type="checkbox" className="custom-control-input" id="customCheck1" />
+                                <label className="custom-control-label" htmlFor="customCheck1">UiTM CAWANGAN JOHOR</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div className="custom-control custom-checkbox">
+                                <input type="checkbox" className="custom-control-input" id="customCheck1" />
+                                <label className="custom-control-label" htmlFor="customCheck1">UiTM CAWANGAN KEDAH</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div className="custom-control custom-checkbox">
+                                <input type="checkbox" className="custom-control-input" id="customCheck1" />
+                                <label className="custom-control-label" htmlFor="customCheck1">UiTM CAWANGAN KELANTAN</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div className="custom-control custom-checkbox">
+                                <input type="checkbox" className="custom-control-input" id="customCheck1" />
+                                <label className="custom-control-label" htmlFor="customCheck1">UiTM CAWANGAN MELAKA</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div className="custom-control custom-checkbox">
+                                <input type="checkbox" className="custom-control-input" id="customCheck1" />
+                                <label className="custom-control-label" htmlFor="customCheck1">UiTM CAWANGAN NEGERI SEMBILAN</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div className="custom-control custom-checkbox">
+                                <input type="checkbox" className="custom-control-input" id="customCheck1" />
+                                <label className="custom-control-label" htmlFor="customCheck1">UiTM CAWANGAN PAHANG</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div className="custom-control custom-checkbox">
+                                <input type="checkbox" className="custom-control-input" id="customCheck1" />
+                                <label className="custom-control-label" htmlFor="customCheck1">UiTM CAWANGAN PERAK</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div className="custom-control custom-checkbox">
+                                <input type="checkbox" className="custom-control-input" id="customCheck1" />
+                                <label className="custom-control-label" htmlFor="customCheck1">UiTM CAWANGAN PERLIS</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div className="custom-control custom-checkbox">
+                                <input type="checkbox" className="custom-control-input" id="customCheck1" />
+                                <label className="custom-control-label" htmlFor="customCheck1">UiTM CAWANGAN PULAU PINANG</label>
+                            </div>
+                          </li>
                         </ul>
                       </Col>
 
                       <Col md={4}>
                       <ul className="list-unstyled megamenu-list">
-                      <li><Link to="#">UiTM CAWANGAN SABAH</Link></li>
-                          <li><Link to="#">UiTM CAWANGAN SARAWAK</Link></li>
-                          <li><Link to="#">UiTM CAWANGAN SELANGOR</Link></li>
-                          <li><Link to="#">UiTM CAWANGAN TERENGGANU</Link></li>
+                        <li>
+                          <div className="custom-control custom-checkbox">
+                            <input type="checkbox" className="custom-control-input" id="customCheck1" />
+                            <label className="custom-control-label" htmlFor="customCheck1">UiTM CAWANGAN SABAH</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div className="custom-control custom-checkbox">
+                            <input type="checkbox" className="custom-control-input" id="customCheck1" />
+                            <label className="custom-control-label" htmlFor="customCheck1">UiTM CAWANGAN SARAWAK</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div className="custom-control custom-checkbox">
+                            <input type="checkbox" className="custom-control-input" id="customCheck1" />
+                            <label className="custom-control-label" htmlFor="customCheck1">UiTM CAWANGAN SELANGOR</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div className="custom-control custom-checkbox">
+                            <input type="checkbox" className="custom-control-input" id="customCheck1" />
+                            <label className="custom-control-label" htmlFor="customCheck1">UiTM CAWANGAN TERENGGANU</label>
+                          </div>
+                        </li>
+                        
                         <br></br>
                         <h5 className="font-size-14 mt-0">
                           Fakulti
                         </h5>
-                        
-                          <li><Link to="#">FAKULTI FARMASI</Link></li>
-                          <li><Link to="#">FAKULTI FILEM, TEATER DAN ANIMASI</Link></li>
-                          <li><Link to="#">FAKULTI KEJURUTERAAN AWAM</Link></li>
-                          <li><Link to="#">FAKULTI KEJURUTERAAN ELEKTRIK</Link></li>
-                          <li><Link to="#">FAKULTI KEJURUTERAAN KIMIA</Link></li>
-                          <li><Link to="#">FAKULTI KEJURUTERAAN MEKANIKAL</Link></li>
-                          
+                        <li>
+                          <div className="custom-control custom-checkbox">
+                            <input type="checkbox" className="custom-control-input" id="customCheck1" />
+                            <label className="custom-control-label" htmlFor="customCheck1">FAKULTI FARMASI</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div className="custom-control custom-checkbox">
+                            <input type="checkbox" className="custom-control-input" id="customCheck1" />
+                            <label className="custom-control-label" htmlFor="customCheck1">FAKULTI FILEM, TEATER DAN ANIMASI</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div className="custom-control custom-checkbox">
+                            <input type="checkbox" className="custom-control-input" id="customCheck1" />
+                            <label className="custom-control-label" htmlFor="customCheck1">FAKULTI KEJURUTERAAN AWAM</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div className="custom-control custom-checkbox">
+                            <input type="checkbox" className="custom-control-input" id="customCheck1" />
+                            <label className="custom-control-label" htmlFor="customCheck1">KEJURUTERAAN ELEKTRIK</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div className="custom-control custom-checkbox">
+                            <input type="checkbox" className="custom-control-input" id="customCheck1" />
+                            <label className="custom-control-label" htmlFor="customCheck1">FAKULTI KEJURUTERAAN KIMIA</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div className="custom-control custom-checkbox">
+                            <input type="checkbox" className="custom-control-input" id="customCheck1" />
+                            <label className="custom-control-label" htmlFor="customCheck1">FAKULTI KEJURUTERAAN MEKANIKAL</label>
+                          </div>
+                        </li>
                         </ul>
                       </Col>
 
                       <Col md={4}>
                       <ul className="list-unstyled megamenu-list">
-                      <li><Link to="#">FAKULTI KOMUNIKASI DAN PENGAJIAN MEDIA</Link></li>
-                          <li><Link to="#">FAKULTI MUZIK</Link></li>
-                          <li><Link to="#">FAKULTI PENDIDIKAN</Link></li>
-                          <li><Link to="#">FAKULTI PENGURUSAN DAN PERNIAGAAN</Link></li>
-                          <li><Link to="#">FAKULTI PENGURUSAN HOTEL DAN PELANCONGAN</Link></li>
-                          <li><Link to="#">FAKULTI PENGURUSAN MAKLUMAT</Link></li>
+                      <li><input type="checkbox" className="custom-control-input" id="customCheck1" /><Link to="#">FAKULTI KOMUNIKASI DAN PENGAJIAN MEDIA</Link></li>
+                          <li><input type="checkbox" className="custom-control-input" id="customCheck1" /><Link to="#">FAKULTI MUZIK</Link></li>
+                          <li><input type="checkbox" className="custom-control-input" id="customCheck1" /><Link to="#">FAKULTI PENDIDIKAN</Link></li>
+                          <li><input type="checkbox" className="custom-control-input" id="customCheck1" /><Link to="#">FAKULTI PENGURUSAN DAN PERNIAGAAN</Link></li>
+                          <li><input type="checkbox" className="custom-control-input" id="customCheck1" /><Link to="#">FAKULTI PENGURUSAN HOTEL DAN PELANCONGAN</Link></li>
+                          <li><input type="checkbox" className="custom-control-input" id="customCheck1" /><Link to="#">FAKULTI PENGURUSAN MAKLUMAT</Link></li>
                           
                         
-                        <li><Link to="#">FAKULTI PERAKAUNAN</Link></li>
-                          <li><Link to="#">FAKULTI PERGIGIAN</Link></li>
-                          <li><Link to="#">FAKULTI PERLADANGAN DAN AGROTEKNOLOGI</Link></li>
-                          <li><Link to="#">FAKULTI PERUBATAN</Link></li>
+                        <li><input type="checkbox" className="custom-control-input" id="customCheck1" /><Link to="#">FAKULTI PERAKAUNAN</Link></li>
+                          <li><input type="checkbox" className="custom-control-input" id="customCheck1" /><Link to="#">FAKULTI PERGIGIAN</Link></li>
+                          <li><input type="checkbox" className="custom-control-input" id="customCheck1" /><Link to="#">FAKULTI PERLADANGAN DAN AGROTEKNOLOGI</Link></li>
+                          <li><input type="checkbox" className="custom-control-input" id="customCheck1" /><Link to="#">FAKULTI PERUBATAN</Link></li>
                            </ul>
                       </Col>
                     </Row>
@@ -211,15 +307,15 @@ const Header = (props) => {
                     <Row>
                       <Col sm={6}>
                         <ul className="list-unstyled megamenu-list">
-                        <li><Link to="#">FAKULTI SAINS GUNAAN</Link></li>
-                          <li><Link to="#">FAKULTI PERGIGIAN</Link></li>
-                          <li><Link to="#">FAKULTI SAINS KESIHATAN</Link></li>
-                          <li><Link to="#">FAKULTI SAINS KOMPUTER DAN MATEMATIK</Link></li>
-                          <li><Link to="#">FAKULTI SAINS PENTADBIRAN DAN PENGAJIAN POLISI</Link></li>
-                          <li><Link to="#">FAKULTI SAINS SUKAN DAN REKREASI</Link></li>
-                          <li><Link to="#">FAKULTI SENI LUKIS DAN SENI REKA</Link></li>
-                          <li><Link to="#">FAKULTI SENIBINA PERANCANGAN DAN UKUR</Link></li>
-                          <li><Link to="#">FAKULTI UNDANG-UNDANG</Link></li>
+                        <li><input type="checkbox" className="custom-control-input" id="customCheck1" /><Link to="#">FAKULTI SAINS GUNAAN</Link></li>
+                          <li><input type="checkbox" className="custom-control-input" id="customCheck1" /><Link to="#">FAKULTI PERGIGIAN</Link></li>
+                          <li><input type="checkbox" className="custom-control-input" id="customCheck1" /><Link to="#">FAKULTI SAINS KESIHATAN</Link></li>
+                          <li><input type="checkbox" className="custom-control-input" id="customCheck1" /><Link to="#">FAKULTI SAINS KOMPUTER DAN MATEMATIK</Link></li>
+                          <li><input type="checkbox" className="custom-control-input" id="customCheck1" /><Link to="#">FAKULTI SAINS PENTADBIRAN DAN PENGAJIAN POLISI</Link></li>
+                          <li><input type="checkbox" className="custom-control-input" id="customCheck1" /><Link to="#">FAKULTI SAINS SUKAN DAN REKREASI</Link></li>
+                          <li><input type="checkbox" className="custom-control-input" id="customCheck1" /><Link to="#">FAKULTI SENI LUKIS DAN SENI REKA</Link></li>
+                          <li><input type="checkbox" className="custom-control-input" id="customCheck1" /><Link to="#">FAKULTI SENIBINA PERANCANGAN DAN UKUR</Link></li>
+                          <li><input type="checkbox" className="custom-control-input" id="customCheck1" /><Link to="#">FAKULTI UNDANG-UNDANG</Link></li>
                        
                         </ul>
                       </Col>

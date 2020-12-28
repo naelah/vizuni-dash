@@ -1,4 +1,4 @@
-import React, {  useEffect } from 'react';
+import React, { useEffect } from "react";
 
 // MetisMenu
 import MetisMenu from "metismenujs";
@@ -6,107 +6,137 @@ import { withRouter } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 //i18n
-import { withNamespaces } from 'react-i18next';
+import { withNamespaces } from "react-i18next";
 
 const SidebarContent = (props) => {
-        
-    // Use ComponentDidMount and ComponentDidUpdate method symultaniously
-     useEffect(() => {
+  // Use ComponentDidMount and ComponentDidUpdate method symultaniously
+  useEffect(() => {
+    var pathName = props.location.pathname;
 
-        var pathName = props.location.pathname;
-
-        const initMenu = () => {
-            new MetisMenu("#side-menu");
-            var matchingMenuItem = null;
-            var ul = document.getElementById("side-menu");
-            var items = ul.getElementsByTagName("a");
-            for (var i = 0; i < items.length; ++i) {
-                if (pathName === items[i].pathname) {
-                    matchingMenuItem = items[i];
-                    break;
-                }
-            }
-            if (matchingMenuItem) {
-                activateParentDropdown(matchingMenuItem);
-            }
+    const initMenu = () => {
+      new MetisMenu("#side-menu");
+      var matchingMenuItem = null;
+      var ul = document.getElementById("side-menu");
+      var items = ul.getElementsByTagName("a");
+      for (var i = 0; i < items.length; ++i) {
+        if (pathName === items[i].pathname) {
+          matchingMenuItem = items[i];
+          break;
         }
-         initMenu();
-      }, [props.location.pathname]);
-
-  
-    function  activateParentDropdown(item) {
-        item.classList.add("active");
-        const parent = item.parentElement;
-
-        if (parent) {
-            parent.classList.add("mm-active");
-            const parent2 = parent.parentElement;
-
-            if (parent2) {
-                parent2.classList.add("mm-show");
-
-                const parent3 = parent2.parentElement;
-
-                if (parent3) {
-                    parent3.classList.add("mm-active"); // li
-                    parent3.childNodes[0].classList.add("mm-active"); //a
-                    const parent4 = parent3.parentElement;
-                    if (parent4) {
-                        parent4.classList.add("mm-active");
-                    }
-                }
-            }
-            return false;
-        }
-        return false;
+      }
+      if (matchingMenuItem) {
+        activateParentDropdown(matchingMenuItem);
+      }
     };
+    initMenu();
+  }, [props.location.pathname]);
 
-          return (
-           
-            <React.Fragment>
-                 <div id="sidebar-menu">
-                <ul className="metismenu list-unstyled" id="side-menu">
-                <li className="menu-title">{props.t('KPI Pages') }  </li>
-                    <li>
-                    <li>
-                        <Link to="/kpi-dashboard" className=" waves-effect">
-                            <i className="bx bx-calendar"></i>
-                            <span>{props.t('Dashboard') }</span>
-                        </Link>
-                    </li>
-                        <Link to="/#" className="has-arrow waves-effect">
-                            <i className="bx bx-share-alt"></i>
-                            <span>{props.t('Portfolio')}</span>
-                        </Link>
-                        <ul className="sub-menu" aria-expanded="false">
-                            <li><Link to="tnc-aa">{props.t('TNC A&A')}</Link></li>
-                            <li><Link to="tnc-pi">{props.t('TNC P&I')}</Link></li>
-                            <li><Link to="tnc-ican">{props.t('TNC ICAN')}</Link></li>
-                            <li><Link to="bendahari">{props.t('BENDAHARI')}</Link></li>
-                            <li><Link to="tnc-ppii">{props.t('TNC PPII')}</Link></li>
-                            <li><Link to="pendaftar">{props.t('PENDAFTAR')}</Link></li>
-                            <li><Link to="tnc-hep">{props.t('TNC HEP')}</Link></li>
-                            <li><Link to="pnc-masmed">{props.t('PNC MASMED')}</Link></li>
-                        </ul>
-                    </li>
-                    <li>
-                        
-                        <Link to="/#" className="has-arrow waves-effect">
-                            <i className="bx bx-share-alt"></i>
-                            <span>{props.t('Strategic Themes')}</span>
-                        </Link>
-                        <ul className="sub-menu" aria-expanded="false">
-                            <li><Link to="tnc-aa">{props.t('TNC A&A')}</Link></li>
-                            <li><Link to="tnc-pi">{props.t('TNC P&I')}</Link></li>
-                            <li><Link to="tnc-ican">{props.t('TNC ICAN')}</Link></li>
-                            <li><Link to="bendahari">{props.t('BENDAHARI')}</Link></li>
-                            <li><Link to="tnc-ppii">{props.t('TNC PPII')}</Link></li>
-                            <li><Link to="pendaftar">{props.t('PENDAFTAR')}</Link></li>
-                            <li><Link to="tnc-hep">{props.t('TNC HEP')}</Link></li>
-                            <li><Link to="pnc-masmed">{props.t('PNC MASMED')}</Link></li>
-                        </ul>
-                    </li>
-                    {/* <li className="menu-title">{props.t('Menu') }  </li>
+  function activateParentDropdown(item) {
+    item.classList.add("active");
+    const parent = item.parentElement;
+
+    if (parent) {
+      parent.classList.add("mm-active");
+      const parent2 = parent.parentElement;
+
+      if (parent2) {
+        parent2.classList.add("mm-show");
+
+        const parent3 = parent2.parentElement;
+
+        if (parent3) {
+          parent3.classList.add("mm-active"); // li
+          parent3.childNodes[0].classList.add("mm-active"); //a
+          const parent4 = parent3.parentElement;
+          if (parent4) {
+            parent4.classList.add("mm-active");
+          }
+        }
+      }
+      return false;
+    }
+    return false;
+  }
+
+  return (
+    <React.Fragment>
+      <div id="sidebar-menu">
+        <ul className="metismenu list-unstyled" id="side-menu">
+          <li className="menu-title">{props.t("KPI Pages")} </li>
+          <li>
+            <Link to="/kpi-dashboard" className=" waves-effect">
+              <i className="bx bx-calendar"></i>
+              <span>{props.t("Dashboard")}</span>
+            </Link>
+          </li>
+          <li>
+            <Link to="/#" className="has-arrow waves-effect">
+              <i className="bx bx-share-alt"></i>
+              <span>{props.t("Portfolio")}</span>
+            </Link>
+            <ul className="sub-menu" aria-expanded="false">
+              <li>
+                <Link to="tnc-aa">{props.t("TNC A&A")}</Link>
+              </li>
+              <li>
+                <Link to="tnc-pi">{props.t("TNC P&I")}</Link>
+              </li>
+              <li>
+                <Link to="tnc-ican">{props.t("TNC ICAN")}</Link>
+              </li>
+              <li>
+                <Link to="bendahari">{props.t("BENDAHARI")}</Link>
+              </li>
+              <li>
+                <Link to="tnc-ppii">{props.t("TNC PPII")}</Link>
+              </li>
+              <li>
+                <Link to="pendaftar">{props.t("PENDAFTAR")}</Link>
+              </li>
+              <li>
+                <Link to="tnc-hep">{props.t("TNC HEP")}</Link>
+              </li>
+              <li>
+                <Link to="pnc-masmed">{props.t("PNC MASMED")}</Link>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <Link to="/#" className="has-arrow waves-effect">
+              <i className="bx bx-share-alt"></i>
+              <span>{props.t("Strategic Themes")}</span>
+            </Link>
+            <ul className="sub-menu" aria-expanded="false">
+              <li>
+                <Link to="tnc-aa">{props.t("Education 5.0@UiTM")}</Link>
+              </li>
+              <li>
+                <Link to="tnc-pi">{props.t("Entrepreneurial & Well-Balanced Graduates")}</Link>
+              </li>
+              <li>
+                <Link to="tnc-ican">{props.t("Widened Access")}</Link>
+              </li>
+              <li>
+                <Link to="bendahari">{props.t("Translational Research Development, Innovation & Commercialisation")}</Link>
+              </li>
+              <li>
+                <Link to="tnc-ppii">{props.t("Industry, Community & Alumni Smart Partnership")}</Link>
+              </li>
+              <li>
+                <Link to="pendaftar">{props.t("Talent Excellence")}</Link>
+              </li>
+              <li>
+                <Link to="tnc-hep">{props.t("Agile Governance")}</Link>
+              </li>
+              <li>
+                <Link to="pnc-masmed">{props.t("PNC Smart Campus")}</Link>
+              </li>
+              <li>
+                <Link to="pnc-masmed">{props.t("Sustainable Funding")}</Link>
+              </li>
+            </ul>
+          </li>
+          {/* <li className="menu-title">{props.t('Menu') }  </li>
                      <li>
                          <Link to="/#" className="waves-effect">
                                     <i className="bx bx-home-circle"></i><span className="badge badge-pill badge-info float-right">03</span>
@@ -379,12 +409,10 @@ const SidebarContent = (props) => {
                             </li>
                         </ul>
                     </li> */}
-                </ul>
-            </div>
-            </React.Fragment>
-          );
-        }
+        </ul>
+      </div>
+    </React.Fragment>
+  );
+};
 
-    export default withRouter(withNamespaces()(SidebarContent));
-
-
+export default withRouter(withNamespaces()(SidebarContent));
