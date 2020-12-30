@@ -2,8 +2,10 @@
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable react/prop-types */
 /* eslint-disable jsx-a11y/label-has-associated-control */
-import React from 'react';
+import React, { useState } from 'react';
 import { FormGroup } from 'reactstrap';
+import Slider from 'react-rangeslider';
+import 'react-rangeslider/lib/index.css';
 
 import { connect } from 'react-redux';
 
@@ -28,6 +30,8 @@ import layout2 from '../../assets/images/layouts/layout-2.jpg';
 import layout3 from '../../assets/images/layouts/layout-3.jpg';
 
 const RightSidebar = (props) => {
+  const [def, setdef] = useState(10);
+  const [def2, setdef2] = useState(20);
   return (
     <>
       <div className="right-bar">
@@ -50,6 +54,32 @@ const RightSidebar = (props) => {
             <hr className="my-0" />
 
             <div className="p-4">
+              <div className="py-2">
+                <h5 className="font-size-14 mb-3 mt-0">Params</h5>
+                <span className="float-left mt-4">0</span>{' '}
+                <span className="float-right  mt-4">40</span>
+                <Slider
+                  max={40}
+                  value={def}
+                  orientation="horizontal"
+                  onChange={(value) => {
+                    setdef(value);
+                  }}
+                />
+              </div>
+              <div className="py-2">
+                <h5 className="font-size-14 mb-3 mt-0">Params 2</h5>
+                <span className="float-left mt-4">0</span>{' '}
+                <span className="float-right  mt-4">40</span>
+                <Slider
+                  max={40}
+                  value={def2}
+                  orientation="horizontal"
+                  onChange={(value) => {
+                    setdef2(value);
+                  }}
+                />
+              </div>
               <div className="radio-toolbar">
                 <span className="mb-2 d-block">Layouts</span>
                 <input

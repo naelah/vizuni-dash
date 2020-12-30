@@ -1,17 +1,24 @@
-import { FILTER_FACULTY, CLEAR_FILTER_FACULTY } from './actionTypes';
+import uniq from 'lodash/uniq';
+import { ADD_FACULTY, REMOVE_FACULTY, CLEAR_FACULTY } from './actionTypes';
 
-const INIT_STATE = Object.freeze({
-  facultySelected: [],
+const initialState = Object.freeze({
+  selectedFaculty: [],
 });
 
-const FacultyFilter = (state = INIT_STATE, action) => {
+const FacultyFilter = (state = initialState, action) => {
   switch (action.type) {
-    case FILTER_FACULTY:
+    case ADD_FACULTY:
       return {
-        ...state,
-        facultySelected: action.payload,
+        selectedFaculty: uniq([...state.selectedFaculty, action.id]),
       };
-    case CLEAR_FILTER_FACULTY:
+    case REMOVE_FACULTY:
+      return {
+        selectedFaculty: [...state.selectedFaculty].filter(
+          (item) => item !== action.id
+        ),
+      };
+    case CLEAR_FACULTY:
+      return initialState;
     default:
       return state;
   }

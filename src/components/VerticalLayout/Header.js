@@ -31,6 +31,8 @@ import dropbox from '../../assets/images/brands/dropbox.png';
 import mail_chimp from '../../assets/images/brands/mail_chimp.png';
 import slack from '../../assets/images/brands/slack.png';
 
+import FacultyDropdown from './FacultyDropdown';
+
 // i18n
 
 // Redux Store
@@ -644,8 +646,8 @@ const Header = (props) => {
                 <span className="bx bx-search-alt" />
               </div>
             </form> */}
-
-            <FacultyFilterDropdown />
+            <FacultyDropdown />
+            {/* <FacultyFilterDropdown /> */}
           </div>
           <div className="d-flex">
             {/* <div className="dropdown d-inline-block d-lg-none ml-2">

@@ -1,0 +1,5 @@
+const NAME = 'FILTER';
+
+export const ADD_CAWANGAN = `${NAME}/ADD_CAWANGAN`;
+export const REMOVE_CAWANGAN = `${NAME}/REMOVE_CAWANGAN`;
+export const CLEAR_CAWANGAN = `${NAME}/CLEAR_CAWANGAN`;
