@@ -1,28 +1,24 @@
-import React, { Component } from 'react';
-import { withRouter } from "react-router-dom";
+import { useEffect } from 'react';
+import { withRouter } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
-class NonAuthLayout extends Component {
-    constructor(props) {
-        super(props);
-        this.state={};
-        this.capitalizeFirstLetter.bind(this);
-    }
-    
-    capitalizeFirstLetter = string => {
-        return string.charAt(1).toUpperCase() + string.slice(2);
-      };
+const NonAuthLayout = ({ location, children }) => {
+  const capitalizeFirstLetter = (string) => {
+    return string.charAt(1).toUpperCase() + string.slice(2);
+  };
 
-    componentDidMount(){
-        let currentage = this.capitalizeFirstLetter(this.props.location.pathname);
+  useEffect(() => {
+    const currentage = capitalizeFirstLetter(location.pathname);
 
-        document.title =
-          currentage + " | Skote - Responsive Bootstrap 4 Admin Dashboard";
-    }
-    render() {
-        return <React.Fragment>
-            {this.props.children}
-        </React.Fragment>;
-    }
-}
+    document.title = `${currentage} | UITM - KPI Visual`;
+  }, [location.pathname]);
 
-export default (withRouter(NonAuthLayout));
+  return children;
+};
+
+NonAuthLayout.propTypes = {
+  children: PropTypes.oneOfType([PropTypes.object, PropTypes.func]).isRequired,
+  location: PropTypes.object.isRequired,
+};
+
+export default withRouter(NonAuthLayout);
