@@ -68,12 +68,12 @@ const FacultyDropdown = () => {
               <input
                 type="checkbox"
                 className="custom-control-input"
-                id={item.id}
+                id={item.ptj_id}
                 onChange={handleSelectFaculty}
-                checked={selectedFaculty.includes(item.id)}
+                checked={selectedFaculty.includes(item.ptj_id)}
               />
-              <label className="custom-control-label" htmlFor={item.id}>
-                {item.label}
+              <label className="custom-control-label" htmlFor={item.ptj_id}>
+                {item.ptj_name}
               </label>
             </div>
           </li>
