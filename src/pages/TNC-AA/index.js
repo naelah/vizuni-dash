@@ -1,33 +1,117 @@
-import React from "react";
-import { Container,Row, Col, Card, CardBody, CardTitle } from "reactstrap";
+import React, { useState } from 'react';
+import { Container, Row, Col, Card, CardBody, CardTitle } from 'reactstrap';
+import TNC_AA_DATA from 'data/portfolio/tncaa';
 
-//Import Breadcrumb
-import Breadcrumbs from "../../components/Common/Breadcrumb";
-import LatestAchievements from "./LatestAchievements";
-import ColumnChartToast from "./ColumnChartToast";
-import WelcomeComp from "./WelcomeComp";
-import MonthlyEarning from "./MonthlyEarning";
-import MiniWidget from "./mini-widget";
-import Earning from "./earning";
-//Bitcoin Chart
-const series1 = [{name:"BTC",data:[12,14,2,47,42,15,47,75,65,19,14]}];
-const options1 = {chart:{sparkline:{enabled:!0}},stroke:{curve:"smooth",width:2},colors:["#f1b44c"],fill:{type:"gradient",gradient:{shadeIntensity:1,inverseColors:!1,opacityFrom:.45,opacityTo:.05,stops:[25,100,100,100]}},tooltip:{fixed:{enabled:!1},x:{show:!1},marker:{show:!1}}};
+// Import Breadcrumb
+import Breadcrumbs from '../../components/Common/Breadcrumb';
+import LatestAchievements from './LatestAchievements';
+import ComboChartToast from './ComboChartToast';
+import WelcomeComp from './WelcomeComp';
+import Score from './MonthlyEarning';
+import Average from './mini-widget';
+import ColumnChartToast from './ColumnChartToast';
+import Overview from './earning';
 
-//Etherium Chart
-const series2 = [{name:"ETH",data:[25,66,41,89,63,25,44,12,36,9,54]}];
-const options2 = {chart:{sparkline:{enabled:!0}},stroke:{curve:"smooth",width:2},colors:["#3452e1"],fill:{type:"gradient",gradient:{shadeIntensity:1,inverseColors:!1,opacityFrom:.45,opacityTo:.05,stops:[25,100,100,100]}},tooltip:{fixed:{enabled:!1},x:{show:!1},marker:{show:!1}}};
-        
-//LiteCoin Chart
-const series3 = [{name:"LTC",data:[35,53,93,47,54,24,47,75,65,19,14]}];
-const options3 = {chart:{sparkline:{enabled:!0}},stroke:{curve:"smooth",width:2},colors:["#50a5f1"],fill:{type:"gradient",gradient:{shadeIntensity:1,inverseColors:!1,opacityFrom:.45,opacityTo:.05,stops:[25,100,100,100]}},tooltip:{fixed:{enabled:!1},x:{show:!1},marker:{show:!1}}};
+const getAvg = (item, selection) =>
+  Number(
+    (
+      item.reduce(
+        (total, next) => total + (!selection ? next : next[selection]),
+        0
+      ) / item.length
+    ).toFixed(2)
+  );
 
-const TNCAA = (props) => {
-  const chartWidth = (window.innerWidth > 991) ? parseInt((window.innerWidth - 420) ) : parseInt(window.innerWidth - 100);
-	
-    const reports = [
-        { title : "KPI TOTAL 8", icon : "mdi mdi-school", color : "warning", value : "$ 9134.39", desc : "+ 0.0012 ( 0.2 % )", series : series1, options : options1 },
-        { title : "PI TOTAL 38", icon : "mdi mdi-earth", color : "primary", value : "$ 9134.39", desc : "- 4.102 ( 0.1 % )", series : series2, options : options2 },
-    ];
+const processPortfolioData = (data) => {
+  const kpi = data.kpi.map((item) => {
+    const achievementPAvg = getAvg(
+      item.kpi_by_ptj.achievement,
+      'achievement_p'
+    );
+    const achievementAvg = getAvg(item.kpi_by_ptj.achievement, 'achievement');
+    return {
+      ...item,
+      kpi_by_ptj: { ...item.kpi_by_ptj, achievementAvg, achievementPAvg },
+    };
+  });
+
+  const kpiScore = {
+    kpiAchivementP: kpi.map((item) => item.kpi_by_ptj.achievementPAvg),
+    kpiAchivementPAvg: getAvg(
+      kpi.map((item) => item.kpi_by_ptj.achievementPAvg)
+    ),
+    kpiAchivement: kpi.map((item) => item.kpi_by_ptj.achievementAvg),
+    kpiAchivementAvg: getAvg(kpi.map((item) => item.kpi_by_ptj.achievementAvg)),
+    kpiTarget: kpi.map((item) => item.kpi_by_ptj.target),
+    kpiTargetAvg: getAvg(kpi.map((item) => item.kpi_by_ptj.target)),
+  };
+
+  const pi = data.pi.map((item) => {
+    const piByPtj = item.pi_by_ptj.map((piItem) => {
+      const achievementPAvg = getAvg(piItem.achievement, 'achievement_p');
+      const achievementAvg = getAvg(piItem.achievement, 'achievement');
+      const achievementLatest =
+        piItem.achievement[piItem.achievement.length - 1].achievement;
+      return { ...piItem, achievementPAvg, achievementAvg, achievementLatest };
+    });
+
+    const piByPtjAchivementP = piByPtj.map(
+      ({ achievementPAvg }) => achievementPAvg
+    );
+    const piByPtjAchivementPAvg = getAvg(piByPtjAchivementP);
+    const piByPtjAchivement = piByPtj.map(
+      ({ achievementAvg }) => achievementAvg
+    );
+    const piByPtjAchivementAvg = getAvg(piByPtjAchivement);
+    const piByPtjTarget = piByPtj.map(({ target }) => target);
+    const piByPtjTargetAvg = getAvg(piByPtjTarget);
+
+    return {
+      ...item,
+      pi_by_ptj: piByPtj,
+      piByPtjAchivement,
+      piByPtjAchivementAvg,
+      piByPtjAchivementP,
+      piByPtjAchivementPAvg,
+      piByPtjTarget,
+      piByPtjTargetAvg,
+    };
+  });
+
+  const piScore = {
+    piAchivement: pi.map(({ piByPtjAchivementAvg }) => piByPtjAchivementAvg),
+    piAchivementAvg: getAvg(
+      pi.map(({ piByPtjAchivementAvg }) => piByPtjAchivementAvg)
+    ),
+    piAchivementP: pi.map(({ piByPtjAchivementPAvg }) => piByPtjAchivementPAvg),
+    piAchivementPAvg: getAvg(
+      pi.map(({ piByPtjAchivementPAvg }) => piByPtjAchivementPAvg)
+    ),
+    piTarget: pi.map(({ piByPtjTargetAvg }) => piByPtjTargetAvg),
+    piTargetAvg: getAvg(pi.map(({ piByPtjTargetAvg }) => piByPtjTargetAvg)),
+  };
+
+  return {
+    ...data,
+    kpi,
+    kpiScore,
+    pi,
+    piScore,
+  };
+};
+
+const TNCAA = () => {
+  const { kpiScore, piScore, pi: piData } = processPortfolioData(TNC_AA_DATA);
+  const [selectedPi, setSelectedPi] = useState(piData[0]);
+
+  // console.log(TNC_AA_DATA);
+  // console.log(processPortfolioData(TNC_AA_DATA));
+
+  const chartWidth =
+    window.innerWidth > 991
+      ? Number(window.innerWidth - 420)
+      : Number(window.innerWidth - 100);
+
   return (
     <>
       <div className="page-content">
@@ -35,33 +119,68 @@ const TNCAA = (props) => {
           {/* Render Breadcrumbs */}
           <Breadcrumbs title="TNC A&A" breadcrumbItem="Finale" />
           <Row>
-                      <Col xl="4">
-                          <WelcomeComp />
-                          <MonthlyEarning />
-                      </Col>
-                      <Col xl="8">
-                          <Row>
-                          <MiniWidget reports={reports}/>
-                            
-                          </Row>
-                          <Row>
-                              <Earning/>
-                          </Row>
-                      </Col>
-                  </Row>
+            <WelcomeComp />
+            <Col xl="4">
+              <Score data={{ kpiScore, piScore }} />
+            </Col>
+            <Col xl="8">
+              <Row>
+                <Average data={{ kpiScore, piScore }} />
+              </Row>
+              {/* <Row>
+                <Overview />
+              </Row> */}
+            </Col>
+          </Row>
+          {/* <Row>
+            <Col sm={12} md={12}>
+              <Card>
+                <CardBody>
+                  <CardTitle className="mb-4">Column charts</CardTitle>
+                  <div className="text-center">
+                    <ColumnChartToast chartWidth={chartWidth} />
+                  </div>
+                </CardBody>
+              </Card>
+            </Col>
+          </Row> */}
           <Row>
-          <Col sm={12} md={12}>
-							<Card>
-								<CardBody>
-										<CardTitle className="mb-4">Column charts</CardTitle>
-										<div className="text-center"><ColumnChartToast chartWidth={chartWidth} /></div>
-									</CardBody>
-								</Card>
-							</Col>
-            </Row>
+            <Col sm={12} md={12}>
+              <Card>
+                <CardBody>
+                  {/* <CardTitle className="mb-4">Column charts</CardTitle> */}
+                  <div className="form-group row">
+                    <div className="col-md-10">
+                      <select
+                        className="form-control"
+                        id="select-pi"
+                        onChange={(e) =>
+                          setSelectedPi(
+                            piData.find(
+                              (item) => item.pi_name === e.target.value
+                            )
+                          )
+                        }
+                      >
+                        {piData.map(({ pi_name: piName }) => (
+                          <option>{piName}</option>
+                        ))}
+                      </select>
+                    </div>
+                  </div>
+                  <div className="text-center">
+                    <ComboChartToast
+                      chartWidth={chartWidth}
+                      data={selectedPi}
+                    />
+                  </div>
+                </CardBody>
+              </Card>
+            </Col>
+          </Row>
           <Row>
             <Col lg="12">
-              <LatestAchievements />
+              <LatestAchievements data={processPortfolioData(TNC_AA_DATA)} />
             </Col>
           </Row>
         </Container>

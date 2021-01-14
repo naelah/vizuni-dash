@@ -2,15 +2,11 @@ import React from 'react';
 
 import { Row, Col, Card, CardBody } from 'reactstrap';
 import { Link } from 'react-router-dom';
-import { useSelector } from 'react-redux';
 
 import avatar1 from '../../assets/images/users/avatar-1.jpg';
 import profileImg from '../../assets/images/profile-img.png';
 
 const WelcomeComp = (props) => {
-  const { selectedFaculty } = useSelector(({ Faculty }) => Faculty);
-  const { selectedCawangan } = useSelector(({ Cawangan }) => Cawangan);
-
   return (
     <>
       <Card className="overflow-hidden">
@@ -20,13 +16,6 @@ const WelcomeComp = (props) => {
               <div className="text-primary p-3">
                 <h5 className="text-primary">Welcome Back !</h5>
                 <p>UiTM Dashboard</p>
-                <pre>
-                  {JSON.stringify(
-                    { selectedCawangan, selectedFaculty },
-                    null,
-                    2
-                  )}
-                </pre>
               </div>
             </Col>
             <Col xs="5" className="align-self-end">
@@ -34,7 +23,7 @@ const WelcomeComp = (props) => {
             </Col>
           </Row>
         </div>
-        <CardBody className="pt-0">
+        <CardBody className="pt-0 d-none">
           <Row>
             <div className="pt-4">
               <Row>
