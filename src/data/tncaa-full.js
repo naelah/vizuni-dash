@@ -1,8 +1,7 @@
 const TNC_AA_PORTFOLIO = {
   id: 1,
   lead_director: 'tncaa',
-  kpi: [ 
-    {
+  kpi: [ {
     tp_id: 1,
     kpi_name:
       'Number of programmes accredited by professional standard at national or international level.',
@@ -530,12 +529,13 @@ const TNC_AA_PORTFOLIO = {
         ],
       }
   }
-  ],
+
+],
   pi: [
     {
       tp_id: 15,
       pi_id: 1015,
-      pi_number: 17,
+      pi_number: 15,
       pi_name:
         'Number of academic staff received award or recognition at national level.',
       operation_definition:
@@ -2816,3922 +2816,6 @@ const TNC_AA_PORTFOLIO = {
       ],
     },
     {
-      tp_id: 17,
-      pi_id: 2017,
-      pi_number: 17,
-      pi_name:
-        'Number of Massive Open Online Course (MOOC) courses.',
-      operation_definition:
-        'New number of MOOC courses developed for the current year. MOOC are courses delivered online and accessible to all for free, typically comprise video lessons, readings, assessments and discussion forums.',
-      pi_owner: 'A0165',
-      pi_owner_ptj_name: 'INSTITUT PENDIDIKAN BERTERUSAN DAN PENGAJIAN PROFESIONAL',
-      pi_owner_abbreviation: 'iCEPS',
-      kpi_id: 'KPI2',
-      kpi_id_kpi_order: '2',
-      strategic_id: 'ST101',
-      strategic_theme: 'Education 5.0',
-      pi_by_ptj: [
-        
-          {
-            ptj_id: "A0607",
-            ptj_name: "AKADEMI PENGAJIAN BAHASA",
-            ptj_abb: "LG",
-            target: 3,
-            achievement: [{
-              month: 1,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 2,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 3,
-              achievement: 3,
-              achievement_p: 1
-            },
-            {
-              month: 4,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 5,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 6,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 7,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 8,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 9,
-              achievement: 0,
-              achievement_p: 0
-            }]
-          },
-          {
-            ptj_id: "A0692",
-            ptj_name: "AKADEMI PENGAJIAN ISLAM KONTEMPORARI",
-            ptj_abb: "IC",
-            target: 3,
-            achievement: [{
-              month: 1,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 2,
-              achievement: 3,
-              achievement_p: 1
-            },
-            {
-              month: 3,
-              achievement: 3,
-              achievement_p: 1
-            },
-            {
-              month: 4,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 5,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 6,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 7,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 8,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 9,
-              achievement: 1,
-              achievement_p: 0.333333333
-            }]
-          },
-          {
-            ptj_id: "A0640",
-            ptj_name: "FAKULTI FARMASI",
-            ptj_abb: "PH",
-            target: 3,
-            achievement: [{
-              month: 1,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 2,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 3,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 4,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 5,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 6,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 7,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 8,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 9,
-              achievement: 0,
-              achievement_p: 0
-            }]
-          },
-          {
-            ptj_id: "A0683",
-            ptj_name: "FAKULTI FILEM, TEATER DAN ANIMASI",
-            ptj_abb: "FF",
-            target: 3,
-            achievement: [{
-              month: 1,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 2,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 3,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 4,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 5,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 6,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 7,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 8,
-              achievement: 3,
-              achievement_p: 1
-            },
-            {
-              month: 9,
-              achievement: 3,
-              achievement_p: 1
-            }]
-          },
-          {
-            ptj_id: "A1609",
-            ptj_name: "FAKULTI KEJURUTERAAN AWAM",
-            ptj_abb: "EC",
-            target: 3,
-            achievement: [{
-              month: 1,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 2,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 3,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 4,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 5,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 6,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 7,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 8,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 9,
-              achievement: 0,
-              achievement_p: 0
-            }]
-          },
-          {
-            ptj_id: "A1611",
-            ptj_name: "FAKULTI KEJURUTERAAN ELEKTRIK",
-            ptj_abb: "EE",
-            target: 3,
-            achievement: [{
-              month: 1,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 2,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 3,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 4,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 5,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 6,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 7,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 8,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 9,
-              achievement: 1,
-              achievement_p: 0.333333333
-            }]
-          },
-          {
-            ptj_id: "A1608",
-            ptj_name: "FAKULTI KEJURUTERAAN KIMIA",
-            ptj_abb: "EH",
-            target: 3,
-            achievement: [{
-              month: 1,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 2,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 3,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 4,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 5,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 6,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 7,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 8,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 9,
-              achievement: 0,
-              achievement_p: 0
-            }]
-          },
-          {
-            ptj_id: "A1610",
-            ptj_name: "FAKULTI KEJURUTERAAN MEKANIKAL",
-            ptj_abb: "EM",
-            target: 3,
-            achievement: [{
-              month: 1,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 2,
-              achievement: 31,
-              achievement_p: 10.33333333
-            },
-            {
-              month: 3,
-              achievement: 31,
-              achievement_p: 10.33333333
-            },
-            {
-              month: 4,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 5,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 6,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 7,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 8,
-              achievement: 1,
-              achievement_p: 0.333333333
-            },
-            {
-              month: 9,
-              achievement: 1,
-              achievement_p: 0.333333333
-            }]
-          },
-          {
-            ptj_id: "A0613",
-            ptj_name: "FAKULTI KOMUNIKASI DAN PENGAJIAN MEDIA",
-            ptj_abb: "MC",
-            target: 3,
-            achievement: [{
-              month: 1,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 2,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 3,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 4,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 5,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 6,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 7,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 8,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 9,
-              achievement: 0,
-              achievement_p: 0
-            }]
-          },
-          {
-            ptj_id: "A0646",
-            ptj_name: "FAKULTI MUZIK",
-            ptj_abb: "MU",
-            target: 3,
-            achievement: [{
-              month: 1,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 2,
-              achievement: 3,
-              achievement_p: 1
-            },
-            {
-              month: 3,
-              achievement: 3,
-              achievement_p: 1
-            },
-            {
-              month: 4,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 5,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 6,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 7,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 8,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 9,
-              achievement: 0,
-              achievement_p: 0
-            }]
-          },
-          {
-            ptj_id: "A0619",
-            ptj_name: "FAKULTI PENDIDIKAN",
-            ptj_abb: "ED",
-            target: 3,
-            achievement: [{
-              month: 1,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 2,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 3,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 4,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 5,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 6,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 7,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 8,
-              achievement: 3,
-              achievement_p: 1
-            },
-            {
-              month: 9,
-              achievement: 3,
-              achievement_p: 1
-            }]
-          },
-          {
-            ptj_id: "A0654",
-            ptj_name: "FAKULTI PENGURUSAN DAN PERNIAGAAN",
-            ptj_abb: "BA",
-            target: 3,
-            achievement: [{
-              month: 1,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 2,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 3,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 4,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 5,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 6,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 7,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 8,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 9,
-              achievement: 0,
-              achievement_p: 0
-            }]
-          },
-          {
-            ptj_id: "A0611",
-            ptj_name: "FAKULTI PENGURUSAN HOTEL DAN PELANCONGAN",
-            ptj_abb: "HM",
-            target: 3,
-            achievement: [{
-              month: 1,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 2,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 3,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 4,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 5,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 6,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 7,
-              achievement: 1,
-              achievement_p: 0.333333333
-            },
-            {
-              month: 8,
-              achievement: 1,
-              achievement_p: 0.333333333
-            },
-            {
-              month: 9,
-              achievement: 1,
-              achievement_p: 0.333333333
-            }]
-          },
-          {
-            ptj_id: "A0638",
-            ptj_name: "FAKULTI PENGURUSAN MAKLUMAT",
-            ptj_abb: "IM",
-            target: 3,
-            achievement: [{
-              month: 1,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 2,
-              achievement: 1,
-              achievement_p: 0.333333333
-            },
-            {
-              month: 3,
-              achievement: 2,
-              achievement_p: 0.666666667
-            },
-            {
-              month: 4,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 5,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 6,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 7,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 8,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 9,
-              achievement: 0,
-              achievement_p: 0
-            }]
-          },
-          {
-            ptj_id: "A0602",
-            ptj_name: "FAKULTI PERAKAUNAN",
-            ptj_abb: "AC",
-            target: 3,
-            achievement: [{
-              month: 1,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 2,
-              achievement: 17,
-              achievement_p: 5.666666667
-            },
-            {
-              month: 3,
-              achievement: 17,
-              achievement_p: 5.666666667
-            },
-            {
-              month: 4,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 5,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 6,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 7,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 8,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 9,
-              achievement: 3,
-              achievement_p: 1
-            }]
-          },
-          {
-            ptj_id: "A0660",
-            ptj_name: "FAKULTI PERGIGIAN",
-            ptj_abb: "DS",
-            target: 3,
-            achievement: [{
-              month: 1,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 2,
-              achievement: 4,
-              achievement_p: 1.333333333
-            },
-            {
-              month: 3,
-              achievement: 4,
-              achievement_p: 1.333333333
-            },
-            {
-              month: 4,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 5,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 6,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 7,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 8,
-              achievement: 1,
-              achievement_p: 0.333333333
-            },
-            {
-              month: 9,
-              achievement: 1,
-              achievement_p: 0.333333333
-            }]
-          },
-          {
-            ptj_id: "A0647",
-            ptj_name: "FAKULTI PERLADANGAN DAN AGROTEKNOLOGI",
-            ptj_abb: "AT",
-            target: 3,
-            achievement: [{
-              month: 1,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 2,
-              achievement: 2,
-              achievement_p: 0.666666667
-            },
-            {
-              month: 3,
-              achievement: 2,
-              achievement_p: 0.666666667
-            },
-            {
-              month: 4,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 5,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 6,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 7,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 8,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 9,
-              achievement: 0,
-              achievement_p: 0
-            }]
-          },
-          {
-            ptj_id: "A0643",
-            ptj_name: "FAKULTI PERUBATAN",
-            ptj_abb: "MD",
-            target: 3,
-            achievement: [{
-              month: 1,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 2,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 3,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 4,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 5,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 6,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 7,
-              achievement: 5,
-              achievement_p: 1.666666667
-            },
-            {
-              month: 8,
-              achievement: 23,
-              achievement_p: 7.666666667
-            },
-            {
-              month: 9,
-              achievement: 24,
-              achievement_p: 8
-            }]
-          },
-          {
-            ptj_id: "A0604",
-            ptj_name: "FAKULTI SAINS GUNAAN",
-            ptj_abb: "AS",
-            target: 3,
-            achievement: [{
-              month: 1,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 2,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 3,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 4,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 5,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 6,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 7,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 8,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 9,
-              achievement: 0,
-              achievement_p: 0
-            }]
-          },
-          {
-            ptj_id: "A0644",
-            ptj_name: "FAKULTI SAINS KESIHATAN",
-            ptj_abb: "HS",
-            target: 3,
-            achievement: [{
-              month: 1,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 2,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 3,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 4,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 5,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 6,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 7,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 8,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 9,
-              achievement: 0,
-              achievement_p: 0
-            }]
-          },
-          {
-            ptj_id: "A0639",
-            ptj_name: "FAKULTI SAINS KOMPUTER DAN MATEMATIK",
-            ptj_abb: "CS",
-            target: 3,
-            achievement: [{
-              month: 1,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 2,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 3,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 4,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 5,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 6,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 7,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 8,
-              achievement: 3,
-              achievement_p: 1
-            },
-            {
-              month: 9,
-              achievement: 3,
-              achievement_p: 1
-            }]
-          },
-          {
-            ptj_id: "A0637",
-            ptj_name: "FAKULTI SAINS PENTADBIRAN DAN PENGAJIAN POLISI",
-            ptj_abb: "AM",
-            target: 3,
-            achievement: [{
-              month: 1,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 2,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 3,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 4,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 5,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 6,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 7,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 8,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 9,
-              achievement: 0,
-              achievement_p: 0
-            }]
-          },
-          {
-            ptj_id: "A0626",
-            ptj_name: "FAKULTI SAINS SUKAN DAN REKREASI",
-            ptj_abb: "SR",
-            target: 3,
-            achievement: [{
-              month: 1,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 2,
-              achievement: "",
-              achievement_p: 0
-            },
-            {
-              month: 3,
-              achievement: 3,
-              achievement_p: 1
-            },
-            {
-              month: 4,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 5,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 6,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 7,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 8,
-              achievement: 1,
-              achievement_p: 0.333333333
-            },
-            {
-              month: 9,
-              achievement: 1,
-              achievement_p: 0.333333333
-            }]
-          },
-          {
-            ptj_id: "A0610",
-            ptj_name: "FAKULTI SENI LUKIS DAN SENI REKA",
-            ptj_abb: "AD",
-            target: 3,
-            achievement: [{
-              month: 1,
-              achievement: 6,
-              achievement_p: 2
-            },
-            {
-              month: 2,
-              achievement: 6,
-              achievement_p: 2
-            },
-            {
-              month: 3,
-              achievement: 6,
-              achievement_p: 2
-            },
-            {
-              month: 4,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 5,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 6,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 7,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 8,
-              achievement: 5,
-              achievement_p: 1.666666667
-            },
-            {
-              month: 9,
-              achievement: 6,
-              achievement_p: 2
-            }]
-          },
-          {
-            ptj_id: "A0605",
-            ptj_name: "FAKULTI SENIBINA PERANCANGAN DAN UKUR",
-            ptj_abb: "AP",
-            target: 3,
-            achievement: [{
-              month: 1,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 2,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 3,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 4,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 5,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 6,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 7,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 8,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 9,
-              achievement: 0,
-              achievement_p: 0
-            }]
-          },
-          {
-            ptj_id: "A0636",
-            ptj_name: "FAKULTI UNDANG-UNDANG",
-            ptj_abb: "LW",
-            target: 3,
-            achievement: [
-              {
-                month: 1,
-                achievement: 0,
-                achievement_p: 0
-              },
-              {
-                month: 2,
-                achievement: 0,
-                achievement_p: 0
-              },
-              {
-                month: 3,
-                achievement: 0,
-                achievement_p: 0
-              },
-              {
-                month: 4,
-                achievement: 0,
-                achievement_p: 0
-              },
-              {
-                month: 5,
-                achievement: 0,
-                achievement_p: 0
-              },
-              {
-                month: 6,
-                achievement: 0,
-                achievement_p: 0
-              },
-              {
-                month: 7,
-                achievement: 7,
-                achievement_p: 3.5
-              },
-              {
-                month: 8,
-                achievement: 7,
-                achievement_p: 3.5
-              },
-              {
-                month: 9,
-                achievement: 8,
-                achievement_p: 4
-              }]
-          },
-          {
-            ptj_id: "J0000",
-            ptj_name: "UiTM CAWANGAN JOHOR",
-            ptj_abb: "J",
-            target: 3,
-            achievement: [{
-              month: 1,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 2,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 3,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 4,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 5,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 6,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 7,
-              achievement: 7,
-              achievement_p: 3.5
-            },
-            {
-              month: 8,
-              achievement: 7,
-              achievement_p: 3.5
-            },
-            {
-              month: 9,
-              achievement: 8,
-              achievement_p: 4
-            }]
-          },
-          {
-            ptj_id: "H0000",
-            ptj_name: "UiTM CAWANGAN KEDAH",
-            ptj_abb: "K",
-            target: 3,
-            achievement: [{
-              month: 1,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 2,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 3,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 4,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 5,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 6,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 7,
-              achievement: 7,
-              achievement_p: 3.5
-            },
-            {
-              month: 8,
-              achievement: 7,
-              achievement_p: 3.5
-            },
-            {
-              month: 9,
-              achievement: 8,
-              achievement_p: 4
-            }]
-          },
-          {
-            ptj_id: "D0000",
-            ptj_name: "UiTM CAWANGAN KELANTAN",
-            ptj_abb: "D",
-            target: 3,
-            achievement: [{
-              month: 1,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 2,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 3,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 4,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 5,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 6,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 7,
-              achievement: 7,
-              achievement_p: 3.5
-            },
-            {
-              month: 8,
-              achievement: 7,
-              achievement_p: 3.5
-            },
-            {
-              month: 9,
-              achievement: 8,
-              achievement_p: 4
-            }]
-          },
-          {
-            ptj_id: "M0000",
-            ptj_name: "UiTM CAWANGAN MELAKA",
-            ptj_abb: "M",
-            target: 3,
-            achievement: [{
-              month: 1,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 2,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 3,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 4,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 5,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 6,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 7,
-              achievement: 7,
-              achievement_p: 3.5
-            },
-            {
-              month: 8,
-              achievement: 7,
-              achievement_p: 3.5
-            },
-            {
-              month: 9,
-              achievement: 8,
-              achievement_p: 4
-            } ]
-          },
-          {
-            ptj_id: "N0000",
-            ptj_name: "UiTM CAWANGAN NEGERI SEMBILAN",
-            ptj_abb: "N",
-            target: 3,
-            achievement: [{
-              month: 1,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 2,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 3,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 4,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 5,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 6,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 7,
-              achievement: 7,
-              achievement_p: 3.5
-            },
-            {
-              month: 8,
-              achievement: 7,
-              achievement_p: 3.5
-            },
-            {
-              month: 9,
-              achievement: 8,
-              achievement_p: 4
-            }]
-          },
-          {
-            ptj_id: "C0000",
-            ptj_name: "UiTM CAWANGAN PAHANG",
-            ptj_abb: "C",
-            target: 3,
-            achievement: [{
-              month: 1,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 2,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 3,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 4,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 5,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 6,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 7,
-              achievement: 7,
-              achievement_p: 3.5
-            },
-            {
-              month: 8,
-              achievement: 7,
-              achievement_p: 3.5
-            },
-            {
-              month: 9,
-              achievement: 8,
-              achievement_p: 4
-            }]
-          },
-          {
-            ptj_id: "K0000",
-            ptj_name: "UiTM CAWANGAN PERAK",
-            ptj_abb: "A",
-            target: 3,
-            achievement: [{
-              month: 1,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 2,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 3,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 4,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 5,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 6,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 7,
-              achievement: 7,
-              achievement_p: 3.5
-            },
-            {
-              month: 8,
-              achievement: 7,
-              achievement_p: 3.5
-            },
-            {
-              month: 9,
-              achievement: 8,
-              achievement_p: 4
-            }]
-          },
-          {
-            ptj_id: "P0000",
-            ptj_name: "UiTM CAWANGAN PERLIS",
-            ptj_abb: "R",
-            target: 3,
-            achievement: [{
-              month: 1,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 2,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 3,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 4,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 5,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 6,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 7,
-              achievement: 7,
-              achievement_p: 3.5
-            },
-            {
-              month: 8,
-              achievement: 7,
-              achievement_p: 3.5
-            },
-            {
-              month: 9,
-              achievement: 8,
-              achievement_p: 4
-            }]
-          },
-          {
-            ptj_id: "B0000",
-            ptj_name: "UiTM CAWANGAN PULAU PINANG",
-            ptj_abb: "P",
-            target: 3,
-            achievement: [{
-              month: 1,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 2,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 3,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 4,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 5,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 6,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 7,
-              achievement: 7,
-              achievement_p: 3.5
-            },
-            {
-              month: 8,
-              achievement: 7,
-              achievement_p: 3.5
-            },
-            {
-              month: 9,
-              achievement: 8,
-              achievement_p: 4
-            }]
-          },
-          {
-            ptj_id: "S0000",
-            ptj_name: "UiTM CAWANGAN SABAH",
-            ptj_abb: "S",
-            target: 3,
-            achievement: [{
-              month: 1,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 2,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 3,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 4,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 5,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 6,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 7,
-              achievement: 7,
-              achievement_p: 3.5
-            },
-            {
-              month: 8,
-              achievement: 7,
-              achievement_p: 3.5
-            },
-            {
-              month: 9,
-              achievement: 8,
-              achievement_p: 4
-            }]
-          },
-          {
-            ptj_id: "W0000",
-            ptj_name: "UiTM CAWANGAN SARAWAK",
-            ptj_abb: "Q",
-            target: 3,
-            achievement: [{
-              month: 1,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 2,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 3,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 4,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 5,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 6,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 7,
-              achievement: 7,
-              achievement_p: 3.5
-            },
-            {
-              month: 8,
-              achievement: 7,
-              achievement_p: 3.5
-            },
-            {
-              month: 9,
-              achievement: 8,
-              achievement_p: 4
-            }]
-          },
-          {
-            ptj_id: "T0000",
-            ptj_name: "UiTM CAWANGAN TERENGGANU",
-            ptj_abb: "T",
-            target: 3,
-            achievement: [{
-              month: 1,
-              achievement: 3,
-              achievement_p: 1
-            },
-            {
-              month: 2,
-              achievement: 3,
-              achievement_p: 1
-            },
-            {
-              month: 3,
-              achievement: 9,
-              achievement_p: 3
-            },
-            {
-              month: 4,
-              achievement: 9,
-              achievement_p: 3
-            },
-            {
-              month: 5,
-              achievement: 9,
-              achievement_p: 3
-            },
-            {
-              month: 6,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 7,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 8,
-              achievement: 0,
-              achievement_p: 0
-            },
-            {
-              month: 9,
-              achievement: 0,
-              achievement_p: 0
-            }]
-          }
-        ]
-
-      ,
-    },
-    {
-      tp_id: 18,
-      pi_id: 2018,
-      pi_number: 18,
-      pi_name:
-        'Number of students enrolled for Massive Open Online Course (MOOC) courses.',
-      operation_definition:
-        'Number of students enrolled for MOOC courses for the current year.',
-      pi_owner: 'A0165',
-      pi_owner_ptj_name: 'INSTITUT PENDIDIKAN BERTERUSAN DAN PENGAJIAN PROFESIONAL',
-      pi_owner_abbreviation: 'iCEPS',
-      kpi_id: 'KPI2',
-      kpi_id_kpi_order: '2',
-      strategic_id: 'ST101',
-      strategic_theme: 'Education 5.0',
-      pi_by_ptj: [
-        {
-          ptj_id: "A0607",
-          ptj_name: "AKADEMI PENGAJIAN BAHASA",
-          ptj_abb: "LG",
-          target: 1300,
-          achievement: [{
-            month: 1,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 2,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 3,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 4,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 5,
-            achievement: 402,
-            achievement_p: 0.309230769
-          },
-          {
-            month: 6,
-            achievement: 15834,
-            achievement_p: 12.18
-          },
-          {
-            month: 7,
-            achievement: 16098,
-            achievement_p: 12.38307692
-          },
-          {
-            month: 8,
-            achievement: 16411,
-            achievement_p: 12.62384615
-          },
-          {
-            month: 9,
-            achievement: 16668,
-            achievement_p: 12.82153846
-          }]
-        },
-        {
-          ptj_id: "A0692",
-          ptj_name: "AKADEMI PENGAJIAN ISLAM KONTEMPORARI",
-          ptj_abb: "IC",
-          target: 100,
-          achievement: [{
-            month: 1,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 2,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 3,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 4,
-            achievement: 129,
-            achievement_p: 1.29
-          },
-          {
-            month: 5,
-            achievement: 129,
-            achievement_p: 1.29
-          },
-          {
-            month: 6,
-            achievement: 235,
-            achievement_p: 2.35
-          },
-          {
-            month: 7,
-            achievement: 235,
-            achievement_p: 2.35
-          },
-          {
-            month: 8,
-            achievement: 235,
-            achievement_p: 2.35
-          },
-          {
-            month: 9,
-            achievement: 235,
-            achievement_p: 2.35
-          }]
-        },
-        {
-          ptj_id: "A0640",
-          ptj_name: "FAKULTI FARMASI",
-          ptj_abb: "PH",
-          target: 500,
-          achievement: [{
-            month: 1,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 2,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 3,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 4,
-            achievement: 156,
-            achievement_p: 0.312
-          },
-          {
-            month: 5,
-            achievement: 175,
-            achievement_p: 0.35
-          },
-          {
-            month: 6,
-            achievement: 177,
-            achievement_p: 0.354
-          },
-          {
-            month: 7,
-            achievement: 177,
-            achievement_p: 0.354
-          },
-          {
-            month: 8,
-            achievement: 178,
-            achievement_p: 0.356
-          },
-          {
-            month: 9,
-            achievement: 178,
-            achievement_p: 0.356
-          }]
-        },
-        {
-          ptj_id: "A0683",
-          ptj_name: "FAKULTI FILEM, TEATER DAN ANIMASI",
-          ptj_abb: "FF",
-          target: 700,
-          achievement: [{
-            month: 1,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 2,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 3,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 4,
-            achievement: 105,
-            achievement_p: 0.15
-          },
-          {
-            month: 5,
-            achievement: 448,
-            achievement_p: 0.64
-          },
-          {
-            month: 6,
-            achievement: 420,
-            achievement_p: 0.6
-          },
-          {
-            month: 7,
-            achievement: 421,
-            achievement_p: 0.601428571
-          },
-          {
-            month: 8,
-            achievement: 422,
-            achievement_p: 0.602857143
-          },
-          {
-            month: 9,
-            achievement: 424,
-            achievement_p: 0.605714286
-          }]
-        },
-        {
-          ptj_id: "A1609",
-          ptj_name: "FAKULTI KEJURUTERAAN AWAM",
-          ptj_abb: "EC",
-          target: 1900,
-          achievement: [{
-            month: 1,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 2,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 3,
-            achievement: 56,
-            achievement_p: 0.029473684
-          },
-          {
-            month: 4,
-            achievement: 5039,
-            achievement_p: 2.652105263
-          },
-          {
-            month: 5,
-            achievement: 5039,
-            achievement_p: 2.652105263
-          },
-          {
-            month: 6,
-            achievement: 1859,
-            achievement_p: 0.978421053
-          },
-          {
-            month: 7,
-            achievement: 1869,
-            achievement_p: 0.983684211
-          },
-          {
-            month: 8,
-            achievement: 1871,
-            achievement_p: 0.984736842
-          },
-          {
-            month: 9,
-            achievement: 1871,
-            achievement_p: 0.984736842
-          }]
-        },
-        {
-          ptj_id: "A1611",
-          ptj_name: "FAKULTI KEJURUTERAAN ELEKTRIK",
-          ptj_abb: "EE",
-          target: 2500,
-          achievement: [{
-            month: 1,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 2,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 3,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 4,
-            achievement: 2500,
-            achievement_p: 1
-          },
-          {
-            month: 5,
-            achievement: 2500,
-            achievement_p: 1
-          },
-          {
-            month: 6,
-            achievement: 2709,
-            achievement_p: 1.0836
-          },
-          {
-            month: 7,
-            achievement: 2724,
-            achievement_p: 1.0896
-          },
-          {
-            month: 8,
-            achievement: 2756,
-            achievement_p: 1.1024
-          },
-          {
-            month: 9,
-            achievement: 2757,
-            achievement_p: 1.1028
-          }]
-        },
-        {
-          ptj_id: "A1608",
-          ptj_name: "FAKULTI KEJURUTERAAN KIMIA",
-          ptj_abb: "EH",
-          target: 100,
-          achievement: [{
-            month: 1,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 2,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 3,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 4,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 5,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 6,
-            achievement: 143,
-            achievement_p: 1.43
-          },
-          {
-            month: 7,
-            achievement: 143,
-            achievement_p: 1.43
-          },
-          {
-            month: 8,
-            achievement: 143,
-            achievement_p: 1.43
-          },
-          {
-            month: 9,
-            achievement: 143,
-            achievement_p: 1.43
-          }]
-        },
-        {
-          ptj_id: "A1610",
-          ptj_name: "FAKULTI KEJURUTERAAN MEKANIKAL",
-          ptj_abb: "EM",
-          target: 500,
-          achievement: [{
-            month: 1,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 2,
-            achievement: 1034,
-            achievement_p: 2.068
-          },
-          {
-            month: 3,
-            achievement: 1034,
-            achievement_p: 2.068
-          },
-          {
-            month: 4,
-            achievement: 1034,
-            achievement_p: 2.068
-          },
-          {
-            month: 5,
-            achievement: 1034,
-            achievement_p: 2.068
-          },
-          {
-            month: 6,
-            achievement: 398,
-            achievement_p: 0.796
-          },
-          {
-            month: 7,
-            achievement: 401,
-            achievement_p: 0.802
-          },
-          {
-            month: 8,
-            achievement: 411,
-            achievement_p: 0.822
-          },
-          {
-            month: 9,
-            achievement: 52,
-            achievement_p: 0.104
-          }]
-        },
-        {
-          ptj_id: "A0613",
-          ptj_name: "FAKULTI KOMUNIKASI DAN PENGAJIAN MEDIA",
-          ptj_abb: "MC",
-          target: 500,
-          achievement: [{
-            month: 1,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 2,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 3,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 4,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 5,
-            achievement: 185,
-            achievement_p: 0.37
-          },
-          {
-            month: 6,
-            achievement: 92,
-            achievement_p: 0.184
-          },
-          {
-            month: 7,
-            achievement: 92,
-            achievement_p: 0.184
-          },
-          {
-            month: 8,
-            achievement: 92,
-            achievement_p: 0.184
-          },
-          {
-            month: 9,
-            achievement: 92,
-            achievement_p: 0.184
-          }]
-        },
-        {
-          ptj_id: "A0646",
-          ptj_name: "FAKULTI MUZIK",
-          ptj_abb: "MU",
-          target: 200,
-          achievement: [{
-            month: 1,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 2,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 3,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 4,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 5,
-            achievement: 58,
-            achievement_p: 0.29
-          },
-          {
-            month: 6,
-            achievement: 39,
-            achievement_p: 0.195
-          },
-          {
-            month: 7,
-            achievement: 39,
-            achievement_p: 0.195
-          },
-          {
-            month: 8,
-            achievement: 39,
-            achievement_p: 0.195
-          },
-          {
-            month: 9,
-            achievement: 40,
-            achievement_p: 0.2
-          }]
-        },
-        {
-          ptj_id: "A0619",
-          ptj_name: "FAKULTI PENDIDIKAN",
-          ptj_abb: "ED",
-          target: 600,
-          achievement: [{
-            month: 1,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 2,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 3,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 4,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 5,
-            achievement: 1574,
-            achievement_p: 2.623333333
-          },
-          {
-            month: 6,
-            achievement: 1585,
-            achievement_p: 2.641666667
-          },
-          {
-            month: 7,
-            achievement: 1604,
-            achievement_p: 2.673333333
-          },
-          {
-            month: 8,
-            achievement: 1664,
-            achievement_p: 2.773333333
-          },
-          {
-            month: 9,
-            achievement: 1668,
-            achievement_p: 2.78
-          }]
-        },
-        {
-          ptj_id: "A0654",
-          ptj_name: "FAKULTI PENGURUSAN DAN PERNIAGAAN",
-          ptj_abb: "BA",
-          target: 100,
-          achievement: [{
-            month: 1,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 2,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 3,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 4,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 5,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 6,
-            achievement: 5102,
-            achievement_p: 51.02
-          },
-          {
-            month: 7,
-            achievement: 5014,
-            achievement_p: 50.14
-          },
-          {
-            month: 8,
-            achievement: 5016,
-            achievement_p: 50.16
-          },
-          {
-            month: 9,
-            achievement: 5017,
-            achievement_p: 50.17
-          }]
-        },
-        {
-          ptj_id: "A0611",
-          ptj_name: "FAKULTI PENGURUSAN HOTEL DAN PELANCONGAN",
-          ptj_abb: "HM",
-          target: 3200,
-          achievement: [{
-            month: 1,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 2,
-            achievement: 156,
-            achievement_p: 0.04875
-          },
-          {
-            month: 3,
-            achievement: 156,
-            achievement_p: 0.04875
-          },
-          {
-            month: 4,
-            achievement: 865,
-            achievement_p: 0.2703125
-          },
-          {
-            month: 5,
-            achievement: 999,
-            achievement_p: 0.3121875
-          },
-          {
-            month: 6,
-            achievement: 8273,
-            achievement_p: 2.5853125
-          },
-          {
-            month: 7,
-            achievement: 8830,
-            achievement_p: 2.759375
-          },
-          {
-            month: 8,
-            achievement: 8733,
-            achievement_p: 2.7290625
-          },
-          {
-            month: 9,
-            achievement: 8997,
-            achievement_p: 2.8115625
-          }]
-        },
-        {
-          ptj_id: "A0638",
-          ptj_name: "FAKULTI PENGURUSAN MAKLUMAT",
-          ptj_abb: "IM",
-          target: 100,
-          achievement: [{
-            month: 1,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 2,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 3,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 4,
-            achievement: 115,
-            achievement_p: 1.15
-          },
-          {
-            month: 5,
-            achievement: 115,
-            achievement_p: 1.15
-          },
-          {
-            month: 6,
-            achievement: 97,
-            achievement_p: 0.97
-          },
-          {
-            month: 7,
-            achievement: 97,
-            achievement_p: 0.97
-          },
-          {
-            month: 8,
-            achievement: 100,
-            achievement_p: 1
-          },
-          {
-            month: 9,
-            achievement: 103,
-            achievement_p: 1.03
-          }]
-        },
-        {
-          ptj_id: "A0602",
-          ptj_name: "FAKULTI PERAKAUNAN",
-          ptj_abb: "AC",
-          target: 1700,
-          achievement: [{
-            month: 1,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 2,
-            achievement: 3443,
-            achievement_p: 2.025294118
-          },
-          {
-            month: 3,
-            achievement: 3443,
-            achievement_p: 2.025294118
-          },
-          {
-            month: 4,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 5,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 6,
-            achievement: 500,
-            achievement_p: 0.294117647
-          },
-          {
-            month: 7,
-            achievement: 508,
-            achievement_p: 0.298823529
-          },
-          {
-            month: 8,
-            achievement: 507,
-            achievement_p: 0.298235294
-          },
-          {
-            month: 9,
-            achievement: 508,
-            achievement_p: 0.298823529
-          }]
-        },
-        {
-          ptj_id: "A0660",
-          ptj_name: "FAKULTI PERGIGIAN",
-          ptj_abb: "DS",
-          target: 100,
-          achievement: [{
-            month: 1,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 2,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 3,
-            achievement: 400,
-            achievement_p: 4
-          },
-          {
-            month: 4,
-            achievement: 561,
-            achievement_p: 5.61
-          },
-          {
-            month: 5,
-            achievement: 561,
-            achievement_p: 5.61
-          },
-          {
-            month: 6,
-            achievement: 561,
-            achievement_p: 5.61
-          },
-          {
-            month: 7,
-            achievement: 672,
-            achievement_p: 6.72
-          },
-          {
-            month: 8,
-            achievement: 1781,
-            achievement_p: 17.81
-          },
-          {
-            month: 9,
-            achievement: 1781,
-            achievement_p: 17.81
-          }]
-        },
-        {
-          ptj_id: "A0647",
-          ptj_name: "FAKULTI PERLADANGAN DAN AGROTEKNOLOGI",
-          ptj_abb: "AT",
-          target: 600,
-          achievement: [{
-            month: 1,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 2,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 3,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 4,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 5,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 6,
-            achievement: 130,
-            achievement_p: 0.216666667
-          },
-          {
-            month: 7,
-            achievement: 387,
-            achievement_p: 0.645
-          },
-          {
-            month: 8,
-            achievement: 391,
-            achievement_p: 0.651666667
-          },
-          {
-            month: 9,
-            achievement: 400,
-            achievement_p: 0.666666667
-          }]
-        },
-        {
-          ptj_id: "A0643",
-          ptj_name: "FAKULTI PERUBATAN",
-          ptj_abb: "MD",
-          target: 700,
-          achievement: [{
-            month: 1,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 2,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 3,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 4,
-            achievement: 271,
-            achievement_p: 0.387142857
-          },
-          {
-            month: 5,
-            achievement: 271,
-            achievement_p: 0.387142857
-          },
-          {
-            month: 6,
-            achievement: 1529,
-            achievement_p: 2.184285714
-          },
-          {
-            month: 7,
-            achievement: 1540,
-            achievement_p: 2.2
-          },
-          {
-            month: 8,
-            achievement: 1599,
-            achievement_p: 2.284285714
-          },
-          {
-            month: 9,
-            achievement: 1671,
-            achievement_p: 2.387142857
-          }]
-        },
-        {
-          ptj_id: "A0604",
-          ptj_name: "FAKULTI SAINS GUNAAN",
-          ptj_abb: "AS",
-          target: 1400,
-          achievement: [{
-            month: 1,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 2,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 3,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 4,
-            achievement: 415,
-            achievement_p: 0.296428571
-          },
-          {
-            month: 5,
-            achievement: 415,
-            achievement_p: 0.296428571
-          },
-          {
-            month: 6,
-            achievement: 1379,
-            achievement_p: 0.985
-          },
-          {
-            month: 7,
-            achievement: 1392,
-            achievement_p: 0.994285714
-          },
-          {
-            month: 8,
-            achievement: 1464,
-            achievement_p: 1.045714286
-          },
-          {
-            month: 9,
-            achievement: 1439,
-            achievement_p: 1.027857143
-          }]
-        },
-        {
-          ptj_id: "A0644",
-          ptj_name: "FAKULTI SAINS KESIHATAN",
-          ptj_abb: "HS",
-          target: 800,
-          achievement: [{
-            month: 1,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 2,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 3,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 4,
-            achievement: 283,
-            achievement_p: 0.35375
-          },
-          {
-            month: 5,
-            achievement: 283,
-            achievement_p: 0.35375
-          },
-          {
-            month: 6,
-            achievement: 1504,
-            achievement_p: 1.88
-          },
-          {
-            month: 7,
-            achievement: 1507,
-            achievement_p: 1.88375
-          },
-          {
-            month: 8,
-            achievement: 1517,
-            achievement_p: 1.89625
-          },
-          {
-            month: 9,
-            achievement: 1520,
-            achievement_p: 1.9
-          }]
-        },
-        {
-          ptj_id: "A0639",
-          ptj_name: "FAKULTI SAINS KOMPUTER DAN MATEMATIK",
-          ptj_abb: "CS",
-          target: 600,
-          achievement: [{
-            month: 1,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 2,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 3,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 4,
-            achievement: 74,
-            achievement_p: 0.123333333
-          },
-          {
-            month: 5,
-            achievement: 74,
-            achievement_p: 0.123333333
-          },
-          {
-            month: 6,
-            achievement: 447,
-            achievement_p: 0.745
-          },
-          {
-            month: 7,
-            achievement: 452,
-            achievement_p: 0.753333333
-          },
-          {
-            month: 8,
-            achievement: 452,
-            achievement_p: 0.753333333
-          },
-          {
-            month: 9,
-            achievement: 463,
-            achievement_p: 0.771666667
-          }]
-        },
-        {
-          ptj_id: "A0637",
-          ptj_name: "FAKULTI SAINS PENTADBIRAN DAN PENGAJIAN POLISI",
-          ptj_abb: "AM",
-          target: 500,
-          achievement: [{
-            month: 1,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 2,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 3,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 4,
-            achievement: 200,
-            achievement_p: 0.4
-          },
-          {
-            month: 5,
-            achievement: 300,
-            achievement_p: 0.6
-          },
-          {
-            month: 6,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 7,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 8,
-            achievement: 6,
-            achievement_p: 0.012
-          },
-          {
-            month: 9,
-            achievement: 6,
-            achievement_p: 0.012
-          }]
-        },
-        {
-          ptj_id: "A0626",
-          ptj_name: "FAKULTI SAINS SUKAN DAN REKREASI",
-          ptj_abb: "SR",
-          target: 100,
-          achievement: [{
-            month: 1,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 2,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 3,
-            achievement: 90,
-            achievement_p: 0.9
-          },
-          {
-            month: 4,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 5,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 6,
-            achievement: 2,
-            achievement_p: 0.02
-          },
-          {
-            month: 7,
-            achievement: 2,
-            achievement_p: 0.02
-          },
-          {
-            month: 8,
-            achievement: 2,
-            achievement_p: 0.02
-          },
-          {
-            month: 9,
-            achievement: 2,
-            achievement_p: 0.02
-          }]
-        },
-        {
-          ptj_id: "A0610",
-          ptj_name: "FAKULTI SENI LUKIS DAN SENI REKA",
-          ptj_abb: "AD",
-          target: 1900,
-          achievement: [{
-            month: 1,
-            achievement: 1045,
-            achievement_p: 0.55
-          },
-          {
-            month: 2,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 3,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 4,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 5,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 6,
-            achievement: 291,
-            achievement_p: 0.153157895
-          },
-          {
-            month: 7,
-            achievement: 292,
-            achievement_p: 0.153684211
-          },
-          {
-            month: 8,
-            achievement: 294,
-            achievement_p: 0.154736842
-          },
-          {
-            month: 9,
-            achievement: 337,
-            achievement_p: 0.177368421
-          }]
-        },
-        {
-          ptj_id: "A0605",
-          ptj_name: "FAKULTI SENIBINA PERANCANGAN DAN UKUR",
-          ptj_abb: "AP",
-          target: 4200,
-          achievement: [{
-            month: 1,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 2,
-            achievement: 10,
-            achievement_p: 0.002380952
-          },
-          {
-            month: 3,
-            achievement: 10,
-            achievement_p: 0.002380952
-          },
-          {
-            month: 4,
-            achievement: 1421,
-            achievement_p: 0.338333333
-          },
-          {
-            month: 5,
-            achievement: 1421,
-            achievement_p: 0.338333333
-          },
-          {
-            month: 6,
-            achievement: 3626,
-            achievement_p: 0.863333333
-          },
-          {
-            month: 7,
-            achievement: 3731,
-            achievement_p: 0.888333333
-          },
-          {
-            month: 8,
-            achievement: 3742,
-            achievement_p: 0.890952381
-          },
-          {
-            month: 9,
-            achievement: 3774,
-            achievement_p: 0.898571429
-          }]
-        },
-        {
-          ptj_id: "A0636",
-          ptj_name: "FAKULTI UNDANG-UNDANG",
-          ptj_abb: "LW",
-          target: 100,
-          achievement: [{
-            month: 1,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 2,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 3,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 4,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 5,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 6,
-            achievement: 217,
-            achievement_p: 2.17
-          },
-          {
-            month: 7,
-            achievement: 298,
-            achievement_p: 2.98
-          },
-          {
-            month: 8,
-            achievement: 328,
-            achievement_p: 3.28
-          },
-          {
-            month: 9,
-            achievement: 332,
-            achievement_p: 3.32
-          }]
-        },
-        {
-          ptj_id: "J0000",
-          ptj_name: "UiTM CAWANGAN JOHOR",
-          ptj_abb: "J",
-          target: 1400,
-          achievement: [{
-            month: 1,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 2,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 3,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 4,
-            achievement: 700,
-            achievement_p: 0.5
-          },
-          {
-            month: 5,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 6,
-            achievement: 3695,
-            achievement_p: 2.639285714
-          },
-          {
-            month: 7,
-            achievement: 3756,
-            achievement_p: 2.682857143
-          },
-          {
-            month: 8,
-            achievement: 3754,
-            achievement_p: 2.681428571
-          },
-          {
-            month: 9,
-            achievement: 3753,
-            achievement_p: 2.680714286
-          }]
-        },
-        {
-          ptj_id: "H0000",
-          ptj_name: "UiTM CAWANGAN KEDAH",
-          ptj_abb: "K",
-          target: 2000,
-          achievement: [{
-            month: 1,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 2,
-            achievement: 1347,
-            achievement_p: 0.6735
-          },
-          {
-            month: 3,
-            achievement: 1347,
-            achievement_p: 0.6735
-          },
-          {
-            month: 4,
-            achievement: 1347,
-            achievement_p: 0.6735
-          },
-          {
-            month: 5,
-            achievement: 1347,
-            achievement_p: 0.6735
-          },
-          {
-            month: 6,
-            achievement: 3294,
-            achievement_p: 1.647
-          },
-          {
-            month: 7,
-            achievement: 3348,
-            achievement_p: 1.674
-          },
-          {
-            month: 8,
-            achievement: 3305,
-            achievement_p: 1.6525
-          },
-          {
-            month: 9,
-            achievement: 3312,
-            achievement_p: 1.656
-          }]
-        },
-        {
-          ptj_id: "D0000",
-          ptj_name: "UiTM CAWANGAN KELANTAN",
-          ptj_abb: "D",
-          target: 1100,
-          achievement: [{
-            month: 1,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 2,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 3,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 4,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 5,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 6,
-            achievement: 440,
-            achievement_p: 0.4
-          },
-          {
-            month: 7,
-            achievement: 447,
-            achievement_p: 0.406363636
-          },
-          {
-            month: 8,
-            achievement: 446,
-            achievement_p: 0.405454545
-          },
-          {
-            month: 9,
-            achievement: 450,
-            achievement_p: 0.409090909
-          }]
-        },
-        {
-          ptj_id: "M0000",
-          ptj_name: "UiTM CAWANGAN MELAKA",
-          ptj_abb: "M",
-          target: 1600,
-          achievement: [{
-            month: 1,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 2,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 3,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 4,
-            achievement: 440,
-            achievement_p: 0.275
-          },
-          {
-            month: 5,
-            achievement: 440,
-            achievement_p: 0.275
-          },
-          {
-            month: 6,
-            achievement: 2542,
-            achievement_p: 1.58875
-          },
-          {
-            month: 7,
-            achievement: 2597,
-            achievement_p: 1.623125
-          },
-          {
-            month: 8,
-            achievement: 2601,
-            achievement_p: 1.625625
-          },
-          {
-            month: 9,
-            achievement: 1661,
-            achievement_p: 1.038125
-          }]
-        },
-        {
-          ptj_id: "N0000",
-          ptj_name: "UiTM CAWANGAN NEGERI SEMBILAN",
-          ptj_abb: "N",
-          target: 2300,
-          achievement: [{
-            month: 1,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 2,
-            achievement: 9152,
-            achievement_p: 3.979130435
-          },
-          {
-            month: 3,
-            achievement: 9152,
-            achievement_p: 3.979130435
-          },
-          {
-            month: 4,
-            achievement: 9152,
-            achievement_p: 3.979130435
-          },
-          {
-            month: 5,
-            achievement: 9152,
-            achievement_p: 3.979130435
-          },
-          {
-            month: 6,
-            achievement: 2004,
-            achievement_p: 0.871304348
-          },
-          {
-            month: 7,
-            achievement: 2009,
-            achievement_p: 0.873478261
-          },
-          {
-            month: 8,
-            achievement: 2012,
-            achievement_p: 0.874782609
-          },
-          {
-            month: 9,
-            achievement: 2013,
-            achievement_p: 0.875217391
-          }]
-        },
-        {
-          ptj_id: "C0000",
-          ptj_name: "UiTM CAWANGAN PAHANG",
-          ptj_abb: "C",
-          target: 1400,
-          achievement: [{
-            month: 1,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 2,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 3,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 4,
-            achievement: 130,
-            achievement_p: 0.092857143
-          },
-          {
-            month: 5,
-            achievement: 192,
-            achievement_p: 0.137142857
-          },
-          {
-            month: 6,
-            achievement: 2469,
-            achievement_p: 1.763571429
-          },
-          {
-            month: 7,
-            achievement: 2478,
-            achievement_p: 1.77
-          },
-          {
-            month: 8,
-            achievement: 2288,
-            achievement_p: 1.634285714
-          },
-          {
-            month: 9,
-            achievement: 2500,
-            achievement_p: 1.785714286
-          }]
-        },
-        {
-          ptj_id: "K0000",
-          ptj_name: "UiTM CAWANGAN PERAK",
-          ptj_abb: "A",
-          target: 5900,
-          achievement: [{
-            month: 1,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 2,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 3,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 4,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 5,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 6,
-            achievement: 7129,
-            achievement_p: 1.208305085
-          },
-          {
-            month: 7,
-            achievement: 7209,
-            achievement_p: 1.221864407
-          },
-          {
-            month: 8,
-            achievement: 7051,
-            achievement_p: 1.195084746
-          },
-          {
-            month: 9,
-            achievement: 7088,
-            achievement_p: 1.201355932
-          }]
-        },
-        {
-          ptj_id: "P0000",
-          ptj_name: "UiTM CAWANGAN PERLIS",
-          ptj_abb: "R",
-          target: 4700,
-          achievement: [{
-            month: 1,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 2,
-            achievement: 5060,
-            achievement_p: 1.076595745
-          },
-          {
-            month: 3,
-            achievement: 5060,
-            achievement_p: 1.076595745
-          },
-          {
-            month: 4,
-            achievement: 5060,
-            achievement_p: 1.076595745
-          },
-          {
-            month: 5,
-            achievement: 5670,
-            achievement_p: 1.206382979
-          },
-          {
-            month: 6,
-            achievement: 1448,
-            achievement_p: 0.308085106
-          },
-          {
-            month: 7,
-            achievement: 1455,
-            achievement_p: 0.309574468
-          },
-          {
-            month: 8,
-            achievement: 1456,
-            achievement_p: 0.309787234
-          },
-          {
-            month: 9,
-            achievement: 1462,
-            achievement_p: 0.31106383
-          }]
-        },
-        {
-          ptj_id: "B0000",
-          ptj_name: "UiTM CAWANGAN PULAU PINANG",
-          ptj_abb: "P",
-          target: 2000,
-          achievement: [{
-            month: 1,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 2,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 3,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 4,
-            achievement: 1890,
-            achievement_p: 0.945
-          },
-          {
-            month: 5,
-            achievement: 2001,
-            achievement_p: 1.0005
-          },
-          {
-            month: 6,
-            achievement: 2045,
-            achievement_p: 1.0225
-          },
-          {
-            month: 7,
-            achievement: 2052,
-            achievement_p: 1.026
-          },
-          {
-            month: 8,
-            achievement: 2054,
-            achievement_p: 1.027
-          },
-          {
-            month: 9,
-            achievement: 2055,
-            achievement_p: 1.0275
-          }]
-        },
-        {
-          ptj_id: "S0000",
-          ptj_name: "UiTM CAWANGAN SABAH",
-          ptj_abb: "S",
-          target: 1100,
-          achievement: [{
-            month: 1,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 2,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 3,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 4,
-            achievement: 199,
-            achievement_p: 0.180909091
-          },
-          {
-            month: 5,
-            achievement: 199,
-            achievement_p: 0.180909091
-          },
-          {
-            month: 6,
-            achievement: 820,
-            achievement_p: 0.745454545
-          },
-          {
-            month: 7,
-            achievement: 824,
-            achievement_p: 0.749090909
-          },
-          {
-            month: 8,
-            achievement: 826,
-            achievement_p: 0.750909091
-          },
-          {
-            month: 9,
-            achievement: 836,
-            achievement_p: 0.76
-          }]
-        },
-        {
-          ptj_id: "W0000",
-          ptj_name: "UiTM CAWANGAN SARAWAK",
-          ptj_abb: "Q",
-          target: 1400,
-          achievement: [{
-            month: 1,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 2,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 3,
-            achievement: 312,
-            achievement_p: 0.222857143
-          },
-          {
-            month: 4,
-            achievement: 355,
-            achievement_p: 0.253571429
-          },
-          {
-            month: 5,
-            achievement: 355,
-            achievement_p: 0.253571429
-          },
-          {
-            month: 6,
-            achievement: 13856,
-            achievement_p: 9.897142857
-          },
-          {
-            month: 7,
-            achievement: 13856,
-            achievement_p: 9.897142857
-          },
-          {
-            month: 8,
-            achievement: 1774,
-            achievement_p: 1.267142857
-          },
-          {
-            month: 9,
-            achievement: 1774,
-            achievement_p: 1.267142857
-          }]
-        },
-        {
-          ptj_id: "T0000",
-          ptj_name: "UiTM CAWANGAN TERENGGANU",
-          ptj_abb: "T",
-          target: 1600,
-          achievement: [{
-            month: 1,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 2,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 3,
-            achievement: 7323,
-            achievement_p: 4.576875
-          },
-          {
-            month: 4,
-            achievement: 7323,
-            achievement_p: 4.576875
-          },
-          {
-            month: 5,
-            achievement: 7323,
-            achievement_p: 4.576875
-          },
-          {
-            month: 6,
-            achievement: 2482,
-            achievement_p: 1.55125
-          },
-          {
-            month: 7,
-            achievement: 2491,
-            achievement_p: 1.556875
-          },
-          {
-            month: 8,
-            achievement: 2498,
-            achievement_p: 1.56125
-          },
-          {
-            month: 9,
-            achievement: 2504,
-            achievement_p: 1.565
-          }]
-        }
-      ],
-    },
-    {
       tp_id: 5155,
       pi_id: 1005,
       pi_number: 5,
@@ -6745,7 +2829,7 @@ const TNC_AA_PORTFOLIO = {
       strategic_id: "ST101",
       strategic_theme: "Education 5.0",
       strategic_thrust: "Quality Education",
-      pi_by_ptj: [{
+      pi_by_ptj: {
         ptj_id: 'A0601-UHEK',
           ptj_name: 'UNIT HAL EHWAL KURIKULUM',
           ptj_abb: 'UHEK',
@@ -6797,7 +2881,7 @@ const TNC_AA_PORTFOLIO = {
               achievement_p: 1,
             },
           ]
-      }]
+      }
     },
     {
       tp_id: 5153,
@@ -6813,7 +2897,7 @@ const TNC_AA_PORTFOLIO = {
       strategic_id: "ST101",
       strategic_theme: "Education 5.0",
       strategic_thrust: "Quality Education",
-      pi_by_ptj: [{
+      pi_by_ptj: {
         ptj_id: 'A0601',
         ptj_name: 'BAHAGIAN HAL EHWAL AKADEMIK',
         ptj_abb: 'BHEA',
@@ -6866,7 +2950,7 @@ const TNC_AA_PORTFOLIO = {
           }
           
         ]
-      }]
+      }
     },
     {
       tp_id: 5526,
@@ -6882,7 +2966,7 @@ const TNC_AA_PORTFOLIO = {
       strategic_id: "ST101",
       strategic_theme: "Education 5.0",
       strategic_thrust: "Quality Education",
-      pi_by_ptj: [{
+      pi_by_ptj: {
         ptj_id: 'A0165',
         ptj_name: 'INSTITUT PENDIDIKAN BERTERUSAN DAN PENGAJIAN PROFESIONAL',
         ptj_abb: 'iCEPS',
@@ -6935,7 +3019,7 @@ const TNC_AA_PORTFOLIO = {
           }
           
         ]
-      }]
+      }
     },
     {
       tp_id: 6876,
@@ -6951,7 +3035,7 @@ const TNC_AA_PORTFOLIO = {
       strategic_id: "ST103",
       strategic_theme: "Widened Access",
       strategic_thrust: "Quality Education",
-      pi_by_ptj: [{
+      pi_by_ptj: {
         ptj_id: "A0165",
         ptj_name: "INSTITUT PENDIDIKAN BERTERUSAN DAN PENGAJIAN PROFESIONAL",
         ptj_abb: "iCEPS",
@@ -7004,7 +3088,7 @@ const TNC_AA_PORTFOLIO = {
           }
           
         ]
-      }]
+      }
     },
     {
       tp_id: 6877,
@@ -7020,7 +3104,7 @@ const TNC_AA_PORTFOLIO = {
       strategic_id: "ST103",
       strategic_theme: "Widened Access",
       strategic_thrust: "Quality Education",
-      pi_by_ptj: [{
+      pi_by_ptj: {
         ptj_id: "A0165",
         ptj_name: "INSTITUT PENDIDIKAN BERTERUSAN DAN PENGAJIAN PROFESIONAL",
         ptj_abb: "iCEPS",
@@ -7073,7 +3157,7 @@ const TNC_AA_PORTFOLIO = {
           }
           
         ]
-      }]
+      }
     },
     {
       tp_id: 6878,
@@ -7089,7 +3173,7 @@ const TNC_AA_PORTFOLIO = {
       strategic_id: "ST103",
       strategic_theme: "Widened Access",
       strategic_thrust: "Quality Education",
-      pi_by_ptj: [{
+      pi_by_ptj: {
         ptj_id: "A0165",
         ptj_name: "INSTITUT PENDIDIKAN BERTERUSAN DAN PENGAJIAN PROFESIONAL",
         ptj_abb: "iCEPS",
@@ -7142,7 +3226,7 @@ const TNC_AA_PORTFOLIO = {
           }
           
         ]
-      }]
+      }
     },
     {
       tp_id: 5527,
@@ -7158,7 +3242,7 @@ const TNC_AA_PORTFOLIO = {
       strategic_id: "ST101",
       strategic_theme: "Education 5.0",
       strategic_thrust: "Quality Education",
-      pi_by_ptj: [{
+      pi_by_ptj: {
         ptj_id: "A0165",
         ptj_name: "INSTITUT PENDIDIKAN BERTERUSAN DAN PENGAJIAN PROFESIONAL",
         ptj_abb: "iCEPS",
@@ -7209,7 +3293,7 @@ const TNC_AA_PORTFOLIO = {
             achievement: 80,
             achievement_p: 1.6
           }
-        ]}]
+        ]}
     },
     {
       tp_id: 6873,
@@ -7225,7 +3309,7 @@ const TNC_AA_PORTFOLIO = {
       strategic_id: "ST103",
       strategic_theme: "Widened Access",
       strategic_thrust: "Quality Education",
-      pi_by_ptj: [{
+      pi_by_ptj: {
         ptj_id: "A0127",
         ptj_name: "BAHAGIAN PENGAMBILAN PELAJAR",
         ptj_abb: "BPP",
@@ -7277,7 +3361,7 @@ const TNC_AA_PORTFOLIO = {
             achievement_p: 0.490876923
           }
         ]
-      }]
+      }
     },
     {
       tp_id: 6879,
@@ -7293,59 +3377,7 @@ const TNC_AA_PORTFOLIO = {
       strategic_id: "ST103",
       strategic_theme: "Widened Access",
       strategic_thrust: "Quality Education",
-      pi_by_ptj: [{
-        ptj_id: "A0112",
-        ptj_name: "INSTITUT PENGAJIAN SISWAZAH",
-        ptj_abb: "IPSis",
-        target: 3300,
-        achievement: [
-          {
-            month: 1,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 2,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 3,
-            achievement: 0,
-            achievement_p: 0
-          },
-          {
-            month: 4,
-            achievement: 1796,
-            achievement_p: 0.544242424
-          },
-          {
-            month: 5,
-            achievement: 1803,
-            achievement_p: 0.546363636
-          },
-          {
-            month: 6,
-            achievement: 1860,
-            achievement_p: 0.563636364
-          },
-          {
-            month: 7,
-            achievement: 1899,
-            achievement_p: 0.575454545
-          },
-          {
-            month: 8,
-            achievement: 1900,
-            achievement_p: 0.575757576
-          },
-          {
-            month: 9,
-            achievement: 2001,
-            achievement_p: 0
-          }
-        ]}
-      ]
+      pi_by_ptj: ""
     },
     {
       tp_id: 6874,
@@ -7361,7 +3393,7 @@ const TNC_AA_PORTFOLIO = {
       strategic_id: "ST103",
       strategic_theme: "Widened Access",
       strategic_thrust: "Quality Education",
-      pi_by_ptj: [{
+      pi_by_ptj: {
         ptj_id: "A0512",
         ptj_name: "PEJABAT PROGRAM PRA PENDIDIKAN TINGGI",
         ptj_abb: "PRA PENDIDIKAN TINGGI",
@@ -7413,7 +3445,7 @@ const TNC_AA_PORTFOLIO = {
             achievement_p: 0
           }
         ]
-      }]
+      }
     },
     {
       tp_id: 5197,
@@ -7429,7 +3461,7 @@ const TNC_AA_PORTFOLIO = {
       strategic_id: "ST101",
       strategic_theme: "Education 5.0",
       strategic_thrust: "Quality Education",
-      pi_by_ptj: [{
+      pi_by_ptj: {
         ptj_id: "A0601",
         ptj_name: "BAHAGIAN HAL EHWAL AKADEMIK",
         ptj_abb: "BHEA",
@@ -7481,7 +3513,7 @@ const TNC_AA_PORTFOLIO = {
             achievement_p: 0.9575
           }
         ]
-      }]
+      }
     },
     {
       tp_id: 6880,
@@ -7497,7 +3529,7 @@ const TNC_AA_PORTFOLIO = {
       strategic_id: "ST103",
       strategic_theme: "Widened Access",
       strategic_thrust: "Quality Education",
-      pi_by_ptj: [{
+      pi_by_ptj: {
         ptj_id: "A0112",
         ptj_name: "INSTITUT PENGAJIAN SISWAZAH",
         ptj_abb: "IPSis",
@@ -7549,7 +3581,7 @@ const TNC_AA_PORTFOLIO = {
             achievement_p: 0.6
           }
         ]
-      }]
+      }
     },
     {
       tp_id: 6881,
@@ -7565,7 +3597,7 @@ const TNC_AA_PORTFOLIO = {
       strategic_id: "ST103",
       strategic_theme: "Widened Access",
       strategic_thrust: "Quality Education",
-      pi_by_ptj: [{
+      pi_by_ptj: {
         ptj_id: "A0112",
         ptj_name: "INSTITUT PENGAJIAN SISWAZAH",
         ptj_abb: "IPSis",
@@ -7617,7 +3649,7 @@ const TNC_AA_PORTFOLIO = {
             achievement_p: 0.986666667
           }
         ]
-      }]
+      }
     },
     {
       tp_id: 6882,
@@ -7633,7 +3665,7 @@ const TNC_AA_PORTFOLIO = {
       strategic_id: "ST103",
       strategic_theme: "Widened Access",
       strategic_thrust: "Quality Education",
-      pi_by_ptj: [{
+      pi_by_ptj: {
         ptj_id: "A0112",
         ptj_name: "INSTITUT PENGAJIAN SISWAZAH",
         ptj_abb: "IPSis",
@@ -7685,7 +3717,7 @@ const TNC_AA_PORTFOLIO = {
             achievement_p: 1.131428571
           }
         ]
-      }]
+      }
     },
     {
       tp_id: 6883,
@@ -7701,7 +3733,7 @@ const TNC_AA_PORTFOLIO = {
       strategic_id: "ST103",
       strategic_theme: "Widened Access",
       strategic_thrust: "Quality Education",
-      pi_by_ptj: [{
+      pi_by_ptj: {
         ptj_id: "A0112",
         ptj_name: "INSTITUT PENGAJIAN SISWAZAH",
         ptj_abb: "IPSis",
@@ -7753,7 +3785,7 @@ const TNC_AA_PORTFOLIO = {
             achievement_p: 0.813953488
           }
         ]
-      }]
+      }
     },
     {
       tp_id: 5528,
@@ -7769,7 +3801,7 @@ const TNC_AA_PORTFOLIO = {
       strategic_id: "ST101",
       strategic_theme: "Education 5.0",
       strategic_thrust: "Quality Education",
-      pi_by_ptj: [{
+      pi_by_ptj: {
         ptj_id: "A0601-UHEK",
         ptj_name: "UNIT HAL EHWAL KURIKULUM",
         ptj_abb: "UHEK",
@@ -7821,7 +3853,7 @@ const TNC_AA_PORTFOLIO = {
             achievement_p: 0.99047619
           }
         ]
-      }]
+      }
     },
     {
       tp_id: 5151,
@@ -7837,7 +3869,7 @@ const TNC_AA_PORTFOLIO = {
       strategic_id: "ST101",
       strategic_theme: "Education 5.0",
       strategic_thrust: "Quality Education",
-      pi_by_ptj: [{
+      pi_by_ptj: {
         ptj_id: "A0601-UHEK",
         ptj_name: "UNIT HAL EHWAL KURIKULUM",
         ptj_abb: "UHEK",
@@ -7889,7 +3921,7 @@ const TNC_AA_PORTFOLIO = {
             achievement_p: 1.249090909
           }
         ]
-      }]
+      }
     },
     {
       tp_id: 5152,
@@ -7905,7 +3937,7 @@ const TNC_AA_PORTFOLIO = {
       strategic_id: "ST101",
       strategic_theme: "Education 5.0",
       strategic_thrust: "Quality Education",
-      pi_by_ptj: [{
+      pi_by_ptj: {
         ptj_id: "A0601-UHEK",
         ptj_name: "UNIT HAL EHWAL KURIKULUM",
         ptj_abb: "UHEK",
@@ -7957,7 +3989,7 @@ const TNC_AA_PORTFOLIO = {
             achievement_p: 1
           }
         ]
-      }]
+      }
     },
     {
       tp_id: 5154,
@@ -7973,7 +4005,7 @@ const TNC_AA_PORTFOLIO = {
       strategic_id: "ST101",
       strategic_theme: "Education 5.0",
       strategic_thrust: "Quality Education",
-      pi_by_ptj: [{
+      pi_by_ptj: {
         ptj_id: "A0601-UHEK",
         ptj_name: "UNIT HAL EHWAL KURIKULUM",
         ptj_abb: "UHEK",
@@ -8025,7 +4057,7 @@ const TNC_AA_PORTFOLIO = {
             achievement_p: 1.333333333
           }
         ]
-      }]
+      }
     },
     {
       tp_id: 5156,
@@ -8041,7 +4073,7 @@ const TNC_AA_PORTFOLIO = {
       strategic_id: "ST101",
       strategic_theme: "Education 5.0",
       strategic_thrust: "Quality Education",
-      pi_by_ptj: [{
+      pi_by_ptj: {
         ptj_id: "A0601-UHEK",
         ptj_name: "UNIT HAL EHWAL KURIKULUM",
         ptj_abb: "UHEK",
@@ -8093,7 +4125,7 @@ const TNC_AA_PORTFOLIO = {
             achievement_p: 1
           }
         ]
-      }]
+      }
     },
     {
       tp_id: 5198,
@@ -8109,7 +4141,7 @@ const TNC_AA_PORTFOLIO = {
       strategic_id: "ST101",
       strategic_theme: "Education 5.0",
       strategic_thrust: "Quality Education",
-      pi_by_ptj: [{
+      pi_by_ptj: {
         ptj_id: "A0601-UHEK",
         ptj_name: "UNIT HAL EHWAL KURIKULUM",
         ptj_abb: "UHEK",
@@ -8161,7 +4193,7 @@ const TNC_AA_PORTFOLIO = {
             achievement_p: 0.965517241
           }
         ]
-      }]
+      }
     },
     {
       tp_id: 5199,
@@ -8177,7 +4209,7 @@ const TNC_AA_PORTFOLIO = {
       strategic_id: "ST101",
       strategic_theme: "Education 5.0",
       strategic_thrust: "Quality Education",
-      pi_by_ptj: [{
+      pi_by_ptj: {
         ptj_id: "A0112",
         ptj_name: "INSTITUT PENGAJIAN SISWAZAH",
         ptj_abb: "IPSis",
@@ -8229,7 +4261,7 @@ const TNC_AA_PORTFOLIO = {
             achievement_p: 0.965517241
           }
         ]
-      }]
+      }
     },
     {
       tp_id: 5200,
@@ -8245,7 +4277,7 @@ const TNC_AA_PORTFOLIO = {
       strategic_id: "ST101",
       strategic_theme: "Education 5.0",
       strategic_thrust: "Quality Education",
-      pi_by_ptj: [{
+      pi_by_ptj: {
         ptj_id: "A0112",
         ptj_name: "INSTITUT PENGAJIAN SISWAZAH",
         ptj_abb: "IPSis",
@@ -8297,7 +4329,7 @@ const TNC_AA_PORTFOLIO = {
             achievement_p: 0.965517241
           }
         ]
-      }]
+      }
     },
     {
       tp_id: 5201,
@@ -8313,7 +4345,7 @@ const TNC_AA_PORTFOLIO = {
       strategic_id: "ST101",
       strategic_theme: "Education 5.0",
       strategic_thrust: "Quality Education",
-      pi_by_ptj: [{
+      pi_by_ptj: {
         ptj_id: "A0601-UHEK",
         ptj_name: "UNIT HAL EHWAL KURIKULUM",
         ptj_abb: "UHEK",
@@ -8365,7 +4397,7 @@ const TNC_AA_PORTFOLIO = {
             achievement_p: 0.897435897
           }
         ]
-      }]
+      }
     },
     {
       tp_id: 5529,
@@ -8381,7 +4413,7 @@ const TNC_AA_PORTFOLIO = {
       strategic_id: "ST101",
       strategic_theme: "Education 5.0",
       strategic_thrust: "Quality Education",
-      pi_by_ptj: [{
+      pi_by_ptj: {
         ptj_id: "A0601",
         ptj_name: "BAHAGIAN HAL EHWAL AKADEMIK",
         ptj_abb: "BHEA",
@@ -8433,7 +4465,7 @@ const TNC_AA_PORTFOLIO = {
             achievement_p: 0.972972973
           }
         ]
-      }]
+      }
     },
     {
       tp_id: 6875,
@@ -8449,7 +4481,7 @@ const TNC_AA_PORTFOLIO = {
       strategic_id: "ST103",
       strategic_theme: "Widened Access",
       strategic_thrust: "Quality Education",
-      pi_by_ptj: [{
+      pi_by_ptj: {
         ptj_id: "A0601",
         ptj_name: "BAHAGIAN HAL EHWAL AKADEMIK",
         ptj_abb: "BHEA",
@@ -8501,7 +4533,7 @@ const TNC_AA_PORTFOLIO = {
             achievement_p: 0.926666667
           }
         ]
-      }]
+      }
     },
     {
       tp_id: 5525,
@@ -8517,7 +4549,7 @@ const TNC_AA_PORTFOLIO = {
       strategic_id: "ST101",
       strategic_theme: "Education 5.0",
       strategic_thrust: "Quality Education",
-      pi_by_ptj: [{
+      pi_by_ptj: {
         ptj_id: "A0165",
         ptj_name: "INSTITUT PENDIDIKAN BERTERUSAN DAN PENGAJIAN PROFESIONAL",
         ptj_abb: "iCEPS",
@@ -8569,7 +4601,7 @@ const TNC_AA_PORTFOLIO = {
             achievement_p: 1
           }
         ]
-      }]
+      }
     },
     {
       tp_id: 5530,
@@ -8585,7 +4617,7 @@ const TNC_AA_PORTFOLIO = {
       strategic_id: "ST101",
       strategic_theme: "Education 5.0",
       strategic_thrust: "Quality Education",
-      pi_by_ptj: [{
+      pi_by_ptj: {
         ptj_id: "A0601-UHEK",
         ptj_name: "UNIT HAL EHWAL KURIKULUM",
         ptj_abb: "UHEK",
@@ -8637,7 +4669,7 @@ const TNC_AA_PORTFOLIO = {
             achievement_p: 0
           }
         ]
-      }]
+      }
     }
   ],
 };

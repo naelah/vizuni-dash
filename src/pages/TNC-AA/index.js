@@ -119,19 +119,15 @@ const TNCAA = () => {
           {/* Render Breadcrumbs */}
           <Breadcrumbs title="TNC A&A" breadcrumbItem="Finale" />
           <Row>
-            <WelcomeComp />
+            <Col xl="8"><WelcomeComp /></Col>
+            
             <Col xl="4">
               <Score data={{ kpiScore, piScore }} />
             </Col>
-            <Col xl="8">
-              <Row>
-                <Average data={{ kpiScore, piScore }} />
-              </Row>
-              {/* <Row>
-                <Overview />
-              </Row> */}
-            </Col>
           </Row>
+          <Row>
+              <Average data={{ kpiScore, piScore }} />
+            </Row>
           {/* <Row>
             <Col sm={12} md={12}>
               <Card>

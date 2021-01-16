@@ -44,17 +44,17 @@ const FacultyDropdown = () => {
       <Grid className="list-unstyled megamenu-list">
         <h5 className="header font-size-14 mt-0">Cawangan</h5>
         {CAWANGAN_DATA.map((item) => (
-          <li key={item.id}>
+          <li key={item.ptj_id}>
             <div className="custom-control custom-checkbox">
               <input
                 type="checkbox"
                 className="custom-control-input"
-                id={item.id}
+                id={item.ptj_id}
                 onChange={handleSelectCawangan}
-                checked={selectedCawangan.includes(item.id)}
+                checked={selectedCawangan.includes(item.ptj_id)}
               />
-              <label className="custom-control-label" htmlFor={item.id}>
-                {item.label}
+              <label className="custom-control-label" htmlFor={item.ptj_id}>
+                {item.ptj_name}
               </label>
             </div>
           </li>
@@ -63,7 +63,7 @@ const FacultyDropdown = () => {
       <Grid className="list-unstyled megamenu-list">
         <h5 className="header font-size-14 mt-0">FAKULTI</h5>
         {FACULTY_DATA.map((item) => (
-          <li key={item.id}>
+          <li key={item.ptj_id}>
             <div className="custom-control custom-checkbox">
               <input
                 type="checkbox"

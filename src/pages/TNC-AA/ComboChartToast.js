@@ -102,6 +102,8 @@ const ComboChartToast = ({
         title: 'Indicator',
         chartType: 'column',
         labelMargin: 5,
+        min: 0
+        
       },
       // {
       //   title: 'Average',
