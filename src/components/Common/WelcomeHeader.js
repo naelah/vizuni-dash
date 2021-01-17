@@ -1,12 +1,11 @@
 import React from 'react';
 
 import { Row, Col, Card, CardBody } from 'reactstrap';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
-import avatar1 from '../../assets/images/users/avatar-1.jpg';
 import profileImg from '../../assets/images/profile-img.png';
 
-const WelcomeComp = (props) => {
+const WelcomeComp = () => {
   return (
     <>
       <Card className="overflow-hidden">
@@ -51,13 +50,13 @@ const WelcomeComp = (props) => {
               <div className="mt-4">
                 <Row>
                   <Col xs="5">
-                    <Link
+                    {/* <Link
                       to=""
                       className="btn btn-primary waves-effect waves-light btn-sm"
                     >
                       Update Dashboard{' '}
                       <i className="mdi mdi-arrow-right ml-1" />
-                    </Link>
+                    </Link> */}
                   </Col>
                   <Col xs="7">
                     <br />

@@ -1,13 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
-import 'tui-chart/dist/tui-chart.css';
 import { ComboChart } from '@toast-ui/react-chart';
 import TuiChart from 'tui-chart';
-import './toastui.scss';
 import { useSelector } from 'react-redux';
 import intersectionBy from 'lodash/intersectionBy';
 import isEmpty from 'lodash/isEmpty';
+
+import 'tui-chart/dist/tui-chart.css';
+import './toastui.scss';
+
+const CHART_HEIGHT = 650;
 
 const theme = {
   chart: {
@@ -51,22 +53,27 @@ const theme = {
 };
 TuiChart.registerTheme('skoteTheme', theme);
 
-const ComboChartToast = ({
-  chartWidth: width,
-  chartHeight: height,
-  data: piData,
-}) => {
-  const { selectedFaculty } = useSelector(({ Faculty }) => Faculty);
+const PerformanceIndicator = ({ data: piData }) => {
+  const width =
+    window.innerWidth > 991
+      ? Number(window.innerWidth - 420)
+      : Number(window.innerWidth - 100);
 
-  const filteredFaculty = !isEmpty(selectedFaculty)
+  const { selectedFaculty } = useSelector(({ Faculty }) => Faculty);
+  const { selectedCawangan } = useSelector(({ Cawangan }) => Cawangan);
+  const selection = [...selectedFaculty, ...selectedCawangan];
+
+  const filteredFaculty = !isEmpty(selection)
     ? intersectionBy(
         piData.pi_by_ptj,
-        selectedFaculty.map((item) => ({ ptj_id: item })),
+        selection.map((item) => ({
+          ptj_id: item,
+        })),
         'ptj_id'
       )
-    : piData.pi_by_ptj;
+    : piData.pi_by_ptj || [];
 
-  const faculty = filteredFaculty.map((item) => item.ptj_abb);
+  const faculty = filteredFaculty.map((item) => item.ptj_name);
   const facultyTarget = filteredFaculty.map((item) => item.target);
   const facultyAchievement = filteredFaculty.map(
     (item) => item.achievementLatest
@@ -93,23 +100,15 @@ const ComboChartToast = ({
   const options = {
     chart: {
       width,
-      height,
-      // title:
-      //   'Number of academic staff received award or recognition at national level',
+      height: CHART_HEIGHT,
     },
     yAxis: [
       {
         title: 'Indicator',
         chartType: 'column',
         labelMargin: 5,
-        min: 0
-        
+        min: 0,
       },
-      // {
-      //   title: 'Average',
-      //   chartType: 'line',
-      //   labelMargin: 5,
-      // },
     ],
     xAxis: {
       title: 'Faculty',
@@ -127,15 +126,12 @@ const ComboChartToast = ({
   return <ComboChart data={data} options={options} />;
 };
 
-ComboChartToast.propTypes = {
-  chartWidth: PropTypes.string,
-  chartHeight: PropTypes.string,
-  data: PropTypes.object.isRequired,
+PerformanceIndicator.propTypes = {
+  data: PropTypes.object,
 };
 
-ComboChartToast.defaultProps = {
-  chartWidth: 1160,
-  chartHeight: 380,
+PerformanceIndicator.defaultProps = {
+  data: {},
 };
 
-export default ComboChartToast;
+export default PerformanceIndicator;
