@@ -1,10 +1,9 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 
-import { Row, Col, Card, CardBody, CardTitle } from 'reactstrap';
-import { Link } from 'react-router-dom';
+import { Row, Card, CardBody, CardTitle } from 'reactstrap';
 
 import ReactApexChart from 'react-apexcharts';
-import ApexRadial from './ApexRadial';
 
 const walletOptions = {
   plotOptions: {
@@ -16,12 +15,12 @@ const walletOptions = {
         margin: 5,
         size: '35%',
         background: 'transparent',
-        image: void 0,
+        image: undefined,
       },
       track: {
         show: !0,
-        startAngle: void 0,
-        endAngle: void 0,
+        startAngle: undefined,
+        endAngle: undefined,
         background: '#f2f2f2',
         strokeWidth: '97%',
         opacity: 1,
@@ -54,7 +53,7 @@ const walletOptions = {
           label: 'Total',
           color: '#373d3f',
           fontSize: '16px',
-          fontFamily: void 0,
+          fontFamily: undefined,
           fontWeight: 600,
           formatter(e) {
             return `${
@@ -75,7 +74,7 @@ const walletOptions = {
 };
 
 const MonthlyEarning = ({ data: { kpiScore, piScore } }) => {
-  const kpi = kpiScore.kpiAchivementPAvg * 100;
+  const kpi = kpiScore.kpiAchivementPsAvg * 100;
   const pi = piScore.piAchivementPAvg * 100;
 
   return (

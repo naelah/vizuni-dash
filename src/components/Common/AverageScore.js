@@ -3,10 +3,9 @@ import React from 'react';
 import { Row, Col, Card, CardBody } from 'reactstrap';
 import ReactApexChart from 'react-apexcharts';
 
-const options1 = {
+const options = {
   chart: { sparkline: { enabled: !0 } },
   stroke: { curve: 'smooth', width: 2 },
-  colors: ['#f1b44c'],
   fill: {
     type: 'gradient',
     gradient: {
@@ -17,23 +16,6 @@ const options1 = {
       stops: [25, 100, 100, 100],
     },
   },
-  tooltip: { fixed: { enabled: !1 }, x: { show: !1 }, marker: { show: !1 } },
-};
-const options2 = {
-  chart: { sparkline: { enabled: !0 } },
-  stroke: { curve: 'smooth', width: 2 },
-  colors: ['#3452e1'],
-  fill: {
-    type: 'gradient',
-    gradient: {
-      shadeIntensity: 1,
-      inverseColors: !1,
-      opacityFrom: 0.45,
-      opacityTo: 0.05,
-      stops: [25, 100, 100, 100],
-    },
-  },
-  tooltip: { fixed: { enabled: !1 }, x: { show: !1 }, marker: { show: !1 } },
 };
 
 const MiniWidget = ({ data }) => {
@@ -46,7 +28,7 @@ const MiniWidget = ({ data }) => {
           <CardBody>
             <p className="text-muted mb-4">
               <i className="mdi mdi-school h2 text-primary align-middle mb-0 mr-3" />
-              KPI TOTAL {kpiScore.kpiAchivementP.length}
+              KPI TOTAL {kpiScore.kpiAchivementPs.length}
             </p>
 
             <Row>
@@ -54,7 +36,7 @@ const MiniWidget = ({ data }) => {
                 <div>
                   <h5>AVERAGE</h5>
                   <p className="text-muted text-truncate mb-0">
-                    {kpiScore.kpiAchivementPAvg}
+                    {kpiScore.kpiAchivementPsAvg}
                     <i className="mdi mdi-arrow-up ml-1 text-success" />
                   </p>
                 </div>
@@ -63,11 +45,23 @@ const MiniWidget = ({ data }) => {
                 <div>
                   <div className="apex-charts">
                     <ReactApexChart
-                      options={options2}
+                      options={{
+                        ...options,
+                        colors: ['#3452e1'],
+                        xaxis: {
+                          categories: kpiScore.kpiIds,
+                        },
+                        tooltip: {
+                          fixed: { enabled: !1 },
+                          x: { show: true },
+                          marker: { show: !1 },
+                        },
+                      }}
                       series={[
                         {
                           name: 'KPI',
-                          data: kpiScore.kpiAchivementP,
+                          data: kpiScore.kpiAchivementPs,
+                          label: kpiScore.kpiIds,
                         },
                       ]}
                       type="area"
@@ -80,6 +74,7 @@ const MiniWidget = ({ data }) => {
           </CardBody>
         </Card>
       </Col>
+
       <Col sm="6">
         <Card>
           <CardBody>
@@ -102,7 +97,15 @@ const MiniWidget = ({ data }) => {
                 <div>
                   <div className="apex-charts">
                     <ReactApexChart
-                      options={options1}
+                      options={{
+                        ...options,
+                        colors: ['#f1b44c'],
+                        tooltip: {
+                          fixed: { enabled: !1 },
+                          x: { show: !1 },
+                          marker: { show: !1 },
+                        },
+                      }}
                       series={[
                         {
                           name: 'PI',
