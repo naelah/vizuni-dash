@@ -1,186 +1,196 @@
-const TNC_PI_PORTFOLIO = {
-  id: 7,
-  lead_director: 'tnc_pi',
+const ST04_STRATEGIC_THEME = {
+  id: 13,
+  lead_director: "ST204",
   kpi: [
     {
       tp_id: 12,
-      kpi_name: 'Staff indexed publication ratio.',
+      kpi_name: "Staff indexed publication ratio.",
       operation_definition:
-        'Ratio of indexed publication (Scopus, WoS, ERA) over active academic staff (excluding staff on study and medical leave more than 6 months service in that year).',
-      kpi_owner: 'A0598',
-      kpi_owner_ptj_name: 'KOMUNITI PENYELIDIKAN',
-      kpi_owner_abbreviation: 'CoRe',
-      kpi_id: 'KPI8',
-      kpi_id_kpi_order: '8',
-      strategic_id: 'ST204',
+        "Ratio of indexed publication (Scopus, WoS, ERA) over active academic staff (excluding staff on study and medical leave more than 6 months service in that year).",
+      kpi_owner: "A0598",
+      kpi_owner_ptj_name: "KOMUNITI PENYELIDIKAN",
+      kpi_owner_abbreviation: "CoRe",
+      kpi_id: "KPI8",
+      kpi_id_kpi_order: "8",
+      strategic_id: "ST204",
       strategic_theme:
-        'Translational Research Development, Innovation & Commercilisation',
-      strategic_thrust: 'Global Excellence',
-      kpi_by_ptj: {
-        target: 0.8,
-        kpi_id: 'KPI8',
-        kpi_owner: 'A0598',
-        achievement: [
-          { month: 1, achievement: 0.02, achievement_p: 0.03 },
-          { month: 2, achievement: 0.04, achievement_p: 0.05 },
-          { month: 3, achievement: 0.08, achievement_p: 0.1 },
-          { month: 4, achievement: 0.11, achievement_p: 0.14 },
-          { month: 5, achievement: 0.14, achievement_p: 0.18 },
-          { month: 6, achievement: 0.17, achievement_p: 0.21 },
-          { month: 7, achievement: 0.24, achievement_p: 0.3 },
-          { month: 8, achievement: 0.24, achievement_p: 0.3 },
-          { month: 9, achievement: 0.24, achievement_p: 0.3 },
-        ],
-      },
+        "Translational Research Development, Innovation & Commercilisation",
+      strategic_thrust: "Global Excellence",
+      kpi_by_ptj: [
+        {
+          target: 0.8,
+          kpi_id: "KPI8",
+          kpi_owner: "A0598",
+          achievement: [
+            { month: 1, achievement: 0.02, achievement_p: 0.03 },
+            { month: 2, achievement: 0.04, achievement_p: 0.05 },
+            { month: 3, achievement: 0.08, achievement_p: 0.1 },
+            { month: 4, achievement: 0.11, achievement_p: 0.14 },
+            { month: 5, achievement: 0.14, achievement_p: 0.18 },
+            { month: 6, achievement: 0.17, achievement_p: 0.21 },
+            { month: 7, achievement: 0.24, achievement_p: 0.3 },
+            { month: 8, achievement: 0.24, achievement_p: 0.3 },
+            { month: 9, achievement: 0.24, achievement_p: 0.3 },
+          ],
+        },
+      ],
     },
     {
       tp_id: 13,
-      kpi_name: 'Staff citation ratio.',
+      kpi_name: "Staff citation ratio.",
       operation_definition:
-        'Ratio of citation in indexed publication (Scopus, WoS, ERA) over active academic staff within 5 years (excluding staff on study and medical leave more than 6 months service in that year).',
-      kpi_owner: 'A0598',
-      kpi_owner_ptj_name: 'KOMUNITI PENYELIDIKAN',
-      kpi_owner_abbreviation: 'CoRe',
-      kpi_id: 'KPI9',
-      kpi_id_kpi_order: '9',
-      strategic_id: 'ST204',
+        "Ratio of citation in indexed publication (Scopus, WoS, ERA) over active academic staff within 5 years (excluding staff on study and medical leave more than 6 months service in that year).",
+      kpi_owner: "A0598",
+      kpi_owner_ptj_name: "KOMUNITI PENYELIDIKAN",
+      kpi_owner_abbreviation: "CoRe",
+      kpi_id: "KPI9",
+      kpi_id_kpi_order: "9",
+      strategic_id: "ST204",
       strategic_theme:
-        'Translational Research Development, Innovation & Commercilisation',
-      strategic_thrust: 'Global Excellence',
-      kpi_by_ptj: {
-        target: 12.0,
-        kpi_id: 'KPI9',
-        kpi_owner: 'A0598',
-        achievement: [
-          { month: 1, achievement: 4.33, achievement_p: 0.36 },
-          { month: 2, achievement: 4.6, achievement_p: 0.38 },
-          { month: 3, achievement: 4.88, achievement_p: 0.41 },
-          { month: 4, achievement: 5.11, achievement_p: 0.43 },
-          { month: 5, achievement: 5.44, achievement_p: 0.45 },
-          { month: 6, achievement: 5.72, achievement_p: 0.48 },
-          { month: 7, achievement: 6.04, achievement_p: 0.5 },
-          { month: 8, achievement: 6.04, achievement_p: 0.5 },
-          { month: 9, achievement: 6.04, achievement_p: 0.5 },
-        ],
-      },
+        "Translational Research Development, Innovation & Commercilisation",
+      strategic_thrust: "Global Excellence",
+      kpi_by_ptj: [
+        {
+          target: 12.0,
+          kpi_id: "KPI9",
+          kpi_owner: "A0598",
+          achievement: [
+            { month: 1, achievement: 4.33, achievement_p: 0.36 },
+            { month: 2, achievement: 4.6, achievement_p: 0.38 },
+            { month: 3, achievement: 4.88, achievement_p: 0.41 },
+            { month: 4, achievement: 5.11, achievement_p: 0.43 },
+            { month: 5, achievement: 5.44, achievement_p: 0.45 },
+            { month: 6, achievement: 5.72, achievement_p: 0.48 },
+            { month: 7, achievement: 6.04, achievement_p: 0.5 },
+            { month: 8, achievement: 6.04, achievement_p: 0.5 },
+            { month: 9, achievement: 6.04, achievement_p: 0.5 },
+          ],
+        },
+      ],
     },
     {
       tp_id: 14,
-      kpi_name: 'Amount of research grants.',
+      kpi_name: "Amount of research grants.",
       operation_definition:
-        'Total amount of grant received and registered with Research Management Center (RMC) for the current year.',
-      kpi_owner: 'A0163',
-      kpi_owner_ptj_name: 'PUSAT PENGURUSAN PENYELIDIKAN',
-      kpi_owner_abbreviation: 'RMC',
-      kpi_id: 'KPI10',
-      kpi_id_kpi_order: '10',
-      strategic_id: 'ST204',
+        "Total amount of grant received and registered with Research Management Center (RMC) for the current year.",
+      kpi_owner: "A0163",
+      kpi_owner_ptj_name: "PUSAT PENGURUSAN PENYELIDIKAN",
+      kpi_owner_abbreviation: "RMC",
+      kpi_id: "KPI10",
+      kpi_id_kpi_order: "10",
+      strategic_id: "ST204",
       strategic_theme:
-        'Translational Research Development, Innovation & Commercilisation',
-      strategic_thrust: 'Global Excellence',
-      kpi_by_ptj: {
-        target: 70000000.0,
-        kpi_id: 'KPI10',
-        kpi_owner: 'A0163',
-        achievement: [
-          { month: 1, achievement: 1646644.0, achievement_p: 0.02 },
-          { month: 2, achievement: 2031785.9, achievement_p: 0.02 },
-          { month: 3, achievement: 3854271.18, achievement_p: 0.04 },
-          { month: 4, achievement: 5749071.18, achievement_p: 0.06 },
-          { month: 5, achievement: 6458313.32, achievement_p: 0.06 },
-          { month: 6, achievement: 7822171.01, achievement_p: 0.11 },
-          { month: 7, achievement: 8152627.87, achievement_p: 0.12 },
-          { month: 8, achievement: 9475580.87, achievement_p: 0.14 },
-          { month: 9, achievement: 9475580.87, achievement_p: 0.14 },
-        ],
-      },
+        "Translational Research Development, Innovation & Commercilisation",
+      strategic_thrust: "Global Excellence",
+      kpi_by_ptj: [
+        {
+          target: 70000000.0,
+          kpi_id: "KPI10",
+          kpi_owner: "A0163",
+          achievement: [
+            { month: 1, achievement: 1646644.0, achievement_p: 0.02 },
+            { month: 2, achievement: 2031785.9, achievement_p: 0.02 },
+            { month: 3, achievement: 3854271.18, achievement_p: 0.04 },
+            { month: 4, achievement: 5749071.18, achievement_p: 0.06 },
+            { month: 5, achievement: 6458313.32, achievement_p: 0.06 },
+            { month: 6, achievement: 7822171.01, achievement_p: 0.11 },
+            { month: 7, achievement: 8152627.87, achievement_p: 0.12 },
+            { month: 8, achievement: 9475580.87, achievement_p: 0.14 },
+            { month: 9, achievement: 9475580.87, achievement_p: 0.14 },
+          ],
+        },
+      ],
     },
     {
       tp_id: 15,
-      kpi_name: 'Number of patents granted.',
+      kpi_name: "Number of patents granted.",
       operation_definition:
-        'Total number of new patents granted for the current year.',
-      kpi_owner: 'A0596',
+        "Total number of new patents granted for the current year.",
+      kpi_owner: "A0596",
       kpi_owner_ptj_name:
-        'BUSINESS INNOVATION AND TECHNOLOGY COMMERCIALIZATION CENTRE',
-      kpi_owner_abbreviation: 'BITCOM',
-      kpi_id: 'KPI11',
-      kpi_id_kpi_order: '11',
-      strategic_id: 'ST204',
+        "BUSINESS INNOVATION AND TECHNOLOGY COMMERCIALIZATION CENTRE",
+      kpi_owner_abbreviation: "BITCOM",
+      kpi_id: "KPI11",
+      kpi_id_kpi_order: "11",
+      strategic_id: "ST204",
       strategic_theme:
-        'Translational Research Development, Innovation & Commercilisation',
-      strategic_thrust: 'Global Excellence',
-      kpi_by_ptj: {
-        target: 8.0,
-        kpi_id: 'KPI11',
-        kpi_owner: 'A0596',
-        achievement: [
-          { month: 1, achievement: 0, achievement_p: 0 },
-          { month: 2, achievement: 0, achievement_p: 0 },
-          { month: 3, achievement: 0, achievement_p: 0 },
-          { month: 4, achievement: 5.0, achievement_p: 0.33 },
-          { month: 5, achievement: 5.0, achievement_p: 0.33 },
-          { month: 6, achievement: 5.0, achievement_p: 0.63 },
-          { month: 7, achievement: 5.0, achievement_p: 0.63 },
-          { month: 8, achievement: 5.0, achievement_p: 0.63 },
-          { month: 9, achievement: 10.0, achievement_p: 1.25 },
-        ],
-      },
+        "Translational Research Development, Innovation & Commercilisation",
+      strategic_thrust: "Global Excellence",
+      kpi_by_ptj: [
+        {
+          target: 8.0,
+          kpi_id: "KPI11",
+          kpi_owner: "A0596",
+          achievement: [
+            { month: 1, achievement: NaN, achievement_p: 0 },
+            { month: 2, achievement: NaN, achievement_p: 0 },
+            { month: 3, achievement: NaN, achievement_p: 0 },
+            { month: 4, achievement: 5.0, achievement_p: 0.33 },
+            { month: 5, achievement: 5.0, achievement_p: 0.33 },
+            { month: 6, achievement: 5.0, achievement_p: 0.63 },
+            { month: 7, achievement: 5.0, achievement_p: 0.63 },
+            { month: 8, achievement: 5.0, achievement_p: 0.63 },
+            { month: 9, achievement: 10.0, achievement_p: 1.25 },
+          ],
+        },
+      ],
     },
     {
       tp_id: 16,
-      kpi_name: 'Number of spin-off companies.',
+      kpi_name: "Number of spin-off companies.",
       operation_definition:
-        'Number of new spin-off companies establised based on output from research for the current year.',
-      kpi_owner: 'A0596',
+        "Number of new spin-off companies establised based on output from research for the current year.",
+      kpi_owner: "A0596",
       kpi_owner_ptj_name:
-        'BUSINESS INNOVATION AND TECHNOLOGY COMMERCIALIZATION CENTRE',
-      kpi_owner_abbreviation: 'BITCOM',
-      kpi_id: 'KPI12',
-      kpi_id_kpi_order: '12',
-      strategic_id: 'ST204',
+        "BUSINESS INNOVATION AND TECHNOLOGY COMMERCIALIZATION CENTRE",
+      kpi_owner_abbreviation: "BITCOM",
+      kpi_id: "KPI12",
+      kpi_id_kpi_order: "12",
+      strategic_id: "ST204",
       strategic_theme:
-        'Translational Research Development, Innovation & Commercilisation',
-      strategic_thrust: 'Global Excellence',
-      kpi_by_ptj: {
-        target: 2.0,
-        kpi_id: 'KPI12',
-        kpi_owner: 'A0596',
-        achievement: [
-          { month: 1, achievement: 0, achievement_p: 0 },
-          { month: 2, achievement: 0, achievement_p: 0 },
-          { month: 3, achievement: 0, achievement_p: 0 },
-          { month: 4, achievement: 1.0, achievement_p: 0.5 },
-          { month: 5, achievement: 1.0, achievement_p: 0.5 },
-          { month: 6, achievement: 1.0, achievement_p: 0.5 },
-          { month: 7, achievement: 1.0, achievement_p: 0.5 },
-          { month: 8, achievement: 1.0, achievement_p: 0.5 },
-          { month: 9, achievement: 1.0, achievement_p: 0.5 },
-        ],
-      },
+        "Translational Research Development, Innovation & Commercilisation",
+      strategic_thrust: "Global Excellence",
+      kpi_by_ptj: [
+        {
+          target: 2.0,
+          kpi_id: "KPI12",
+          kpi_owner: "A0596",
+          achievement: [
+            { month: 1, achievement: NaN, achievement_p: 0 },
+            { month: 2, achievement: NaN, achievement_p: 0 },
+            { month: 3, achievement: NaN, achievement_p: 0 },
+            { month: 4, achievement: 1.0, achievement_p: 0.5 },
+            { month: 5, achievement: 1.0, achievement_p: 0.5 },
+            { month: 6, achievement: 1.0, achievement_p: 0.5 },
+            { month: 7, achievement: 1.0, achievement_p: 0.5 },
+            { month: 8, achievement: 1.0, achievement_p: 0.5 },
+            { month: 9, achievement: 1.0, achievement_p: 0.5 },
+          ],
+        },
+      ],
     },
   ],
   pi: [
     {
       tp_id: 48,
-      pi_id: '008048',
+      pi_id: "008048",
       pi_number: 48,
-      pi_name: 'Number of indexed publication: a) journal.',
+      pi_name: "Number of indexed publication:rna) journal.",
       operation_definition:
-        'Number of indexed journal publications (Scopus, WoS, ERA).',
-      pi_owner: 'A0598',
-      pi_owner_ptj_name: 'KOMUNITI PENYELIDIKAN',
-      pi_owner_abbreviation: 'CoRe',
-      kpi_id: 'KPI8',
-      kpi_id_kpi_order: '8',
-      strategic_id: 'ST204',
+        "Number of indexed journal publications (Scopus, WoS, ERA).",
+      pi_owner: "A0598",
+      pi_owner_ptj_name: "KOMUNITI PENYELIDIKAN",
+      pi_owner_abbreviation: "CoRe",
+      kpi_id: "KPI8",
+      kpi_id_kpi_order: "8",
+      strategic_id: "ST204",
       strategic_theme:
-        'Translational Research Development, Innovation & Commercilisation',
+        "Translational Research Development, Innovation & Commercilisation",
       pi_by_ptj: [
         {
-          ptj_id: 'A0607',
-          ptj_name: 'AKADEMI PENGAJIAN BAHASA',
-          ptj_abb: 'LG',
+          ptj_id: "A0607",
+          ptj_name: "AKADEMI PENGAJIAN BAHASA",
+          ptj_abb: "LG",
           target: 79.0,
           pi_number: 48,
           achievement: [
@@ -202,7 +212,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 4.0,
               achievement: 5.0,
-              achievement_p: 0.063291139,
+              achievement_p: 0.06329113900000001,
             },
             {
               month: 5.0,
@@ -232,9 +242,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0692',
-          ptj_name: 'AKADEMI PENGAJIAN ISLAM KONTEMPORARI',
-          ptj_abb: 'IC',
+          ptj_id: "A0692",
+          ptj_name: "AKADEMI PENGAJIAN ISLAM KONTEMPORARI",
+          ptj_abb: "IC",
           target: 31.0,
           pi_number: 48,
           achievement: [
@@ -261,12 +271,12 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 5.0,
               achievement: 3.0,
-              achievement_p: 0.096774194,
+              achievement_p: 0.09677419400000001,
             },
             {
               month: 6.0,
               achievement: 3.0,
-              achievement_p: 0.096774194,
+              achievement_p: 0.09677419400000001,
             },
             {
               month: 7.0,
@@ -286,9 +296,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0595',
-          ptj_name: 'ARSHAD AYUB GRADUATE BUSINESS SCHOOL',
-          ptj_abb: 'AA',
+          ptj_id: "A0595",
+          ptj_name: "ARSHAD AYUB GRADUATE BUSINESS SCHOOL",
+          ptj_abb: "AA",
           target: 11.0,
           pi_number: 48,
           achievement: [
@@ -340,9 +350,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0640',
-          ptj_name: 'FAKULTI FARMASI',
-          ptj_abb: 'PH',
+          ptj_id: "A0640",
+          ptj_name: "FAKULTI FARMASI",
+          ptj_abb: "PH",
           target: 135.0,
           pi_number: 48,
           achievement: [
@@ -369,7 +379,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 5.0,
               achievement: 33.0,
-              achievement_p: 0.244444444,
+              achievement_p: 0.24444444399999998,
             },
             {
               month: 6.0,
@@ -394,9 +404,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0683',
-          ptj_name: 'FAKULTI FILEM, TEATER DAN ANIMASI',
-          ptj_abb: 'FF',
+          ptj_id: "A0683",
+          ptj_name: "FAKULTI FILEM, TEATER DAN ANIMASI",
+          ptj_abb: "FF",
           target: 21.0,
           pi_number: 48,
           achievement: [
@@ -443,14 +453,14 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 9.0,
               achievement: 3.0,
-              achievement_p: 0.142857143,
+              achievement_p: 0.14285714300000002,
             },
           ],
         },
         {
-          ptj_id: 'A1609',
-          ptj_name: 'FAKULTI KEJURUTERAAN AWAM',
-          ptj_abb: 'EC',
+          ptj_id: "A1609",
+          ptj_name: "FAKULTI KEJURUTERAAN AWAM",
+          ptj_abb: "EC",
           target: 155.0,
           pi_number: 48,
           achievement: [
@@ -502,9 +512,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1611',
-          ptj_name: 'FAKULTI KEJURUTERAAN ELEKTRIK',
-          ptj_abb: 'EE',
+          ptj_id: "A1611",
+          ptj_name: "FAKULTI KEJURUTERAAN ELEKTRIK",
+          ptj_abb: "EE",
           target: 267.0,
           pi_number: 48,
           achievement: [
@@ -526,12 +536,12 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 4.0,
               achievement: 38.0,
-              achievement_p: 0.142322097,
+              achievement_p: 0.14232209699999998,
             },
             {
               month: 5.0,
               achievement: 45.0,
-              achievement_p: 0.168539326,
+              achievement_p: 0.16853932600000002,
             },
             {
               month: 6.0,
@@ -541,7 +551,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 7.0,
               achievement: 63.0,
-              achievement_p: 0.235955056,
+              achievement_p: 0.23595505600000002,
             },
             {
               month: 8.0,
@@ -556,9 +566,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1608',
-          ptj_name: 'FAKULTI KEJURUTERAAN KIMIA',
-          ptj_abb: 'EH',
+          ptj_id: "A1608",
+          ptj_name: "FAKULTI KEJURUTERAAN KIMIA",
+          ptj_abb: "EH",
           target: 155.0,
           pi_number: 48,
           achievement: [
@@ -595,7 +605,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 7.0,
               achievement: 28.0,
-              achievement_p: 0.180645161,
+              achievement_p: 0.18064516100000003,
             },
             {
               month: 8.0,
@@ -610,9 +620,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1610',
-          ptj_name: 'FAKULTI KEJURUTERAAN MEKANIKAL',
-          ptj_abb: 'EM',
+          ptj_id: "A1610",
+          ptj_name: "FAKULTI KEJURUTERAAN MEKANIKAL",
+          ptj_abb: "EM",
           target: 175.0,
           pi_number: 48,
           achievement: [
@@ -639,7 +649,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 5.0,
               achievement: 10.0,
-              achievement_p: 0.057142857,
+              achievement_p: 0.057142857000000005,
             },
             {
               month: 6.0,
@@ -654,7 +664,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 8.0,
               achievement: 25.0,
-              achievement_p: 0.142857143,
+              achievement_p: 0.14285714300000002,
             },
             {
               month: 9.0,
@@ -664,9 +674,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0613',
-          ptj_name: 'FAKULTI KOMUNIKASI DAN PENGAJIAN MEDIA',
-          ptj_abb: 'MC',
+          ptj_id: "A0613",
+          ptj_name: "FAKULTI KOMUNIKASI DAN PENGAJIAN MEDIA",
+          ptj_abb: "MC",
           target: 31.0,
           pi_number: 48,
           achievement: [
@@ -703,24 +713,24 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 7.0,
               achievement: 3.0,
-              achievement_p: 0.096774194,
+              achievement_p: 0.09677419400000001,
             },
             {
               month: 8.0,
               achievement: 3.0,
-              achievement_p: 0.096774194,
+              achievement_p: 0.09677419400000001,
             },
             {
               month: 9.0,
               achievement: 3.0,
-              achievement_p: 0.096774194,
+              achievement_p: 0.09677419400000001,
             },
           ],
         },
         {
-          ptj_id: 'A0646',
-          ptj_name: 'FAKULTI MUZIK',
-          ptj_abb: 'MU',
+          ptj_id: "A0646",
+          ptj_name: "FAKULTI MUZIK",
+          ptj_abb: "MU",
           target: 14.0,
           pi_number: 48,
           achievement: [
@@ -772,9 +782,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0619',
-          ptj_name: 'FAKULTI PENDIDIKAN',
-          ptj_abb: 'ED',
+          ptj_id: "A0619",
+          ptj_name: "FAKULTI PENDIDIKAN",
+          ptj_abb: "ED",
           target: 28.0,
           pi_number: 48,
           achievement: [
@@ -806,12 +816,12 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 6.0,
               achievement: 4.0,
-              achievement_p: 0.142857143,
+              achievement_p: 0.14285714300000002,
             },
             {
               month: 7.0,
               achievement: 5.0,
-              achievement_p: 0.178571429,
+              achievement_p: 0.17857142899999998,
             },
             {
               month: 8.0,
@@ -826,9 +836,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0654',
-          ptj_name: 'FAKULTI PENGURUSAN DAN PERNIAGAAN',
-          ptj_abb: 'BA',
+          ptj_id: "A0654",
+          ptj_name: "FAKULTI PENGURUSAN DAN PERNIAGAAN",
+          ptj_abb: "BA",
           target: 109.0,
           pi_number: 48,
           achievement: [
@@ -870,7 +880,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 8.0,
               achievement: 30.0,
-              achievement_p: 0.275229358,
+              achievement_p: 0.27522935800000004,
             },
             {
               month: 9.0,
@@ -880,9 +890,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0611',
-          ptj_name: 'FAKULTI PENGURUSAN HOTEL DAN PELANCONGAN',
-          ptj_abb: 'HM',
+          ptj_id: "A0611",
+          ptj_name: "FAKULTI PENGURUSAN HOTEL DAN PELANCONGAN",
+          ptj_abb: "HM",
           target: 40.0,
           pi_number: 48,
           achievement: [
@@ -934,9 +944,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0638',
-          ptj_name: 'FAKULTI PENGURUSAN MAKLUMAT',
-          ptj_abb: 'IM',
+          ptj_id: "A0638",
+          ptj_name: "FAKULTI PENGURUSAN MAKLUMAT",
+          ptj_abb: "IM",
           target: 32.0,
           pi_number: 48,
           achievement: [
@@ -988,9 +998,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0602',
-          ptj_name: 'FAKULTI PERAKAUNAN',
-          ptj_abb: 'AC',
+          ptj_id: "A0602",
+          ptj_name: "FAKULTI PERAKAUNAN",
+          ptj_abb: "AC",
           target: 54.0,
           pi_number: 48,
           achievement: [
@@ -1002,22 +1012,22 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 2.0,
               achievement: 11.0,
-              achievement_p: 0.203703704,
+              achievement_p: 0.20370370399999999,
             },
             {
               month: 3.0,
               achievement: 15.0,
-              achievement_p: 0.277777778,
+              achievement_p: 0.27777777800000003,
             },
             {
               month: 4.0,
               achievement: 22.0,
-              achievement_p: 0.407407407,
+              achievement_p: 0.40740740700000005,
             },
             {
               month: 5.0,
               achievement: 25.0,
-              achievement_p: 0.462962963,
+              achievement_p: 0.46296296299999995,
             },
             {
               month: 6.0,
@@ -1042,9 +1052,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0660',
-          ptj_name: 'FAKULTI PERGIGIAN',
-          ptj_abb: 'DS',
+          ptj_id: "A0660",
+          ptj_name: "FAKULTI PERGIGIAN",
+          ptj_abb: "DS",
           target: 158.0,
           pi_number: 48,
           achievement: [
@@ -1081,7 +1091,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 7.0,
               achievement: 15.0,
-              achievement_p: 0.094936709,
+              achievement_p: 0.09493670900000001,
             },
             {
               month: 8.0,
@@ -1096,9 +1106,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0647',
-          ptj_name: 'FAKULTI PERLADANGAN DAN AGROTEKNOLOGI',
-          ptj_abb: 'AT',
+          ptj_id: "A0647",
+          ptj_name: "FAKULTI PERLADANGAN DAN AGROTEKNOLOGI",
+          ptj_abb: "AT",
           target: 90.0,
           pi_number: 48,
           achievement: [
@@ -1110,7 +1120,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 2.0,
               achievement: 1.0,
-              achievement_p: 0.011111111,
+              achievement_p: 0.011111111000000002,
             },
             {
               month: 3.0,
@@ -1125,7 +1135,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 5.0,
               achievement: 17.0,
-              achievement_p: 0.188888889,
+              achievement_p: 0.18888888899999998,
             },
             {
               month: 6.0,
@@ -1135,7 +1145,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 7.0,
               achievement: 24.0,
-              achievement_p: 0.266666667,
+              achievement_p: 0.26666666699999997,
             },
             {
               month: 8.0,
@@ -1150,9 +1160,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0643',
-          ptj_name: 'FAKULTI PERUBATAN',
-          ptj_abb: 'MD',
+          ptj_id: "A0643",
+          ptj_name: "FAKULTI PERUBATAN",
+          ptj_abb: "MD",
           target: 483.0,
           pi_number: 48,
           achievement: [
@@ -1204,9 +1214,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0604',
-          ptj_name: 'FAKULTI SAINS GUNAAN',
-          ptj_abb: 'AS',
+          ptj_id: "A0604",
+          ptj_name: "FAKULTI SAINS GUNAAN",
+          ptj_abb: "AS",
           target: 339.0,
           pi_number: 48,
           achievement: [
@@ -1238,7 +1248,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 6.0,
               achievement: 73.0,
-              achievement_p: 0.215339233,
+              achievement_p: 0.21533923300000002,
             },
             {
               month: 7.0,
@@ -1248,7 +1258,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 8.0,
               achievement: 101.0,
-              achievement_p: 0.297935103,
+              achievement_p: 0.29793510300000003,
             },
             {
               month: 9.0,
@@ -1258,9 +1268,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0644',
-          ptj_name: 'FAKULTI SAINS KESIHATAN',
-          ptj_abb: 'HS',
+          ptj_id: "A0644",
+          ptj_name: "FAKULTI SAINS KESIHATAN",
+          ptj_abb: "HS",
           target: 167.0,
           pi_number: 48,
           achievement: [
@@ -1277,12 +1287,12 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 3.0,
               achievement: 2.0,
-              achievement_p: 0.011976048,
+              achievement_p: 0.011976048000000001,
             },
             {
               month: 4.0,
               achievement: 4.0,
-              achievement_p: 0.023952096,
+              achievement_p: 0.023952096000000003,
             },
             {
               month: 5.0,
@@ -1302,7 +1312,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 8.0,
               achievement: 16.0,
-              achievement_p: 0.095808383,
+              achievement_p: 0.09580838300000001,
             },
             {
               month: 9.0,
@@ -1312,9 +1322,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0639',
-          ptj_name: 'FAKULTI SAINS KOMPUTER DAN MATEMATIK',
-          ptj_abb: 'CS',
+          ptj_id: "A0639",
+          ptj_name: "FAKULTI SAINS KOMPUTER DAN MATEMATIK",
+          ptj_abb: "CS",
           target: 352.0,
           pi_number: 48,
           achievement: [
@@ -1351,24 +1361,24 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 7.0,
               achievement: 65.0,
-              achievement_p: 0.184659091,
+              achievement_p: 0.18465909100000003,
             },
             {
               month: 8.0,
               achievement: 76.0,
-              achievement_p: 0.215909091,
+              achievement_p: 0.21590909100000003,
             },
             {
               month: 9.0,
               achievement: 87.0,
-              achievement_p: 0.247159091,
+              achievement_p: 0.24715909100000003,
             },
           ],
         },
         {
-          ptj_id: 'A0637',
-          ptj_name: 'FAKULTI SAINS PENTADBIRAN DAN PENGAJIAN POLISI',
-          ptj_abb: 'AM',
+          ptj_id: "A0637",
+          ptj_name: "FAKULTI SAINS PENTADBIRAN DAN PENGAJIAN POLISI",
+          ptj_abb: "AM",
           target: 31.0,
           pi_number: 48,
           achievement: [
@@ -1420,9 +1430,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0626',
-          ptj_name: 'FAKULTI SAINS SUKAN DAN REKREASI',
-          ptj_abb: 'SR',
+          ptj_id: "A0626",
+          ptj_name: "FAKULTI SAINS SUKAN DAN REKREASI",
+          ptj_abb: "SR",
           target: 70.0,
           pi_number: 48,
           achievement: [
@@ -1439,7 +1449,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 3.0,
               achievement: 4.0,
-              achievement_p: 0.057142857,
+              achievement_p: 0.057142857000000005,
             },
             {
               month: 4.0,
@@ -1459,24 +1469,24 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 7.0,
               achievement: 8.0,
-              achievement_p: 0.114285714,
+              achievement_p: 0.11428571400000001,
             },
             {
               month: 8.0,
               achievement: 8.0,
-              achievement_p: 0.114285714,
+              achievement_p: 0.11428571400000001,
             },
             {
               month: 9.0,
               achievement: 9.0,
-              achievement_p: 0.128571429,
+              achievement_p: 0.12857142900000001,
             },
           ],
         },
         {
-          ptj_id: 'A0610',
-          ptj_name: 'FAKULTI SENI LUKIS DAN SENI REKA',
-          ptj_abb: 'AD',
+          ptj_id: "A0610",
+          ptj_name: "FAKULTI SENI LUKIS DAN SENI REKA",
+          ptj_abb: "AD",
           target: 66.0,
           pi_number: 48,
           achievement: [
@@ -1523,14 +1533,14 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 9.0,
               achievement: 9.0,
-              achievement_p: 0.136363636,
+              achievement_p: 0.13636363599999998,
             },
           ],
         },
         {
-          ptj_id: 'A0605',
-          ptj_name: 'FAKULTI SENIBINA PERANCANGAN DAN UKUR',
-          ptj_abb: 'AP',
+          ptj_id: "A0605",
+          ptj_name: "FAKULTI SENIBINA PERANCANGAN DAN UKUR",
+          ptj_abb: "AP",
           target: 409.0,
           pi_number: 48,
           achievement: [
@@ -1582,9 +1592,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0636',
-          ptj_name: 'FAKULTI UNDANG-UNDANG',
-          ptj_abb: 'LW',
+          ptj_id: "A0636",
+          ptj_name: "FAKULTI UNDANG-UNDANG",
+          ptj_abb: "LW",
           target: 32.0,
           pi_number: 48,
           achievement: [
@@ -1636,16 +1646,16 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1665',
-          ptj_name: 'PUSAT ASASI',
-          ptj_abb: 'PI',
+          ptj_id: "A1665",
+          ptj_name: "PUSAT ASASI",
+          ptj_abb: "PI",
           target: 66.0,
           pi_number: 48,
           achievement: [
             {
               month: 1.0,
               achievement: 4.0,
-              achievement_p: 0.060606061,
+              achievement_p: 0.060606060999999996,
             },
             {
               month: 2.0,
@@ -1660,7 +1670,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 4.0,
               achievement: 4.0,
-              achievement_p: 0.060606061,
+              achievement_p: 0.060606060999999996,
             },
             {
               month: 5.0,
@@ -1675,7 +1685,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 7.0,
               achievement: 8.0,
-              achievement_p: 0.121212121,
+              achievement_p: 0.12121212099999999,
             },
             {
               month: 8.0,
@@ -1690,9 +1700,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'J0000',
-          ptj_name: 'UiTM CAWANGAN JOHOR',
-          ptj_abb: 'J',
+          ptj_id: "J0000",
+          ptj_name: "UiTM CAWANGAN JOHOR",
+          ptj_abb: "J",
           target: 138.0,
           pi_number: 48,
           achievement: [
@@ -1744,9 +1754,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'H0000',
-          ptj_name: 'UiTM CAWANGAN KEDAH',
-          ptj_abb: 'K',
+          ptj_id: "H0000",
+          ptj_name: "UiTM CAWANGAN KEDAH",
+          ptj_abb: "K",
           target: 90.0,
           pi_number: 48,
           achievement: [
@@ -1773,17 +1783,17 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 5.0,
               achievement: 19.0,
-              achievement_p: 0.211111111,
+              achievement_p: 0.21111111100000002,
             },
             {
               month: 6.0,
               achievement: 19.0,
-              achievement_p: 0.211111111,
+              achievement_p: 0.21111111100000002,
             },
             {
               month: 7.0,
               achievement: 22.0,
-              achievement_p: 0.244444444,
+              achievement_p: 0.24444444399999998,
             },
             {
               month: 8.0,
@@ -1798,9 +1808,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'D0000',
-          ptj_name: 'UiTM CAWANGAN KELANTAN',
-          ptj_abb: 'D',
+          ptj_id: "D0000",
+          ptj_name: "UiTM CAWANGAN KELANTAN",
+          ptj_abb: "D",
           target: 107.0,
           pi_number: 48,
           achievement: [
@@ -1827,22 +1837,22 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 5.0,
               achievement: 12.0,
-              achievement_p: 0.112149533,
+              achievement_p: 0.11214953300000001,
             },
             {
               month: 6.0,
               achievement: 12.0,
-              achievement_p: 0.112149533,
+              achievement_p: 0.11214953300000001,
             },
             {
               month: 7.0,
               achievement: 12.0,
-              achievement_p: 0.112149533,
+              achievement_p: 0.11214953300000001,
             },
             {
               month: 8.0,
               achievement: 12.0,
-              achievement_p: 0.112149533,
+              achievement_p: 0.11214953300000001,
             },
             {
               month: 9.0,
@@ -1852,9 +1862,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'M0000',
-          ptj_name: 'UiTM CAWANGAN MELAKA',
-          ptj_abb: 'M',
+          ptj_id: "M0000",
+          ptj_name: "UiTM CAWANGAN MELAKA",
+          ptj_abb: "M",
           target: 168.0,
           pi_number: 48,
           achievement: [
@@ -1886,7 +1896,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 6.0,
               achievement: 59.0,
-              achievement_p: 0.351190476,
+              achievement_p: 0.35119047600000003,
             },
             {
               month: 7.0,
@@ -1906,9 +1916,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'N0000',
-          ptj_name: 'UiTM CAWANGAN NEGERI SEMBILAN',
-          ptj_abb: 'N',
+          ptj_id: "N0000",
+          ptj_name: "UiTM CAWANGAN NEGERI SEMBILAN",
+          ptj_abb: "N",
           target: 121.0,
           pi_number: 48,
           achievement: [
@@ -1960,9 +1970,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'C0000',
-          ptj_name: 'UiTM CAWANGAN PAHANG',
-          ptj_abb: 'C',
+          ptj_id: "C0000",
+          ptj_name: "UiTM CAWANGAN PAHANG",
+          ptj_abb: "C",
           target: 106.0,
           pi_number: 48,
           achievement: [
@@ -1989,7 +1999,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 5.0,
               achievement: 13.0,
-              achievement_p: 0.122641509,
+              achievement_p: 0.12264150900000001,
             },
             {
               month: 6.0,
@@ -1999,7 +2009,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 7.0,
               achievement: 24.0,
-              achievement_p: 0.226415094,
+              achievement_p: 0.22641509399999998,
             },
             {
               month: 8.0,
@@ -2014,9 +2024,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'K0000',
-          ptj_name: 'UiTM CAWANGAN PERAK',
-          ptj_abb: 'A',
+          ptj_id: "K0000",
+          ptj_name: "UiTM CAWANGAN PERAK",
+          ptj_abb: "A",
           target: 196.0,
           pi_number: 48,
           achievement: [
@@ -2028,7 +2038,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 2.0,
               achievement: 5.0,
-              achievement_p: 0.025510204,
+              achievement_p: 0.025510203999999998,
             },
             {
               month: 3.0,
@@ -2038,12 +2048,12 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 4.0,
               achievement: 19.0,
-              achievement_p: 0.096938776,
+              achievement_p: 0.09693877599999999,
             },
             {
               month: 5.0,
               achievement: 28.0,
-              achievement_p: 0.142857143,
+              achievement_p: 0.14285714300000002,
             },
             {
               month: 6.0,
@@ -2068,9 +2078,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'P0000',
-          ptj_name: 'UiTM CAWANGAN PERLIS',
-          ptj_abb: 'R',
+          ptj_id: "P0000",
+          ptj_name: "UiTM CAWANGAN PERLIS",
+          ptj_abb: "R",
           target: 105.0,
           pi_number: 48,
           achievement: [
@@ -2102,7 +2112,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 6.0,
               achievement: 15.0,
-              achievement_p: 0.142857143,
+              achievement_p: 0.14285714300000002,
             },
             {
               month: 7.0,
@@ -2112,19 +2122,19 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 8.0,
               achievement: 25.0,
-              achievement_p: 0.238095238,
+              achievement_p: 0.23809523800000001,
             },
             {
               month: 9.0,
               achievement: 30.0,
-              achievement_p: 0.285714286,
+              achievement_p: 0.28571428600000004,
             },
           ],
         },
         {
-          ptj_id: 'B0000',
-          ptj_name: 'UiTM CAWANGAN PULAU PINANG',
-          ptj_abb: 'P',
+          ptj_id: "B0000",
+          ptj_name: "UiTM CAWANGAN PULAU PINANG",
+          ptj_abb: "P",
           target: 174.0,
           pi_number: 48,
           achievement: [
@@ -2141,7 +2151,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 3.0,
               achievement: 16.0,
-              achievement_p: 0.091954023,
+              achievement_p: 0.09195402300000001,
             },
             {
               month: 4.0,
@@ -2156,7 +2166,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 6.0,
               achievement: 34.0,
-              achievement_p: 0.195402299,
+              achievement_p: 0.19540229899999997,
             },
             {
               month: 7.0,
@@ -2176,9 +2186,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'S0000',
-          ptj_name: 'UiTM CAWANGAN SABAH',
-          ptj_abb: 'S',
+          ptj_id: "S0000",
+          ptj_name: "UiTM CAWANGAN SABAH",
+          ptj_abb: "S",
           target: 52.0,
           pi_number: 48,
           achievement: [
@@ -2195,7 +2205,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 3.0,
               achievement: 2.0,
-              achievement_p: 0.038461538,
+              achievement_p: 0.038461537999999997,
             },
             {
               month: 4.0,
@@ -2230,9 +2240,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'W0000',
-          ptj_name: 'UiTM CAWANGAN SARAWAK',
-          ptj_abb: 'Q',
+          ptj_id: "W0000",
+          ptj_name: "UiTM CAWANGAN SARAWAK",
+          ptj_abb: "Q",
           target: 127.0,
           pi_number: 48,
           achievement: [
@@ -2284,26 +2294,26 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'T0000',
-          ptj_name: 'UiTM CAWANGAN TERENGGANU',
-          ptj_abb: 'T',
+          ptj_id: "T0000",
+          ptj_name: "UiTM CAWANGAN TERENGGANU",
+          ptj_abb: "T",
           target: 116.0,
           pi_number: 48,
           achievement: [
             {
               month: 1.0,
               achievement: 2.0,
-              achievement_p: 0.017241379,
+              achievement_p: 0.017241378999999998,
             },
             {
               month: 2.0,
               achievement: 3.0,
-              achievement_p: 0.025862069,
+              achievement_p: 0.025862068999999998,
             },
             {
               month: 3.0,
               achievement: 6.0,
-              achievement_p: 0.051724138,
+              achievement_p: 0.051724137999999996,
             },
             {
               month: 4.0,
@@ -2313,7 +2323,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 5.0,
               achievement: 10.0,
-              achievement_p: 0.086206897,
+              achievement_p: 0.08620689699999999,
             },
             {
               month: 6.0,
@@ -2323,7 +2333,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 7.0,
               achievement: 22.0,
-              achievement_p: 0.189655172,
+              achievement_p: 0.18965517199999998,
             },
             {
               month: 8.0,
@@ -2341,24 +2351,24 @@ const TNC_PI_PORTFOLIO = {
     },
     {
       tp_id: 49,
-      pi_id: '008049',
+      pi_id: "008049",
       pi_number: 49,
-      pi_name: 'Number of indexed publication: b) conference proceedings.',
+      pi_name: "Number of indexed publication:rnb) conference proceedings.",
       operation_definition:
-        'Number of indexed conference/online conference conference proceedings publications (Scopus, WoS, ERA).',
-      pi_owner: 'A0598',
-      pi_owner_ptj_name: 'KOMUNITI PENYELIDIKAN',
-      pi_owner_abbreviation: 'CoRe',
-      kpi_id: 'KPI8',
-      kpi_id_kpi_order: '8',
-      strategic_id: 'ST204',
+        "Number of indexed conference/online conference conference proceedings publications (Scopus, WoS, ERA).",
+      pi_owner: "A0598",
+      pi_owner_ptj_name: "KOMUNITI PENYELIDIKAN",
+      pi_owner_abbreviation: "CoRe",
+      kpi_id: "KPI8",
+      kpi_id_kpi_order: "8",
+      strategic_id: "ST204",
       strategic_theme:
-        'Translational Research Development, Innovation & Commercilisation',
+        "Translational Research Development, Innovation & Commercilisation",
       pi_by_ptj: [
         {
-          ptj_id: 'A0607',
-          ptj_name: 'AKADEMI PENGAJIAN BAHASA',
-          ptj_abb: 'LG',
+          ptj_id: "A0607",
+          ptj_name: "AKADEMI PENGAJIAN BAHASA",
+          ptj_abb: "LG",
           target: 15.0,
           pi_number: 49,
           achievement: [
@@ -2410,9 +2420,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0613',
-          ptj_name: 'FAKULTI KOMUNIKASI DAN PENGAJIAN MEDIA',
-          ptj_abb: 'MC',
+          ptj_id: "A0613",
+          ptj_name: "FAKULTI KOMUNIKASI DAN PENGAJIAN MEDIA",
+          ptj_abb: "MC",
           target: 14.0,
           pi_number: 49,
           achievement: [
@@ -2459,14 +2469,14 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 2.0,
               achievement: 5.0,
-              achievement_p: 0.357142857,
+              achievement_p: 0.35714285700000004,
             },
           ],
         },
         {
-          ptj_id: 'A0626',
-          ptj_name: 'FAKULTI SAINS SUKAN DAN REKREASI',
-          ptj_abb: 'SR',
+          ptj_id: "A0626",
+          ptj_name: "FAKULTI SAINS SUKAN DAN REKREASI",
+          ptj_abb: "SR",
           target: 15.0,
           pi_number: 49,
           achievement: [
@@ -2518,9 +2528,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0646',
-          ptj_name: 'FAKULTI MUZIK',
-          ptj_abb: 'MU',
+          ptj_id: "A0646",
+          ptj_name: "FAKULTI MUZIK",
+          ptj_abb: "MU",
           target: 8.0,
           pi_number: 49,
           achievement: [
@@ -2572,9 +2582,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0602',
-          ptj_name: 'FAKULTI PERAKAUNAN',
-          ptj_abb: 'AC',
+          ptj_id: "A0602",
+          ptj_name: "FAKULTI PERAKAUNAN",
+          ptj_abb: "AC",
           target: 25.0,
           pi_number: 49,
           achievement: [
@@ -2626,9 +2636,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0604',
-          ptj_name: 'FAKULTI SAINS GUNAAN',
-          ptj_abb: 'AS',
+          ptj_id: "A0604",
+          ptj_name: "FAKULTI SAINS GUNAAN",
+          ptj_abb: "AS",
           target: 65.0,
           pi_number: 49,
           achievement: [
@@ -2655,7 +2665,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 6.0,
               achievement: 7.0,
-              achievement_p: 0.107692308,
+              achievement_p: 0.10769230800000001,
             },
             {
               month: 7.0,
@@ -2680,9 +2690,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0605',
-          ptj_name: 'FAKULTI SENIBINA PERANCANGAN DAN UKUR',
-          ptj_abb: 'AP',
+          ptj_id: "A0605",
+          ptj_name: "FAKULTI SENIBINA PERANCANGAN DAN UKUR",
+          ptj_abb: "AP",
           target: 50.0,
           pi_number: 49,
           achievement: [
@@ -2734,9 +2744,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0610',
-          ptj_name: 'FAKULTI SENI LUKIS DAN SENI REKA',
-          ptj_abb: 'AD',
+          ptj_id: "A0610",
+          ptj_name: "FAKULTI SENI LUKIS DAN SENI REKA",
+          ptj_abb: "AD",
           target: 15.0,
           pi_number: 49,
           achievement: [
@@ -2768,12 +2778,12 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 8.0,
               achievement: 7.0,
-              achievement_p: 0.466666667,
+              achievement_p: 0.46666666700000003,
             },
             {
               month: 9.0,
               achievement: 7.0,
-              achievement_p: 0.466666667,
+              achievement_p: 0.46666666700000003,
             },
             {
               month: 2.0,
@@ -2788,9 +2798,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0619',
-          ptj_name: 'FAKULTI PENDIDIKAN',
-          ptj_abb: 'ED',
+          ptj_id: "A0619",
+          ptj_name: "FAKULTI PENDIDIKAN",
+          ptj_abb: "ED",
           target: 15.0,
           pi_number: 49,
           achievement: [
@@ -2817,7 +2827,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 9.0,
               achievement: 7.0,
-              achievement_p: 0.466666667,
+              achievement_p: 0.46666666700000003,
             },
             {
               month: 4.0,
@@ -2842,9 +2852,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0636',
-          ptj_name: 'FAKULTI UNDANG-UNDANG',
-          ptj_abb: 'LW',
+          ptj_id: "A0636",
+          ptj_name: "FAKULTI UNDANG-UNDANG",
+          ptj_abb: "LW",
           target: 10.0,
           pi_number: 49,
           achievement: [
@@ -2896,9 +2906,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0637',
-          ptj_name: 'FAKULTI SAINS PENTADBIRAN DAN PENGAJIAN POLISI',
-          ptj_abb: 'AM',
+          ptj_id: "A0637",
+          ptj_name: "FAKULTI SAINS PENTADBIRAN DAN PENGAJIAN POLISI",
+          ptj_abb: "AM",
           target: 10.0,
           pi_number: 49,
           achievement: [
@@ -2950,9 +2960,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0639',
-          ptj_name: 'FAKULTI SAINS KOMPUTER DAN MATEMATIK',
-          ptj_abb: 'CS',
+          ptj_id: "A0639",
+          ptj_name: "FAKULTI SAINS KOMPUTER DAN MATEMATIK",
+          ptj_abb: "CS",
           target: 85.0,
           pi_number: 49,
           achievement: [
@@ -2969,22 +2979,22 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 3.0,
               achievement: 4.0,
-              achievement_p: 0.047058824,
+              achievement_p: 0.047058824000000006,
             },
             {
               month: 4.0,
               achievement: 5.0,
-              achievement_p: 0.058823529,
+              achievement_p: 0.058823529000000006,
             },
             {
               month: 5.0,
               achievement: 5.0,
-              achievement_p: 0.058823529,
+              achievement_p: 0.058823529000000006,
             },
             {
               month: 6.0,
               achievement: 9.0,
-              achievement_p: 0.105882353,
+              achievement_p: 0.10588235300000001,
             },
             {
               month: 7.0,
@@ -3004,9 +3014,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0643',
-          ptj_name: 'FAKULTI PERUBATAN',
-          ptj_abb: 'MD',
+          ptj_id: "A0643",
+          ptj_name: "FAKULTI PERUBATAN",
+          ptj_abb: "MD",
           target: 50.0,
           pi_number: 49,
           achievement: [
@@ -3058,9 +3068,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0644',
-          ptj_name: 'FAKULTI SAINS KESIHATAN',
-          ptj_abb: 'HS',
+          ptj_id: "A0644",
+          ptj_name: "FAKULTI SAINS KESIHATAN",
+          ptj_abb: "HS",
           target: 25.0,
           pi_number: 49,
           achievement: [
@@ -3112,9 +3122,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0654',
-          ptj_name: 'FAKULTI PENGURUSAN DAN PERNIAGAAN',
-          ptj_abb: 'BA',
+          ptj_id: "A0654",
+          ptj_name: "FAKULTI PENGURUSAN DAN PERNIAGAAN",
+          ptj_abb: "BA",
           target: 50.0,
           pi_number: 49,
           achievement: [
@@ -3166,9 +3176,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1608',
-          ptj_name: 'FAKULTI KEJURUTERAAN KIMIA',
-          ptj_abb: 'EH',
+          ptj_id: "A1608",
+          ptj_name: "FAKULTI KEJURUTERAAN KIMIA",
+          ptj_abb: "EH",
           target: 30.0,
           pi_number: 49,
           achievement: [
@@ -3195,7 +3205,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 5.0,
               achievement: 11.0,
-              achievement_p: 0.366666667,
+              achievement_p: 0.36666666700000006,
             },
             {
               month: 6.0,
@@ -3205,7 +3215,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 7.0,
               achievement: 19.0,
-              achievement_p: 0.633333333,
+              achievement_p: 0.6333333329999999,
             },
             {
               month: 8.0,
@@ -3215,14 +3225,14 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 9.0,
               achievement: 23.0,
-              achievement_p: 0.766666667,
+              achievement_p: 0.7666666670000001,
             },
           ],
         },
         {
-          ptj_id: 'A1609',
-          ptj_name: 'FAKULTI KEJURUTERAAN AWAM',
-          ptj_abb: 'EC',
+          ptj_id: "A1609",
+          ptj_name: "FAKULTI KEJURUTERAAN AWAM",
+          ptj_abb: "EC",
           target: 75.0,
           pi_number: 49,
           achievement: [
@@ -3259,7 +3269,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 7.0,
               achievement: 35.0,
-              achievement_p: 0.466666667,
+              achievement_p: 0.46666666700000003,
             },
             {
               month: 8.0,
@@ -3274,9 +3284,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1610',
-          ptj_name: 'FAKULTI KEJURUTERAAN MEKANIKAL',
-          ptj_abb: 'EM',
+          ptj_id: "A1610",
+          ptj_name: "FAKULTI KEJURUTERAAN MEKANIKAL",
+          ptj_abb: "EM",
           target: 85.0,
           pi_number: 49,
           achievement: [
@@ -3298,12 +3308,12 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 5.0,
               achievement: 4.0,
-              achievement_p: 0.047058824,
+              achievement_p: 0.047058824000000006,
             },
             {
               month: 6.0,
               achievement: 4.0,
-              achievement_p: 0.047058824,
+              achievement_p: 0.047058824000000006,
             },
             {
               month: 7.0,
@@ -3323,14 +3333,14 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 3.0,
               achievement: 1.0,
-              achievement_p: 0.011764706,
+              achievement_p: 0.011764706000000002,
             },
           ],
         },
         {
-          ptj_id: 'A1611',
-          ptj_name: 'FAKULTI KEJURUTERAAN ELEKTRIK',
-          ptj_abb: 'EE',
+          ptj_id: "A1611",
+          ptj_name: "FAKULTI KEJURUTERAAN ELEKTRIK",
+          ptj_abb: "EE",
           target: 200.0,
           pi_number: 49,
           achievement: [
@@ -3382,9 +3392,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1665',
-          ptj_name: 'PUSAT ASASI',
-          ptj_abb: 'PI',
+          ptj_id: "A1665",
+          ptj_name: "PUSAT ASASI",
+          ptj_abb: "PI",
           target: 30.0,
           pi_number: 49,
           achievement: [
@@ -3436,9 +3446,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'B0000',
-          ptj_name: 'UiTM CAWANGAN PULAU PINANG',
-          ptj_abb: 'P',
+          ptj_id: "B0000",
+          ptj_name: "UiTM CAWANGAN PULAU PINANG",
+          ptj_abb: "P",
           target: 36.0,
           pi_number: 49,
           achievement: [
@@ -3470,7 +3480,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 6.0,
               achievement: 14.0,
-              achievement_p: 0.388888889,
+              achievement_p: 0.38888888899999996,
             },
             {
               month: 7.0,
@@ -3485,14 +3495,14 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 9.0,
               achievement: 60.0,
-              achievement_p: 1.666666667,
+              achievement_p: 1.6666666669999999,
             },
           ],
         },
         {
-          ptj_id: 'D0000',
-          ptj_name: 'UiTM CAWANGAN KELANTAN',
-          ptj_abb: 'D',
+          ptj_id: "D0000",
+          ptj_name: "UiTM CAWANGAN KELANTAN",
+          ptj_abb: "D",
           target: 21.0,
           pi_number: 49,
           achievement: [
@@ -3534,7 +3544,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 9.0,
               achievement: 10.0,
-              achievement_p: 0.476190476,
+              achievement_p: 0.47619047600000003,
             },
             {
               month: 2.0,
@@ -3544,9 +3554,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'J0000',
-          ptj_name: 'UiTM CAWANGAN JOHOR',
-          ptj_abb: 'J',
+          ptj_id: "J0000",
+          ptj_name: "UiTM CAWANGAN JOHOR",
+          ptj_abb: "J",
           target: 28.0,
           pi_number: 49,
           achievement: [
@@ -3563,7 +3573,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 3.0,
               achievement: 4.0,
-              achievement_p: 0.142857143,
+              achievement_p: 0.14285714300000002,
             },
             {
               month: 4.0,
@@ -3578,12 +3588,12 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 6.0,
               achievement: 8.0,
-              achievement_p: 0.285714286,
+              achievement_p: 0.28571428600000004,
             },
             {
               month: 7.0,
               achievement: 27.0,
-              achievement_p: 0.964285714,
+              achievement_p: 0.9642857140000001,
             },
             {
               month: 8.0,
@@ -3598,9 +3608,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'K0000',
-          ptj_name: 'UiTM CAWANGAN PERAK',
-          ptj_abb: 'A',
+          ptj_id: "K0000",
+          ptj_name: "UiTM CAWANGAN PERAK",
+          ptj_abb: "A",
           target: 39.0,
           pi_number: 49,
           achievement: [
@@ -3647,14 +3657,14 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 3.0,
               achievement: 2.0,
-              achievement_p: 0.051282051,
+              achievement_p: 0.051282050999999995,
             },
           ],
         },
         {
-          ptj_id: 'M0000',
-          ptj_name: 'UiTM CAWANGAN MELAKA',
-          ptj_abb: 'M',
+          ptj_id: "M0000",
+          ptj_name: "UiTM CAWANGAN MELAKA",
+          ptj_abb: "M",
           target: 34.0,
           pi_number: 49,
           achievement: [
@@ -3691,24 +3701,24 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 3.0,
               achievement: 2.0,
-              achievement_p: 0.058823529,
+              achievement_p: 0.058823529000000006,
             },
             {
               month: 4.0,
               achievement: 2.0,
-              achievement_p: 0.058823529,
+              achievement_p: 0.058823529000000006,
             },
             {
               month: 5.0,
               achievement: 2.0,
-              achievement_p: 0.058823529,
+              achievement_p: 0.058823529000000006,
             },
           ],
         },
         {
-          ptj_id: 'N0000',
-          ptj_name: 'UiTM CAWANGAN NEGERI SEMBILAN',
-          ptj_abb: 'N',
+          ptj_id: "N0000",
+          ptj_name: "UiTM CAWANGAN NEGERI SEMBILAN",
+          ptj_abb: "N",
           target: 24.0,
           pi_number: 49,
           achievement: [
@@ -3755,14 +3765,14 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 3.0,
               achievement: 1.0,
-              achievement_p: 0.041666667,
+              achievement_p: 0.041666667000000004,
             },
           ],
         },
         {
-          ptj_id: 'P0000',
-          ptj_name: 'UiTM CAWANGAN PERLIS',
-          ptj_abb: 'R',
+          ptj_id: "P0000",
+          ptj_name: "UiTM CAWANGAN PERLIS",
+          ptj_abb: "R",
           target: 21.0,
           pi_number: 49,
           achievement: [
@@ -3809,14 +3819,14 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 9.0,
               achievement: 26.0,
-              achievement_p: 1.238095238,
+              achievement_p: 1.2380952379999999,
             },
           ],
         },
         {
-          ptj_id: 'S0000',
-          ptj_name: 'UiTM CAWANGAN SABAH',
-          ptj_abb: 'S',
+          ptj_id: "S0000",
+          ptj_name: "UiTM CAWANGAN SABAH",
+          ptj_abb: "S",
           target: 10.0,
           pi_number: 49,
           achievement: [
@@ -3868,9 +3878,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'T0000',
-          ptj_name: 'UiTM CAWANGAN TERENGGANU',
-          ptj_abb: 'T',
+          ptj_id: "T0000",
+          ptj_name: "UiTM CAWANGAN TERENGGANU",
+          ptj_abb: "T",
           target: 23.0,
           pi_number: 49,
           achievement: [
@@ -3887,7 +3897,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 3.0,
               achievement: 4.0,
-              achievement_p: 0.173913043,
+              achievement_p: 0.17391304300000002,
             },
             {
               month: 4.0,
@@ -3902,7 +3912,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 6.0,
               achievement: 9.0,
-              achievement_p: 0.391304348,
+              achievement_p: 0.39130434799999997,
             },
             {
               month: 7.0,
@@ -3922,9 +3932,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'W0000',
-          ptj_name: 'UiTM CAWANGAN SARAWAK',
-          ptj_abb: 'Q',
+          ptj_id: "W0000",
+          ptj_name: "UiTM CAWANGAN SARAWAK",
+          ptj_abb: "Q",
           target: 25.0,
           pi_number: 49,
           achievement: [
@@ -3976,9 +3986,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0595',
-          ptj_name: 'ARSHAD AYUB GRADUATE BUSINESS SCHOOL',
-          ptj_abb: 'AA',
+          ptj_id: "A0595",
+          ptj_name: "ARSHAD AYUB GRADUATE BUSINESS SCHOOL",
+          ptj_abb: "AA",
           target: 10.0,
           pi_number: 49,
           achievement: [
@@ -4030,9 +4040,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0640',
-          ptj_name: 'FAKULTI FARMASI',
-          ptj_abb: 'PH',
+          ptj_id: "A0640",
+          ptj_name: "FAKULTI FARMASI",
+          ptj_abb: "PH",
           target: 20.0,
           pi_number: 49,
           achievement: [
@@ -4084,9 +4094,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0647',
-          ptj_name: 'FAKULTI PERLADANGAN DAN AGROTEKNOLOGI',
-          ptj_abb: 'AT',
+          ptj_id: "A0647",
+          ptj_name: "FAKULTI PERLADANGAN DAN AGROTEKNOLOGI",
+          ptj_abb: "AT",
           target: 15.0,
           pi_number: 49,
           achievement: [
@@ -4138,9 +4148,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0660',
-          ptj_name: 'FAKULTI PERGIGIAN',
-          ptj_abb: 'DS',
+          ptj_id: "A0660",
+          ptj_name: "FAKULTI PERGIGIAN",
+          ptj_abb: "DS",
           target: 25.0,
           pi_number: 49,
           achievement: [
@@ -4192,9 +4202,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'H0000',
-          ptj_name: 'UiTM CAWANGAN KEDAH',
-          ptj_abb: 'K',
+          ptj_id: "H0000",
+          ptj_name: "UiTM CAWANGAN KEDAH",
+          ptj_abb: "K",
           target: 18.0,
           pi_number: 49,
           achievement: [
@@ -4246,9 +4256,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0611',
-          ptj_name: 'FAKULTI PENGURUSAN HOTEL DAN PELANCONGAN',
-          ptj_abb: 'HM',
+          ptj_id: "A0611",
+          ptj_name: "FAKULTI PENGURUSAN HOTEL DAN PELANCONGAN",
+          ptj_abb: "HM",
           target: 18.0,
           pi_number: 49,
           achievement: [
@@ -4300,9 +4310,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0683',
-          ptj_name: 'FAKULTI FILEM, TEATER DAN ANIMASI',
-          ptj_abb: 'FF',
+          ptj_id: "A0683",
+          ptj_name: "FAKULTI FILEM, TEATER DAN ANIMASI",
+          ptj_abb: "FF",
           target: 10.0,
           pi_number: 49,
           achievement: [
@@ -4354,9 +4364,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0638',
-          ptj_name: 'FAKULTI PENGURUSAN MAKLUMAT',
-          ptj_abb: 'IM',
+          ptj_id: "A0638",
+          ptj_name: "FAKULTI PENGURUSAN MAKLUMAT",
+          ptj_abb: "IM",
           target: 15.0,
           pi_number: 49,
           achievement: [
@@ -4408,9 +4418,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0692',
-          ptj_name: 'AKADEMI PENGAJIAN ISLAM KONTEMPORARI',
-          ptj_abb: 'IC',
+          ptj_id: "A0692",
+          ptj_name: "AKADEMI PENGAJIAN ISLAM KONTEMPORARI",
+          ptj_abb: "IC",
           target: 15.0,
           pi_number: 49,
           achievement: [
@@ -4462,9 +4472,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'C0000',
-          ptj_name: 'UiTM CAWANGAN PAHANG',
-          ptj_abb: 'C',
+          ptj_id: "C0000",
+          ptj_name: "UiTM CAWANGAN PAHANG",
+          ptj_abb: "C",
           target: 21.0,
           pi_number: 49,
           achievement: [
@@ -4476,7 +4486,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 7.0,
               achievement: 6.0,
-              achievement_p: 0.285714286,
+              achievement_p: 0.28571428600000004,
             },
             {
               month: 2.0,
@@ -4501,7 +4511,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 8.0,
               achievement: 10.0,
-              achievement_p: 0.476190476,
+              achievement_p: 0.47619047600000003,
             },
             {
               month: 9.0,
@@ -4519,70 +4529,70 @@ const TNC_PI_PORTFOLIO = {
     },
     {
       tp_id: 50,
-      pi_id: '008050',
+      pi_id: "008050",
       pi_number: 50,
-      pi_name: 'Institutional h-index.',
-      operation_definition: 'Scopus H-index measured for institution.',
-      pi_owner: 'A0598',
-      pi_owner_ptj_name: 'KOMUNITI PENYELIDIKAN',
-      pi_owner_abbreviation: 'CoRe',
-      kpi_id: 'KPI8',
-      kpi_id_kpi_order: '8',
-      strategic_id: 'ST204',
+      pi_name: "Institutional h-index.",
+      operation_definition: "Scopus H-index measured for institution.",
+      pi_owner: "A0598",
+      pi_owner_ptj_name: "KOMUNITI PENYELIDIKAN",
+      pi_owner_abbreviation: "CoRe",
+      kpi_id: "KPI8",
+      kpi_id_kpi_order: "8",
+      strategic_id: "ST204",
       strategic_theme:
-        'Translational Research Development, Innovation & Commercilisation',
+        "Translational Research Development, Innovation & Commercilisation",
       pi_by_ptj: [
         {
-          ptj_id: 'A0598',
-          ptj_name: 'KOMUNITI PENYELIDIKAN',
-          ptj_abb: 'CoRe',
+          ptj_id: "A0598",
+          ptj_name: "KOMUNITI PENYELIDIKAN",
+          ptj_abb: "CoRe",
           target: 88.0,
           pi_number: 50,
           achievement: [
             {
               month: 1.0,
               achievement: 78.0,
-              achievement_p: 0.886363636,
+              achievement_p: 0.8863636359999999,
             },
             {
               month: 2.0,
               achievement: 78.0,
-              achievement_p: 0.886363636,
+              achievement_p: 0.8863636359999999,
             },
             {
               month: 3.0,
               achievement: 78.0,
-              achievement_p: 0.886363636,
+              achievement_p: 0.8863636359999999,
             },
             {
               month: 4.0,
               achievement: 78.0,
-              achievement_p: 0.886363636,
+              achievement_p: 0.8863636359999999,
             },
             {
               month: 5.0,
               achievement: 78.0,
-              achievement_p: 0.886363636,
+              achievement_p: 0.8863636359999999,
             },
             {
               month: 6.0,
               achievement: 78.0,
-              achievement_p: 0.886363636,
+              achievement_p: 0.8863636359999999,
             },
             {
               month: 7.0,
               achievement: 78.0,
-              achievement_p: 0.886363636,
+              achievement_p: 0.8863636359999999,
             },
             {
               month: 8.0,
               achievement: 78.0,
-              achievement_p: 0.886363636,
+              achievement_p: 0.8863636359999999,
             },
             {
               month: 9.0,
               achievement: 78.0,
-              achievement_p: 0.886363636,
+              achievement_p: 0.8863636359999999,
             },
           ],
         },
@@ -4590,25 +4600,25 @@ const TNC_PI_PORTFOLIO = {
     },
     {
       tp_id: 51,
-      pi_id: '008051',
+      pi_id: "008051",
       pi_number: 51,
       pi_name:
-        'Number of indexed joint publications: a) Industrial collaboration.',
+        "Number of indexed joint publications:rna) Industrial collaboration.",
       operation_definition:
-        'Number of indexed joint publications with industry collaborator(s) (Scopus, WoS, ERA).',
-      pi_owner: 'A0598',
-      pi_owner_ptj_name: 'KOMUNITI PENYELIDIKAN',
-      pi_owner_abbreviation: 'CoRe',
-      kpi_id: 'KPI8',
-      kpi_id_kpi_order: '8',
-      strategic_id: 'ST204',
+        "Number of indexed joint publications with industry collaborator(s) (Scopus, WoS, ERA).",
+      pi_owner: "A0598",
+      pi_owner_ptj_name: "KOMUNITI PENYELIDIKAN",
+      pi_owner_abbreviation: "CoRe",
+      kpi_id: "KPI8",
+      kpi_id_kpi_order: "8",
+      strategic_id: "ST204",
       strategic_theme:
-        'Translational Research Development, Innovation & Commercilisation',
+        "Translational Research Development, Innovation & Commercilisation",
       pi_by_ptj: [
         {
-          ptj_id: 'A0607',
-          ptj_name: 'AKADEMI PENGAJIAN BAHASA',
-          ptj_abb: 'LG',
+          ptj_id: "A0607",
+          ptj_name: "AKADEMI PENGAJIAN BAHASA",
+          ptj_abb: "LG",
           target: 8.0,
           pi_number: 51,
           achievement: [
@@ -4660,9 +4670,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0692',
-          ptj_name: 'AKADEMI PENGAJIAN ISLAM KONTEMPORARI',
-          ptj_abb: 'IC',
+          ptj_id: "A0692",
+          ptj_name: "AKADEMI PENGAJIAN ISLAM KONTEMPORARI",
+          ptj_abb: "IC",
           target: 3.0,
           pi_number: 51,
           achievement: [
@@ -4714,9 +4724,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0595',
-          ptj_name: 'ARSHAD AYUB GRADUATE BUSINESS SCHOOL',
-          ptj_abb: 'AA',
+          ptj_id: "A0595",
+          ptj_name: "ARSHAD AYUB GRADUATE BUSINESS SCHOOL",
+          ptj_abb: "AA",
           target: 4.0,
           pi_number: 51,
           achievement: [
@@ -4768,9 +4778,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0640',
-          ptj_name: 'FAKULTI FARMASI',
-          ptj_abb: 'PH',
+          ptj_id: "A0640",
+          ptj_name: "FAKULTI FARMASI",
+          ptj_abb: "PH",
           target: 13.0,
           pi_number: 51,
           achievement: [
@@ -4822,9 +4832,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0683',
-          ptj_name: 'FAKULTI FILEM, TEATER DAN ANIMASI',
-          ptj_abb: 'FF',
+          ptj_id: "A0683",
+          ptj_name: "FAKULTI FILEM, TEATER DAN ANIMASI",
+          ptj_abb: "FF",
           target: 3.0,
           pi_number: 51,
           achievement: [
@@ -4876,9 +4886,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1609',
-          ptj_name: 'FAKULTI KEJURUTERAAN AWAM',
-          ptj_abb: 'EC',
+          ptj_id: "A1609",
+          ptj_name: "FAKULTI KEJURUTERAAN AWAM",
+          ptj_abb: "EC",
           target: 16.0,
           pi_number: 51,
           achievement: [
@@ -4930,9 +4940,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1611',
-          ptj_name: 'FAKULTI KEJURUTERAAN ELEKTRIK',
-          ptj_abb: 'EE',
+          ptj_id: "A1611",
+          ptj_name: "FAKULTI KEJURUTERAAN ELEKTRIK",
+          ptj_abb: "EE",
           target: 20.0,
           pi_number: 51,
           achievement: [
@@ -4984,9 +4994,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1608',
-          ptj_name: 'FAKULTI KEJURUTERAAN KIMIA',
-          ptj_abb: 'EH',
+          ptj_id: "A1608",
+          ptj_name: "FAKULTI KEJURUTERAAN KIMIA",
+          ptj_abb: "EH",
           target: 15.0,
           pi_number: 51,
           achievement: [
@@ -5038,9 +5048,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1610',
-          ptj_name: 'FAKULTI KEJURUTERAAN MEKANIKAL',
-          ptj_abb: 'EM',
+          ptj_id: "A1610",
+          ptj_name: "FAKULTI KEJURUTERAAN MEKANIKAL",
+          ptj_abb: "EM",
           target: 17.0,
           pi_number: 51,
           achievement: [
@@ -5092,9 +5102,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0613',
-          ptj_name: 'FAKULTI KOMUNIKASI DAN PENGAJIAN MEDIA',
-          ptj_abb: 'MC',
+          ptj_id: "A0613",
+          ptj_name: "FAKULTI KOMUNIKASI DAN PENGAJIAN MEDIA",
+          ptj_abb: "MC",
           target: 3.0,
           pi_number: 51,
           achievement: [
@@ -5146,9 +5156,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0646',
-          ptj_name: 'FAKULTI MUZIK',
-          ptj_abb: 'MU',
+          ptj_id: "A0646",
+          ptj_name: "FAKULTI MUZIK",
+          ptj_abb: "MU",
           target: 2.0,
           pi_number: 51,
           achievement: [
@@ -5200,9 +5210,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0619',
-          ptj_name: 'FAKULTI PENDIDIKAN',
-          ptj_abb: 'ED',
+          ptj_id: "A0619",
+          ptj_name: "FAKULTI PENDIDIKAN",
+          ptj_abb: "ED",
           target: 3.0,
           pi_number: 51,
           achievement: [
@@ -5254,9 +5264,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0654',
-          ptj_name: 'FAKULTI PENGURUSAN DAN PERNIAGAAN',
-          ptj_abb: 'BA',
+          ptj_id: "A0654",
+          ptj_name: "FAKULTI PENGURUSAN DAN PERNIAGAAN",
+          ptj_abb: "BA",
           target: 10.0,
           pi_number: 51,
           achievement: [
@@ -5308,9 +5318,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0611',
-          ptj_name: 'FAKULTI PENGURUSAN HOTEL DAN PELANCONGAN',
-          ptj_abb: 'HM',
+          ptj_id: "A0611",
+          ptj_name: "FAKULTI PENGURUSAN HOTEL DAN PELANCONGAN",
+          ptj_abb: "HM",
           target: 4.0,
           pi_number: 51,
           achievement: [
@@ -5362,9 +5372,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0638',
-          ptj_name: 'FAKULTI PENGURUSAN MAKLUMAT',
-          ptj_abb: 'IM',
+          ptj_id: "A0638",
+          ptj_name: "FAKULTI PENGURUSAN MAKLUMAT",
+          ptj_abb: "IM",
           target: 3.0,
           pi_number: 51,
           achievement: [
@@ -5416,9 +5426,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0602',
-          ptj_name: 'FAKULTI PERAKAUNAN',
-          ptj_abb: 'AC',
+          ptj_id: "A0602",
+          ptj_name: "FAKULTI PERAKAUNAN",
+          ptj_abb: "AC",
           target: 5.0,
           pi_number: 51,
           achievement: [
@@ -5470,9 +5480,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0660',
-          ptj_name: 'FAKULTI PERGIGIAN',
-          ptj_abb: 'DS',
+          ptj_id: "A0660",
+          ptj_name: "FAKULTI PERGIGIAN",
+          ptj_abb: "DS",
           target: 16.0,
           pi_number: 51,
           achievement: [
@@ -5524,9 +5534,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0647',
-          ptj_name: 'FAKULTI PERLADANGAN DAN AGROTEKNOLOGI',
-          ptj_abb: 'AT',
+          ptj_id: "A0647",
+          ptj_name: "FAKULTI PERLADANGAN DAN AGROTEKNOLOGI",
+          ptj_abb: "AT",
           target: 9.0,
           pi_number: 51,
           achievement: [
@@ -5548,12 +5558,12 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 4.0,
               achievement: 2.0,
-              achievement_p: 0.142857143,
+              achievement_p: 0.14285714300000002,
             },
             {
               month: 5.0,
               achievement: 2.0,
-              achievement_p: 0.142857143,
+              achievement_p: 0.14285714300000002,
             },
             {
               month: 6.0,
@@ -5578,9 +5588,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0643',
-          ptj_name: 'FAKULTI PERUBATAN',
-          ptj_abb: 'MD',
+          ptj_id: "A0643",
+          ptj_name: "FAKULTI PERUBATAN",
+          ptj_abb: "MD",
           target: 48.0,
           pi_number: 51,
           achievement: [
@@ -5632,9 +5642,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0604',
-          ptj_name: 'FAKULTI SAINS GUNAAN',
-          ptj_abb: 'AS',
+          ptj_id: "A0604",
+          ptj_name: "FAKULTI SAINS GUNAAN",
+          ptj_abb: "AS",
           target: 33.0,
           pi_number: 51,
           achievement: [
@@ -5686,9 +5696,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0644',
-          ptj_name: 'FAKULTI SAINS KESIHATAN',
-          ptj_abb: 'HS',
+          ptj_id: "A0644",
+          ptj_name: "FAKULTI SAINS KESIHATAN",
+          ptj_abb: "HS",
           target: 16.0,
           pi_number: 51,
           achievement: [
@@ -5740,9 +5750,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0639',
-          ptj_name: 'FAKULTI SAINS KOMPUTER DAN MATEMATIK',
-          ptj_abb: 'CS',
+          ptj_id: "A0639",
+          ptj_name: "FAKULTI SAINS KOMPUTER DAN MATEMATIK",
+          ptj_abb: "CS",
           target: 34.0,
           pi_number: 51,
           achievement: [
@@ -5794,9 +5804,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0637',
-          ptj_name: 'FAKULTI SAINS PENTADBIRAN DAN PENGAJIAN POLISI',
-          ptj_abb: 'AM',
+          ptj_id: "A0637",
+          ptj_name: "FAKULTI SAINS PENTADBIRAN DAN PENGAJIAN POLISI",
+          ptj_abb: "AM",
           target: 3.0,
           pi_number: 51,
           achievement: [
@@ -5848,9 +5858,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0626',
-          ptj_name: 'FAKULTI SAINS SUKAN DAN REKREASI',
-          ptj_abb: 'SR',
+          ptj_id: "A0626",
+          ptj_name: "FAKULTI SAINS SUKAN DAN REKREASI",
+          ptj_abb: "SR",
           target: 10.0,
           pi_number: 51,
           achievement: [
@@ -5902,9 +5912,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0610',
-          ptj_name: 'FAKULTI SENI LUKIS DAN SENI REKA',
-          ptj_abb: 'AD',
+          ptj_id: "A0610",
+          ptj_name: "FAKULTI SENI LUKIS DAN SENI REKA",
+          ptj_abb: "AD",
           target: 6.0,
           pi_number: 51,
           achievement: [
@@ -5956,9 +5966,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0605',
-          ptj_name: 'FAKULTI SENIBINA PERANCANGAN DAN UKUR',
-          ptj_abb: 'AP',
+          ptj_id: "A0605",
+          ptj_name: "FAKULTI SENIBINA PERANCANGAN DAN UKUR",
+          ptj_abb: "AP",
           target: 40.0,
           pi_number: 51,
           achievement: [
@@ -6010,9 +6020,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0636',
-          ptj_name: 'FAKULTI UNDANG-UNDANG',
-          ptj_abb: 'LW',
+          ptj_id: "A0636",
+          ptj_name: "FAKULTI UNDANG-UNDANG",
+          ptj_abb: "LW",
           target: 3.0,
           pi_number: 51,
           achievement: [
@@ -6064,9 +6074,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1665',
-          ptj_name: 'PUSAT ASASI',
-          ptj_abb: 'PI',
+          ptj_id: "A1665",
+          ptj_name: "PUSAT ASASI",
+          ptj_abb: "PI",
           target: 6.0,
           pi_number: 51,
           achievement: [
@@ -6118,9 +6128,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'J0000',
-          ptj_name: 'UiTM CAWANGAN JOHOR',
-          ptj_abb: 'J',
+          ptj_id: "J0000",
+          ptj_name: "UiTM CAWANGAN JOHOR",
+          ptj_abb: "J",
           target: 14.0,
           pi_number: 51,
           achievement: [
@@ -6167,14 +6177,14 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 9.0,
               achievement: 2.0,
-              achievement_p: 0.142857143,
+              achievement_p: 0.14285714300000002,
             },
           ],
         },
         {
-          ptj_id: 'H0000',
-          ptj_name: 'UiTM CAWANGAN KEDAH',
-          ptj_abb: 'K',
+          ptj_id: "H0000",
+          ptj_name: "UiTM CAWANGAN KEDAH",
+          ptj_abb: "K",
           target: 9.0,
           pi_number: 51,
           achievement: [
@@ -6226,9 +6236,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'D0000',
-          ptj_name: 'UiTM CAWANGAN KELANTAN',
-          ptj_abb: 'D',
+          ptj_id: "D0000",
+          ptj_name: "UiTM CAWANGAN KELANTAN",
+          ptj_abb: "D",
           target: 10.0,
           pi_number: 51,
           achievement: [
@@ -6280,9 +6290,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'M0000',
-          ptj_name: 'UiTM CAWANGAN MELAKA',
-          ptj_abb: 'M',
+          ptj_id: "M0000",
+          ptj_name: "UiTM CAWANGAN MELAKA",
+          ptj_abb: "M",
           target: 16.0,
           pi_number: 51,
           achievement: [
@@ -6334,9 +6344,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'N0000',
-          ptj_name: 'UiTM CAWANGAN NEGERI SEMBILAN',
-          ptj_abb: 'N',
+          ptj_id: "N0000",
+          ptj_name: "UiTM CAWANGAN NEGERI SEMBILAN",
+          ptj_abb: "N",
           target: 12.0,
           pi_number: 51,
           achievement: [
@@ -6388,9 +6398,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'C0000',
-          ptj_name: 'UiTM CAWANGAN PAHANG',
-          ptj_abb: 'C',
+          ptj_id: "C0000",
+          ptj_name: "UiTM CAWANGAN PAHANG",
+          ptj_abb: "C",
           target: 10.0,
           pi_number: 51,
           achievement: [
@@ -6442,9 +6452,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'K0000',
-          ptj_name: 'UiTM CAWANGAN PERAK',
-          ptj_abb: 'A',
+          ptj_id: "K0000",
+          ptj_name: "UiTM CAWANGAN PERAK",
+          ptj_abb: "A",
           target: 20.0,
           pi_number: 51,
           achievement: [
@@ -6496,9 +6506,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'P0000',
-          ptj_name: 'UiTM CAWANGAN PERLIS',
-          ptj_abb: 'R',
+          ptj_id: "P0000",
+          ptj_name: "UiTM CAWANGAN PERLIS",
+          ptj_abb: "R",
           target: 10.0,
           pi_number: 51,
           achievement: [
@@ -6550,9 +6560,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'B0000',
-          ptj_name: 'UiTM CAWANGAN PULAU PINANG',
-          ptj_abb: 'P',
+          ptj_id: "B0000",
+          ptj_name: "UiTM CAWANGAN PULAU PINANG",
+          ptj_abb: "P",
           target: 17.0,
           pi_number: 51,
           achievement: [
@@ -6564,12 +6574,12 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 2.0,
               achievement: 1.0,
-              achievement_p: 0.038461538,
+              achievement_p: 0.038461537999999997,
             },
             {
               month: 3.0,
               achievement: 1.0,
-              achievement_p: 0.038461538,
+              achievement_p: 0.038461537999999997,
             },
             {
               month: 4.0,
@@ -6604,9 +6614,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'S0000',
-          ptj_name: 'UiTM CAWANGAN SABAH',
-          ptj_abb: 'S',
+          ptj_id: "S0000",
+          ptj_name: "UiTM CAWANGAN SABAH",
+          ptj_abb: "S",
           target: 6.0,
           pi_number: 51,
           achievement: [
@@ -6658,9 +6668,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'W0000',
-          ptj_name: 'UiTM CAWANGAN SARAWAK',
-          ptj_abb: 'Q',
+          ptj_id: "W0000",
+          ptj_name: "UiTM CAWANGAN SARAWAK",
+          ptj_abb: "Q",
           target: 12.0,
           pi_number: 51,
           achievement: [
@@ -6712,9 +6722,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'T0000',
-          ptj_name: 'UiTM CAWANGAN TERENGGANU',
-          ptj_abb: 'T',
+          ptj_id: "T0000",
+          ptj_name: "UiTM CAWANGAN TERENGGANU",
+          ptj_abb: "T",
           target: 11.0,
           pi_number: 51,
           achievement: [
@@ -6736,12 +6746,12 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 4.0,
               achievement: 1.0,
-              achievement_p: 0.058823529,
+              achievement_p: 0.058823529000000006,
             },
             {
               month: 5.0,
               achievement: 1.0,
-              achievement_p: 0.058823529,
+              achievement_p: 0.058823529000000006,
             },
             {
               month: 6.0,
@@ -6769,25 +6779,25 @@ const TNC_PI_PORTFOLIO = {
     },
     {
       tp_id: 52,
-      pi_id: '008052',
+      pi_id: "008052",
       pi_number: 52,
       pi_name:
-        'Number of indexed joint publications: b) International collaboration with top 500 universities.',
+        "Number of indexed joint publications:rnb) International collaboration with top 500 universities.",
       operation_definition:
-        'Number of indexed joint publications with international collaborator(s) from top 500 universities (Scopus, WoS, ERA).',
-      pi_owner: 'A0598',
-      pi_owner_ptj_name: 'KOMUNITI PENYELIDIKAN',
-      pi_owner_abbreviation: 'CoRe',
-      kpi_id: 'KPI8',
-      kpi_id_kpi_order: '8',
-      strategic_id: 'ST204',
+        "Number of indexed joint publications with international collaborator(s) from top 500 universities (Scopus, WoS, ERA).",
+      pi_owner: "A0598",
+      pi_owner_ptj_name: "KOMUNITI PENYELIDIKAN",
+      pi_owner_abbreviation: "CoRe",
+      kpi_id: "KPI8",
+      kpi_id_kpi_order: "8",
+      strategic_id: "ST204",
       strategic_theme:
-        'Translational Research Development, Innovation & Commercilisation',
+        "Translational Research Development, Innovation & Commercilisation",
       pi_by_ptj: [
         {
-          ptj_id: 'A0607',
-          ptj_name: 'AKADEMI PENGAJIAN BAHASA',
-          ptj_abb: 'LG',
+          ptj_id: "A0607",
+          ptj_name: "AKADEMI PENGAJIAN BAHASA",
+          ptj_abb: "LG",
           target: 2.0,
           pi_number: 52,
           achievement: [
@@ -6839,9 +6849,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0692',
-          ptj_name: 'AKADEMI PENGAJIAN ISLAM KONTEMPORARI',
-          ptj_abb: 'IC',
+          ptj_id: "A0692",
+          ptj_name: "AKADEMI PENGAJIAN ISLAM KONTEMPORARI",
+          ptj_abb: "IC",
           target: 4.0,
           pi_number: 52,
           achievement: [
@@ -6893,9 +6903,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0595',
-          ptj_name: 'ARSHAD AYUB GRADUATE BUSINESS SCHOOL',
-          ptj_abb: 'AA',
+          ptj_id: "A0595",
+          ptj_name: "ARSHAD AYUB GRADUATE BUSINESS SCHOOL",
+          ptj_abb: "AA",
           target: 6.0,
           pi_number: 52,
           achievement: [
@@ -6947,9 +6957,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0640',
-          ptj_name: 'FAKULTI FARMASI',
-          ptj_abb: 'PH',
+          ptj_id: "A0640",
+          ptj_name: "FAKULTI FARMASI",
+          ptj_abb: "PH",
           target: 28.0,
           pi_number: 52,
           achievement: [
@@ -7001,9 +7011,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0683',
-          ptj_name: 'FAKULTI FILEM, TEATER DAN ANIMASI',
-          ptj_abb: 'FF',
+          ptj_id: "A0683",
+          ptj_name: "FAKULTI FILEM, TEATER DAN ANIMASI",
+          ptj_abb: "FF",
           target: 2.0,
           pi_number: 52,
           achievement: [
@@ -7055,9 +7065,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1609',
-          ptj_name: 'FAKULTI KEJURUTERAAN AWAM',
-          ptj_abb: 'EC',
+          ptj_id: "A1609",
+          ptj_name: "FAKULTI KEJURUTERAAN AWAM",
+          ptj_abb: "EC",
           target: 16.0,
           pi_number: 52,
           achievement: [
@@ -7109,9 +7119,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1611',
-          ptj_name: 'FAKULTI KEJURUTERAAN ELEKTRIK',
-          ptj_abb: 'EE',
+          ptj_id: "A1611",
+          ptj_name: "FAKULTI KEJURUTERAAN ELEKTRIK",
+          ptj_abb: "EE",
           target: 40.0,
           pi_number: 52,
           achievement: [
@@ -7163,9 +7173,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1608',
-          ptj_name: 'FAKULTI KEJURUTERAAN KIMIA',
-          ptj_abb: 'EH',
+          ptj_id: "A1608",
+          ptj_name: "FAKULTI KEJURUTERAAN KIMIA",
+          ptj_abb: "EH",
           target: 16.0,
           pi_number: 52,
           achievement: [
@@ -7217,9 +7227,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1610',
-          ptj_name: 'FAKULTI KEJURUTERAAN MEKANIKAL',
-          ptj_abb: 'EM',
+          ptj_id: "A1610",
+          ptj_name: "FAKULTI KEJURUTERAAN MEKANIKAL",
+          ptj_abb: "EM",
           target: 16.0,
           pi_number: 52,
           achievement: [
@@ -7271,9 +7281,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0613',
-          ptj_name: 'FAKULTI KOMUNIKASI DAN PENGAJIAN MEDIA',
-          ptj_abb: 'MC',
+          ptj_id: "A0613",
+          ptj_name: "FAKULTI KOMUNIKASI DAN PENGAJIAN MEDIA",
+          ptj_abb: "MC",
           target: 2.0,
           pi_number: 52,
           achievement: [
@@ -7325,9 +7335,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0646',
-          ptj_name: 'FAKULTI MUZIK',
-          ptj_abb: 'MU',
+          ptj_id: "A0646",
+          ptj_name: "FAKULTI MUZIK",
+          ptj_abb: "MU",
           target: 2.0,
           pi_number: 52,
           achievement: [
@@ -7379,9 +7389,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0619',
-          ptj_name: 'FAKULTI PENDIDIKAN',
-          ptj_abb: 'ED',
+          ptj_id: "A0619",
+          ptj_name: "FAKULTI PENDIDIKAN",
+          ptj_abb: "ED",
           target: 2.0,
           pi_number: 52,
           achievement: [
@@ -7433,9 +7443,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0654',
-          ptj_name: 'FAKULTI PENGURUSAN DAN PERNIAGAAN',
-          ptj_abb: 'BA',
+          ptj_id: "A0654",
+          ptj_name: "FAKULTI PENGURUSAN DAN PERNIAGAAN",
+          ptj_abb: "BA",
           target: 16.0,
           pi_number: 52,
           achievement: [
@@ -7487,9 +7497,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0611',
-          ptj_name: 'FAKULTI PENGURUSAN HOTEL DAN PELANCONGAN',
-          ptj_abb: 'HM',
+          ptj_id: "A0611",
+          ptj_name: "FAKULTI PENGURUSAN HOTEL DAN PELANCONGAN",
+          ptj_abb: "HM",
           target: 4.0,
           pi_number: 52,
           achievement: [
@@ -7541,9 +7551,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0638',
-          ptj_name: 'FAKULTI PENGURUSAN MAKLUMAT',
-          ptj_abb: 'IM',
+          ptj_id: "A0638",
+          ptj_name: "FAKULTI PENGURUSAN MAKLUMAT",
+          ptj_abb: "IM",
           target: 4.0,
           pi_number: 52,
           achievement: [
@@ -7595,9 +7605,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0602',
-          ptj_name: 'FAKULTI PERAKAUNAN',
-          ptj_abb: 'AC',
+          ptj_id: "A0602",
+          ptj_name: "FAKULTI PERAKAUNAN",
+          ptj_abb: "AC",
           target: 20.0,
           pi_number: 52,
           achievement: [
@@ -7649,9 +7659,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0660',
-          ptj_name: 'FAKULTI PERGIGIAN',
-          ptj_abb: 'DS',
+          ptj_id: "A0660",
+          ptj_name: "FAKULTI PERGIGIAN",
+          ptj_abb: "DS",
           target: 6.0,
           pi_number: 52,
           achievement: [
@@ -7693,7 +7703,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 8.0,
               achievement: 10.0,
-              achievement_p: 1.666666667,
+              achievement_p: 1.6666666669999999,
             },
             {
               month: 9.0,
@@ -7703,9 +7713,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0647',
-          ptj_name: 'FAKULTI PERLADANGAN DAN AGROTEKNOLOGI',
-          ptj_abb: 'AT',
+          ptj_id: "A0647",
+          ptj_name: "FAKULTI PERLADANGAN DAN AGROTEKNOLOGI",
+          ptj_abb: "AT",
           target: 4.0,
           pi_number: 52,
           achievement: [
@@ -7757,9 +7767,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0643',
-          ptj_name: 'FAKULTI PERUBATAN',
-          ptj_abb: 'MD',
+          ptj_id: "A0643",
+          ptj_name: "FAKULTI PERUBATAN",
+          ptj_abb: "MD",
           target: 32.0,
           pi_number: 52,
           achievement: [
@@ -7811,9 +7821,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0604',
-          ptj_name: 'FAKULTI SAINS GUNAAN',
-          ptj_abb: 'AS',
+          ptj_id: "A0604",
+          ptj_name: "FAKULTI SAINS GUNAAN",
+          ptj_abb: "AS",
           target: 36.0,
           pi_number: 52,
           achievement: [
@@ -7835,12 +7845,12 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 4.0,
               achievement: 28.0,
-              achievement_p: 1.555555556,
+              achievement_p: 1.5555555559999998,
             },
             {
               month: 5.0,
               achievement: 30.0,
-              achievement_p: 1.666666667,
+              achievement_p: 1.6666666669999999,
             },
             {
               month: 6.0,
@@ -7860,14 +7870,14 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 9.0,
               achievement: 60.0,
-              achievement_p: 1.666666667,
+              achievement_p: 1.6666666669999999,
             },
           ],
         },
         {
-          ptj_id: 'A0644',
-          ptj_name: 'FAKULTI SAINS KESIHATAN',
-          ptj_abb: 'HS',
+          ptj_id: "A0644",
+          ptj_name: "FAKULTI SAINS KESIHATAN",
+          ptj_abb: "HS",
           target: 10.0,
           pi_number: 52,
           achievement: [
@@ -7919,9 +7929,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0639',
-          ptj_name: 'FAKULTI SAINS KOMPUTER DAN MATEMATIK',
-          ptj_abb: 'CS',
+          ptj_id: "A0639",
+          ptj_name: "FAKULTI SAINS KOMPUTER DAN MATEMATIK",
+          ptj_abb: "CS",
           target: 30.0,
           pi_number: 52,
           achievement: [
@@ -7963,7 +7973,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 8.0,
               achievement: 11.0,
-              achievement_p: 0.366666667,
+              achievement_p: 0.36666666700000006,
             },
             {
               month: 9.0,
@@ -7973,9 +7983,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0637',
-          ptj_name: 'FAKULTI SAINS PENTADBIRAN DAN PENGAJIAN POLISI',
-          ptj_abb: 'AM',
+          ptj_id: "A0637",
+          ptj_name: "FAKULTI SAINS PENTADBIRAN DAN PENGAJIAN POLISI",
+          ptj_abb: "AM",
           target: 2.0,
           pi_number: 52,
           achievement: [
@@ -8027,9 +8037,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0626',
-          ptj_name: 'FAKULTI SAINS SUKAN DAN REKREASI',
-          ptj_abb: 'SR',
+          ptj_id: "A0626",
+          ptj_name: "FAKULTI SAINS SUKAN DAN REKREASI",
+          ptj_abb: "SR",
           target: 2.0,
           pi_number: 52,
           achievement: [
@@ -8081,9 +8091,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0610',
-          ptj_name: 'FAKULTI SENI LUKIS DAN SENI REKA',
-          ptj_abb: 'AD',
+          ptj_id: "A0610",
+          ptj_name: "FAKULTI SENI LUKIS DAN SENI REKA",
+          ptj_abb: "AD",
           target: 4.0,
           pi_number: 52,
           achievement: [
@@ -8135,9 +8145,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0605',
-          ptj_name: 'FAKULTI SENIBINA PERANCANGAN DAN UKUR',
-          ptj_abb: 'AP',
+          ptj_id: "A0605",
+          ptj_name: "FAKULTI SENIBINA PERANCANGAN DAN UKUR",
+          ptj_abb: "AP",
           target: 10.0,
           pi_number: 52,
           achievement: [
@@ -8189,9 +8199,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0636',
-          ptj_name: 'FAKULTI UNDANG-UNDANG',
-          ptj_abb: 'LW',
+          ptj_id: "A0636",
+          ptj_name: "FAKULTI UNDANG-UNDANG",
+          ptj_abb: "LW",
           target: 2.0,
           pi_number: 52,
           achievement: [
@@ -8243,9 +8253,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1665',
-          ptj_name: 'PUSAT ASASI',
-          ptj_abb: 'PI',
+          ptj_id: "A1665",
+          ptj_name: "PUSAT ASASI",
+          ptj_abb: "PI",
           target: 10.0,
           pi_number: 52,
           achievement: [
@@ -8297,9 +8307,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'J0000',
-          ptj_name: 'UiTM CAWANGAN JOHOR',
-          ptj_abb: 'J',
+          ptj_id: "J0000",
+          ptj_name: "UiTM CAWANGAN JOHOR",
+          ptj_abb: "J",
           target: 2.0,
           pi_number: 52,
           achievement: [
@@ -8351,9 +8361,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'H0000',
-          ptj_name: 'UiTM CAWANGAN KEDAH',
-          ptj_abb: 'K',
+          ptj_id: "H0000",
+          ptj_name: "UiTM CAWANGAN KEDAH",
+          ptj_abb: "K",
           target: 8.0,
           pi_number: 52,
           achievement: [
@@ -8405,9 +8415,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'D0000',
-          ptj_name: 'UiTM CAWANGAN KELANTAN',
-          ptj_abb: 'D',
+          ptj_id: "D0000",
+          ptj_name: "UiTM CAWANGAN KELANTAN",
+          ptj_abb: "D",
           target: 4.0,
           pi_number: 52,
           achievement: [
@@ -8459,9 +8469,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'M0000',
-          ptj_name: 'UiTM CAWANGAN MELAKA',
-          ptj_abb: 'M',
+          ptj_id: "M0000",
+          ptj_name: "UiTM CAWANGAN MELAKA",
+          ptj_abb: "M",
           target: 4.0,
           pi_number: 52,
           achievement: [
@@ -8513,9 +8523,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'N0000',
-          ptj_name: 'UiTM CAWANGAN NEGERI SEMBILAN',
-          ptj_abb: 'N',
+          ptj_id: "N0000",
+          ptj_name: "UiTM CAWANGAN NEGERI SEMBILAN",
+          ptj_abb: "N",
           target: 6.0,
           pi_number: 52,
           achievement: [
@@ -8537,12 +8547,12 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 4.0,
               achievement: 5.0,
-              achievement_p: 1.666666667,
+              achievement_p: 1.6666666669999999,
             },
             {
               month: 5.0,
               achievement: 5.0,
-              achievement_p: 1.666666667,
+              achievement_p: 1.6666666669999999,
             },
             {
               month: 6.0,
@@ -8567,9 +8577,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'C0000',
-          ptj_name: 'UiTM CAWANGAN PAHANG',
-          ptj_abb: 'C',
+          ptj_id: "C0000",
+          ptj_name: "UiTM CAWANGAN PAHANG",
+          ptj_abb: "C",
           target: 6.0,
           pi_number: 52,
           achievement: [
@@ -8621,9 +8631,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'K0000',
-          ptj_name: 'UiTM CAWANGAN PERAK',
-          ptj_abb: 'A',
+          ptj_id: "K0000",
+          ptj_name: "UiTM CAWANGAN PERAK",
+          ptj_abb: "A",
           target: 10.0,
           pi_number: 52,
           achievement: [
@@ -8675,9 +8685,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'P0000',
-          ptj_name: 'UiTM CAWANGAN PERLIS',
-          ptj_abb: 'R',
+          ptj_id: "P0000",
+          ptj_name: "UiTM CAWANGAN PERLIS",
+          ptj_abb: "R",
           target: 10.0,
           pi_number: 52,
           achievement: [
@@ -8729,9 +8739,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'B0000',
-          ptj_name: 'UiTM CAWANGAN PULAU PINANG',
-          ptj_abb: 'P',
+          ptj_id: "B0000",
+          ptj_name: "UiTM CAWANGAN PULAU PINANG",
+          ptj_abb: "P",
           target: 8.0,
           pi_number: 52,
           achievement: [
@@ -8783,9 +8793,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'S0000',
-          ptj_name: 'UiTM CAWANGAN SABAH',
-          ptj_abb: 'S',
+          ptj_id: "S0000",
+          ptj_name: "UiTM CAWANGAN SABAH",
+          ptj_abb: "S",
           target: 2.0,
           pi_number: 52,
           achievement: [
@@ -8837,9 +8847,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'W0000',
-          ptj_name: 'UiTM CAWANGAN SARAWAK',
-          ptj_abb: 'Q',
+          ptj_id: "W0000",
+          ptj_name: "UiTM CAWANGAN SARAWAK",
+          ptj_abb: "Q",
           target: 6.0,
           pi_number: 52,
           achievement: [
@@ -8866,7 +8876,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 5.0,
               achievement: 5.0,
-              achievement_p: 1.666666667,
+              achievement_p: 1.6666666669999999,
             },
             {
               month: 6.0,
@@ -8876,24 +8886,24 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 7.0,
               achievement: 10.0,
-              achievement_p: 1.666666667,
+              achievement_p: 1.6666666669999999,
             },
             {
               month: 8.0,
               achievement: 10.0,
-              achievement_p: 1.666666667,
+              achievement_p: 1.6666666669999999,
             },
             {
               month: 9.0,
               achievement: 11.0,
-              achievement_p: 1.833333333,
+              achievement_p: 1.8333333330000001,
             },
           ],
         },
         {
-          ptj_id: 'T0000',
-          ptj_name: 'UiTM CAWANGAN TERENGGANU',
-          ptj_abb: 'T',
+          ptj_id: "T0000",
+          ptj_name: "UiTM CAWANGAN TERENGGANU",
+          ptj_abb: "T",
           target: 6.0,
           pi_number: 52,
           achievement: [
@@ -8948,25 +8958,25 @@ const TNC_PI_PORTFOLIO = {
     },
     {
       tp_id: 53,
-      pi_id: '008053',
+      pi_id: "008053",
       pi_number: 53,
       pi_name:
-        'Number of indexed joint publications: c) National collaboration.',
+        "Number of indexed joint publications:rnc) National collaboration.",
       operation_definition:
-        'Number of indexed joint publications with national collaborator(s) (Scopus, WoS, ERA).',
-      pi_owner: 'A0598',
-      pi_owner_ptj_name: 'KOMUNITI PENYELIDIKAN',
-      pi_owner_abbreviation: 'CoRe',
-      kpi_id: 'KPI8',
-      kpi_id_kpi_order: '8',
-      strategic_id: 'ST204',
+        "Number of indexed joint publications with national collaborator(s) (Scopus, WoS, ERA).",
+      pi_owner: "A0598",
+      pi_owner_ptj_name: "KOMUNITI PENYELIDIKAN",
+      pi_owner_abbreviation: "CoRe",
+      kpi_id: "KPI8",
+      kpi_id_kpi_order: "8",
+      strategic_id: "ST204",
       strategic_theme:
-        'Translational Research Development, Innovation & Commercilisation',
+        "Translational Research Development, Innovation & Commercilisation",
       pi_by_ptj: [
         {
-          ptj_id: 'A0607',
-          ptj_name: 'AKADEMI PENGAJIAN BAHASA',
-          ptj_abb: 'LG',
+          ptj_id: "A0607",
+          ptj_name: "AKADEMI PENGAJIAN BAHASA",
+          ptj_abb: "LG",
           target: 4.0,
           pi_number: 53,
           achievement: [
@@ -9018,9 +9028,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0692',
-          ptj_name: 'AKADEMI PENGAJIAN ISLAM KONTEMPORARI',
-          ptj_abb: 'IC',
+          ptj_id: "A0692",
+          ptj_name: "AKADEMI PENGAJIAN ISLAM KONTEMPORARI",
+          ptj_abb: "IC",
           target: 8.0,
           pi_number: 53,
           achievement: [
@@ -9072,9 +9082,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0595',
-          ptj_name: 'ARSHAD AYUB GRADUATE BUSINESS SCHOOL',
-          ptj_abb: 'AA',
+          ptj_id: "A0595",
+          ptj_name: "ARSHAD AYUB GRADUATE BUSINESS SCHOOL",
+          ptj_abb: "AA",
           target: 5.0,
           pi_number: 53,
           achievement: [
@@ -9126,9 +9136,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0640',
-          ptj_name: 'FAKULTI FARMASI',
-          ptj_abb: 'PH',
+          ptj_id: "A0640",
+          ptj_name: "FAKULTI FARMASI",
+          ptj_abb: "PH",
           target: 50.0,
           pi_number: 53,
           achievement: [
@@ -9180,9 +9190,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0683',
-          ptj_name: 'FAKULTI FILEM, TEATER DAN ANIMASI',
-          ptj_abb: 'FF',
+          ptj_id: "A0683",
+          ptj_name: "FAKULTI FILEM, TEATER DAN ANIMASI",
+          ptj_abb: "FF",
           target: 2.0,
           pi_number: 53,
           achievement: [
@@ -9234,9 +9244,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1609',
-          ptj_name: 'FAKULTI KEJURUTERAAN AWAM',
-          ptj_abb: 'EC',
+          ptj_id: "A1609",
+          ptj_name: "FAKULTI KEJURUTERAAN AWAM",
+          ptj_abb: "EC",
           target: 59.0,
           pi_number: 53,
           achievement: [
@@ -9258,12 +9268,12 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 3.0,
               achievement: 12.0,
-              achievement_p: 0.203389831,
+              achievement_p: 0.20338983100000002,
             },
             {
               month: 4.0,
               achievement: 13.0,
-              achievement_p: 0.220338983,
+              achievement_p: 0.22033898300000002,
             },
             {
               month: 5.0,
@@ -9278,7 +9288,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 7.0,
               achievement: 27.0,
-              achievement_p: 0.457627119,
+              achievement_p: 0.45762711899999997,
             },
             {
               month: 8.0,
@@ -9288,9 +9298,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1611',
-          ptj_name: 'FAKULTI KEJURUTERAAN ELEKTRIK',
-          ptj_abb: 'EE',
+          ptj_id: "A1611",
+          ptj_name: "FAKULTI KEJURUTERAAN ELEKTRIK",
+          ptj_abb: "EE",
           target: 134.0,
           pi_number: 53,
           achievement: [
@@ -9342,9 +9352,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1608',
-          ptj_name: 'FAKULTI KEJURUTERAAN KIMIA',
-          ptj_abb: 'EH',
+          ptj_id: "A1608",
+          ptj_name: "FAKULTI KEJURUTERAAN KIMIA",
+          ptj_abb: "EH",
           target: 34.0,
           pi_number: 53,
           achievement: [
@@ -9371,7 +9381,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 5.0,
               achievement: 14.0,
-              achievement_p: 0.411764706,
+              achievement_p: 0.41176470600000004,
             },
             {
               month: 6.0,
@@ -9396,9 +9406,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1610',
-          ptj_name: 'FAKULTI KEJURUTERAAN MEKANIKAL',
-          ptj_abb: 'EM',
+          ptj_id: "A1610",
+          ptj_name: "FAKULTI KEJURUTERAAN MEKANIKAL",
+          ptj_abb: "EM",
           target: 49.0,
           pi_number: 53,
           achievement: [
@@ -9425,17 +9435,17 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 5.0,
               achievement: 5.0,
-              achievement_p: 0.102040816,
+              achievement_p: 0.10204081599999999,
             },
             {
               month: 6.0,
               achievement: 5.0,
-              achievement_p: 0.102040816,
+              achievement_p: 0.10204081599999999,
             },
             {
               month: 7.0,
               achievement: 30.0,
-              achievement_p: 0.612244898,
+              achievement_p: 0.6122448979999999,
             },
             {
               month: 8.0,
@@ -9450,9 +9460,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0613',
-          ptj_name: 'FAKULTI KOMUNIKASI DAN PENGAJIAN MEDIA',
-          ptj_abb: 'MC',
+          ptj_id: "A0613",
+          ptj_name: "FAKULTI KOMUNIKASI DAN PENGAJIAN MEDIA",
+          ptj_abb: "MC",
           target: 2.0,
           pi_number: 53,
           achievement: [
@@ -9504,9 +9514,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0646',
-          ptj_name: 'FAKULTI MUZIK',
-          ptj_abb: 'MU',
+          ptj_id: "A0646",
+          ptj_name: "FAKULTI MUZIK",
+          ptj_abb: "MU",
           target: 2.0,
           pi_number: 53,
           achievement: [
@@ -9558,9 +9568,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0619',
-          ptj_name: 'FAKULTI PENDIDIKAN',
-          ptj_abb: 'ED',
+          ptj_id: "A0619",
+          ptj_name: "FAKULTI PENDIDIKAN",
+          ptj_abb: "ED",
           target: 5.0,
           pi_number: 53,
           achievement: [
@@ -9612,9 +9622,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0654',
-          ptj_name: 'FAKULTI PENGURUSAN DAN PERNIAGAAN',
-          ptj_abb: 'BA',
+          ptj_id: "A0654",
+          ptj_name: "FAKULTI PENGURUSAN DAN PERNIAGAAN",
+          ptj_abb: "BA",
           target: 20.0,
           pi_number: 53,
           achievement: [
@@ -9666,9 +9676,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0611',
-          ptj_name: 'FAKULTI PENGURUSAN HOTEL DAN PELANCONGAN',
-          ptj_abb: 'HM',
+          ptj_id: "A0611",
+          ptj_name: "FAKULTI PENGURUSAN HOTEL DAN PELANCONGAN",
+          ptj_abb: "HM",
           target: 4.0,
           pi_number: 53,
           achievement: [
@@ -9720,9 +9730,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0638',
-          ptj_name: 'FAKULTI PENGURUSAN MAKLUMAT',
-          ptj_abb: 'IM',
+          ptj_id: "A0638",
+          ptj_name: "FAKULTI PENGURUSAN MAKLUMAT",
+          ptj_abb: "IM",
           target: 4.0,
           pi_number: 53,
           achievement: [
@@ -9774,9 +9784,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0602',
-          ptj_name: 'FAKULTI PERAKAUNAN',
-          ptj_abb: 'AC',
+          ptj_id: "A0602",
+          ptj_name: "FAKULTI PERAKAUNAN",
+          ptj_abb: "AC",
           target: 26.0,
           pi_number: 53,
           achievement: [
@@ -9793,7 +9803,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 3.0,
               achievement: 6.0,
-              achievement_p: 0.230769231,
+              achievement_p: 0.23076923100000002,
             },
             {
               month: 4.0,
@@ -9808,7 +9818,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 6.0,
               achievement: 12.0,
-              achievement_p: 0.461538462,
+              achievement_p: 0.46153846200000004,
             },
             {
               month: 7.0,
@@ -9828,9 +9838,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0660',
-          ptj_name: 'FAKULTI PERGIGIAN',
-          ptj_abb: 'DS',
+          ptj_id: "A0660",
+          ptj_name: "FAKULTI PERGIGIAN",
+          ptj_abb: "DS",
           target: 16.0,
           pi_number: 53,
           achievement: [
@@ -9882,9 +9892,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0647',
-          ptj_name: 'FAKULTI PERLADANGAN DAN AGROTEKNOLOGI',
-          ptj_abb: 'AT',
+          ptj_id: "A0647",
+          ptj_name: "FAKULTI PERLADANGAN DAN AGROTEKNOLOGI",
+          ptj_abb: "AT",
           target: 7.0,
           pi_number: 53,
           achievement: [
@@ -9931,14 +9941,14 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 3.0,
               achievement: 2.0,
-              achievement_p: 0.285714286,
+              achievement_p: 0.28571428600000004,
             },
           ],
         },
         {
-          ptj_id: 'A0643',
-          ptj_name: 'FAKULTI PERUBATAN',
-          ptj_abb: 'MD',
+          ptj_id: "A0643",
+          ptj_name: "FAKULTI PERUBATAN",
+          ptj_abb: "MD",
           target: 84.0,
           pi_number: 53,
           achievement: [
@@ -9960,7 +9970,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 4.0,
               achievement: 24.0,
-              achievement_p: 0.285714286,
+              achievement_p: 0.28571428600000004,
             },
             {
               month: 5.0,
@@ -9980,7 +9990,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 8.0,
               achievement: 59.0,
-              achievement_p: 0.702380952,
+              achievement_p: 0.7023809520000001,
             },
             {
               month: 9.0,
@@ -9990,9 +10000,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0604',
-          ptj_name: 'FAKULTI SAINS GUNAAN',
-          ptj_abb: 'AS',
+          ptj_id: "A0604",
+          ptj_name: "FAKULTI SAINS GUNAAN",
+          ptj_abb: "AS",
           target: 109.0,
           pi_number: 53,
           achievement: [
@@ -10029,7 +10039,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 7.0,
               achievement: 43.0,
-              achievement_p: 0.394495413,
+              achievement_p: 0.39449541299999996,
             },
             {
               month: 8.0,
@@ -10044,9 +10054,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0644',
-          ptj_name: 'FAKULTI SAINS KESIHATAN',
-          ptj_abb: 'HS',
+          ptj_id: "A0644",
+          ptj_name: "FAKULTI SAINS KESIHATAN",
+          ptj_abb: "HS",
           target: 24.0,
           pi_number: 53,
           achievement: [
@@ -10093,14 +10103,14 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 3.0,
               achievement: 1.0,
-              achievement_p: 0.041666667,
+              achievement_p: 0.041666667000000004,
             },
           ],
         },
         {
-          ptj_id: 'A0639',
-          ptj_name: 'FAKULTI SAINS KOMPUTER DAN MATEMATIK',
-          ptj_abb: 'CS',
+          ptj_id: "A0639",
+          ptj_name: "FAKULTI SAINS KOMPUTER DAN MATEMATIK",
+          ptj_abb: "CS",
           target: 47.0,
           pi_number: 53,
           achievement: [
@@ -10127,7 +10137,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 6.0,
               achievement: 16.0,
-              achievement_p: 0.340425532,
+              achievement_p: 0.34042553200000003,
             },
             {
               month: 7.0,
@@ -10147,14 +10157,14 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 4.0,
               achievement: 11.0,
-              achievement_p: 0.234042553,
+              achievement_p: 0.23404255300000001,
             },
           ],
         },
         {
-          ptj_id: 'A0637',
-          ptj_name: 'FAKULTI SAINS PENTADBIRAN DAN PENGAJIAN POLISI',
-          ptj_abb: 'AM',
+          ptj_id: "A0637",
+          ptj_name: "FAKULTI SAINS PENTADBIRAN DAN PENGAJIAN POLISI",
+          ptj_abb: "AM",
           target: 4.0,
           pi_number: 53,
           achievement: [
@@ -10206,9 +10216,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0626',
-          ptj_name: 'FAKULTI SAINS SUKAN DAN REKREASI',
-          ptj_abb: 'SR',
+          ptj_id: "A0626",
+          ptj_name: "FAKULTI SAINS SUKAN DAN REKREASI",
+          ptj_abb: "SR",
           target: 10.0,
           pi_number: 53,
           achievement: [
@@ -10260,9 +10270,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0610',
-          ptj_name: 'FAKULTI SENI LUKIS DAN SENI REKA',
-          ptj_abb: 'AD',
+          ptj_id: "A0610",
+          ptj_name: "FAKULTI SENI LUKIS DAN SENI REKA",
+          ptj_abb: "AD",
           target: 14.0,
           pi_number: 53,
           achievement: [
@@ -10289,17 +10299,17 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 2.0,
               achievement: 2.0,
-              achievement_p: 0.142857143,
+              achievement_p: 0.14285714300000002,
             },
             {
               month: 1.0,
               achievement: 2.0,
-              achievement_p: 0.142857143,
+              achievement_p: 0.14285714300000002,
             },
             {
               month: 6.0,
               achievement: 2.0,
-              achievement_p: 0.142857143,
+              achievement_p: 0.14285714300000002,
             },
             {
               month: 4.0,
@@ -10314,9 +10324,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0605',
-          ptj_name: 'FAKULTI SENIBINA PERANCANGAN DAN UKUR',
-          ptj_abb: 'AP',
+          ptj_id: "A0605",
+          ptj_name: "FAKULTI SENIBINA PERANCANGAN DAN UKUR",
+          ptj_abb: "AP",
           target: 25.0,
           pi_number: 53,
           achievement: [
@@ -10368,9 +10378,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0636',
-          ptj_name: 'FAKULTI UNDANG-UNDANG',
-          ptj_abb: 'LW',
+          ptj_id: "A0636",
+          ptj_name: "FAKULTI UNDANG-UNDANG",
+          ptj_abb: "LW",
           target: 6.0,
           pi_number: 53,
           achievement: [
@@ -10422,26 +10432,26 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1665',
-          ptj_name: 'PUSAT ASASI',
-          ptj_abb: 'PI',
+          ptj_id: "A1665",
+          ptj_name: "PUSAT ASASI",
+          ptj_abb: "PI",
           target: 19.0,
           pi_number: 53,
           achievement: [
             {
               month: 2.0,
               achievement: 3.0,
-              achievement_p: 0.157894737,
+              achievement_p: 0.15789473699999998,
             },
             {
               month: 3.0,
               achievement: 3.0,
-              achievement_p: 0.157894737,
+              achievement_p: 0.15789473699999998,
             },
             {
               month: 5.0,
               achievement: 4.0,
-              achievement_p: 0.210526316,
+              achievement_p: 0.21052631600000002,
             },
             {
               month: 6.0,
@@ -10456,7 +10466,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 8.0,
               achievement: 8.0,
-              achievement_p: 0.421052632,
+              achievement_p: 0.42105263200000004,
             },
             {
               month: 9.0,
@@ -10466,19 +10476,19 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 1.0,
               achievement: 2.0,
-              achievement_p: 0.105263158,
+              achievement_p: 0.10526315800000001,
             },
             {
               month: 4.0,
               achievement: 2.0,
-              achievement_p: 0.105263158,
+              achievement_p: 0.10526315800000001,
             },
           ],
         },
         {
-          ptj_id: 'J0000',
-          ptj_name: 'UiTM CAWANGAN JOHOR',
-          ptj_abb: 'J',
+          ptj_id: "J0000",
+          ptj_name: "UiTM CAWANGAN JOHOR",
+          ptj_abb: "J",
           target: 37.0,
           pi_number: 53,
           achievement: [
@@ -10495,7 +10505,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 3.0,
               achievement: 7.0,
-              achievement_p: 0.189189189,
+              achievement_p: 0.18918918899999998,
             },
             {
               month: 4.0,
@@ -10510,7 +10520,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 6.0,
               achievement: 16.0,
-              achievement_p: 0.432432432,
+              achievement_p: 0.43243243200000003,
             },
             {
               month: 7.0,
@@ -10530,9 +10540,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'H0000',
-          ptj_name: 'UiTM CAWANGAN KEDAH',
-          ptj_abb: 'K',
+          ptj_id: "H0000",
+          ptj_name: "UiTM CAWANGAN KEDAH",
+          ptj_abb: "K",
           target: 22.0,
           pi_number: 53,
           achievement: [
@@ -10584,9 +10594,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'D0000',
-          ptj_name: 'UiTM CAWANGAN KELANTAN',
-          ptj_abb: 'D',
+          ptj_id: "D0000",
+          ptj_name: "UiTM CAWANGAN KELANTAN",
+          ptj_abb: "D",
           target: 7.0,
           pi_number: 53,
           achievement: [
@@ -10638,9 +10648,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'M0000',
-          ptj_name: 'UiTM CAWANGAN MELAKA',
-          ptj_abb: 'M',
+          ptj_id: "M0000",
+          ptj_name: "UiTM CAWANGAN MELAKA",
+          ptj_abb: "M",
           target: 24.0,
           pi_number: 53,
           achievement: [
@@ -10662,7 +10672,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 3.0,
               achievement: 10.0,
-              achievement_p: 0.416666667,
+              achievement_p: 0.41666666700000005,
             },
             {
               month: 4.0,
@@ -10692,9 +10702,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'N0000',
-          ptj_name: 'UiTM CAWANGAN NEGERI SEMBILAN',
-          ptj_abb: 'N',
+          ptj_id: "N0000",
+          ptj_name: "UiTM CAWANGAN NEGERI SEMBILAN",
+          ptj_abb: "N",
           target: 32.0,
           pi_number: 53,
           achievement: [
@@ -10746,9 +10756,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'C0000',
-          ptj_name: 'UiTM CAWANGAN PAHANG',
-          ptj_abb: 'C',
+          ptj_id: "C0000",
+          ptj_name: "UiTM CAWANGAN PAHANG",
+          ptj_abb: "C",
           target: 37.0,
           pi_number: 53,
           achievement: [
@@ -10760,7 +10770,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 2.0,
               achievement: 8.0,
-              achievement_p: 0.216216216,
+              achievement_p: 0.21621621600000002,
             },
             {
               month: 7.0,
@@ -10775,7 +10785,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 3.0,
               achievement: 1.0,
-              achievement_p: 0.027027027,
+              achievement_p: 0.027027027000000002,
             },
             {
               month: 4.0,
@@ -10785,12 +10795,12 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 5.0,
               achievement: 7.0,
-              achievement_p: 0.189189189,
+              achievement_p: 0.18918918899999998,
             },
             {
               month: 6.0,
               achievement: 8.0,
-              achievement_p: 0.216216216,
+              achievement_p: 0.21621621600000002,
             },
             {
               month: 8.0,
@@ -10800,9 +10810,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'K0000',
-          ptj_name: 'UiTM CAWANGAN PERAK',
-          ptj_abb: 'A',
+          ptj_id: "K0000",
+          ptj_name: "UiTM CAWANGAN PERAK",
+          ptj_abb: "A",
           target: 33.0,
           pi_number: 53,
           achievement: [
@@ -10849,14 +10859,14 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 3.0,
               achievement: 2.0,
-              achievement_p: 0.060606061,
+              achievement_p: 0.060606060999999996,
             },
           ],
         },
         {
-          ptj_id: 'P0000',
-          ptj_name: 'UiTM CAWANGAN PERLIS',
-          ptj_abb: 'R',
+          ptj_id: "P0000",
+          ptj_name: "UiTM CAWANGAN PERLIS",
+          ptj_abb: "R",
           target: 41.0,
           pi_number: 53,
           achievement: [
@@ -10888,12 +10898,12 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 7.0,
               achievement: 22.0,
-              achievement_p: 0.536585366,
+              achievement_p: 0.5365853660000001,
             },
             {
               month: 8.0,
               achievement: 31.0,
-              achievement_p: 0.756097561,
+              achievement_p: 0.7560975609999999,
             },
             {
               month: 9.0,
@@ -10908,9 +10918,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'B0000',
-          ptj_name: 'UiTM CAWANGAN PULAU PINANG',
-          ptj_abb: 'P',
+          ptj_id: "B0000",
+          ptj_name: "UiTM CAWANGAN PULAU PINANG",
+          ptj_abb: "P",
           target: 78.0,
           pi_number: 53,
           achievement: [
@@ -10962,9 +10972,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'S0000',
-          ptj_name: 'UiTM CAWANGAN SABAH',
-          ptj_abb: 'S',
+          ptj_id: "S0000",
+          ptj_name: "UiTM CAWANGAN SABAH",
+          ptj_abb: "S",
           target: 7.0,
           pi_number: 53,
           achievement: [
@@ -10991,12 +11001,12 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 6.0,
               achievement: 5.0,
-              achievement_p: 0.714285714,
+              achievement_p: 0.7142857140000001,
             },
             {
               month: 7.0,
               achievement: 5.0,
-              achievement_p: 0.714285714,
+              achievement_p: 0.7142857140000001,
             },
             {
               month: 8.0,
@@ -11006,7 +11016,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 3.0,
               achievement: 2.0,
-              achievement_p: 0.285714286,
+              achievement_p: 0.28571428600000004,
             },
             {
               month: 9.0,
@@ -11016,9 +11026,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'W0000',
-          ptj_name: 'UiTM CAWANGAN SARAWAK',
-          ptj_abb: 'Q',
+          ptj_id: "W0000",
+          ptj_name: "UiTM CAWANGAN SARAWAK",
+          ptj_abb: "Q",
           target: 25.0,
           pi_number: 53,
           achievement: [
@@ -11070,9 +11080,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'T0000',
-          ptj_name: 'UiTM CAWANGAN TERENGGANU',
-          ptj_abb: 'T',
+          ptj_id: "T0000",
+          ptj_name: "UiTM CAWANGAN TERENGGANU",
+          ptj_abb: "T",
           target: 34.0,
           pi_number: 53,
           achievement: [
@@ -11099,7 +11109,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 5.0,
               achievement: 14.0,
-              achievement_p: 0.411764706,
+              achievement_p: 0.41176470600000004,
             },
             {
               month: 6.0,
@@ -11127,23 +11137,23 @@ const TNC_PI_PORTFOLIO = {
     },
     {
       tp_id: 54,
-      pi_id: '008054',
+      pi_id: "008054",
       pi_number: 54,
-      pi_name: 'Number of book publications other than research books.',
-      operation_definition: 'Any books other than research books.',
-      pi_owner: 'A0251',
-      pi_owner_ptj_name: 'PENERBIT UITM',
-      pi_owner_abbreviation: null,
-      kpi_id: 'KPI8',
-      kpi_id_kpi_order: '8',
-      strategic_id: 'ST204',
+      pi_name: "Number of book publications other than research books.",
+      operation_definition: "Any books other than research books.",
+      pi_owner: "A0251",
+      pi_owner_ptj_name: "PENERBIT UITM",
+      pi_owner_abbreviation: NaN,
+      kpi_id: "KPI8",
+      kpi_id_kpi_order: "8",
+      strategic_id: "ST204",
       strategic_theme:
-        'Translational Research Development, Innovation & Commercilisation',
+        "Translational Research Development, Innovation & Commercilisation",
       pi_by_ptj: [
         {
-          ptj_id: 'A0251',
-          ptj_name: 'PENERBIT UITM',
-          ptj_abb: null,
+          ptj_id: "A0251",
+          ptj_name: "PENERBIT UITM",
+          ptj_abb: NaN,
           target: 40.0,
           pi_number: 54,
           achievement: [
@@ -11198,24 +11208,24 @@ const TNC_PI_PORTFOLIO = {
     },
     {
       tp_id: 55,
-      pi_id: '008055',
+      pi_id: "008055",
       pi_number: 55,
-      pi_name: 'Number of cultural works.',
+      pi_name: "Number of cultural works.",
       operation_definition:
-        'Number of performance activities (concert, exhibition etc) featuring the work of students, faculty members and collaborators that are performed physically or virtually.',
-      pi_owner: 'A0115',
-      pi_owner_ptj_name: 'INSTITUT KUALITI DAN PENGEMBANGAN ILMU',
-      pi_owner_abbreviation: 'InQKA',
-      kpi_id: 'KPI8',
-      kpi_id_kpi_order: '8',
-      strategic_id: 'ST204',
+        "Number of performance activities (concert, exhibition etc) featuring the work of students, faculty members and collaborators that are performed physically or virtually.",
+      pi_owner: "A0115",
+      pi_owner_ptj_name: "INSTITUT KUALITI DAN PENGEMBANGAN ILMU",
+      pi_owner_abbreviation: "InQKA",
+      kpi_id: "KPI8",
+      kpi_id_kpi_order: "8",
+      strategic_id: "ST204",
       strategic_theme:
-        'Translational Research Development, Innovation & Commercilisation',
+        "Translational Research Development, Innovation & Commercilisation",
       pi_by_ptj: [
         {
-          ptj_id: 'A0683',
-          ptj_name: 'FAKULTI FILEM, TEATER DAN ANIMASI',
-          ptj_abb: 'FF',
+          ptj_id: "A0683",
+          ptj_name: "FAKULTI FILEM, TEATER DAN ANIMASI",
+          ptj_abb: "FF",
           target: 20.0,
           pi_number: 55,
           achievement: [
@@ -11267,9 +11277,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0610',
-          ptj_name: 'FAKULTI SENI LUKIS DAN SENI REKA',
-          ptj_abb: 'AD',
+          ptj_id: "A0610",
+          ptj_name: "FAKULTI SENI LUKIS DAN SENI REKA",
+          ptj_abb: "AD",
           target: 5.0,
           pi_number: 55,
           achievement: [
@@ -11321,9 +11331,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0646',
-          ptj_name: 'FAKULTI MUZIK',
-          ptj_abb: 'MU',
+          ptj_id: "A0646",
+          ptj_name: "FAKULTI MUZIK",
+          ptj_abb: "MU",
           target: 40.0,
           pi_number: 55,
           achievement: [
@@ -11378,24 +11388,24 @@ const TNC_PI_PORTFOLIO = {
     },
     {
       tp_id: 56,
-      pi_id: '008056',
+      pi_id: "008056",
       pi_number: 56,
-      pi_name: 'Number of Q1 and Q2 publication.',
+      pi_name: "Number of Q1 and Q2 publication.",
       operation_definition:
-        'Number of journals published in Q1 and Q2 based on Journal Citation Reports (JCR).',
-      pi_owner: 'A0598',
-      pi_owner_ptj_name: 'KOMUNITI PENYELIDIKAN',
-      pi_owner_abbreviation: 'CoRe',
-      kpi_id: 'KPI8',
-      kpi_id_kpi_order: '8',
-      strategic_id: 'ST204',
+        "Number of journals published in Q1 and Q2 based on Journal Citation Reports (JCR).",
+      pi_owner: "A0598",
+      pi_owner_ptj_name: "KOMUNITI PENYELIDIKAN",
+      pi_owner_abbreviation: "CoRe",
+      kpi_id: "KPI8",
+      kpi_id_kpi_order: "8",
+      strategic_id: "ST204",
       strategic_theme:
-        'Translational Research Development, Innovation & Commercilisation',
+        "Translational Research Development, Innovation & Commercilisation",
       pi_by_ptj: [
         {
-          ptj_id: 'A0607',
-          ptj_name: 'AKADEMI PENGAJIAN BAHASA',
-          ptj_abb: 'LG',
+          ptj_id: "A0607",
+          ptj_name: "AKADEMI PENGAJIAN BAHASA",
+          ptj_abb: "LG",
           target: 1.0,
           pi_number: 56,
           achievement: [
@@ -11447,9 +11457,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0611',
-          ptj_name: 'FAKULTI PENGURUSAN HOTEL DAN PELANCONGAN',
-          ptj_abb: 'HM',
+          ptj_id: "A0611",
+          ptj_name: "FAKULTI PENGURUSAN HOTEL DAN PELANCONGAN",
+          ptj_abb: "HM",
           target: 1.0,
           pi_number: 56,
           achievement: [
@@ -11501,9 +11511,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0613',
-          ptj_name: 'FAKULTI KOMUNIKASI DAN PENGAJIAN MEDIA',
-          ptj_abb: 'MC',
+          ptj_id: "A0613",
+          ptj_name: "FAKULTI KOMUNIKASI DAN PENGAJIAN MEDIA",
+          ptj_abb: "MC",
           target: 1.0,
           pi_number: 56,
           achievement: [
@@ -11555,9 +11565,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0619',
-          ptj_name: 'FAKULTI PENDIDIKAN',
-          ptj_abb: 'ED',
+          ptj_id: "A0619",
+          ptj_name: "FAKULTI PENDIDIKAN",
+          ptj_abb: "ED",
           target: 1.0,
           pi_number: 56,
           achievement: [
@@ -11609,9 +11619,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0637',
-          ptj_name: 'FAKULTI SAINS PENTADBIRAN DAN PENGAJIAN POLISI',
-          ptj_abb: 'AM',
+          ptj_id: "A0637",
+          ptj_name: "FAKULTI SAINS PENTADBIRAN DAN PENGAJIAN POLISI",
+          ptj_abb: "AM",
           target: 1.0,
           pi_number: 56,
           achievement: [
@@ -11663,9 +11673,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0646',
-          ptj_name: 'FAKULTI MUZIK',
-          ptj_abb: 'MU',
+          ptj_id: "A0646",
+          ptj_name: "FAKULTI MUZIK",
+          ptj_abb: "MU",
           target: 1.0,
           pi_number: 56,
           achievement: [
@@ -11717,9 +11727,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0683',
-          ptj_name: 'FAKULTI FILEM, TEATER DAN ANIMASI',
-          ptj_abb: 'FF',
+          ptj_id: "A0683",
+          ptj_name: "FAKULTI FILEM, TEATER DAN ANIMASI",
+          ptj_abb: "FF",
           target: 1.0,
           pi_number: 56,
           achievement: [
@@ -11771,9 +11781,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0692',
-          ptj_name: 'AKADEMI PENGAJIAN ISLAM KONTEMPORARI',
-          ptj_abb: 'IC',
+          ptj_id: "A0692",
+          ptj_name: "AKADEMI PENGAJIAN ISLAM KONTEMPORARI",
+          ptj_abb: "IC",
           target: 1.0,
           pi_number: 56,
           achievement: [
@@ -11825,9 +11835,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'D0000',
-          ptj_name: 'UiTM CAWANGAN KELANTAN',
-          ptj_abb: 'D',
+          ptj_id: "D0000",
+          ptj_name: "UiTM CAWANGAN KELANTAN",
+          ptj_abb: "D",
           target: 1.0,
           pi_number: 56,
           achievement: [
@@ -11879,9 +11889,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'S0000',
-          ptj_name: 'UiTM CAWANGAN SABAH',
-          ptj_abb: 'S',
+          ptj_id: "S0000",
+          ptj_name: "UiTM CAWANGAN SABAH",
+          ptj_abb: "S",
           target: 1.0,
           pi_number: 56,
           achievement: [
@@ -11933,9 +11943,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0602',
-          ptj_name: 'FAKULTI PERAKAUNAN',
-          ptj_abb: 'AC',
+          ptj_id: "A0602",
+          ptj_name: "FAKULTI PERAKAUNAN",
+          ptj_abb: "AC",
           target: 2.0,
           pi_number: 56,
           achievement: [
@@ -11987,9 +11997,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0595',
-          ptj_name: 'ARSHAD AYUB GRADUATE BUSINESS SCHOOL',
-          ptj_abb: 'AA',
+          ptj_id: "A0595",
+          ptj_name: "ARSHAD AYUB GRADUATE BUSINESS SCHOOL",
+          ptj_abb: "AA",
           target: 1.0,
           pi_number: 56,
           achievement: [
@@ -12041,9 +12051,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0636',
-          ptj_name: 'FAKULTI UNDANG-UNDANG',
-          ptj_abb: 'LW',
+          ptj_id: "A0636",
+          ptj_name: "FAKULTI UNDANG-UNDANG",
+          ptj_abb: "LW",
           target: 1.0,
           pi_number: 56,
           achievement: [
@@ -12095,9 +12105,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0638',
-          ptj_name: 'FAKULTI PENGURUSAN MAKLUMAT',
-          ptj_abb: 'IM',
+          ptj_id: "A0638",
+          ptj_name: "FAKULTI PENGURUSAN MAKLUMAT",
+          ptj_abb: "IM",
           target: 1.0,
           pi_number: 56,
           achievement: [
@@ -12149,9 +12159,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'T0000',
-          ptj_name: 'UiTM CAWANGAN TERENGGANU',
-          ptj_abb: 'T',
+          ptj_id: "T0000",
+          ptj_name: "UiTM CAWANGAN TERENGGANU",
+          ptj_abb: "T",
           target: 1.0,
           pi_number: 56,
           achievement: [
@@ -12203,9 +12213,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0604',
-          ptj_name: 'FAKULTI SAINS GUNAAN',
-          ptj_abb: 'AS',
+          ptj_id: "A0604",
+          ptj_name: "FAKULTI SAINS GUNAAN",
+          ptj_abb: "AS",
           target: 25.0,
           pi_number: 56,
           achievement: [
@@ -12257,9 +12267,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0626',
-          ptj_name: 'FAKULTI SAINS SUKAN DAN REKREASI',
-          ptj_abb: 'SR',
+          ptj_id: "A0626",
+          ptj_name: "FAKULTI SAINS SUKAN DAN REKREASI",
+          ptj_abb: "SR",
           target: 2.0,
           pi_number: 56,
           achievement: [
@@ -12311,9 +12321,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0639',
-          ptj_name: 'FAKULTI SAINS KOMPUTER DAN MATEMATIK',
-          ptj_abb: 'CS',
+          ptj_id: "A0639",
+          ptj_name: "FAKULTI SAINS KOMPUTER DAN MATEMATIK",
+          ptj_abb: "CS",
           target: 6.0,
           pi_number: 56,
           achievement: [
@@ -12365,9 +12375,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0640',
-          ptj_name: 'FAKULTI FARMASI',
-          ptj_abb: 'PH',
+          ptj_id: "A0640",
+          ptj_name: "FAKULTI FARMASI",
+          ptj_abb: "PH",
           target: 22.0,
           pi_number: 56,
           achievement: [
@@ -12399,7 +12409,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 6.0,
               achievement: 20.0,
-              achievement_p: 0.909090909,
+              achievement_p: 0.9090909090000001,
             },
             {
               month: 7.0,
@@ -12419,9 +12429,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0643',
-          ptj_name: 'FAKULTI PERUBATAN',
-          ptj_abb: 'MD',
+          ptj_id: "A0643",
+          ptj_name: "FAKULTI PERUBATAN",
+          ptj_abb: "MD",
           target: 17.0,
           pi_number: 56,
           achievement: [
@@ -12438,7 +12448,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 3.0,
               achievement: 7.0,
-              achievement_p: 0.411764706,
+              achievement_p: 0.41176470600000004,
             },
             {
               month: 4.0,
@@ -12453,12 +12463,12 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 6.0,
               achievement: 16.0,
-              achievement_p: 0.941176471,
+              achievement_p: 0.9411764709999999,
             },
             {
               month: 7.0,
               achievement: 16.0,
-              achievement_p: 0.941176471,
+              achievement_p: 0.9411764709999999,
             },
             {
               month: 8.0,
@@ -12468,14 +12478,14 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 9.0,
               achievement: 31.0,
-              achievement_p: 1.823529412,
+              achievement_p: 1.8235294119999998,
             },
           ],
         },
         {
-          ptj_id: 'A0644',
-          ptj_name: 'FAKULTI SAINS KESIHATAN',
-          ptj_abb: 'HS',
+          ptj_id: "A0644",
+          ptj_name: "FAKULTI SAINS KESIHATAN",
+          ptj_abb: "HS",
           target: 2.0,
           pi_number: 56,
           achievement: [
@@ -12527,9 +12537,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0647',
-          ptj_name: 'FAKULTI PERLADANGAN DAN AGROTEKNOLOGI',
-          ptj_abb: 'AT',
+          ptj_id: "A0647",
+          ptj_name: "FAKULTI PERLADANGAN DAN AGROTEKNOLOGI",
+          ptj_abb: "AT",
           target: 12.0,
           pi_number: 56,
           achievement: [
@@ -12581,9 +12591,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0660',
-          ptj_name: 'FAKULTI PERGIGIAN',
-          ptj_abb: 'DS',
+          ptj_id: "A0660",
+          ptj_name: "FAKULTI PERGIGIAN",
+          ptj_abb: "DS",
           target: 3.0,
           pi_number: 56,
           achievement: [
@@ -12635,9 +12645,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1608',
-          ptj_name: 'FAKULTI KEJURUTERAAN KIMIA',
-          ptj_abb: 'EH',
+          ptj_id: "A1608",
+          ptj_name: "FAKULTI KEJURUTERAAN KIMIA",
+          ptj_abb: "EH",
           target: 16.0,
           pi_number: 56,
           achievement: [
@@ -12689,9 +12699,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1609',
-          ptj_name: 'FAKULTI KEJURUTERAAN AWAM',
-          ptj_abb: 'EC',
+          ptj_id: "A1609",
+          ptj_name: "FAKULTI KEJURUTERAAN AWAM",
+          ptj_abb: "EC",
           target: 5.0,
           pi_number: 56,
           achievement: [
@@ -12743,9 +12753,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1610',
-          ptj_name: 'FAKULTI KEJURUTERAAN MEKANIKAL',
-          ptj_abb: 'EM',
+          ptj_id: "A1610",
+          ptj_name: "FAKULTI KEJURUTERAAN MEKANIKAL",
+          ptj_abb: "EM",
           target: 5.0,
           pi_number: 56,
           achievement: [
@@ -12797,9 +12807,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1611',
-          ptj_name: 'FAKULTI KEJURUTERAAN ELEKTRIK',
-          ptj_abb: 'EE',
+          ptj_id: "A1611",
+          ptj_name: "FAKULTI KEJURUTERAAN ELEKTRIK",
+          ptj_abb: "EE",
           target: 7.0,
           pi_number: 56,
           achievement: [
@@ -12851,9 +12861,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1665',
-          ptj_name: 'PUSAT ASASI',
-          ptj_abb: 'PI',
+          ptj_id: "A1665",
+          ptj_name: "PUSAT ASASI",
+          ptj_abb: "PI",
           target: 5.0,
           pi_number: 56,
           achievement: [
@@ -12905,9 +12915,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'B0000',
-          ptj_name: 'UiTM CAWANGAN PULAU PINANG',
-          ptj_abb: 'P',
+          ptj_id: "B0000",
+          ptj_name: "UiTM CAWANGAN PULAU PINANG",
+          ptj_abb: "P",
           target: 10.0,
           pi_number: 56,
           achievement: [
@@ -12959,9 +12969,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'J0000',
-          ptj_name: 'UiTM CAWANGAN JOHOR',
-          ptj_abb: 'J',
+          ptj_id: "J0000",
+          ptj_name: "UiTM CAWANGAN JOHOR",
+          ptj_abb: "J",
           target: 4.0,
           pi_number: 56,
           achievement: [
@@ -13013,9 +13023,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'K0000',
-          ptj_name: 'UiTM CAWANGAN PERAK',
-          ptj_abb: 'A',
+          ptj_id: "K0000",
+          ptj_name: "UiTM CAWANGAN PERAK",
+          ptj_abb: "A",
           target: 3.0,
           pi_number: 56,
           achievement: [
@@ -13037,7 +13047,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 7.0,
               achievement: 5.0,
-              achievement_p: 1.666666667,
+              achievement_p: 1.6666666669999999,
             },
             {
               month: 8.0,
@@ -13067,9 +13077,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'N0000',
-          ptj_name: 'UiTM CAWANGAN NEGERI SEMBILAN',
-          ptj_abb: 'N',
+          ptj_id: "N0000",
+          ptj_name: "UiTM CAWANGAN NEGERI SEMBILAN",
+          ptj_abb: "N",
           target: 9.0,
           pi_number: 56,
           achievement: [
@@ -13106,7 +13116,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 9.0,
               achievement: 5.0,
-              achievement_p: 0.555555556,
+              achievement_p: 0.5555555560000001,
             },
             {
               month: 3.0,
@@ -13121,9 +13131,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'P0000',
-          ptj_name: 'UiTM CAWANGAN PERLIS',
-          ptj_abb: 'R',
+          ptj_id: "P0000",
+          ptj_name: "UiTM CAWANGAN PERLIS",
+          ptj_abb: "R",
           target: 9.0,
           pi_number: 56,
           achievement: [
@@ -13140,12 +13150,12 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 6.0,
               achievement: 5.0,
-              achievement_p: 0.555555556,
+              achievement_p: 0.5555555560000001,
             },
             {
               month: 7.0,
               achievement: 8.0,
-              achievement_p: 0.888888889,
+              achievement_p: 0.8888888890000001,
             },
             {
               month: 8.0,
@@ -13175,9 +13185,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'W0000',
-          ptj_name: 'UiTM CAWANGAN SARAWAK',
-          ptj_abb: 'Q',
+          ptj_id: "W0000",
+          ptj_name: "UiTM CAWANGAN SARAWAK",
+          ptj_abb: "Q",
           target: 7.0,
           pi_number: 56,
           achievement: [
@@ -13199,17 +13209,17 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 3.0,
               achievement: 5.0,
-              achievement_p: 0.714285714,
+              achievement_p: 0.7142857140000001,
             },
             {
               month: 4.0,
               achievement: 5.0,
-              achievement_p: 0.714285714,
+              achievement_p: 0.7142857140000001,
             },
             {
               month: 5.0,
               achievement: 5.0,
-              achievement_p: 0.714285714,
+              achievement_p: 0.7142857140000001,
             },
             {
               month: 6.0,
@@ -13229,9 +13239,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0605',
-          ptj_name: 'FAKULTI SENIBINA PERANCANGAN DAN UKUR',
-          ptj_abb: 'AP',
+          ptj_id: "A0605",
+          ptj_name: "FAKULTI SENIBINA PERANCANGAN DAN UKUR",
+          ptj_abb: "AP",
           target: 1.0,
           pi_number: 56,
           achievement: [
@@ -13283,9 +13293,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0610',
-          ptj_name: 'FAKULTI SENI LUKIS DAN SENI REKA',
-          ptj_abb: 'AD',
+          ptj_id: "A0610",
+          ptj_name: "FAKULTI SENI LUKIS DAN SENI REKA",
+          ptj_abb: "AD",
           target: 1.0,
           pi_number: 56,
           achievement: [
@@ -13337,9 +13347,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0654',
-          ptj_name: 'FAKULTI PENGURUSAN DAN PERNIAGAAN',
-          ptj_abb: 'BA',
+          ptj_id: "A0654",
+          ptj_name: "FAKULTI PENGURUSAN DAN PERNIAGAAN",
+          ptj_abb: "BA",
           target: 5.0,
           pi_number: 56,
           achievement: [
@@ -13391,9 +13401,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'M0000',
-          ptj_name: 'UiTM CAWANGAN MELAKA',
-          ptj_abb: 'M',
+          ptj_id: "M0000",
+          ptj_name: "UiTM CAWANGAN MELAKA",
+          ptj_abb: "M",
           target: 3.0,
           pi_number: 56,
           achievement: [
@@ -13445,9 +13455,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'H0000',
-          ptj_name: 'UiTM CAWANGAN KEDAH',
-          ptj_abb: 'K',
+          ptj_id: "H0000",
+          ptj_name: "UiTM CAWANGAN KEDAH",
+          ptj_abb: "K",
           target: 3.0,
           pi_number: 56,
           achievement: [
@@ -13499,9 +13509,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'C0000',
-          ptj_name: 'UiTM CAWANGAN PAHANG',
-          ptj_abb: 'C',
+          ptj_id: "C0000",
+          ptj_name: "UiTM CAWANGAN PAHANG",
+          ptj_abb: "C",
           target: 6.0,
           pi_number: 56,
           achievement: [
@@ -13556,24 +13566,24 @@ const TNC_PI_PORTFOLIO = {
     },
     {
       tp_id: 57,
-      pi_id: '008057',
+      pi_id: "008057",
       pi_number: 57,
-      pi_name: 'Number of research books published by recognised publisher.',
+      pi_name: "Number of research books published by recognised publisher.",
       operation_definition:
-        'Number of research books published by recognized publishers (e.g., those listed by Majlis Penerbitan Ilmiah Malaysia (MAPIM).',
-      pi_owner: 'A0598',
-      pi_owner_ptj_name: 'KOMUNITI PENYELIDIKAN',
-      pi_owner_abbreviation: 'CoRe',
-      kpi_id: 'KPI8',
-      kpi_id_kpi_order: '8',
-      strategic_id: 'ST204',
+        "Number of research books published by recognized publishers (e.g., those listed by Majlis Penerbitan Ilmiah Malaysia (MAPIM).",
+      pi_owner: "A0598",
+      pi_owner_ptj_name: "KOMUNITI PENYELIDIKAN",
+      pi_owner_abbreviation: "CoRe",
+      kpi_id: "KPI8",
+      kpi_id_kpi_order: "8",
+      strategic_id: "ST204",
       strategic_theme:
-        'Translational Research Development, Innovation & Commercilisation',
+        "Translational Research Development, Innovation & Commercilisation",
       pi_by_ptj: [
         {
-          ptj_id: 'H0000',
-          ptj_name: 'UiTM CAWANGAN KEDAH',
-          ptj_abb: 'K',
+          ptj_id: "H0000",
+          ptj_name: "UiTM CAWANGAN KEDAH",
+          ptj_abb: "K",
           target: 4.0,
           pi_number: 57,
           achievement: [
@@ -13625,9 +13635,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0607',
-          ptj_name: 'AKADEMI PENGAJIAN BAHASA',
-          ptj_abb: 'LG',
+          ptj_id: "A0607",
+          ptj_name: "AKADEMI PENGAJIAN BAHASA",
+          ptj_abb: "LG",
           target: 3.0,
           pi_number: 57,
           achievement: [
@@ -13679,9 +13689,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'B0000',
-          ptj_name: 'UiTM CAWANGAN PULAU PINANG',
-          ptj_abb: 'P',
+          ptj_id: "B0000",
+          ptj_name: "UiTM CAWANGAN PULAU PINANG",
+          ptj_abb: "P",
           target: 3.0,
           pi_number: 57,
           achievement: [
@@ -13733,9 +13743,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'D0000',
-          ptj_name: 'UiTM CAWANGAN KELANTAN',
-          ptj_abb: 'D',
+          ptj_id: "D0000",
+          ptj_name: "UiTM CAWANGAN KELANTAN",
+          ptj_abb: "D",
           target: 3.0,
           pi_number: 57,
           achievement: [
@@ -13787,9 +13797,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'J0000',
-          ptj_name: 'UiTM CAWANGAN JOHOR',
-          ptj_abb: 'J',
+          ptj_id: "J0000",
+          ptj_name: "UiTM CAWANGAN JOHOR",
+          ptj_abb: "J",
           target: 3.0,
           pi_number: 57,
           achievement: [
@@ -13841,9 +13851,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'S0000',
-          ptj_name: 'UiTM CAWANGAN SABAH',
-          ptj_abb: 'S',
+          ptj_id: "S0000",
+          ptj_name: "UiTM CAWANGAN SABAH",
+          ptj_abb: "S",
           target: 3.0,
           pi_number: 57,
           achievement: [
@@ -13895,9 +13905,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'T0000',
-          ptj_name: 'UiTM CAWANGAN TERENGGANU',
-          ptj_abb: 'T',
+          ptj_id: "T0000",
+          ptj_name: "UiTM CAWANGAN TERENGGANU",
+          ptj_abb: "T",
           target: 3.0,
           pi_number: 57,
           achievement: [
@@ -13949,9 +13959,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'W0000',
-          ptj_name: 'UiTM CAWANGAN SARAWAK',
-          ptj_abb: 'Q',
+          ptj_id: "W0000",
+          ptj_name: "UiTM CAWANGAN SARAWAK",
+          ptj_abb: "Q",
           target: 3.0,
           pi_number: 57,
           achievement: [
@@ -14003,9 +14013,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0602',
-          ptj_name: 'FAKULTI PERAKAUNAN',
-          ptj_abb: 'AC',
+          ptj_id: "A0602",
+          ptj_name: "FAKULTI PERAKAUNAN",
+          ptj_abb: "AC",
           target: 2.0,
           pi_number: 57,
           achievement: [
@@ -14057,9 +14067,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0610',
-          ptj_name: 'FAKULTI SENI LUKIS DAN SENI REKA',
-          ptj_abb: 'AD',
+          ptj_id: "A0610",
+          ptj_name: "FAKULTI SENI LUKIS DAN SENI REKA",
+          ptj_abb: "AD",
           target: 2.0,
           pi_number: 57,
           achievement: [
@@ -14111,9 +14121,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0611',
-          ptj_name: 'FAKULTI PENGURUSAN HOTEL DAN PELANCONGAN',
-          ptj_abb: 'HM',
+          ptj_id: "A0611",
+          ptj_name: "FAKULTI PENGURUSAN HOTEL DAN PELANCONGAN",
+          ptj_abb: "HM",
           target: 2.0,
           pi_number: 57,
           achievement: [
@@ -14165,9 +14175,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0613',
-          ptj_name: 'FAKULTI KOMUNIKASI DAN PENGAJIAN MEDIA',
-          ptj_abb: 'MC',
+          ptj_id: "A0613",
+          ptj_name: "FAKULTI KOMUNIKASI DAN PENGAJIAN MEDIA",
+          ptj_abb: "MC",
           target: 2.0,
           pi_number: 57,
           achievement: [
@@ -14219,9 +14229,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0619',
-          ptj_name: 'FAKULTI PENDIDIKAN',
-          ptj_abb: 'ED',
+          ptj_id: "A0619",
+          ptj_name: "FAKULTI PENDIDIKAN",
+          ptj_abb: "ED",
           target: 2.0,
           pi_number: 57,
           achievement: [
@@ -14273,9 +14283,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0636',
-          ptj_name: 'FAKULTI UNDANG-UNDANG',
-          ptj_abb: 'LW',
+          ptj_id: "A0636",
+          ptj_name: "FAKULTI UNDANG-UNDANG",
+          ptj_abb: "LW",
           target: 2.0,
           pi_number: 57,
           achievement: [
@@ -14327,9 +14337,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0637',
-          ptj_name: 'FAKULTI SAINS PENTADBIRAN DAN PENGAJIAN POLISI',
-          ptj_abb: 'AM',
+          ptj_id: "A0637",
+          ptj_name: "FAKULTI SAINS PENTADBIRAN DAN PENGAJIAN POLISI",
+          ptj_abb: "AM",
           target: 2.0,
           pi_number: 57,
           achievement: [
@@ -14381,9 +14391,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0640',
-          ptj_name: 'FAKULTI FARMASI',
-          ptj_abb: 'PH',
+          ptj_id: "A0640",
+          ptj_name: "FAKULTI FARMASI",
+          ptj_abb: "PH",
           target: 2.0,
           pi_number: 57,
           achievement: [
@@ -14435,9 +14445,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0643',
-          ptj_name: 'FAKULTI PERUBATAN',
-          ptj_abb: 'MD',
+          ptj_id: "A0643",
+          ptj_name: "FAKULTI PERUBATAN",
+          ptj_abb: "MD",
           target: 2.0,
           pi_number: 57,
           achievement: [
@@ -14489,9 +14499,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0646',
-          ptj_name: 'FAKULTI MUZIK',
-          ptj_abb: 'MU',
+          ptj_id: "A0646",
+          ptj_name: "FAKULTI MUZIK",
+          ptj_abb: "MU",
           target: 2.0,
           pi_number: 57,
           achievement: [
@@ -14543,9 +14553,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0647',
-          ptj_name: 'FAKULTI PERLADANGAN DAN AGROTEKNOLOGI',
-          ptj_abb: 'AT',
+          ptj_id: "A0647",
+          ptj_name: "FAKULTI PERLADANGAN DAN AGROTEKNOLOGI",
+          ptj_abb: "AT",
           target: 2.0,
           pi_number: 57,
           achievement: [
@@ -14597,9 +14607,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0654',
-          ptj_name: 'FAKULTI PENGURUSAN DAN PERNIAGAAN',
-          ptj_abb: 'BA',
+          ptj_id: "A0654",
+          ptj_name: "FAKULTI PENGURUSAN DAN PERNIAGAAN",
+          ptj_abb: "BA",
           target: 2.0,
           pi_number: 57,
           achievement: [
@@ -14651,9 +14661,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0660',
-          ptj_name: 'FAKULTI PERGIGIAN',
-          ptj_abb: 'DS',
+          ptj_id: "A0660",
+          ptj_name: "FAKULTI PERGIGIAN",
+          ptj_abb: "DS",
           target: 2.0,
           pi_number: 57,
           achievement: [
@@ -14705,9 +14715,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0683',
-          ptj_name: 'FAKULTI FILEM, TEATER DAN ANIMASI',
-          ptj_abb: 'FF',
+          ptj_id: "A0683",
+          ptj_name: "FAKULTI FILEM, TEATER DAN ANIMASI",
+          ptj_abb: "FF",
           target: 2.0,
           pi_number: 57,
           achievement: [
@@ -14759,9 +14769,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1608',
-          ptj_name: 'FAKULTI KEJURUTERAAN KIMIA',
-          ptj_abb: 'EH',
+          ptj_id: "A1608",
+          ptj_name: "FAKULTI KEJURUTERAAN KIMIA",
+          ptj_abb: "EH",
           target: 2.0,
           pi_number: 57,
           achievement: [
@@ -14813,9 +14823,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1610',
-          ptj_name: 'FAKULTI KEJURUTERAAN MEKANIKAL',
-          ptj_abb: 'EM',
+          ptj_id: "A1610",
+          ptj_name: "FAKULTI KEJURUTERAAN MEKANIKAL",
+          ptj_abb: "EM",
           target: 2.0,
           pi_number: 57,
           achievement: [
@@ -14867,9 +14877,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1611',
-          ptj_name: 'FAKULTI KEJURUTERAAN ELEKTRIK',
-          ptj_abb: 'EE',
+          ptj_id: "A1611",
+          ptj_name: "FAKULTI KEJURUTERAAN ELEKTRIK",
+          ptj_abb: "EE",
           target: 2.0,
           pi_number: 57,
           achievement: [
@@ -14921,9 +14931,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1665',
-          ptj_name: 'PUSAT ASASI',
-          ptj_abb: 'PI',
+          ptj_id: "A1665",
+          ptj_name: "PUSAT ASASI",
+          ptj_abb: "PI",
           target: 2.0,
           pi_number: 57,
           achievement: [
@@ -14975,9 +14985,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0626',
-          ptj_name: 'FAKULTI SAINS SUKAN DAN REKREASI',
-          ptj_abb: 'SR',
+          ptj_id: "A0626",
+          ptj_name: "FAKULTI SAINS SUKAN DAN REKREASI",
+          ptj_abb: "SR",
           target: 2.0,
           pi_number: 57,
           achievement: [
@@ -15029,9 +15039,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1609',
-          ptj_name: 'FAKULTI KEJURUTERAAN AWAM',
-          ptj_abb: 'EC',
+          ptj_id: "A1609",
+          ptj_name: "FAKULTI KEJURUTERAAN AWAM",
+          ptj_abb: "EC",
           target: 4.0,
           pi_number: 57,
           achievement: [
@@ -15083,9 +15093,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0604',
-          ptj_name: 'FAKULTI SAINS GUNAAN',
-          ptj_abb: 'AS',
+          ptj_id: "A0604",
+          ptj_name: "FAKULTI SAINS GUNAAN",
+          ptj_abb: "AS",
           target: 3.0,
           pi_number: 57,
           achievement: [
@@ -15137,9 +15147,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0644',
-          ptj_name: 'FAKULTI SAINS KESIHATAN',
-          ptj_abb: 'HS',
+          ptj_id: "A0644",
+          ptj_name: "FAKULTI SAINS KESIHATAN",
+          ptj_abb: "HS",
           target: 5.0,
           pi_number: 57,
           achievement: [
@@ -15191,9 +15201,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'P0000',
-          ptj_name: 'UiTM CAWANGAN PERLIS',
-          ptj_abb: 'R',
+          ptj_id: "P0000",
+          ptj_name: "UiTM CAWANGAN PERLIS",
+          ptj_abb: "R",
           target: 3.0,
           pi_number: 57,
           achievement: [
@@ -15245,9 +15255,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0605',
-          ptj_name: 'FAKULTI SENIBINA PERANCANGAN DAN UKUR',
-          ptj_abb: 'AP',
+          ptj_id: "A0605",
+          ptj_name: "FAKULTI SENIBINA PERANCANGAN DAN UKUR",
+          ptj_abb: "AP",
           target: 2.0,
           pi_number: 57,
           achievement: [
@@ -15299,9 +15309,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0638',
-          ptj_name: 'FAKULTI PENGURUSAN MAKLUMAT',
-          ptj_abb: 'IM',
+          ptj_id: "A0638",
+          ptj_name: "FAKULTI PENGURUSAN MAKLUMAT",
+          ptj_abb: "IM",
           target: 2.0,
           pi_number: 57,
           achievement: [
@@ -15353,9 +15363,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0639',
-          ptj_name: 'FAKULTI SAINS KOMPUTER DAN MATEMATIK',
-          ptj_abb: 'CS',
+          ptj_id: "A0639",
+          ptj_name: "FAKULTI SAINS KOMPUTER DAN MATEMATIK",
+          ptj_abb: "CS",
           target: 2.0,
           pi_number: 57,
           achievement: [
@@ -15407,9 +15417,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0692',
-          ptj_name: 'AKADEMI PENGAJIAN ISLAM KONTEMPORARI',
-          ptj_abb: 'IC',
+          ptj_id: "A0692",
+          ptj_name: "AKADEMI PENGAJIAN ISLAM KONTEMPORARI",
+          ptj_abb: "IC",
           target: 3.0,
           pi_number: 57,
           achievement: [
@@ -15461,9 +15471,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'K0000',
-          ptj_name: 'UiTM CAWANGAN PERAK',
-          ptj_abb: 'A',
+          ptj_id: "K0000",
+          ptj_name: "UiTM CAWANGAN PERAK",
+          ptj_abb: "A",
           target: 3.0,
           pi_number: 57,
           achievement: [
@@ -15515,9 +15525,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'M0000',
-          ptj_name: 'UiTM CAWANGAN MELAKA',
-          ptj_abb: 'M',
+          ptj_id: "M0000",
+          ptj_name: "UiTM CAWANGAN MELAKA",
+          ptj_abb: "M",
           target: 3.0,
           pi_number: 57,
           achievement: [
@@ -15569,9 +15579,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'N0000',
-          ptj_name: 'UiTM CAWANGAN NEGERI SEMBILAN',
-          ptj_abb: 'N',
+          ptj_id: "N0000",
+          ptj_name: "UiTM CAWANGAN NEGERI SEMBILAN",
+          ptj_abb: "N",
           target: 3.0,
           pi_number: 57,
           achievement: [
@@ -15623,9 +15633,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0595',
-          ptj_name: 'ARSHAD AYUB GRADUATE BUSINESS SCHOOL',
-          ptj_abb: 'AA',
+          ptj_id: "A0595",
+          ptj_name: "ARSHAD AYUB GRADUATE BUSINESS SCHOOL",
+          ptj_abb: "AA",
           target: 2.0,
           pi_number: 57,
           achievement: [
@@ -15677,9 +15687,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'C0000',
-          ptj_name: 'UiTM CAWANGAN PAHANG',
-          ptj_abb: 'C',
+          ptj_id: "C0000",
+          ptj_name: "UiTM CAWANGAN PAHANG",
+          ptj_abb: "C",
           target: 2.0,
           pi_number: 57,
           achievement: [
@@ -15734,25 +15744,25 @@ const TNC_PI_PORTFOLIO = {
     },
     {
       tp_id: 58,
-      pi_id: '008058',
+      pi_id: "008058",
       pi_number: 58,
       pi_name:
-        'Number of chapter in research book published by recognised publisher.',
+        "Number of chapter in research book published by recognised publisher.",
       operation_definition:
-        'Number of chapter in research book published by recognized publishers (e.g., those listed by Majlis Penerbitan Ilmiah Malaysia (MAPIM).',
-      pi_owner: 'A0598',
-      pi_owner_ptj_name: 'KOMUNITI PENYELIDIKAN',
-      pi_owner_abbreviation: 'CoRe',
-      kpi_id: 'KPI8',
-      kpi_id_kpi_order: '8',
-      strategic_id: 'ST204',
+        "Number of chapter in research book published by recognized publishers (e.g., those listed by Majlis Penerbitan Ilmiah Malaysia (MAPIM).",
+      pi_owner: "A0598",
+      pi_owner_ptj_name: "KOMUNITI PENYELIDIKAN",
+      pi_owner_abbreviation: "CoRe",
+      kpi_id: "KPI8",
+      kpi_id_kpi_order: "8",
+      strategic_id: "ST204",
       strategic_theme:
-        'Translational Research Development, Innovation & Commercilisation',
+        "Translational Research Development, Innovation & Commercilisation",
       pi_by_ptj: [
         {
-          ptj_id: 'A0607',
-          ptj_name: 'AKADEMI PENGAJIAN BAHASA',
-          ptj_abb: 'LG',
+          ptj_id: "A0607",
+          ptj_name: "AKADEMI PENGAJIAN BAHASA",
+          ptj_abb: "LG",
           target: 4.0,
           pi_number: 58,
           achievement: [
@@ -15804,9 +15814,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0660',
-          ptj_name: 'FAKULTI PERGIGIAN',
-          ptj_abb: 'DS',
+          ptj_id: "A0660",
+          ptj_name: "FAKULTI PERGIGIAN",
+          ptj_abb: "DS",
           target: 14.0,
           pi_number: 58,
           achievement: [
@@ -15858,9 +15868,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'D0000',
-          ptj_name: 'UiTM CAWANGAN KELANTAN',
-          ptj_abb: 'D',
+          ptj_id: "D0000",
+          ptj_name: "UiTM CAWANGAN KELANTAN",
+          ptj_abb: "D",
           target: 5.0,
           pi_number: 58,
           achievement: [
@@ -15912,9 +15922,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'S0000',
-          ptj_name: 'UiTM CAWANGAN SABAH',
-          ptj_abb: 'S',
+          ptj_id: "S0000",
+          ptj_name: "UiTM CAWANGAN SABAH",
+          ptj_abb: "S",
           target: 5.0,
           pi_number: 58,
           achievement: [
@@ -15966,9 +15976,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0613',
-          ptj_name: 'FAKULTI KOMUNIKASI DAN PENGAJIAN MEDIA',
-          ptj_abb: 'MC',
+          ptj_id: "A0613",
+          ptj_name: "FAKULTI KOMUNIKASI DAN PENGAJIAN MEDIA",
+          ptj_abb: "MC",
           target: 3.0,
           pi_number: 58,
           achievement: [
@@ -16020,9 +16030,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0619',
-          ptj_name: 'FAKULTI PENDIDIKAN',
-          ptj_abb: 'ED',
+          ptj_id: "A0619",
+          ptj_name: "FAKULTI PENDIDIKAN",
+          ptj_abb: "ED",
           target: 2.0,
           pi_number: 58,
           achievement: [
@@ -16074,9 +16084,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0636',
-          ptj_name: 'FAKULTI UNDANG-UNDANG',
-          ptj_abb: 'LW',
+          ptj_id: "A0636",
+          ptj_name: "FAKULTI UNDANG-UNDANG",
+          ptj_abb: "LW",
           target: 2.0,
           pi_number: 58,
           achievement: [
@@ -16128,9 +16138,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0683',
-          ptj_name: 'FAKULTI FILEM, TEATER DAN ANIMASI',
-          ptj_abb: 'FF',
+          ptj_id: "A0683",
+          ptj_name: "FAKULTI FILEM, TEATER DAN ANIMASI",
+          ptj_abb: "FF",
           target: 2.0,
           pi_number: 58,
           achievement: [
@@ -16182,9 +16192,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0610',
-          ptj_name: 'FAKULTI SENI LUKIS DAN SENI REKA',
-          ptj_abb: 'AD',
+          ptj_id: "A0610",
+          ptj_name: "FAKULTI SENI LUKIS DAN SENI REKA",
+          ptj_abb: "AD",
           target: 2.0,
           pi_number: 58,
           achievement: [
@@ -16236,9 +16246,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0654',
-          ptj_name: 'FAKULTI PENGURUSAN DAN PERNIAGAAN',
-          ptj_abb: 'BA',
+          ptj_id: "A0654",
+          ptj_name: "FAKULTI PENGURUSAN DAN PERNIAGAAN",
+          ptj_abb: "BA",
           target: 2.0,
           pi_number: 58,
           achievement: [
@@ -16290,9 +16300,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'J0000',
-          ptj_name: 'UiTM CAWANGAN JOHOR',
-          ptj_abb: 'J',
+          ptj_id: "J0000",
+          ptj_name: "UiTM CAWANGAN JOHOR",
+          ptj_abb: "J",
           target: 6.0,
           pi_number: 58,
           achievement: [
@@ -16344,9 +16354,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0604',
-          ptj_name: 'FAKULTI SAINS GUNAAN',
-          ptj_abb: 'AS',
+          ptj_id: "A0604",
+          ptj_name: "FAKULTI SAINS GUNAAN",
+          ptj_abb: "AS",
           target: 5.0,
           pi_number: 58,
           achievement: [
@@ -16398,9 +16408,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0605',
-          ptj_name: 'FAKULTI SENIBINA PERANCANGAN DAN UKUR',
-          ptj_abb: 'AP',
+          ptj_id: "A0605",
+          ptj_name: "FAKULTI SENIBINA PERANCANGAN DAN UKUR",
+          ptj_abb: "AP",
           target: 4.0,
           pi_number: 58,
           achievement: [
@@ -16452,9 +16462,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0626',
-          ptj_name: 'FAKULTI SAINS SUKAN DAN REKREASI',
-          ptj_abb: 'SR',
+          ptj_id: "A0626",
+          ptj_name: "FAKULTI SAINS SUKAN DAN REKREASI",
+          ptj_abb: "SR",
           target: 3.0,
           pi_number: 58,
           achievement: [
@@ -16506,9 +16516,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0639',
-          ptj_name: 'FAKULTI SAINS KOMPUTER DAN MATEMATIK',
-          ptj_abb: 'CS',
+          ptj_id: "A0639",
+          ptj_name: "FAKULTI SAINS KOMPUTER DAN MATEMATIK",
+          ptj_abb: "CS",
           target: 6.0,
           pi_number: 58,
           achievement: [
@@ -16560,9 +16570,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0640',
-          ptj_name: 'FAKULTI FARMASI',
-          ptj_abb: 'PH',
+          ptj_id: "A0640",
+          ptj_name: "FAKULTI FARMASI",
+          ptj_abb: "PH",
           target: 3.0,
           pi_number: 58,
           achievement: [
@@ -16614,9 +16624,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0644',
-          ptj_name: 'FAKULTI SAINS KESIHATAN',
-          ptj_abb: 'HS',
+          ptj_id: "A0644",
+          ptj_name: "FAKULTI SAINS KESIHATAN",
+          ptj_abb: "HS",
           target: 38.0,
           pi_number: 58,
           achievement: [
@@ -16648,17 +16658,17 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 6.0,
               achievement: 6.0,
-              achievement_p: 0.157894737,
+              achievement_p: 0.15789473699999998,
             },
             {
               month: 7.0,
               achievement: 6.0,
-              achievement_p: 0.157894737,
+              achievement_p: 0.15789473699999998,
             },
             {
               month: 8.0,
               achievement: 6.0,
-              achievement_p: 0.157894737,
+              achievement_p: 0.15789473699999998,
             },
             {
               month: 9.0,
@@ -16668,9 +16678,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0647',
-          ptj_name: 'FAKULTI PERLADANGAN DAN AGROTEKNOLOGI',
-          ptj_abb: 'AT',
+          ptj_id: "A0647",
+          ptj_name: "FAKULTI PERLADANGAN DAN AGROTEKNOLOGI",
+          ptj_abb: "AT",
           target: 3.0,
           pi_number: 58,
           achievement: [
@@ -16722,9 +16732,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0692',
-          ptj_name: 'AKADEMI PENGAJIAN ISLAM KONTEMPORARI',
-          ptj_abb: 'IC',
+          ptj_id: "A0692",
+          ptj_name: "AKADEMI PENGAJIAN ISLAM KONTEMPORARI",
+          ptj_abb: "IC",
           target: 2.0,
           pi_number: 58,
           achievement: [
@@ -16776,9 +16786,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1609',
-          ptj_name: 'FAKULTI KEJURUTERAAN AWAM',
-          ptj_abb: 'EC',
+          ptj_id: "A1609",
+          ptj_name: "FAKULTI KEJURUTERAAN AWAM",
+          ptj_abb: "EC",
           target: 4.0,
           pi_number: 58,
           achievement: [
@@ -16830,9 +16840,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'B0000',
-          ptj_name: 'UiTM CAWANGAN PULAU PINANG',
-          ptj_abb: 'P',
+          ptj_id: "B0000",
+          ptj_name: "UiTM CAWANGAN PULAU PINANG",
+          ptj_abb: "P",
           target: 5.0,
           pi_number: 58,
           achievement: [
@@ -16884,9 +16894,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'H0000',
-          ptj_name: 'UiTM CAWANGAN KEDAH',
-          ptj_abb: 'K',
+          ptj_id: "H0000",
+          ptj_name: "UiTM CAWANGAN KEDAH",
+          ptj_abb: "K",
           target: 3.0,
           pi_number: 58,
           achievement: [
@@ -16938,9 +16948,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'K0000',
-          ptj_name: 'UiTM CAWANGAN PERAK',
-          ptj_abb: 'A',
+          ptj_id: "K0000",
+          ptj_name: "UiTM CAWANGAN PERAK",
+          ptj_abb: "A",
           target: 6.0,
           pi_number: 58,
           achievement: [
@@ -16972,7 +16982,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 5.0,
               achievement: 2.0,
-              achievement_p: 0.285714286,
+              achievement_p: 0.28571428600000004,
             },
             {
               month: 6.0,
@@ -16987,14 +16997,14 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 4.0,
               achievement: 1.0,
-              achievement_p: 0.142857143,
+              achievement_p: 0.14285714300000002,
             },
           ],
         },
         {
-          ptj_id: 'M0000',
-          ptj_name: 'UiTM CAWANGAN MELAKA',
-          ptj_abb: 'M',
+          ptj_id: "M0000",
+          ptj_name: "UiTM CAWANGAN MELAKA",
+          ptj_abb: "M",
           target: 8.0,
           pi_number: 58,
           achievement: [
@@ -17046,9 +17056,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'N0000',
-          ptj_name: 'UiTM CAWANGAN NEGERI SEMBILAN',
-          ptj_abb: 'N',
+          ptj_id: "N0000",
+          ptj_name: "UiTM CAWANGAN NEGERI SEMBILAN",
+          ptj_abb: "N",
           target: 5.0,
           pi_number: 58,
           achievement: [
@@ -17100,9 +17110,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'P0000',
-          ptj_name: 'UiTM CAWANGAN PERLIS',
-          ptj_abb: 'R',
+          ptj_id: "P0000",
+          ptj_name: "UiTM CAWANGAN PERLIS",
+          ptj_abb: "R",
           target: 11.0,
           pi_number: 58,
           achievement: [
@@ -17129,7 +17139,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 5.0,
               achievement: 5.0,
-              achievement_p: 0.416666667,
+              achievement_p: 0.41666666700000005,
             },
             {
               month: 6.0,
@@ -17144,7 +17154,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 9.0,
               achievement: 35.0,
-              achievement_p: 3.181818182,
+              achievement_p: 3.1818181819999998,
             },
             {
               month: 4.0,
@@ -17154,9 +17164,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'T0000',
-          ptj_name: 'UiTM CAWANGAN TERENGGANU',
-          ptj_abb: 'T',
+          ptj_id: "T0000",
+          ptj_name: "UiTM CAWANGAN TERENGGANU",
+          ptj_abb: "T",
           target: 7.0,
           pi_number: 58,
           achievement: [
@@ -17168,7 +17178,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 9.0,
               achievement: 5.0,
-              achievement_p: 0.714285714,
+              achievement_p: 0.7142857140000001,
             },
             {
               month: 1.0,
@@ -17188,17 +17198,17 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 6.0,
               achievement: 2.0,
-              achievement_p: 0.285714286,
+              achievement_p: 0.28571428600000004,
             },
             {
               month: 7.0,
               achievement: 2.0,
-              achievement_p: 0.285714286,
+              achievement_p: 0.28571428600000004,
             },
             {
               month: 8.0,
               achievement: 2.0,
-              achievement_p: 0.285714286,
+              achievement_p: 0.28571428600000004,
             },
             {
               month: 3.0,
@@ -17208,9 +17218,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'W0000',
-          ptj_name: 'UiTM CAWANGAN SARAWAK',
-          ptj_abb: 'Q',
+          ptj_id: "W0000",
+          ptj_name: "UiTM CAWANGAN SARAWAK",
+          ptj_abb: "Q",
           target: 5.0,
           pi_number: 58,
           achievement: [
@@ -17262,9 +17272,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0643',
-          ptj_name: 'FAKULTI PERUBATAN',
-          ptj_abb: 'MD',
+          ptj_id: "A0643",
+          ptj_name: "FAKULTI PERUBATAN",
+          ptj_abb: "MD",
           target: 3.0,
           pi_number: 58,
           achievement: [
@@ -17316,9 +17326,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1610',
-          ptj_name: 'FAKULTI KEJURUTERAAN MEKANIKAL',
-          ptj_abb: 'EM',
+          ptj_id: "A1610",
+          ptj_name: "FAKULTI KEJURUTERAAN MEKANIKAL",
+          ptj_abb: "EM",
           target: 3.0,
           pi_number: 58,
           achievement: [
@@ -17370,9 +17380,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0602',
-          ptj_name: 'FAKULTI PERAKAUNAN',
-          ptj_abb: 'AC',
+          ptj_id: "A0602",
+          ptj_name: "FAKULTI PERAKAUNAN",
+          ptj_abb: "AC",
           target: 2.0,
           pi_number: 58,
           achievement: [
@@ -17424,9 +17434,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0611',
-          ptj_name: 'FAKULTI PENGURUSAN HOTEL DAN PELANCONGAN',
-          ptj_abb: 'HM',
+          ptj_id: "A0611",
+          ptj_name: "FAKULTI PENGURUSAN HOTEL DAN PELANCONGAN",
+          ptj_abb: "HM",
           target: 3.0,
           pi_number: 58,
           achievement: [
@@ -17478,9 +17488,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0637',
-          ptj_name: 'FAKULTI SAINS PENTADBIRAN DAN PENGAJIAN POLISI',
-          ptj_abb: 'AM',
+          ptj_id: "A0637",
+          ptj_name: "FAKULTI SAINS PENTADBIRAN DAN PENGAJIAN POLISI",
+          ptj_abb: "AM",
           target: 2.0,
           pi_number: 58,
           achievement: [
@@ -17532,9 +17542,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0638',
-          ptj_name: 'FAKULTI PENGURUSAN MAKLUMAT',
-          ptj_abb: 'IM',
+          ptj_id: "A0638",
+          ptj_name: "FAKULTI PENGURUSAN MAKLUMAT",
+          ptj_abb: "IM",
           target: 2.0,
           pi_number: 58,
           achievement: [
@@ -17586,9 +17596,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0646',
-          ptj_name: 'FAKULTI MUZIK',
-          ptj_abb: 'MU',
+          ptj_id: "A0646",
+          ptj_name: "FAKULTI MUZIK",
+          ptj_abb: "MU",
           target: 2.0,
           pi_number: 58,
           achievement: [
@@ -17640,9 +17650,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1608',
-          ptj_name: 'FAKULTI KEJURUTERAAN KIMIA',
-          ptj_abb: 'EH',
+          ptj_id: "A1608",
+          ptj_name: "FAKULTI KEJURUTERAAN KIMIA",
+          ptj_abb: "EH",
           target: 2.0,
           pi_number: 58,
           achievement: [
@@ -17694,9 +17704,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1611',
-          ptj_name: 'FAKULTI KEJURUTERAAN ELEKTRIK',
-          ptj_abb: 'EE',
+          ptj_id: "A1611",
+          ptj_name: "FAKULTI KEJURUTERAAN ELEKTRIK",
+          ptj_abb: "EE",
           target: 3.0,
           pi_number: 58,
           achievement: [
@@ -17748,9 +17758,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1665',
-          ptj_name: 'PUSAT ASASI',
-          ptj_abb: 'PI',
+          ptj_id: "A1665",
+          ptj_name: "PUSAT ASASI",
+          ptj_abb: "PI",
           target: 2.0,
           pi_number: 58,
           achievement: [
@@ -17802,9 +17812,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'C0000',
-          ptj_name: 'UiTM CAWANGAN PAHANG',
-          ptj_abb: 'C',
+          ptj_id: "C0000",
+          ptj_name: "UiTM CAWANGAN PAHANG",
+          ptj_abb: "C",
           target: 8.0,
           pi_number: 58,
           achievement: [
@@ -17816,7 +17826,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 2.0,
               achievement: 7.0,
-              achievement_p: 0.777777778,
+              achievement_p: 0.7777777779999999,
             },
             {
               month: 6.0,
@@ -17856,9 +17866,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0595',
-          ptj_name: 'ARSHAD AYUB GRADUATE BUSINESS SCHOOL',
-          ptj_abb: 'AA',
+          ptj_id: "A0595",
+          ptj_name: "ARSHAD AYUB GRADUATE BUSINESS SCHOOL",
+          ptj_abb: "AA",
           target: 3.0,
           pi_number: 58,
           achievement: [
@@ -17913,24 +17923,24 @@ const TNC_PI_PORTFOLIO = {
     },
     {
       tp_id: 59,
-      pi_id: '009059',
+      pi_id: "009059",
       pi_number: 59,
-      pi_name: 'Total citations of indexed publications.',
+      pi_name: "Total citations of indexed publications.",
       operation_definition:
-        'Total citation of indexed publications (Scopus, Wos, ERA) within 5 years cumulative.',
-      pi_owner: 'A0598',
-      pi_owner_ptj_name: 'KOMUNITI PENYELIDIKAN',
-      pi_owner_abbreviation: 'CoRe',
-      kpi_id: 'KPI9',
-      kpi_id_kpi_order: '9',
-      strategic_id: 'ST204',
+        "Total citation of indexed publications (Scopus, Wos, ERA) within 5 years cumulative.",
+      pi_owner: "A0598",
+      pi_owner_ptj_name: "KOMUNITI PENYELIDIKAN",
+      pi_owner_abbreviation: "CoRe",
+      kpi_id: "KPI9",
+      kpi_id_kpi_order: "9",
+      strategic_id: "ST204",
       strategic_theme:
-        'Translational Research Development, Innovation & Commercilisation',
+        "Translational Research Development, Innovation & Commercilisation",
       pi_by_ptj: [
         {
-          ptj_id: 'A0598',
-          ptj_name: 'KOMUNITI PENYELIDIKAN',
-          ptj_abb: 'CoRe',
+          ptj_id: "A0598",
+          ptj_name: "KOMUNITI PENYELIDIKAN",
+          ptj_abb: "CoRe",
           target: 40000.0,
           pi_number: 59,
           achievement: [
@@ -17985,25 +17995,25 @@ const TNC_PI_PORTFOLIO = {
     },
     {
       tp_id: 60,
-      pi_id: '009060',
+      pi_id: "009060",
       pi_number: 60,
       pi_name:
-        'Number of Scopus indexed publications that are among the top 10% most cited in the field.',
+        "Number of Scopus indexed publications that are among the top 10% most cited in the field.",
       operation_definition:
-        'Total no. of papers published 5 years duration with more than 10 citations from Scopus Indexed publications.\u2022 Number of publications that are among the 10 percent most cited&#58;This indicator reflects the number of papers that have been assigned as being in the top 10 percent of the most highly cited papers in Malaysia.&#160;Since the number of highly cited papers is dependent on the size of the university, the indicator can be considered a robust indication of how much excellent research the university produces.Methodology5 years publications data from Scopus will be used for the indicator. Example&#58; for evaluation year of 2018, scholarly output produces by UiTM from 2014 up to 2018 will be extracted from Scopus. Suppose 100,000 articles were produced within that period of time by UiTM, the data of the top 10% most cited will be used (in this example; 10,000 articles). A score is given to the UiTM by counting the number of articles produced or co-produced within the listed 10,000 articles, which will be based on affiliation recorded in Scopus. A University Z with 1,000 articles published in top 10% most cited is better, both in term of quantity and quality, in comparison with University Y with 100 articles.',
-      pi_owner: 'A0598',
-      pi_owner_ptj_name: 'KOMUNITI PENYELIDIKAN',
-      pi_owner_abbreviation: 'CoRe',
-      kpi_id: 'KPI9',
-      kpi_id_kpi_order: '9',
-      strategic_id: 'ST204',
+        "Total no. of papers published 5 years duration with more than 10 citations from Scopus Indexed publications.u2022 Number of publications that are among the 10 percent most cited&#58;This indicator reflects the number of papers that have been assigned as being in the top 10 percent of the most highly cited papers in Malaysia.&#160;Since the number of highly cited papers is dependent on the size of the university, the indicator can be considered a robust indication of how much excellent research the university produces.Methodology5 years publications data from Scopus will be used for the indicator. Example&#58; for evaluation year of 2018, scholarly output produces by UiTM from 2014 up to 2018 will be extracted from Scopus. Suppose 100,000 articles were produced within that period of time by UiTM, the data of the top 10% most cited will be used (in this example; 10,000 articles). A score is given to the UiTM by counting the number of articles produced or co-produced within the listed 10,000 articles, which will be based on affiliation recorded in Scopus. A University Z with 1,000 articles published in top 10% most cited is better, both in term of quantity and quality, in comparison with University Y with 100 articles",
+      pi_owner: "A0598",
+      pi_owner_ptj_name: "KOMUNITI PENYELIDIKAN",
+      pi_owner_abbreviation: "CoRe",
+      kpi_id: "KPI9",
+      kpi_id_kpi_order: "9",
+      strategic_id: "ST204",
       strategic_theme:
-        'Translational Research Development, Innovation & Commercilisation',
+        "Translational Research Development, Innovation & Commercilisation",
       pi_by_ptj: [
         {
-          ptj_id: 'A0598',
-          ptj_name: 'KOMUNITI PENYELIDIKAN',
-          ptj_abb: 'CoRe',
+          ptj_id: "A0598",
+          ptj_name: "KOMUNITI PENYELIDIKAN",
+          ptj_abb: "CoRe",
           target: 1000.0,
           pi_number: 60,
           achievement: [
@@ -18020,7 +18030,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 1.0,
               achievement: 478.0,
-              achievement_p: 1.111627907,
+              achievement_p: 1.1116279070000001,
             },
             {
               month: 4.0,
@@ -18045,7 +18055,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 8.0,
               achievement: 692.0,
-              achievement_p: 0.692,
+              achievement_p: 0.6920000000000001,
             },
             {
               month: 9.0,
@@ -18058,25 +18068,25 @@ const TNC_PI_PORTFOLIO = {
     },
     {
       tp_id: 61,
-      pi_id: '010061',
+      pi_id: "010061",
       pi_number: 61,
       pi_name:
-        'Number of principal investigators for research grants: a) University funded.',
+        "Number of principal investigators for research grants:rna) University funded.",
       operation_definition:
-        'Principal investigator is a leader of a UiTM research grant registered with RMC. The minimum grant received should be (social sciences- RM5000 and S&amp;T- RM20000). Sponsorship or scholarship is not counted as grant.',
-      pi_owner: 'A0163',
-      pi_owner_ptj_name: 'PUSAT PENGURUSAN PENYELIDIKAN',
-      pi_owner_abbreviation: 'RMC',
-      kpi_id: 'KPI10',
-      kpi_id_kpi_order: '10',
-      strategic_id: 'ST204',
+        "Principal investigator is a leader of a UiTM research grant registered with RMC. The minimum grant received should be (social sciences- RM5000 and S&amp;T- RM20000). Sponsorship or scholarship is not counted as grant.",
+      pi_owner: "A0163",
+      pi_owner_ptj_name: "PUSAT PENGURUSAN PENYELIDIKAN",
+      pi_owner_abbreviation: "RMC",
+      kpi_id: "KPI10",
+      kpi_id_kpi_order: "10",
+      strategic_id: "ST204",
       strategic_theme:
-        'Translational Research Development, Innovation & Commercilisation',
+        "Translational Research Development, Innovation & Commercilisation",
       pi_by_ptj: [
         {
-          ptj_id: 'B0000',
-          ptj_name: 'UiTM CAWANGAN PULAU PINANG',
-          ptj_abb: 'P',
+          ptj_id: "B0000",
+          ptj_name: "UiTM CAWANGAN PULAU PINANG",
+          ptj_abb: "P",
           target: 10.0,
           pi_number: 61,
           achievement: [
@@ -18128,9 +18138,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'D0000',
-          ptj_name: 'UiTM CAWANGAN KELANTAN',
-          ptj_abb: 'D',
+          ptj_id: "D0000",
+          ptj_name: "UiTM CAWANGAN KELANTAN",
+          ptj_abb: "D",
           target: 10.0,
           pi_number: 61,
           achievement: [
@@ -18182,9 +18192,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0626',
-          ptj_name: 'FAKULTI SAINS SUKAN DAN REKREASI',
-          ptj_abb: 'SR',
+          ptj_id: "A0626",
+          ptj_name: "FAKULTI SAINS SUKAN DAN REKREASI",
+          ptj_abb: "SR",
           target: 3.0,
           pi_number: 61,
           achievement: [
@@ -18236,9 +18246,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0640',
-          ptj_name: 'FAKULTI FARMASI',
-          ptj_abb: 'PH',
+          ptj_id: "A0640",
+          ptj_name: "FAKULTI FARMASI",
+          ptj_abb: "PH",
           target: 15.0,
           pi_number: 61,
           achievement: [
@@ -18290,9 +18300,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'H0000',
-          ptj_name: 'UiTM CAWANGAN KEDAH',
-          ptj_abb: 'K',
+          ptj_id: "H0000",
+          ptj_name: "UiTM CAWANGAN KEDAH",
+          ptj_abb: "K",
           target: 8.0,
           pi_number: 61,
           achievement: [
@@ -18344,9 +18354,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0595',
-          ptj_name: 'ARSHAD AYUB GRADUATE BUSINESS SCHOOL',
-          ptj_abb: 'AA',
+          ptj_id: "A0595",
+          ptj_name: "ARSHAD AYUB GRADUATE BUSINESS SCHOOL",
+          ptj_abb: "AA",
           target: 9.0,
           pi_number: 61,
           achievement: [
@@ -18398,9 +18408,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0602',
-          ptj_name: 'FAKULTI PERAKAUNAN',
-          ptj_abb: 'AC',
+          ptj_id: "A0602",
+          ptj_name: "FAKULTI PERAKAUNAN",
+          ptj_abb: "AC",
           target: 39.0,
           pi_number: 61,
           achievement: [
@@ -18412,7 +18422,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 2.0,
               achievement: 28.0,
-              achievement_p: 0.717948718,
+              achievement_p: 0.7179487179999999,
             },
             {
               month: 3.0,
@@ -18452,9 +18462,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0604',
-          ptj_name: 'FAKULTI SAINS GUNAAN',
-          ptj_abb: 'AS',
+          ptj_id: "A0604",
+          ptj_name: "FAKULTI SAINS GUNAAN",
+          ptj_abb: "AS",
           target: 59.0,
           pi_number: 61,
           achievement: [
@@ -18486,29 +18496,29 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 6.0,
               achievement: 41.0,
-              achievement_p: 0.694915254,
+              achievement_p: 0.6949152540000001,
             },
             {
               month: 7.0,
               achievement: 41.0,
-              achievement_p: 0.694915254,
+              achievement_p: 0.6949152540000001,
             },
             {
               month: 8.0,
               achievement: 41.0,
-              achievement_p: 0.694915254,
+              achievement_p: 0.6949152540000001,
             },
             {
               month: 9.0,
               achievement: 41.0,
-              achievement_p: 0.694915254,
+              achievement_p: 0.6949152540000001,
             },
           ],
         },
         {
-          ptj_id: 'A0605',
-          ptj_name: 'FAKULTI SENIBINA PERANCANGAN DAN UKUR',
-          ptj_abb: 'AP',
+          ptj_id: "A0605",
+          ptj_name: "FAKULTI SENIBINA PERANCANGAN DAN UKUR",
+          ptj_abb: "AP",
           target: 74.0,
           pi_number: 61,
           achievement: [
@@ -18520,27 +18530,27 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 3.0,
               achievement: 50.0,
-              achievement_p: 0.675675676,
+              achievement_p: 0.6756756759999999,
             },
             {
               month: 4.0,
               achievement: 50.0,
-              achievement_p: 0.675675676,
+              achievement_p: 0.6756756759999999,
             },
             {
               month: 5.0,
               achievement: 50.0,
-              achievement_p: 0.675675676,
+              achievement_p: 0.6756756759999999,
             },
             {
               month: 6.0,
               achievement: 50.0,
-              achievement_p: 0.675675676,
+              achievement_p: 0.6756756759999999,
             },
             {
               month: 7.0,
               achievement: 50.0,
-              achievement_p: 0.675675676,
+              achievement_p: 0.6756756759999999,
             },
             {
               month: 8.0,
@@ -18555,14 +18565,14 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 2.0,
               achievement: 2.0,
-              achievement_p: 0.027027027,
+              achievement_p: 0.027027027000000002,
             },
           ],
         },
         {
-          ptj_id: 'A0607',
-          ptj_name: 'AKADEMI PENGAJIAN BAHASA',
-          ptj_abb: 'LG',
+          ptj_id: "A0607",
+          ptj_name: "AKADEMI PENGAJIAN BAHASA",
+          ptj_abb: "LG",
           target: 10.0,
           pi_number: 61,
           achievement: [
@@ -18614,9 +18624,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0610',
-          ptj_name: 'FAKULTI SENI LUKIS DAN SENI REKA',
-          ptj_abb: 'AD',
+          ptj_id: "A0610",
+          ptj_name: "FAKULTI SENI LUKIS DAN SENI REKA",
+          ptj_abb: "AD",
           target: 12.0,
           pi_number: 61,
           achievement: [
@@ -18668,9 +18678,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0611',
-          ptj_name: 'FAKULTI PENGURUSAN HOTEL DAN PELANCONGAN',
-          ptj_abb: 'HM',
+          ptj_id: "A0611",
+          ptj_name: "FAKULTI PENGURUSAN HOTEL DAN PELANCONGAN",
+          ptj_abb: "HM",
           target: 24.0,
           pi_number: 61,
           achievement: [
@@ -18722,9 +18732,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0613',
-          ptj_name: 'FAKULTI KOMUNIKASI DAN PENGAJIAN MEDIA',
-          ptj_abb: 'MC',
+          ptj_id: "A0613",
+          ptj_name: "FAKULTI KOMUNIKASI DAN PENGAJIAN MEDIA",
+          ptj_abb: "MC",
           target: 3.0,
           pi_number: 61,
           achievement: [
@@ -18766,19 +18776,19 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 8.0,
               achievement: 5.0,
-              achievement_p: 1.666666667,
+              achievement_p: 1.6666666669999999,
             },
             {
               month: 9.0,
               achievement: 5.0,
-              achievement_p: 1.666666667,
+              achievement_p: 1.6666666669999999,
             },
           ],
         },
         {
-          ptj_id: 'A0619',
-          ptj_name: 'FAKULTI PENDIDIKAN',
-          ptj_abb: 'ED',
+          ptj_id: "A0619",
+          ptj_name: "FAKULTI PENDIDIKAN",
+          ptj_abb: "ED",
           target: 10.0,
           pi_number: 61,
           achievement: [
@@ -18830,9 +18840,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0636',
-          ptj_name: 'FAKULTI UNDANG-UNDANG',
-          ptj_abb: 'LW',
+          ptj_id: "A0636",
+          ptj_name: "FAKULTI UNDANG-UNDANG",
+          ptj_abb: "LW",
           target: 9.0,
           pi_number: 61,
           achievement: [
@@ -18884,9 +18894,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0637',
-          ptj_name: 'FAKULTI SAINS PENTADBIRAN DAN PENGAJIAN POLISI',
-          ptj_abb: 'AM',
+          ptj_id: "A0637",
+          ptj_name: "FAKULTI SAINS PENTADBIRAN DAN PENGAJIAN POLISI",
+          ptj_abb: "AM",
           target: 4.0,
           pi_number: 61,
           achievement: [
@@ -18938,9 +18948,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0638',
-          ptj_name: 'FAKULTI PENGURUSAN MAKLUMAT',
-          ptj_abb: 'IM',
+          ptj_id: "A0638",
+          ptj_name: "FAKULTI PENGURUSAN MAKLUMAT",
+          ptj_abb: "IM",
           target: 15.0,
           pi_number: 61,
           achievement: [
@@ -18982,19 +18992,19 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 8.0,
               achievement: 11.0,
-              achievement_p: 0.733333333,
+              achievement_p: 0.7333333329999999,
             },
             {
               month: 9.0,
               achievement: 11.0,
-              achievement_p: 0.733333333,
+              achievement_p: 0.7333333329999999,
             },
           ],
         },
         {
-          ptj_id: 'A0639',
-          ptj_name: 'FAKULTI SAINS KOMPUTER DAN MATEMATIK',
-          ptj_abb: 'CS',
+          ptj_id: "A0639",
+          ptj_name: "FAKULTI SAINS KOMPUTER DAN MATEMATIK",
+          ptj_abb: "CS",
           target: 44.0,
           pi_number: 61,
           achievement: [
@@ -19046,9 +19056,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0643',
-          ptj_name: 'FAKULTI PERUBATAN',
-          ptj_abb: 'MD',
+          ptj_id: "A0643",
+          ptj_name: "FAKULTI PERUBATAN",
+          ptj_abb: "MD",
           target: 44.0,
           pi_number: 61,
           achievement: [
@@ -19100,9 +19110,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0644',
-          ptj_name: 'FAKULTI SAINS KESIHATAN',
-          ptj_abb: 'HS',
+          ptj_id: "A0644",
+          ptj_name: "FAKULTI SAINS KESIHATAN",
+          ptj_abb: "HS",
           target: 29.0,
           pi_number: 61,
           achievement: [
@@ -19144,19 +19154,19 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 8.0,
               achievement: 17.0,
-              achievement_p: 0.586206897,
+              achievement_p: 0.5862068970000001,
             },
             {
               month: 9.0,
               achievement: 17.0,
-              achievement_p: 0.586206897,
+              achievement_p: 0.5862068970000001,
             },
           ],
         },
         {
-          ptj_id: 'A0646',
-          ptj_name: 'FAKULTI MUZIK',
-          ptj_abb: 'MU',
+          ptj_id: "A0646",
+          ptj_name: "FAKULTI MUZIK",
+          ptj_abb: "MU",
           target: 4.0,
           pi_number: 61,
           achievement: [
@@ -19208,9 +19218,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0647',
-          ptj_name: 'FAKULTI PERLADANGAN DAN AGROTEKNOLOGI',
-          ptj_abb: 'AT',
+          ptj_id: "A0647",
+          ptj_name: "FAKULTI PERLADANGAN DAN AGROTEKNOLOGI",
+          ptj_abb: "AT",
           target: 7.0,
           pi_number: 61,
           achievement: [
@@ -19227,12 +19237,12 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 3.0,
               achievement: 2.0,
-              achievement_p: 0.285714286,
+              achievement_p: 0.28571428600000004,
             },
             {
               month: 4.0,
               achievement: 2.0,
-              achievement_p: 0.285714286,
+              achievement_p: 0.28571428600000004,
             },
             {
               month: 5.0,
@@ -19262,9 +19272,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0654',
-          ptj_name: 'FAKULTI PENGURUSAN DAN PERNIAGAAN',
-          ptj_abb: 'BA',
+          ptj_id: "A0654",
+          ptj_name: "FAKULTI PENGURUSAN DAN PERNIAGAAN",
+          ptj_abb: "BA",
           target: 80.0,
           pi_number: 61,
           achievement: [
@@ -19316,9 +19326,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0660',
-          ptj_name: 'FAKULTI PERGIGIAN',
-          ptj_abb: 'DS',
+          ptj_id: "A0660",
+          ptj_name: "FAKULTI PERGIGIAN",
+          ptj_abb: "DS",
           target: 17.0,
           pi_number: 61,
           achievement: [
@@ -19360,19 +19370,19 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 8.0,
               achievement: 16.0,
-              achievement_p: 0.941176471,
+              achievement_p: 0.9411764709999999,
             },
             {
               month: 9.0,
               achievement: 16.0,
-              achievement_p: 0.941176471,
+              achievement_p: 0.9411764709999999,
             },
           ],
         },
         {
-          ptj_id: 'A0683',
-          ptj_name: 'FAKULTI FILEM, TEATER DAN ANIMASI',
-          ptj_abb: 'FF',
+          ptj_id: "A0683",
+          ptj_name: "FAKULTI FILEM, TEATER DAN ANIMASI",
+          ptj_abb: "FF",
           target: 10.0,
           pi_number: 61,
           achievement: [
@@ -19424,9 +19434,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0692',
-          ptj_name: 'AKADEMI PENGAJIAN ISLAM KONTEMPORARI',
-          ptj_abb: 'IC',
+          ptj_id: "A0692",
+          ptj_name: "AKADEMI PENGAJIAN ISLAM KONTEMPORARI",
+          ptj_abb: "IC",
           target: 14.0,
           pi_number: 61,
           achievement: [
@@ -19478,9 +19488,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1608',
-          ptj_name: 'FAKULTI KEJURUTERAAN KIMIA',
-          ptj_abb: 'EH',
+          ptj_id: "A1608",
+          ptj_name: "FAKULTI KEJURUTERAAN KIMIA",
+          ptj_abb: "EH",
           target: 21.0,
           pi_number: 61,
           achievement: [
@@ -19497,27 +19507,27 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 3.0,
               achievement: 13.0,
-              achievement_p: 0.619047619,
+              achievement_p: 0.6190476189999999,
             },
             {
               month: 4.0,
               achievement: 13.0,
-              achievement_p: 0.619047619,
+              achievement_p: 0.6190476189999999,
             },
             {
               month: 5.0,
               achievement: 13.0,
-              achievement_p: 0.619047619,
+              achievement_p: 0.6190476189999999,
             },
             {
               month: 6.0,
               achievement: 13.0,
-              achievement_p: 0.619047619,
+              achievement_p: 0.6190476189999999,
             },
             {
               month: 7.0,
               achievement: 13.0,
-              achievement_p: 0.619047619,
+              achievement_p: 0.6190476189999999,
             },
             {
               month: 8.0,
@@ -19532,9 +19542,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1609',
-          ptj_name: 'FAKULTI KEJURUTERAAN AWAM',
-          ptj_abb: 'EC',
+          ptj_id: "A1609",
+          ptj_name: "FAKULTI KEJURUTERAAN AWAM",
+          ptj_abb: "EC",
           target: 14.0,
           pi_number: 61,
           achievement: [
@@ -19586,9 +19596,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1610',
-          ptj_name: 'FAKULTI KEJURUTERAAN MEKANIKAL',
-          ptj_abb: 'EM',
+          ptj_id: "A1610",
+          ptj_name: "FAKULTI KEJURUTERAAN MEKANIKAL",
+          ptj_abb: "EM",
           target: 26.0,
           pi_number: 61,
           achievement: [
@@ -19615,17 +19625,17 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 5.0,
               achievement: 12.0,
-              achievement_p: 0.461538462,
+              achievement_p: 0.46153846200000004,
             },
             {
               month: 6.0,
               achievement: 12.0,
-              achievement_p: 0.461538462,
+              achievement_p: 0.46153846200000004,
             },
             {
               month: 7.0,
               achievement: 12.0,
-              achievement_p: 0.461538462,
+              achievement_p: 0.46153846200000004,
             },
             {
               month: 8.0,
@@ -19640,9 +19650,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1611',
-          ptj_name: 'FAKULTI KEJURUTERAAN ELEKTRIK',
-          ptj_abb: 'EE',
+          ptj_id: "A1611",
+          ptj_name: "FAKULTI KEJURUTERAAN ELEKTRIK",
+          ptj_abb: "EE",
           target: 45.0,
           pi_number: 61,
           achievement: [
@@ -19694,16 +19704,16 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1665',
-          ptj_name: 'PUSAT ASASI',
-          ptj_abb: 'PI',
+          ptj_id: "A1665",
+          ptj_name: "PUSAT ASASI",
+          ptj_abb: "PI",
           target: 44.0,
           pi_number: 61,
           achievement: [
             {
               month: 2.0,
               achievement: 19.0,
-              achievement_p: 0.431818182,
+              achievement_p: 0.43181818200000005,
             },
             {
               month: 3.0,
@@ -19738,19 +19748,19 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 8.0,
               achievement: 19.0,
-              achievement_p: 0.431818182,
+              achievement_p: 0.43181818200000005,
             },
             {
               month: 9.0,
               achievement: 19.0,
-              achievement_p: 0.431818182,
+              achievement_p: 0.43181818200000005,
             },
           ],
         },
         {
-          ptj_id: 'C0000',
-          ptj_name: 'UiTM CAWANGAN PAHANG',
-          ptj_abb: 'C',
+          ptj_id: "C0000",
+          ptj_name: "UiTM CAWANGAN PAHANG",
+          ptj_abb: "C",
           target: 6.0,
           pi_number: 61,
           achievement: [
@@ -19802,9 +19812,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'J0000',
-          ptj_name: 'UiTM CAWANGAN JOHOR',
-          ptj_abb: 'J',
+          ptj_id: "J0000",
+          ptj_name: "UiTM CAWANGAN JOHOR",
+          ptj_abb: "J",
           target: 10.0,
           pi_number: 61,
           achievement: [
@@ -19856,9 +19866,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'K0000',
-          ptj_name: 'UiTM CAWANGAN PERAK',
-          ptj_abb: 'A',
+          ptj_id: "K0000",
+          ptj_name: "UiTM CAWANGAN PERAK",
+          ptj_abb: "A",
           target: 10.0,
           pi_number: 61,
           achievement: [
@@ -19910,9 +19920,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'M0000',
-          ptj_name: 'UiTM CAWANGAN MELAKA',
-          ptj_abb: 'M',
+          ptj_id: "M0000",
+          ptj_name: "UiTM CAWANGAN MELAKA",
+          ptj_abb: "M",
           target: 15.0,
           pi_number: 61,
           achievement: [
@@ -19939,34 +19949,34 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 5.0,
               achievement: 4.0,
-              achievement_p: 0.266666667,
+              achievement_p: 0.26666666699999997,
             },
             {
               month: 6.0,
               achievement: 4.0,
-              achievement_p: 0.266666667,
+              achievement_p: 0.26666666699999997,
             },
             {
               month: 7.0,
               achievement: 4.0,
-              achievement_p: 0.266666667,
+              achievement_p: 0.26666666699999997,
             },
             {
               month: 8.0,
               achievement: 4.0,
-              achievement_p: 0.266666667,
+              achievement_p: 0.26666666699999997,
             },
             {
               month: 9.0,
               achievement: 4.0,
-              achievement_p: 0.266666667,
+              achievement_p: 0.26666666699999997,
             },
           ],
         },
         {
-          ptj_id: 'N0000',
-          ptj_name: 'UiTM CAWANGAN NEGERI SEMBILAN',
-          ptj_abb: 'N',
+          ptj_id: "N0000",
+          ptj_name: "UiTM CAWANGAN NEGERI SEMBILAN",
+          ptj_abb: "N",
           target: 9.0,
           pi_number: 61,
           achievement: [
@@ -20018,9 +20028,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'P0000',
-          ptj_name: 'UiTM CAWANGAN PERLIS',
-          ptj_abb: 'R',
+          ptj_id: "P0000",
+          ptj_name: "UiTM CAWANGAN PERLIS",
+          ptj_abb: "R",
           target: 10.0,
           pi_number: 61,
           achievement: [
@@ -20072,9 +20082,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'S0000',
-          ptj_name: 'UiTM CAWANGAN SABAH',
-          ptj_abb: 'S',
+          ptj_id: "S0000",
+          ptj_name: "UiTM CAWANGAN SABAH",
+          ptj_abb: "S",
           target: 3.0,
           pi_number: 61,
           achievement: [
@@ -20126,9 +20136,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'T0000',
-          ptj_name: 'UiTM CAWANGAN TERENGGANU',
-          ptj_abb: 'T',
+          ptj_id: "T0000",
+          ptj_name: "UiTM CAWANGAN TERENGGANU",
+          ptj_abb: "T",
           target: 6.0,
           pi_number: 61,
           achievement: [
@@ -20180,9 +20190,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'W0000',
-          ptj_name: 'UiTM CAWANGAN SARAWAK',
-          ptj_abb: 'Q',
+          ptj_id: "W0000",
+          ptj_name: "UiTM CAWANGAN SARAWAK",
+          ptj_abb: "Q",
           target: 8.0,
           pi_number: 61,
           achievement: [
@@ -20237,25 +20247,25 @@ const TNC_PI_PORTFOLIO = {
     },
     {
       tp_id: 62,
-      pi_id: '010062',
+      pi_id: "010062",
       pi_number: 62,
       pi_name:
-        'Number of principal investigators for research grants: b) National funded.',
+        "Number of principal investigators for research grants:rnb) National funded.",
       operation_definition:
-        'Principal investigator is a leader of a national research grant registered with RMC. The minimum grant received should be (social sciences- RM5000 and S&amp;T- RM20000). National grants are provided by public agencies or ministries, e.g., MoE, MOSTI, MCMC. Sponsorship or scholarship is not counted as grant.',
-      pi_owner: 'A0163',
-      pi_owner_ptj_name: 'PUSAT PENGURUSAN PENYELIDIKAN',
-      pi_owner_abbreviation: 'RMC',
-      kpi_id: 'KPI10',
-      kpi_id_kpi_order: '10',
-      strategic_id: 'ST204',
+        "Principal investigator is a leader of a national research grant registered with RMC. The minimum grant received should be (social sciences- RM5000 and S&amp;T- RM20000). National grants are provided by public agencies or ministries, e.g., MoE, MOSTI, MCMC. Sponsorship or scholarship is not counted as grant.",
+      pi_owner: "A0163",
+      pi_owner_ptj_name: "PUSAT PENGURUSAN PENYELIDIKAN",
+      pi_owner_abbreviation: "RMC",
+      kpi_id: "KPI10",
+      kpi_id_kpi_order: "10",
+      strategic_id: "ST204",
       strategic_theme:
-        'Translational Research Development, Innovation & Commercilisation',
+        "Translational Research Development, Innovation & Commercilisation",
       pi_by_ptj: [
         {
-          ptj_id: 'A0646',
-          ptj_name: 'FAKULTI MUZIK',
-          ptj_abb: 'MU',
+          ptj_id: "A0646",
+          ptj_name: "FAKULTI MUZIK",
+          ptj_abb: "MU",
           target: 3.0,
           pi_number: 62,
           achievement: [
@@ -20307,9 +20317,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0595',
-          ptj_name: 'ARSHAD AYUB GRADUATE BUSINESS SCHOOL',
-          ptj_abb: 'AA',
+          ptj_id: "A0595",
+          ptj_name: "ARSHAD AYUB GRADUATE BUSINESS SCHOOL",
+          ptj_abb: "AA",
           target: 6.0,
           pi_number: 62,
           achievement: [
@@ -20361,9 +20371,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0602',
-          ptj_name: 'FAKULTI PERAKAUNAN',
-          ptj_abb: 'AC',
+          ptj_id: "A0602",
+          ptj_name: "FAKULTI PERAKAUNAN",
+          ptj_abb: "AC",
           target: 30.0,
           pi_number: 62,
           achievement: [
@@ -20375,12 +20385,12 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 2.0,
               achievement: 14.0,
-              achievement_p: 0.466666667,
+              achievement_p: 0.46666666700000003,
             },
             {
               month: 3.0,
               achievement: 26.0,
-              achievement_p: 0.866666667,
+              achievement_p: 0.8666666670000001,
             },
             {
               month: 4.0,
@@ -20415,9 +20425,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0604',
-          ptj_name: 'FAKULTI SAINS GUNAAN',
-          ptj_abb: 'AS',
+          ptj_id: "A0604",
+          ptj_name: "FAKULTI SAINS GUNAAN",
+          ptj_abb: "AS",
           target: 75.0,
           pi_number: 62,
           achievement: [
@@ -20464,14 +20474,14 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 9.0,
               achievement: 65.0,
-              achievement_p: 0.866666667,
+              achievement_p: 0.8666666670000001,
             },
           ],
         },
         {
-          ptj_id: 'A0605',
-          ptj_name: 'FAKULTI SENIBINA PERANCANGAN DAN UKUR',
-          ptj_abb: 'AP',
+          ptj_id: "A0605",
+          ptj_name: "FAKULTI SENIBINA PERANCANGAN DAN UKUR",
+          ptj_abb: "AP",
           target: 40.0,
           pi_number: 62,
           achievement: [
@@ -20523,9 +20533,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0607',
-          ptj_name: 'AKADEMI PENGAJIAN BAHASA',
-          ptj_abb: 'LG',
+          ptj_id: "A0607",
+          ptj_name: "AKADEMI PENGAJIAN BAHASA",
+          ptj_abb: "LG",
           target: 10.0,
           pi_number: 62,
           achievement: [
@@ -20577,9 +20587,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0610',
-          ptj_name: 'FAKULTI SENI LUKIS DAN SENI REKA',
-          ptj_abb: 'AD',
+          ptj_id: "A0610",
+          ptj_name: "FAKULTI SENI LUKIS DAN SENI REKA",
+          ptj_abb: "AD",
           target: 20.0,
           pi_number: 62,
           achievement: [
@@ -20631,9 +20641,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0611',
-          ptj_name: 'FAKULTI PENGURUSAN HOTEL DAN PELANCONGAN',
-          ptj_abb: 'HM',
+          ptj_id: "A0611",
+          ptj_name: "FAKULTI PENGURUSAN HOTEL DAN PELANCONGAN",
+          ptj_abb: "HM",
           target: 25.0,
           pi_number: 62,
           achievement: [
@@ -20685,9 +20695,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0613',
-          ptj_name: 'FAKULTI KOMUNIKASI DAN PENGAJIAN MEDIA',
-          ptj_abb: 'MC',
+          ptj_id: "A0613",
+          ptj_name: "FAKULTI KOMUNIKASI DAN PENGAJIAN MEDIA",
+          ptj_abb: "MC",
           target: 8.0,
           pi_number: 62,
           achievement: [
@@ -20739,9 +20749,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0619',
-          ptj_name: 'FAKULTI PENDIDIKAN',
-          ptj_abb: 'ED',
+          ptj_id: "A0619",
+          ptj_name: "FAKULTI PENDIDIKAN",
+          ptj_abb: "ED",
           target: 9.0,
           pi_number: 62,
           achievement: [
@@ -20793,9 +20803,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0626',
-          ptj_name: 'FAKULTI SAINS SUKAN DAN REKREASI',
-          ptj_abb: 'SR',
+          ptj_id: "A0626",
+          ptj_name: "FAKULTI SAINS SUKAN DAN REKREASI",
+          ptj_abb: "SR",
           target: 4.0,
           pi_number: 62,
           achievement: [
@@ -20847,9 +20857,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0636',
-          ptj_name: 'FAKULTI UNDANG-UNDANG',
-          ptj_abb: 'LW',
+          ptj_id: "A0636",
+          ptj_name: "FAKULTI UNDANG-UNDANG",
+          ptj_abb: "LW",
           target: 10.0,
           pi_number: 62,
           achievement: [
@@ -20901,9 +20911,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0637',
-          ptj_name: 'FAKULTI SAINS PENTADBIRAN DAN PENGAJIAN POLISI',
-          ptj_abb: 'AM',
+          ptj_id: "A0637",
+          ptj_name: "FAKULTI SAINS PENTADBIRAN DAN PENGAJIAN POLISI",
+          ptj_abb: "AM",
           target: 15.0,
           pi_number: 62,
           achievement: [
@@ -20945,19 +20955,19 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 8.0,
               achievement: 11.0,
-              achievement_p: 0.733333333,
+              achievement_p: 0.7333333329999999,
             },
             {
               month: 9.0,
               achievement: 11.0,
-              achievement_p: 0.733333333,
+              achievement_p: 0.7333333329999999,
             },
           ],
         },
         {
-          ptj_id: 'A0638',
-          ptj_name: 'FAKULTI PENGURUSAN MAKLUMAT',
-          ptj_abb: 'IM',
+          ptj_id: "A0638",
+          ptj_name: "FAKULTI PENGURUSAN MAKLUMAT",
+          ptj_abb: "IM",
           target: 8.0,
           pi_number: 62,
           achievement: [
@@ -21009,9 +21019,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0639',
-          ptj_name: 'FAKULTI SAINS KOMPUTER DAN MATEMATIK',
-          ptj_abb: 'CS',
+          ptj_id: "A0639",
+          ptj_name: "FAKULTI SAINS KOMPUTER DAN MATEMATIK",
+          ptj_abb: "CS",
           target: 45.0,
           pi_number: 62,
           achievement: [
@@ -21063,9 +21073,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0640',
-          ptj_name: 'FAKULTI FARMASI',
-          ptj_abb: 'PH',
+          ptj_id: "A0640",
+          ptj_name: "FAKULTI FARMASI",
+          ptj_abb: "PH",
           target: 35.0,
           pi_number: 62,
           achievement: [
@@ -21107,19 +21117,19 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 8.0,
               achievement: 26.0,
-              achievement_p: 0.742857143,
+              achievement_p: 0.7428571429999999,
             },
             {
               month: 9.0,
               achievement: 26.0,
-              achievement_p: 0.742857143,
+              achievement_p: 0.7428571429999999,
             },
           ],
         },
         {
-          ptj_id: 'A0643',
-          ptj_name: 'FAKULTI PERUBATAN',
-          ptj_abb: 'MD',
+          ptj_id: "A0643",
+          ptj_name: "FAKULTI PERUBATAN",
+          ptj_abb: "MD",
           target: 55.0,
           pi_number: 62,
           achievement: [
@@ -21171,9 +21181,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0644',
-          ptj_name: 'FAKULTI SAINS KESIHATAN',
-          ptj_abb: 'HS',
+          ptj_id: "A0644",
+          ptj_name: "FAKULTI SAINS KESIHATAN",
+          ptj_abb: "HS",
           target: 25.0,
           pi_number: 62,
           achievement: [
@@ -21225,9 +21235,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0647',
-          ptj_name: 'FAKULTI PERLADANGAN DAN AGROTEKNOLOGI',
-          ptj_abb: 'AT',
+          ptj_id: "A0647",
+          ptj_name: "FAKULTI PERLADANGAN DAN AGROTEKNOLOGI",
+          ptj_abb: "AT",
           target: 20.0,
           pi_number: 62,
           achievement: [
@@ -21279,9 +21289,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0654',
-          ptj_name: 'FAKULTI PENGURUSAN DAN PERNIAGAAN',
-          ptj_abb: 'BA',
+          ptj_id: "A0654",
+          ptj_name: "FAKULTI PENGURUSAN DAN PERNIAGAAN",
+          ptj_abb: "BA",
           target: 30.0,
           pi_number: 62,
           achievement: [
@@ -21318,24 +21328,24 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 7.0,
               achievement: 26.0,
-              achievement_p: 0.866666667,
+              achievement_p: 0.8666666670000001,
             },
             {
               month: 8.0,
               achievement: 26.0,
-              achievement_p: 0.866666667,
+              achievement_p: 0.8666666670000001,
             },
             {
               month: 9.0,
               achievement: 26.0,
-              achievement_p: 0.866666667,
+              achievement_p: 0.8666666670000001,
             },
           ],
         },
         {
-          ptj_id: 'A0660',
-          ptj_name: 'FAKULTI PERGIGIAN',
-          ptj_abb: 'DS',
+          ptj_id: "A0660",
+          ptj_name: "FAKULTI PERGIGIAN",
+          ptj_abb: "DS",
           target: 15.0,
           pi_number: 62,
           achievement: [
@@ -21387,9 +21397,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0683',
-          ptj_name: 'FAKULTI FILEM, TEATER DAN ANIMASI',
-          ptj_abb: 'FF',
+          ptj_id: "A0683",
+          ptj_name: "FAKULTI FILEM, TEATER DAN ANIMASI",
+          ptj_abb: "FF",
           target: 5.0,
           pi_number: 62,
           achievement: [
@@ -21441,9 +21451,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0692',
-          ptj_name: 'AKADEMI PENGAJIAN ISLAM KONTEMPORARI',
-          ptj_abb: 'IC',
+          ptj_id: "A0692",
+          ptj_name: "AKADEMI PENGAJIAN ISLAM KONTEMPORARI",
+          ptj_abb: "IC",
           target: 20.0,
           pi_number: 62,
           achievement: [
@@ -21495,9 +21505,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1608',
-          ptj_name: 'FAKULTI KEJURUTERAAN KIMIA',
-          ptj_abb: 'EH',
+          ptj_id: "A1608",
+          ptj_name: "FAKULTI KEJURUTERAAN KIMIA",
+          ptj_abb: "EH",
           target: 42.0,
           pi_number: 62,
           achievement: [
@@ -21549,9 +21559,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1609',
-          ptj_name: 'FAKULTI KEJURUTERAAN AWAM',
-          ptj_abb: 'EC',
+          ptj_id: "A1609",
+          ptj_name: "FAKULTI KEJURUTERAAN AWAM",
+          ptj_abb: "EC",
           target: 40.0,
           pi_number: 62,
           achievement: [
@@ -21603,9 +21613,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1610',
-          ptj_name: 'FAKULTI KEJURUTERAAN MEKANIKAL',
-          ptj_abb: 'EM',
+          ptj_id: "A1610",
+          ptj_name: "FAKULTI KEJURUTERAAN MEKANIKAL",
+          ptj_abb: "EM",
           target: 40.0,
           pi_number: 62,
           achievement: [
@@ -21657,9 +21667,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1611',
-          ptj_name: 'FAKULTI KEJURUTERAAN ELEKTRIK',
-          ptj_abb: 'EE',
+          ptj_id: "A1611",
+          ptj_name: "FAKULTI KEJURUTERAAN ELEKTRIK",
+          ptj_abb: "EE",
           target: 50.0,
           pi_number: 62,
           achievement: [
@@ -21711,9 +21721,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1665',
-          ptj_name: 'PUSAT ASASI',
-          ptj_abb: 'PI',
+          ptj_id: "A1665",
+          ptj_name: "PUSAT ASASI",
+          ptj_abb: "PI",
           target: 10.0,
           pi_number: 62,
           achievement: [
@@ -21765,9 +21775,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'B0000',
-          ptj_name: 'UiTM CAWANGAN PULAU PINANG',
-          ptj_abb: 'P',
+          ptj_id: "B0000",
+          ptj_name: "UiTM CAWANGAN PULAU PINANG",
+          ptj_abb: "P",
           target: 50.0,
           pi_number: 62,
           achievement: [
@@ -21819,9 +21829,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'C0000',
-          ptj_name: 'UiTM CAWANGAN PAHANG',
-          ptj_abb: 'C',
+          ptj_id: "C0000",
+          ptj_name: "UiTM CAWANGAN PAHANG",
+          ptj_abb: "C",
           target: 40.0,
           pi_number: 62,
           achievement: [
@@ -21873,9 +21883,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'D0000',
-          ptj_name: 'UiTM CAWANGAN KELANTAN',
-          ptj_abb: 'D',
+          ptj_id: "D0000",
+          ptj_name: "UiTM CAWANGAN KELANTAN",
+          ptj_abb: "D",
           target: 15.0,
           pi_number: 62,
           achievement: [
@@ -21892,17 +21902,17 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 3.0,
               achievement: 11.0,
-              achievement_p: 0.733333333,
+              achievement_p: 0.7333333329999999,
             },
             {
               month: 4.0,
               achievement: 11.0,
-              achievement_p: 0.733333333,
+              achievement_p: 0.7333333329999999,
             },
             {
               month: 5.0,
               achievement: 11.0,
-              achievement_p: 0.733333333,
+              achievement_p: 0.7333333329999999,
             },
             {
               month: 6.0,
@@ -21927,9 +21937,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'J0000',
-          ptj_name: 'UiTM CAWANGAN JOHOR',
-          ptj_abb: 'J',
+          ptj_id: "J0000",
+          ptj_name: "UiTM CAWANGAN JOHOR",
+          ptj_abb: "J",
           target: 38.0,
           pi_number: 62,
           achievement: [
@@ -21946,27 +21956,27 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 3.0,
               achievement: 33.0,
-              achievement_p: 0.868421053,
+              achievement_p: 0.8684210529999999,
             },
             {
               month: 4.0,
               achievement: 33.0,
-              achievement_p: 0.868421053,
+              achievement_p: 0.8684210529999999,
             },
             {
               month: 5.0,
               achievement: 33.0,
-              achievement_p: 0.868421053,
+              achievement_p: 0.8684210529999999,
             },
             {
               month: 6.0,
               achievement: 33.0,
-              achievement_p: 0.868421053,
+              achievement_p: 0.8684210529999999,
             },
             {
               month: 7.0,
               achievement: 33.0,
-              achievement_p: 0.868421053,
+              achievement_p: 0.8684210529999999,
             },
             {
               month: 8.0,
@@ -21981,9 +21991,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'K0000',
-          ptj_name: 'UiTM CAWANGAN PERAK',
-          ptj_abb: 'A',
+          ptj_id: "K0000",
+          ptj_name: "UiTM CAWANGAN PERAK",
+          ptj_abb: "A",
           target: 45.0,
           pi_number: 62,
           achievement: [
@@ -22000,44 +22010,44 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 5.0,
               achievement: 37.0,
-              achievement_p: 0.822222222,
+              achievement_p: 0.8222222220000001,
             },
             {
               month: 6.0,
               achievement: 37.0,
-              achievement_p: 0.822222222,
+              achievement_p: 0.8222222220000001,
             },
             {
               month: 7.0,
               achievement: 37.0,
-              achievement_p: 0.822222222,
+              achievement_p: 0.8222222220000001,
             },
             {
               month: 8.0,
               achievement: 37.0,
-              achievement_p: 0.822222222,
+              achievement_p: 0.8222222220000001,
             },
             {
               month: 9.0,
               achievement: 37.0,
-              achievement_p: 0.822222222,
+              achievement_p: 0.8222222220000001,
             },
             {
               month: 3.0,
               achievement: 37.0,
-              achievement_p: 0.822222222,
+              achievement_p: 0.8222222220000001,
             },
             {
               month: 4.0,
               achievement: 37.0,
-              achievement_p: 0.822222222,
+              achievement_p: 0.8222222220000001,
             },
           ],
         },
         {
-          ptj_id: 'M0000',
-          ptj_name: 'UiTM CAWANGAN MELAKA',
-          ptj_abb: 'M',
+          ptj_id: "M0000",
+          ptj_name: "UiTM CAWANGAN MELAKA",
+          ptj_abb: "M",
           target: 45.0,
           pi_number: 62,
           achievement: [
@@ -22049,7 +22059,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 3.0,
               achievement: 37.0,
-              achievement_p: 0.822222222,
+              achievement_p: 0.8222222220000001,
             },
             {
               month: 1.0,
@@ -22059,7 +22069,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 4.0,
               achievement: 37.0,
-              achievement_p: 0.822222222,
+              achievement_p: 0.8222222220000001,
             },
             {
               month: 5.0,
@@ -22069,29 +22079,29 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 6.0,
               achievement: 21.0,
-              achievement_p: 0.466666667,
+              achievement_p: 0.46666666700000003,
             },
             {
               month: 7.0,
               achievement: 21.0,
-              achievement_p: 0.466666667,
+              achievement_p: 0.46666666700000003,
             },
             {
               month: 8.0,
               achievement: 21.0,
-              achievement_p: 0.466666667,
+              achievement_p: 0.46666666700000003,
             },
             {
               month: 9.0,
               achievement: 23.0,
-              achievement_p: 0.511111111,
+              achievement_p: 0.5111111110000001,
             },
           ],
         },
         {
-          ptj_id: 'N0000',
-          ptj_name: 'UiTM CAWANGAN NEGERI SEMBILAN',
-          ptj_abb: 'N',
+          ptj_id: "N0000",
+          ptj_name: "UiTM CAWANGAN NEGERI SEMBILAN",
+          ptj_abb: "N",
           target: 35.0,
           pi_number: 62,
           achievement: [
@@ -22103,12 +22113,12 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 2.0,
               achievement: 25.0,
-              achievement_p: 0.714285714,
+              achievement_p: 0.7142857140000001,
             },
             {
               month: 3.0,
               achievement: 31.0,
-              achievement_p: 0.885714286,
+              achievement_p: 0.8857142859999999,
             },
             {
               month: 5.0,
@@ -22138,14 +22148,14 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 4.0,
               achievement: 31.0,
-              achievement_p: 0.885714286,
+              achievement_p: 0.8857142859999999,
             },
           ],
         },
         {
-          ptj_id: 'P0000',
-          ptj_name: 'UiTM CAWANGAN PERLIS',
-          ptj_abb: 'R',
+          ptj_id: "P0000",
+          ptj_name: "UiTM CAWANGAN PERLIS",
+          ptj_abb: "R",
           target: 20.0,
           pi_number: 62,
           achievement: [
@@ -22197,9 +22207,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'S0000',
-          ptj_name: 'UiTM CAWANGAN SABAH',
-          ptj_abb: 'S',
+          ptj_id: "S0000",
+          ptj_name: "UiTM CAWANGAN SABAH",
+          ptj_abb: "S",
           target: 7.0,
           pi_number: 62,
           achievement: [
@@ -22251,9 +22261,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'T0000',
-          ptj_name: 'UiTM CAWANGAN TERENGGANU',
-          ptj_abb: 'T',
+          ptj_id: "T0000",
+          ptj_name: "UiTM CAWANGAN TERENGGANU",
+          ptj_abb: "T",
           target: 25.0,
           pi_number: 62,
           achievement: [
@@ -22305,9 +22315,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'W0000',
-          ptj_name: 'UiTM CAWANGAN SARAWAK',
-          ptj_abb: 'Q',
+          ptj_id: "W0000",
+          ptj_name: "UiTM CAWANGAN SARAWAK",
+          ptj_abb: "Q",
           target: 12.0,
           pi_number: 62,
           achievement: [
@@ -22324,44 +22334,44 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 3.0,
               achievement: 5.0,
-              achievement_p: 0.416666667,
+              achievement_p: 0.41666666700000005,
             },
             {
               month: 4.0,
               achievement: 5.0,
-              achievement_p: 0.416666667,
+              achievement_p: 0.41666666700000005,
             },
             {
               month: 5.0,
               achievement: 5.0,
-              achievement_p: 0.416666667,
+              achievement_p: 0.41666666700000005,
             },
             {
               month: 6.0,
               achievement: 5.0,
-              achievement_p: 0.416666667,
+              achievement_p: 0.41666666700000005,
             },
             {
               month: 7.0,
               achievement: 5.0,
-              achievement_p: 0.416666667,
+              achievement_p: 0.41666666700000005,
             },
             {
               month: 8.0,
               achievement: 5.0,
-              achievement_p: 0.416666667,
+              achievement_p: 0.41666666700000005,
             },
             {
               month: 9.0,
               achievement: 5.0,
-              achievement_p: 0.416666667,
+              achievement_p: 0.41666666700000005,
             },
           ],
         },
         {
-          ptj_id: 'H0000',
-          ptj_name: 'UiTM CAWANGAN KEDAH',
-          ptj_abb: 'K',
+          ptj_id: "H0000",
+          ptj_name: "UiTM CAWANGAN KEDAH",
+          ptj_abb: "K",
           target: 18.0,
           pi_number: 62,
           achievement: [
@@ -22373,42 +22383,42 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 2.0,
               achievement: 13.0,
-              achievement_p: 0.722222222,
+              achievement_p: 0.7222222220000001,
             },
             {
               month: 3.0,
               achievement: 10.0,
-              achievement_p: 0.555555556,
+              achievement_p: 0.5555555560000001,
             },
             {
               month: 4.0,
               achievement: 10.0,
-              achievement_p: 0.555555556,
+              achievement_p: 0.5555555560000001,
             },
             {
               month: 5.0,
               achievement: 10.0,
-              achievement_p: 0.555555556,
+              achievement_p: 0.5555555560000001,
             },
             {
               month: 6.0,
               achievement: 10.0,
-              achievement_p: 0.555555556,
+              achievement_p: 0.5555555560000001,
             },
             {
               month: 7.0,
               achievement: 10.0,
-              achievement_p: 0.555555556,
+              achievement_p: 0.5555555560000001,
             },
             {
               month: 8.0,
               achievement: 10.0,
-              achievement_p: 0.555555556,
+              achievement_p: 0.5555555560000001,
             },
             {
               month: 9.0,
               achievement: 10.0,
-              achievement_p: 0.555555556,
+              achievement_p: 0.5555555560000001,
             },
           ],
         },
@@ -22416,25 +22426,25 @@ const TNC_PI_PORTFOLIO = {
     },
     {
       tp_id: 63,
-      pi_id: '010063',
+      pi_id: "010063",
       pi_number: 63,
       pi_name:
-        'Number of principal investigators for research grants: c) Industrial funded.',
+        "Number of principal investigators for research grants:rnc) Industrial funded.",
       operation_definition:
-        'Principal investigator is a leader of a industrial grant registered with RMC. The minimum grant received should be (social sciences- RM5000 and S&amp;T- RM10000). Industry grants are provided by private agencies, business entities and non-governmental organizations. Sponsorship or scholarship is not counted as grant.',
-      pi_owner: 'A0163',
-      pi_owner_ptj_name: 'PUSAT PENGURUSAN PENYELIDIKAN',
-      pi_owner_abbreviation: 'RMC',
-      kpi_id: 'KPI10',
-      kpi_id_kpi_order: '10',
-      strategic_id: 'ST204',
+        "Principal investigator is a leader of a industrial grant registered with RMC. The minimum grant received should be (social sciences- RM5000 and S&amp;T- RM10000). Industry grants are provided by private agencies, business entities and non-governmental organizations. Sponsorship or scholarship is not counted as grant.",
+      pi_owner: "A0163",
+      pi_owner_ptj_name: "PUSAT PENGURUSAN PENYELIDIKAN",
+      pi_owner_abbreviation: "RMC",
+      kpi_id: "KPI10",
+      kpi_id_kpi_order: "10",
+      strategic_id: "ST204",
       strategic_theme:
-        'Translational Research Development, Innovation & Commercilisation',
+        "Translational Research Development, Innovation & Commercilisation",
       pi_by_ptj: [
         {
-          ptj_id: 'A0605',
-          ptj_name: 'FAKULTI SENIBINA PERANCANGAN DAN UKUR',
-          ptj_abb: 'AP',
+          ptj_id: "A0605",
+          ptj_name: "FAKULTI SENIBINA PERANCANGAN DAN UKUR",
+          ptj_abb: "AP",
           target: 7.0,
           pi_number: 63,
           achievement: [
@@ -22486,9 +22496,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0607',
-          ptj_name: 'AKADEMI PENGAJIAN BAHASA',
-          ptj_abb: 'LG',
+          ptj_id: "A0607",
+          ptj_name: "AKADEMI PENGAJIAN BAHASA",
+          ptj_abb: "LG",
           target: 5.0,
           pi_number: 63,
           achievement: [
@@ -22540,9 +22550,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0610',
-          ptj_name: 'FAKULTI SENI LUKIS DAN SENI REKA',
-          ptj_abb: 'AD',
+          ptj_id: "A0610",
+          ptj_name: "FAKULTI SENI LUKIS DAN SENI REKA",
+          ptj_abb: "AD",
           target: 5.0,
           pi_number: 63,
           achievement: [
@@ -22594,9 +22604,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0611',
-          ptj_name: 'FAKULTI PENGURUSAN HOTEL DAN PELANCONGAN',
-          ptj_abb: 'HM',
+          ptj_id: "A0611",
+          ptj_name: "FAKULTI PENGURUSAN HOTEL DAN PELANCONGAN",
+          ptj_abb: "HM",
           target: 3.0,
           pi_number: 63,
           achievement: [
@@ -22648,9 +22658,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0613',
-          ptj_name: 'FAKULTI KOMUNIKASI DAN PENGAJIAN MEDIA',
-          ptj_abb: 'MC',
+          ptj_id: "A0613",
+          ptj_name: "FAKULTI KOMUNIKASI DAN PENGAJIAN MEDIA",
+          ptj_abb: "MC",
           target: 2.0,
           pi_number: 63,
           achievement: [
@@ -22702,9 +22712,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0619',
-          ptj_name: 'FAKULTI PENDIDIKAN',
-          ptj_abb: 'ED',
+          ptj_id: "A0619",
+          ptj_name: "FAKULTI PENDIDIKAN",
+          ptj_abb: "ED",
           target: 2.0,
           pi_number: 63,
           achievement: [
@@ -22756,9 +22766,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0626',
-          ptj_name: 'FAKULTI SAINS SUKAN DAN REKREASI',
-          ptj_abb: 'SR',
+          ptj_id: "A0626",
+          ptj_name: "FAKULTI SAINS SUKAN DAN REKREASI",
+          ptj_abb: "SR",
           target: 2.0,
           pi_number: 63,
           achievement: [
@@ -22810,9 +22820,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0636',
-          ptj_name: 'FAKULTI UNDANG-UNDANG',
-          ptj_abb: 'LW',
+          ptj_id: "A0636",
+          ptj_name: "FAKULTI UNDANG-UNDANG",
+          ptj_abb: "LW",
           target: 3.0,
           pi_number: 63,
           achievement: [
@@ -22864,9 +22874,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0637',
-          ptj_name: 'FAKULTI SAINS PENTADBIRAN DAN PENGAJIAN POLISI',
-          ptj_abb: 'AM',
+          ptj_id: "A0637",
+          ptj_name: "FAKULTI SAINS PENTADBIRAN DAN PENGAJIAN POLISI",
+          ptj_abb: "AM",
           target: 3.0,
           pi_number: 63,
           achievement: [
@@ -22918,9 +22928,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0638',
-          ptj_name: 'FAKULTI PENGURUSAN MAKLUMAT',
-          ptj_abb: 'IM',
+          ptj_id: "A0638",
+          ptj_name: "FAKULTI PENGURUSAN MAKLUMAT",
+          ptj_abb: "IM",
           target: 3.0,
           pi_number: 63,
           achievement: [
@@ -22972,9 +22982,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0646',
-          ptj_name: 'FAKULTI MUZIK',
-          ptj_abb: 'MU',
+          ptj_id: "A0646",
+          ptj_name: "FAKULTI MUZIK",
+          ptj_abb: "MU",
           target: 2.0,
           pi_number: 63,
           achievement: [
@@ -23026,9 +23036,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0647',
-          ptj_name: 'FAKULTI PERLADANGAN DAN AGROTEKNOLOGI',
-          ptj_abb: 'AT',
+          ptj_id: "A0647",
+          ptj_name: "FAKULTI PERLADANGAN DAN AGROTEKNOLOGI",
+          ptj_abb: "AT",
           target: 5.0,
           pi_number: 63,
           achievement: [
@@ -23080,9 +23090,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0683',
-          ptj_name: 'FAKULTI FILEM, TEATER DAN ANIMASI',
-          ptj_abb: 'FF',
+          ptj_id: "A0683",
+          ptj_name: "FAKULTI FILEM, TEATER DAN ANIMASI",
+          ptj_abb: "FF",
           target: 2.0,
           pi_number: 63,
           achievement: [
@@ -23134,9 +23144,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0692',
-          ptj_name: 'AKADEMI PENGAJIAN ISLAM KONTEMPORARI',
-          ptj_abb: 'IC',
+          ptj_id: "A0692",
+          ptj_name: "AKADEMI PENGAJIAN ISLAM KONTEMPORARI",
+          ptj_abb: "IC",
           target: 3.0,
           pi_number: 63,
           achievement: [
@@ -23188,9 +23198,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1665',
-          ptj_name: 'PUSAT ASASI',
-          ptj_abb: 'PI',
+          ptj_id: "A1665",
+          ptj_name: "PUSAT ASASI",
+          ptj_abb: "PI",
           target: 3.0,
           pi_number: 63,
           achievement: [
@@ -23242,9 +23252,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'C0000',
-          ptj_name: 'UiTM CAWANGAN PAHANG',
-          ptj_abb: 'C',
+          ptj_id: "C0000",
+          ptj_name: "UiTM CAWANGAN PAHANG",
+          ptj_abb: "C",
           target: 3.0,
           pi_number: 63,
           achievement: [
@@ -23296,9 +23306,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'D0000',
-          ptj_name: 'UiTM CAWANGAN KELANTAN',
-          ptj_abb: 'D',
+          ptj_id: "D0000",
+          ptj_name: "UiTM CAWANGAN KELANTAN",
+          ptj_abb: "D",
           target: 4.0,
           pi_number: 63,
           achievement: [
@@ -23345,14 +23355,14 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 2.0,
               achievement: 1.0,
-              achievement_p: 0.142857143,
+              achievement_p: 0.14285714300000002,
             },
           ],
         },
         {
-          ptj_id: 'H0000',
-          ptj_name: 'UiTM CAWANGAN KEDAH',
-          ptj_abb: 'K',
+          ptj_id: "H0000",
+          ptj_name: "UiTM CAWANGAN KEDAH",
+          ptj_abb: "K",
           target: 3.0,
           pi_number: 63,
           achievement: [
@@ -23404,9 +23414,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'J0000',
-          ptj_name: 'UiTM CAWANGAN JOHOR',
-          ptj_abb: 'J',
+          ptj_id: "J0000",
+          ptj_name: "UiTM CAWANGAN JOHOR",
+          ptj_abb: "J",
           target: 3.0,
           pi_number: 63,
           achievement: [
@@ -23458,9 +23468,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'K0000',
-          ptj_name: 'UiTM CAWANGAN PERAK',
-          ptj_abb: 'A',
+          ptj_id: "K0000",
+          ptj_name: "UiTM CAWANGAN PERAK",
+          ptj_abb: "A",
           target: 5.0,
           pi_number: 63,
           achievement: [
@@ -23512,9 +23522,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'M0000',
-          ptj_name: 'UiTM CAWANGAN MELAKA',
-          ptj_abb: 'M',
+          ptj_id: "M0000",
+          ptj_name: "UiTM CAWANGAN MELAKA",
+          ptj_abb: "M",
           target: 4.0,
           pi_number: 63,
           achievement: [
@@ -23566,9 +23576,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'S0000',
-          ptj_name: 'UiTM CAWANGAN SABAH',
-          ptj_abb: 'S',
+          ptj_id: "S0000",
+          ptj_name: "UiTM CAWANGAN SABAH",
+          ptj_abb: "S",
           target: 2.0,
           pi_number: 63,
           achievement: [
@@ -23620,9 +23630,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'T0000',
-          ptj_name: 'UiTM CAWANGAN TERENGGANU',
-          ptj_abb: 'T',
+          ptj_id: "T0000",
+          ptj_name: "UiTM CAWANGAN TERENGGANU",
+          ptj_abb: "T",
           target: 3.0,
           pi_number: 63,
           achievement: [
@@ -23674,9 +23684,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0604',
-          ptj_name: 'FAKULTI SAINS GUNAAN',
-          ptj_abb: 'AS',
+          ptj_id: "A0604",
+          ptj_name: "FAKULTI SAINS GUNAAN",
+          ptj_abb: "AS",
           target: 7.0,
           pi_number: 63,
           achievement: [
@@ -23728,9 +23738,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0639',
-          ptj_name: 'FAKULTI SAINS KOMPUTER DAN MATEMATIK',
-          ptj_abb: 'CS',
+          ptj_id: "A0639",
+          ptj_name: "FAKULTI SAINS KOMPUTER DAN MATEMATIK",
+          ptj_abb: "CS",
           target: 7.0,
           pi_number: 63,
           achievement: [
@@ -23762,29 +23772,29 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 6.0,
               achievement: 2.0,
-              achievement_p: 0.285714286,
+              achievement_p: 0.28571428600000004,
             },
             {
               month: 7.0,
               achievement: 2.0,
-              achievement_p: 0.285714286,
+              achievement_p: 0.28571428600000004,
             },
             {
               month: 8.0,
               achievement: 2.0,
-              achievement_p: 0.285714286,
+              achievement_p: 0.28571428600000004,
             },
             {
               month: 9.0,
               achievement: 2.0,
-              achievement_p: 0.285714286,
+              achievement_p: 0.28571428600000004,
             },
           ],
         },
         {
-          ptj_id: 'A0640',
-          ptj_name: 'FAKULTI FARMASI',
-          ptj_abb: 'PH',
+          ptj_id: "A0640",
+          ptj_name: "FAKULTI FARMASI",
+          ptj_abb: "PH",
           target: 3.0,
           pi_number: 63,
           achievement: [
@@ -23836,9 +23846,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0643',
-          ptj_name: 'FAKULTI PERUBATAN',
-          ptj_abb: 'MD',
+          ptj_id: "A0643",
+          ptj_name: "FAKULTI PERUBATAN",
+          ptj_abb: "MD",
           target: 10.0,
           pi_number: 63,
           achievement: [
@@ -23890,9 +23900,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0654',
-          ptj_name: 'FAKULTI PENGURUSAN DAN PERNIAGAAN',
-          ptj_abb: 'BA',
+          ptj_id: "A0654",
+          ptj_name: "FAKULTI PENGURUSAN DAN PERNIAGAAN",
+          ptj_abb: "BA",
           target: 5.0,
           pi_number: 63,
           achievement: [
@@ -23944,9 +23954,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0660',
-          ptj_name: 'FAKULTI PERGIGIAN',
-          ptj_abb: 'DS',
+          ptj_id: "A0660",
+          ptj_name: "FAKULTI PERGIGIAN",
+          ptj_abb: "DS",
           target: 4.0,
           pi_number: 63,
           achievement: [
@@ -23958,17 +23968,17 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 2.0,
               achievement: 2.0,
-              achievement_p: 0.285714286,
+              achievement_p: 0.28571428600000004,
             },
             {
               month: 4.0,
               achievement: 2.0,
-              achievement_p: 0.285714286,
+              achievement_p: 0.28571428600000004,
             },
             {
               month: 5.0,
               achievement: 2.0,
-              achievement_p: 0.285714286,
+              achievement_p: 0.28571428600000004,
             },
             {
               month: 6.0,
@@ -23993,14 +24003,14 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 3.0,
               achievement: 1.0,
-              achievement_p: 0.142857143,
+              achievement_p: 0.14285714300000002,
             },
           ],
         },
         {
-          ptj_id: 'A1609',
-          ptj_name: 'FAKULTI KEJURUTERAAN AWAM',
-          ptj_abb: 'EC',
+          ptj_id: "A1609",
+          ptj_name: "FAKULTI KEJURUTERAAN AWAM",
+          ptj_abb: "EC",
           target: 5.0,
           pi_number: 63,
           achievement: [
@@ -24052,9 +24062,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1610',
-          ptj_name: 'FAKULTI KEJURUTERAAN MEKANIKAL',
-          ptj_abb: 'EM',
+          ptj_id: "A1610",
+          ptj_name: "FAKULTI KEJURUTERAAN MEKANIKAL",
+          ptj_abb: "EM",
           target: 7.0,
           pi_number: 63,
           achievement: [
@@ -24066,7 +24076,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 2.0,
               achievement: 4.0,
-              achievement_p: 0.266666667,
+              achievement_p: 0.26666666699999997,
             },
             {
               month: 3.0,
@@ -24086,7 +24096,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 6.0,
               achievement: 5.0,
-              achievement_p: 0.714285714,
+              achievement_p: 0.7142857140000001,
             },
             {
               month: 7.0,
@@ -24106,9 +24116,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1611',
-          ptj_name: 'FAKULTI KEJURUTERAAN ELEKTRIK',
-          ptj_abb: 'EE',
+          ptj_id: "A1611",
+          ptj_name: "FAKULTI KEJURUTERAAN ELEKTRIK",
+          ptj_abb: "EE",
           target: 6.0,
           pi_number: 63,
           achievement: [
@@ -24160,9 +24170,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'B0000',
-          ptj_name: 'UiTM CAWANGAN PULAU PINANG',
-          ptj_abb: 'P',
+          ptj_id: "B0000",
+          ptj_name: "UiTM CAWANGAN PULAU PINANG",
+          ptj_abb: "P",
           target: 4.0,
           pi_number: 63,
           achievement: [
@@ -24174,17 +24184,17 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 3.0,
               achievement: 5.0,
-              achievement_p: 0.555555556,
+              achievement_p: 0.5555555560000001,
             },
             {
               month: 4.0,
               achievement: 5.0,
-              achievement_p: 0.555555556,
+              achievement_p: 0.5555555560000001,
             },
             {
               month: 5.0,
               achievement: 5.0,
-              achievement_p: 0.555555556,
+              achievement_p: 0.5555555560000001,
             },
             {
               month: 6.0,
@@ -24214,9 +24224,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'W0000',
-          ptj_name: 'UiTM CAWANGAN SARAWAK',
-          ptj_abb: 'Q',
+          ptj_id: "W0000",
+          ptj_name: "UiTM CAWANGAN SARAWAK",
+          ptj_abb: "Q",
           target: 4.0,
           pi_number: 63,
           achievement: [
@@ -24268,9 +24278,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0602',
-          ptj_name: 'FAKULTI PERAKAUNAN',
-          ptj_abb: 'AC',
+          ptj_id: "A0602",
+          ptj_name: "FAKULTI PERAKAUNAN",
+          ptj_abb: "AC",
           target: 4.0,
           pi_number: 63,
           achievement: [
@@ -24282,22 +24292,22 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 2.0,
               achievement: 1.0,
-              achievement_p: 0.142857143,
+              achievement_p: 0.14285714300000002,
             },
             {
               month: 3.0,
               achievement: 1.0,
-              achievement_p: 0.142857143,
+              achievement_p: 0.14285714300000002,
             },
             {
               month: 4.0,
               achievement: 1.0,
-              achievement_p: 0.142857143,
+              achievement_p: 0.14285714300000002,
             },
             {
               month: 5.0,
               achievement: 1.0,
-              achievement_p: 0.142857143,
+              achievement_p: 0.14285714300000002,
             },
             {
               month: 6.0,
@@ -24322,9 +24332,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0644',
-          ptj_name: 'FAKULTI SAINS KESIHATAN',
-          ptj_abb: 'HS',
+          ptj_id: "A0644",
+          ptj_name: "FAKULTI SAINS KESIHATAN",
+          ptj_abb: "HS",
           target: 4.0,
           pi_number: 63,
           achievement: [
@@ -24376,9 +24386,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'N0000',
-          ptj_name: 'UiTM CAWANGAN NEGERI SEMBILAN',
-          ptj_abb: 'N',
+          ptj_id: "N0000",
+          ptj_name: "UiTM CAWANGAN NEGERI SEMBILAN",
+          ptj_abb: "N",
           target: 4.0,
           pi_number: 63,
           achievement: [
@@ -24395,12 +24405,12 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 3.0,
               achievement: 1.0,
-              achievement_p: 0.142857143,
+              achievement_p: 0.14285714300000002,
             },
             {
               month: 5.0,
               achievement: 1.0,
-              achievement_p: 0.142857143,
+              achievement_p: 0.14285714300000002,
             },
             {
               month: 6.0,
@@ -24425,14 +24435,14 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 4.0,
               achievement: 1.0,
-              achievement_p: 0.142857143,
+              achievement_p: 0.14285714300000002,
             },
           ],
         },
         {
-          ptj_id: 'P0000',
-          ptj_name: 'UiTM CAWANGAN PERLIS',
-          ptj_abb: 'R',
+          ptj_id: "P0000",
+          ptj_name: "UiTM CAWANGAN PERLIS",
+          ptj_abb: "R",
           target: 3.0,
           pi_number: 63,
           achievement: [
@@ -24484,9 +24494,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1608',
-          ptj_name: 'FAKULTI KEJURUTERAAN KIMIA',
-          ptj_abb: 'EH',
+          ptj_id: "A1608",
+          ptj_name: "FAKULTI KEJURUTERAAN KIMIA",
+          ptj_abb: "EH",
           target: 3.0,
           pi_number: 63,
           achievement: [
@@ -24498,22 +24508,22 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 2.0,
               achievement: 2.0,
-              achievement_p: 0.285714286,
+              achievement_p: 0.28571428600000004,
             },
             {
               month: 3.0,
               achievement: 2.0,
-              achievement_p: 0.285714286,
+              achievement_p: 0.28571428600000004,
             },
             {
               month: 4.0,
               achievement: 2.0,
-              achievement_p: 0.285714286,
+              achievement_p: 0.28571428600000004,
             },
             {
               month: 5.0,
               achievement: 2.0,
-              achievement_p: 0.285714286,
+              achievement_p: 0.28571428600000004,
             },
             {
               month: 6.0,
@@ -24538,9 +24548,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0595',
-          ptj_name: 'ARSHAD AYUB GRADUATE BUSINESS SCHOOL',
-          ptj_abb: 'AA',
+          ptj_id: "A0595",
+          ptj_name: "ARSHAD AYUB GRADUATE BUSINESS SCHOOL",
+          ptj_abb: "AA",
           target: 3.0,
           pi_number: 63,
           achievement: [
@@ -24595,25 +24605,25 @@ const TNC_PI_PORTFOLIO = {
     },
     {
       tp_id: 64,
-      pi_id: '010064',
+      pi_id: "010064",
       pi_number: 64,
       pi_name:
-        'Number of principal investigators for research grants: d) International funded.',
+        "Number of principal investigators for research grants:rnd) International funded.",
       operation_definition:
-        'Principal investigator is a leader of a international grant registered with RMC. The minimum grant received should be (social sciences- RM5000 and S&amp;T- RM10000). International grants are provided by international agencies within or outside Malaysia. Sponsorship or scholarship is not counted as grant.',
-      pi_owner: 'A0163',
-      pi_owner_ptj_name: 'PUSAT PENGURUSAN PENYELIDIKAN',
-      pi_owner_abbreviation: 'RMC',
-      kpi_id: 'KPI10',
-      kpi_id_kpi_order: '10',
-      strategic_id: 'ST204',
+        "Principal investigator is a leader of a international grant registered with RMC. The minimum grant received should be (social sciences- RM5000 and S&amp;T- RM10000). International grants are provided by international agencies within or outside Malaysia. Sponsorship or scholarship is not counted as grant.",
+      pi_owner: "A0163",
+      pi_owner_ptj_name: "PUSAT PENGURUSAN PENYELIDIKAN",
+      pi_owner_abbreviation: "RMC",
+      kpi_id: "KPI10",
+      kpi_id_kpi_order: "10",
+      strategic_id: "ST204",
       strategic_theme:
-        'Translational Research Development, Innovation & Commercilisation',
+        "Translational Research Development, Innovation & Commercilisation",
       pi_by_ptj: [
         {
-          ptj_id: 'A0646',
-          ptj_name: 'FAKULTI MUZIK',
-          ptj_abb: 'MU',
+          ptj_id: "A0646",
+          ptj_name: "FAKULTI MUZIK",
+          ptj_abb: "MU",
           target: 1.0,
           pi_number: 64,
           achievement: [
@@ -24665,9 +24675,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'S0000',
-          ptj_name: 'UiTM CAWANGAN SABAH',
-          ptj_abb: 'S',
+          ptj_id: "S0000",
+          ptj_name: "UiTM CAWANGAN SABAH",
+          ptj_abb: "S",
           target: 1.0,
           pi_number: 64,
           achievement: [
@@ -24719,9 +24729,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0605',
-          ptj_name: 'FAKULTI SENIBINA PERANCANGAN DAN UKUR',
-          ptj_abb: 'AP',
+          ptj_id: "A0605",
+          ptj_name: "FAKULTI SENIBINA PERANCANGAN DAN UKUR",
+          ptj_abb: "AP",
           target: 2.0,
           pi_number: 64,
           achievement: [
@@ -24773,9 +24783,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0607',
-          ptj_name: 'AKADEMI PENGAJIAN BAHASA',
-          ptj_abb: 'LG',
+          ptj_id: "A0607",
+          ptj_name: "AKADEMI PENGAJIAN BAHASA",
+          ptj_abb: "LG",
           target: 2.0,
           pi_number: 64,
           achievement: [
@@ -24827,9 +24837,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0611',
-          ptj_name: 'FAKULTI PENGURUSAN HOTEL DAN PELANCONGAN',
-          ptj_abb: 'HM',
+          ptj_id: "A0611",
+          ptj_name: "FAKULTI PENGURUSAN HOTEL DAN PELANCONGAN",
+          ptj_abb: "HM",
           target: 2.0,
           pi_number: 64,
           achievement: [
@@ -24881,9 +24891,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0613',
-          ptj_name: 'FAKULTI KOMUNIKASI DAN PENGAJIAN MEDIA',
-          ptj_abb: 'MC',
+          ptj_id: "A0613",
+          ptj_name: "FAKULTI KOMUNIKASI DAN PENGAJIAN MEDIA",
+          ptj_abb: "MC",
           target: 2.0,
           pi_number: 64,
           achievement: [
@@ -24935,9 +24945,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0619',
-          ptj_name: 'FAKULTI PENDIDIKAN',
-          ptj_abb: 'ED',
+          ptj_id: "A0619",
+          ptj_name: "FAKULTI PENDIDIKAN",
+          ptj_abb: "ED",
           target: 2.0,
           pi_number: 64,
           achievement: [
@@ -24989,9 +24999,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0636',
-          ptj_name: 'FAKULTI UNDANG-UNDANG',
-          ptj_abb: 'LW',
+          ptj_id: "A0636",
+          ptj_name: "FAKULTI UNDANG-UNDANG",
+          ptj_abb: "LW",
           target: 2.0,
           pi_number: 64,
           achievement: [
@@ -25043,9 +25053,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0637',
-          ptj_name: 'FAKULTI SAINS PENTADBIRAN DAN PENGAJIAN POLISI',
-          ptj_abb: 'AM',
+          ptj_id: "A0637",
+          ptj_name: "FAKULTI SAINS PENTADBIRAN DAN PENGAJIAN POLISI",
+          ptj_abb: "AM",
           target: 2.0,
           pi_number: 64,
           achievement: [
@@ -25097,9 +25107,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0639',
-          ptj_name: 'FAKULTI SAINS KOMPUTER DAN MATEMATIK',
-          ptj_abb: 'CS',
+          ptj_id: "A0639",
+          ptj_name: "FAKULTI SAINS KOMPUTER DAN MATEMATIK",
+          ptj_abb: "CS",
           target: 2.0,
           pi_number: 64,
           achievement: [
@@ -25151,9 +25161,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0640',
-          ptj_name: 'FAKULTI FARMASI',
-          ptj_abb: 'PH',
+          ptj_id: "A0640",
+          ptj_name: "FAKULTI FARMASI",
+          ptj_abb: "PH",
           target: 2.0,
           pi_number: 64,
           achievement: [
@@ -25205,9 +25215,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0647',
-          ptj_name: 'FAKULTI PERLADANGAN DAN AGROTEKNOLOGI',
-          ptj_abb: 'AT',
+          ptj_id: "A0647",
+          ptj_name: "FAKULTI PERLADANGAN DAN AGROTEKNOLOGI",
+          ptj_abb: "AT",
           target: 2.0,
           pi_number: 64,
           achievement: [
@@ -25259,9 +25269,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0660',
-          ptj_name: 'FAKULTI PERGIGIAN',
-          ptj_abb: 'DS',
+          ptj_id: "A0660",
+          ptj_name: "FAKULTI PERGIGIAN",
+          ptj_abb: "DS",
           target: 2.0,
           pi_number: 64,
           achievement: [
@@ -25313,9 +25323,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0692',
-          ptj_name: 'AKADEMI PENGAJIAN ISLAM KONTEMPORARI',
-          ptj_abb: 'IC',
+          ptj_id: "A0692",
+          ptj_name: "AKADEMI PENGAJIAN ISLAM KONTEMPORARI",
+          ptj_abb: "IC",
           target: 2.0,
           pi_number: 64,
           achievement: [
@@ -25367,9 +25377,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1608',
-          ptj_name: 'FAKULTI KEJURUTERAAN KIMIA',
-          ptj_abb: 'EH',
+          ptj_id: "A1608",
+          ptj_name: "FAKULTI KEJURUTERAAN KIMIA",
+          ptj_abb: "EH",
           target: 2.0,
           pi_number: 64,
           achievement: [
@@ -25421,9 +25431,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1609',
-          ptj_name: 'FAKULTI KEJURUTERAAN AWAM',
-          ptj_abb: 'EC',
+          ptj_id: "A1609",
+          ptj_name: "FAKULTI KEJURUTERAAN AWAM",
+          ptj_abb: "EC",
           target: 3.0,
           pi_number: 64,
           achievement: [
@@ -25475,9 +25485,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1665',
-          ptj_name: 'PUSAT ASASI',
-          ptj_abb: 'PI',
+          ptj_id: "A1665",
+          ptj_name: "PUSAT ASASI",
+          ptj_abb: "PI",
           target: 2.0,
           pi_number: 64,
           achievement: [
@@ -25529,9 +25539,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'C0000',
-          ptj_name: 'UiTM CAWANGAN PAHANG',
-          ptj_abb: 'C',
+          ptj_id: "C0000",
+          ptj_name: "UiTM CAWANGAN PAHANG",
+          ptj_abb: "C",
           target: 2.0,
           pi_number: 64,
           achievement: [
@@ -25583,9 +25593,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'D0000',
-          ptj_name: 'UiTM CAWANGAN KELANTAN',
-          ptj_abb: 'D',
+          ptj_id: "D0000",
+          ptj_name: "UiTM CAWANGAN KELANTAN",
+          ptj_abb: "D",
           target: 2.0,
           pi_number: 64,
           achievement: [
@@ -25637,9 +25647,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'J0000',
-          ptj_name: 'UiTM CAWANGAN JOHOR',
-          ptj_abb: 'J',
+          ptj_id: "J0000",
+          ptj_name: "UiTM CAWANGAN JOHOR",
+          ptj_abb: "J",
           target: 2.0,
           pi_number: 64,
           achievement: [
@@ -25691,9 +25701,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'K0000',
-          ptj_name: 'UiTM CAWANGAN PERAK',
-          ptj_abb: 'A',
+          ptj_id: "K0000",
+          ptj_name: "UiTM CAWANGAN PERAK",
+          ptj_abb: "A",
           target: 2.0,
           pi_number: 64,
           achievement: [
@@ -25745,9 +25755,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'N0000',
-          ptj_name: 'UiTM CAWANGAN NEGERI SEMBILAN',
-          ptj_abb: 'N',
+          ptj_id: "N0000",
+          ptj_name: "UiTM CAWANGAN NEGERI SEMBILAN",
+          ptj_abb: "N",
           target: 2.0,
           pi_number: 64,
           achievement: [
@@ -25799,9 +25809,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'P0000',
-          ptj_name: 'UiTM CAWANGAN PERLIS',
-          ptj_abb: 'R',
+          ptj_id: "P0000",
+          ptj_name: "UiTM CAWANGAN PERLIS",
+          ptj_abb: "R",
           target: 2.0,
           pi_number: 64,
           achievement: [
@@ -25853,9 +25863,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'T0000',
-          ptj_name: 'UiTM CAWANGAN TERENGGANU',
-          ptj_abb: 'T',
+          ptj_id: "T0000",
+          ptj_name: "UiTM CAWANGAN TERENGGANU",
+          ptj_abb: "T",
           target: 2.0,
           pi_number: 64,
           achievement: [
@@ -25907,9 +25917,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0595',
-          ptj_name: 'ARSHAD AYUB GRADUATE BUSINESS SCHOOL',
-          ptj_abb: 'AA',
+          ptj_id: "A0595",
+          ptj_name: "ARSHAD AYUB GRADUATE BUSINESS SCHOOL",
+          ptj_abb: "AA",
           target: 2.0,
           pi_number: 64,
           achievement: [
@@ -25961,9 +25971,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1610',
-          ptj_name: 'FAKULTI KEJURUTERAAN MEKANIKAL',
-          ptj_abb: 'EM',
+          ptj_id: "A1610",
+          ptj_name: "FAKULTI KEJURUTERAAN MEKANIKAL",
+          ptj_abb: "EM",
           target: 2.0,
           pi_number: 64,
           achievement: [
@@ -26015,9 +26025,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0604',
-          ptj_name: 'FAKULTI SAINS GUNAAN',
-          ptj_abb: 'AS',
+          ptj_id: "A0604",
+          ptj_name: "FAKULTI SAINS GUNAAN",
+          ptj_abb: "AS",
           target: 6.0,
           pi_number: 64,
           achievement: [
@@ -26069,9 +26079,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0643',
-          ptj_name: 'FAKULTI PERUBATAN',
-          ptj_abb: 'MD',
+          ptj_id: "A0643",
+          ptj_name: "FAKULTI PERUBATAN",
+          ptj_abb: "MD",
           target: 9.0,
           pi_number: 64,
           achievement: [
@@ -26103,29 +26113,29 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 6.0,
               achievement: 13.0,
-              achievement_p: 1.444444444,
+              achievement_p: 1.4444444440000002,
             },
             {
               month: 7.0,
               achievement: 14.0,
-              achievement_p: 1.555555556,
+              achievement_p: 1.5555555559999998,
             },
             {
               month: 8.0,
               achievement: 13.0,
-              achievement_p: 1.444444444,
+              achievement_p: 1.4444444440000002,
             },
             {
               month: 9.0,
               achievement: 15.0,
-              achievement_p: 1.666666667,
+              achievement_p: 1.6666666669999999,
             },
           ],
         },
         {
-          ptj_id: 'A0654',
-          ptj_name: 'FAKULTI PENGURUSAN DAN PERNIAGAAN',
-          ptj_abb: 'BA',
+          ptj_id: "A0654",
+          ptj_name: "FAKULTI PENGURUSAN DAN PERNIAGAAN",
+          ptj_abb: "BA",
           target: 4.0,
           pi_number: 64,
           achievement: [
@@ -26177,9 +26187,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'B0000',
-          ptj_name: 'UiTM CAWANGAN PULAU PINANG',
-          ptj_abb: 'P',
+          ptj_id: "B0000",
+          ptj_name: "UiTM CAWANGAN PULAU PINANG",
+          ptj_abb: "P",
           target: 4.0,
           pi_number: 64,
           achievement: [
@@ -26231,9 +26241,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'W0000',
-          ptj_name: 'UiTM CAWANGAN SARAWAK',
-          ptj_abb: 'Q',
+          ptj_id: "W0000",
+          ptj_name: "UiTM CAWANGAN SARAWAK",
+          ptj_abb: "Q",
           target: 3.0,
           pi_number: 64,
           achievement: [
@@ -26260,17 +26270,17 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 3.0,
               achievement: 1.0,
-              achievement_p: 0.142857143,
+              achievement_p: 0.14285714300000002,
             },
             {
               month: 4.0,
               achievement: 1.0,
-              achievement_p: 0.142857143,
+              achievement_p: 0.14285714300000002,
             },
             {
               month: 5.0,
               achievement: 1.0,
-              achievement_p: 0.142857143,
+              achievement_p: 0.14285714300000002,
             },
             {
               month: 6.0,
@@ -26285,9 +26295,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0602',
-          ptj_name: 'FAKULTI PERAKAUNAN',
-          ptj_abb: 'AC',
+          ptj_id: "A0602",
+          ptj_name: "FAKULTI PERAKAUNAN",
+          ptj_abb: "AC",
           target: 2.0,
           pi_number: 64,
           achievement: [
@@ -26339,9 +26349,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0610',
-          ptj_name: 'FAKULTI SENI LUKIS DAN SENI REKA',
-          ptj_abb: 'AD',
+          ptj_id: "A0610",
+          ptj_name: "FAKULTI SENI LUKIS DAN SENI REKA",
+          ptj_abb: "AD",
           target: 5.0,
           pi_number: 64,
           achievement: [
@@ -26393,9 +26403,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0626',
-          ptj_name: 'FAKULTI SAINS SUKAN DAN REKREASI',
-          ptj_abb: 'SR',
+          ptj_id: "A0626",
+          ptj_name: "FAKULTI SAINS SUKAN DAN REKREASI",
+          ptj_abb: "SR",
           target: 2.0,
           pi_number: 64,
           achievement: [
@@ -26447,9 +26457,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0644',
-          ptj_name: 'FAKULTI SAINS KESIHATAN',
-          ptj_abb: 'HS',
+          ptj_id: "A0644",
+          ptj_name: "FAKULTI SAINS KESIHATAN",
+          ptj_abb: "HS",
           target: 2.0,
           pi_number: 64,
           achievement: [
@@ -26501,9 +26511,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0683',
-          ptj_name: 'FAKULTI FILEM, TEATER DAN ANIMASI',
-          ptj_abb: 'FF',
+          ptj_id: "A0683",
+          ptj_name: "FAKULTI FILEM, TEATER DAN ANIMASI",
+          ptj_abb: "FF",
           target: 2.0,
           pi_number: 64,
           achievement: [
@@ -26555,9 +26565,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1611',
-          ptj_name: 'FAKULTI KEJURUTERAAN ELEKTRIK',
-          ptj_abb: 'EE',
+          ptj_id: "A1611",
+          ptj_name: "FAKULTI KEJURUTERAAN ELEKTRIK",
+          ptj_abb: "EE",
           target: 4.0,
           pi_number: 64,
           achievement: [
@@ -26609,9 +26619,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'M0000',
-          ptj_name: 'UiTM CAWANGAN MELAKA',
-          ptj_abb: 'M',
+          ptj_id: "M0000",
+          ptj_name: "UiTM CAWANGAN MELAKA",
+          ptj_abb: "M",
           target: 2.0,
           pi_number: 64,
           achievement: [
@@ -26663,9 +26673,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0638',
-          ptj_name: 'FAKULTI PENGURUSAN MAKLUMAT',
-          ptj_abb: 'IM',
+          ptj_id: "A0638",
+          ptj_name: "FAKULTI PENGURUSAN MAKLUMAT",
+          ptj_abb: "IM",
           target: 2.0,
           pi_number: 64,
           achievement: [
@@ -26717,9 +26727,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'H0000',
-          ptj_name: 'UiTM CAWANGAN KEDAH',
-          ptj_abb: 'K',
+          ptj_id: "H0000",
+          ptj_name: "UiTM CAWANGAN KEDAH",
+          ptj_abb: "K",
           target: 2.0,
           pi_number: 64,
           achievement: [
@@ -26774,25 +26784,25 @@ const TNC_PI_PORTFOLIO = {
     },
     {
       tp_id: 65,
-      pi_id: '010065',
+      pi_id: "010065",
       pi_number: 65,
       pi_name:
-        'Number of non principal investigators who are main supervisor for MS or PhD by research students.',
+        "Number of non principal investigators who are main supervisor for MS or PhD by research students.",
       operation_definition:
-        'Main supervisor is a supervisor of a research-based or mixed-mode-based postgraduate students who are non-principal investigators for research grant.',
-      pi_owner: 'A0163',
-      pi_owner_ptj_name: 'PUSAT PENGURUSAN PENYELIDIKAN',
-      pi_owner_abbreviation: 'RMC',
-      kpi_id: 'KPI10',
-      kpi_id_kpi_order: '10',
-      strategic_id: 'ST204',
+        "Main supervisor is a supervisor of a research-based or mixed-mode-based postgraduate students who are non-principal investigators for research grant.",
+      pi_owner: "A0163",
+      pi_owner_ptj_name: "PUSAT PENGURUSAN PENYELIDIKAN",
+      pi_owner_abbreviation: "RMC",
+      kpi_id: "KPI10",
+      kpi_id_kpi_order: "10",
+      strategic_id: "ST204",
       strategic_theme:
-        'Translational Research Development, Innovation & Commercilisation',
+        "Translational Research Development, Innovation & Commercilisation",
       pi_by_ptj: [
         {
-          ptj_id: 'A0163',
-          ptj_name: 'PUSAT PENGURUSAN PENYELIDIKAN',
-          ptj_abb: 'RMC',
+          ptj_id: "A0163",
+          ptj_name: "PUSAT PENGURUSAN PENYELIDIKAN",
+          ptj_abb: "RMC",
           target: 330.0,
           pi_number: 65,
           achievement: [
@@ -26814,17 +26824,17 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 4.0,
               achievement: 57.0,
-              achievement_p: 0.172727273,
+              achievement_p: 0.17272727300000001,
             },
             {
               month: 5.0,
               achievement: 57.0,
-              achievement_p: 0.172727273,
+              achievement_p: 0.17272727300000001,
             },
             {
               month: 6.0,
               achievement: 57.0,
-              achievement_p: 0.172727273,
+              achievement_p: 0.17272727300000001,
             },
             {
               month: 7.0,
@@ -26847,24 +26857,24 @@ const TNC_PI_PORTFOLIO = {
     },
     {
       tp_id: 66,
-      pi_id: '010066',
+      pi_id: "010066",
       pi_number: 66,
-      pi_name: 'Total amount of research grants: a) University funded.',
+      pi_name: "Total amount of research grants:rna) University funded.",
       operation_definition:
-        'Total amount of university funded grant received and registered with Research Management Center (RMC) for the current year.',
-      pi_owner: 'A0163',
-      pi_owner_ptj_name: 'PUSAT PENGURUSAN PENYELIDIKAN',
-      pi_owner_abbreviation: 'RMC',
-      kpi_id: 'KPI10',
-      kpi_id_kpi_order: '10',
-      strategic_id: 'ST204',
+        "Total amount of university funded grant received and registered with Research Management Center (RMC) for the current year.",
+      pi_owner: "A0163",
+      pi_owner_ptj_name: "PUSAT PENGURUSAN PENYELIDIKAN",
+      pi_owner_abbreviation: "RMC",
+      kpi_id: "KPI10",
+      kpi_id_kpi_order: "10",
+      strategic_id: "ST204",
       strategic_theme:
-        'Translational Research Development, Innovation & Commercilisation',
+        "Translational Research Development, Innovation & Commercilisation",
       pi_by_ptj: [
         {
-          ptj_id: 'A0595',
-          ptj_name: 'ARSHAD AYUB GRADUATE BUSINESS SCHOOL',
-          ptj_abb: 'AA',
+          ptj_id: "A0595",
+          ptj_name: "ARSHAD AYUB GRADUATE BUSINESS SCHOOL",
+          ptj_abb: "AA",
           target: 27000.0,
           pi_number: 66,
           achievement: [
@@ -26916,9 +26926,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0607',
-          ptj_name: 'AKADEMI PENGAJIAN BAHASA',
-          ptj_abb: 'LG',
+          ptj_id: "A0607",
+          ptj_name: "AKADEMI PENGAJIAN BAHASA",
+          ptj_abb: "LG",
           target: 109000.0,
           pi_number: 66,
           achievement: [
@@ -26970,9 +26980,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0626',
-          ptj_name: 'FAKULTI SAINS SUKAN DAN REKREASI',
-          ptj_abb: 'SR',
+          ptj_id: "A0626",
+          ptj_name: "FAKULTI SAINS SUKAN DAN REKREASI",
+          ptj_abb: "SR",
           target: 98000.0,
           pi_number: 66,
           achievement: [
@@ -27024,9 +27034,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0639',
-          ptj_name: 'FAKULTI SAINS KOMPUTER DAN MATEMATIK',
-          ptj_abb: 'CS',
+          ptj_id: "A0639",
+          ptj_name: "FAKULTI SAINS KOMPUTER DAN MATEMATIK",
+          ptj_abb: "CS",
           target: 247000.0,
           pi_number: 66,
           achievement: [
@@ -27078,9 +27088,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0646',
-          ptj_name: 'FAKULTI MUZIK',
-          ptj_abb: 'MU',
+          ptj_id: "A0646",
+          ptj_name: "FAKULTI MUZIK",
+          ptj_abb: "MU",
           target: 30000.0,
           pi_number: 66,
           achievement: [
@@ -27132,9 +27142,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0647',
-          ptj_name: 'FAKULTI PERLADANGAN DAN AGROTEKNOLOGI',
-          ptj_abb: 'AT',
+          ptj_id: "A0647",
+          ptj_name: "FAKULTI PERLADANGAN DAN AGROTEKNOLOGI",
+          ptj_abb: "AT",
           target: 126000.0,
           pi_number: 66,
           achievement: [
@@ -27186,9 +27196,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1608',
-          ptj_name: 'FAKULTI KEJURUTERAAN KIMIA',
-          ptj_abb: 'EH',
+          ptj_id: "A1608",
+          ptj_name: "FAKULTI KEJURUTERAAN KIMIA",
+          ptj_abb: "EH",
           target: 300000.0,
           pi_number: 66,
           achievement: [
@@ -27240,9 +27250,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'B0000',
-          ptj_name: 'UiTM CAWANGAN PULAU PINANG',
-          ptj_abb: 'P',
+          ptj_id: "B0000",
+          ptj_name: "UiTM CAWANGAN PULAU PINANG",
+          ptj_abb: "P",
           target: 120000.0,
           pi_number: 66,
           achievement: [
@@ -27294,9 +27304,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'C0000',
-          ptj_name: 'UiTM CAWANGAN PAHANG',
-          ptj_abb: 'C',
+          ptj_id: "C0000",
+          ptj_name: "UiTM CAWANGAN PAHANG",
+          ptj_abb: "C",
           target: 80000.0,
           pi_number: 66,
           achievement: [
@@ -27348,9 +27358,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'M0000',
-          ptj_name: 'UiTM CAWANGAN MELAKA',
-          ptj_abb: 'M',
+          ptj_id: "M0000",
+          ptj_name: "UiTM CAWANGAN MELAKA",
+          ptj_abb: "M",
           target: 80000.0,
           pi_number: 66,
           achievement: [
@@ -27402,9 +27412,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'P0000',
-          ptj_name: 'UiTM CAWANGAN PERLIS',
-          ptj_abb: 'R',
+          ptj_id: "P0000",
+          ptj_name: "UiTM CAWANGAN PERLIS",
+          ptj_abb: "R",
           target: 80000.0,
           pi_number: 66,
           achievement: [
@@ -27456,9 +27466,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'T0000',
-          ptj_name: 'UiTM CAWANGAN TERENGGANU',
-          ptj_abb: 'T',
+          ptj_id: "T0000",
+          ptj_name: "UiTM CAWANGAN TERENGGANU",
+          ptj_abb: "T",
           target: 80000.0,
           pi_number: 66,
           achievement: [
@@ -27510,9 +27520,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0602',
-          ptj_name: 'FAKULTI PERAKAUNAN',
-          ptj_abb: 'AC',
+          ptj_id: "A0602",
+          ptj_name: "FAKULTI PERAKAUNAN",
+          ptj_abb: "AC",
           target: 70000.0,
           pi_number: 66,
           achievement: [
@@ -27554,19 +27564,19 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 8.0,
               achievement: 20000.0,
-              achievement_p: 0.285714286,
+              achievement_p: 0.28571428600000004,
             },
             {
               month: 9.0,
               achievement: 20000.0,
-              achievement_p: 0.285714286,
+              achievement_p: 0.28571428600000004,
             },
           ],
         },
         {
-          ptj_id: 'A0604',
-          ptj_name: 'FAKULTI SAINS GUNAAN',
-          ptj_abb: 'AS',
+          ptj_id: "A0604",
+          ptj_name: "FAKULTI SAINS GUNAAN",
+          ptj_abb: "AS",
           target: 476000.0,
           pi_number: 66,
           achievement: [
@@ -27598,29 +27608,29 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 6.0,
               achievement: 136800.0,
-              achievement_p: 0.287394958,
+              achievement_p: 0.28739495800000003,
             },
             {
               month: 7.0,
               achievement: 176800.0,
-              achievement_p: 0.371428571,
+              achievement_p: 0.37142857100000004,
             },
             {
               month: 8.0,
               achievement: 176800.0,
-              achievement_p: 0.371428571,
+              achievement_p: 0.37142857100000004,
             },
             {
               month: 9.0,
               achievement: 176800.0,
-              achievement_p: 0.371428571,
+              achievement_p: 0.37142857100000004,
             },
           ],
         },
         {
-          ptj_id: 'A0605',
-          ptj_name: 'FAKULTI SENIBINA PERANCANGAN DAN UKUR',
-          ptj_abb: 'AP',
+          ptj_id: "A0605",
+          ptj_name: "FAKULTI SENIBINA PERANCANGAN DAN UKUR",
+          ptj_abb: "AP",
           target: 574000.0,
           pi_number: 66,
           achievement: [
@@ -27672,9 +27682,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0610',
-          ptj_name: 'FAKULTI SENI LUKIS DAN SENI REKA',
-          ptj_abb: 'AD',
+          ptj_id: "A0610",
+          ptj_name: "FAKULTI SENI LUKIS DAN SENI REKA",
+          ptj_abb: "AD",
           target: 93000.0,
           pi_number: 66,
           achievement: [
@@ -27726,9 +27736,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0611',
-          ptj_name: 'FAKULTI PENGURUSAN HOTEL DAN PELANCONGAN',
-          ptj_abb: 'HM',
+          ptj_id: "A0611",
+          ptj_name: "FAKULTI PENGURUSAN HOTEL DAN PELANCONGAN",
+          ptj_abb: "HM",
           target: 82000.0,
           pi_number: 66,
           achievement: [
@@ -27780,9 +27790,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0613',
-          ptj_name: 'FAKULTI KOMUNIKASI DAN PENGAJIAN MEDIA',
-          ptj_abb: 'MC',
+          ptj_id: "A0613",
+          ptj_name: "FAKULTI KOMUNIKASI DAN PENGAJIAN MEDIA",
+          ptj_abb: "MC",
           target: 42000.0,
           pi_number: 66,
           achievement: [
@@ -27834,9 +27844,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0619',
-          ptj_name: 'FAKULTI PENDIDIKAN',
-          ptj_abb: 'ED',
+          ptj_id: "A0619",
+          ptj_name: "FAKULTI PENDIDIKAN",
+          ptj_abb: "ED",
           target: 58000.0,
           pi_number: 66,
           achievement: [
@@ -27888,9 +27898,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0636',
-          ptj_name: 'FAKULTI UNDANG-UNDANG',
-          ptj_abb: 'LW',
+          ptj_id: "A0636",
+          ptj_name: "FAKULTI UNDANG-UNDANG",
+          ptj_abb: "LW",
           target: 44500.0,
           pi_number: 66,
           achievement: [
@@ -27932,19 +27942,19 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 8.0,
               achievement: 55000.0,
-              achievement_p: 1.235955056,
+              achievement_p: 1.2359550559999999,
             },
             {
               month: 9.0,
               achievement: 55000.0,
-              achievement_p: 1.235955056,
+              achievement_p: 1.2359550559999999,
             },
           ],
         },
         {
-          ptj_id: 'A0637',
-          ptj_name: 'FAKULTI SAINS PENTADBIRAN DAN PENGAJIAN POLISI',
-          ptj_abb: 'AM',
+          ptj_id: "A0637",
+          ptj_name: "FAKULTI SAINS PENTADBIRAN DAN PENGAJIAN POLISI",
+          ptj_abb: "AM",
           target: 42000.0,
           pi_number: 66,
           achievement: [
@@ -27986,19 +27996,19 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 8.0,
               achievement: 15000.0,
-              achievement_p: 0.357142857,
+              achievement_p: 0.35714285700000004,
             },
             {
               month: 9.0,
               achievement: 15000.0,
-              achievement_p: 0.357142857,
+              achievement_p: 0.35714285700000004,
             },
           ],
         },
         {
-          ptj_id: 'A0640',
-          ptj_name: 'FAKULTI FARMASI',
-          ptj_abb: 'PH',
+          ptj_id: "A0640",
+          ptj_name: "FAKULTI FARMASI",
+          ptj_abb: "PH",
           target: 200000.0,
           pi_number: 66,
           achievement: [
@@ -28050,9 +28060,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0643',
-          ptj_name: 'FAKULTI PERUBATAN',
-          ptj_abb: 'MD',
+          ptj_id: "A0643",
+          ptj_name: "FAKULTI PERUBATAN",
+          ptj_abb: "MD",
           target: 678000.0,
           pi_number: 66,
           achievement: [
@@ -28094,19 +28104,19 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 8.0,
               achievement: 236800.0,
-              achievement_p: 0.349262537,
+              achievement_p: 0.34926253700000004,
             },
             {
               month: 9.0,
               achievement: 239800.0,
-              achievement_p: 0.353687316,
+              achievement_p: 0.35368731600000003,
             },
           ],
         },
         {
-          ptj_id: 'A0644',
-          ptj_name: 'FAKULTI SAINS KESIHATAN',
-          ptj_abb: 'HS',
+          ptj_id: "A0644",
+          ptj_name: "FAKULTI SAINS KESIHATAN",
+          ptj_abb: "HS",
           target: 234000.0,
           pi_number: 66,
           achievement: [
@@ -28158,9 +28168,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0654',
-          ptj_name: 'FAKULTI PENGURUSAN DAN PERNIAGAAN',
-          ptj_abb: 'BA',
+          ptj_id: "A0654",
+          ptj_name: "FAKULTI PENGURUSAN DAN PERNIAGAAN",
+          ptj_abb: "BA",
           target: 90000.0,
           pi_number: 66,
           achievement: [
@@ -28202,19 +28212,19 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 8.0,
               achievement: 50000.0,
-              achievement_p: 0.555555556,
+              achievement_p: 0.5555555560000001,
             },
             {
               month: 9.0,
               achievement: 50000.0,
-              achievement_p: 0.555555556,
+              achievement_p: 0.5555555560000001,
             },
           ],
         },
         {
-          ptj_id: 'A0660',
-          ptj_name: 'FAKULTI PERGIGIAN',
-          ptj_abb: 'DS',
+          ptj_id: "A0660",
+          ptj_name: "FAKULTI PERGIGIAN",
+          ptj_abb: "DS",
           target: 222000.0,
           pi_number: 66,
           achievement: [
@@ -28266,9 +28276,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0683',
-          ptj_name: 'FAKULTI FILEM, TEATER DAN ANIMASI',
-          ptj_abb: 'FF',
+          ptj_id: "A0683",
+          ptj_name: "FAKULTI FILEM, TEATER DAN ANIMASI",
+          ptj_abb: "FF",
           target: 42000.0,
           pi_number: 66,
           achievement: [
@@ -28290,12 +28300,12 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 8.0,
               achievement: 20000.0,
-              achievement_p: 0.476190476,
+              achievement_p: 0.47619047600000003,
             },
             {
               month: 9.0,
               achievement: 20000.0,
-              achievement_p: 0.476190476,
+              achievement_p: 0.47619047600000003,
             },
             {
               month: 2.0,
@@ -28320,9 +28330,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1609',
-          ptj_name: 'FAKULTI KEJURUTERAAN AWAM',
-          ptj_abb: 'EC',
+          ptj_id: "A1609",
+          ptj_name: "FAKULTI KEJURUTERAAN AWAM",
+          ptj_abb: "EC",
           target: 218000.0,
           pi_number: 66,
           achievement: [
@@ -28354,29 +28364,29 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 6.0,
               achievement: 186800.0,
-              achievement_p: 0.856880734,
+              achievement_p: 0.8568807340000001,
             },
             {
               month: 7.0,
               achievement: 186800.0,
-              achievement_p: 0.856880734,
+              achievement_p: 0.8568807340000001,
             },
             {
               month: 8.0,
               achievement: 256800.0,
-              achievement_p: 1.177981651,
+              achievement_p: 1.1779816509999999,
             },
             {
               month: 9.0,
               achievement: 256800.0,
-              achievement_p: 1.177981651,
+              achievement_p: 1.1779816509999999,
             },
           ],
         },
         {
-          ptj_id: 'A1610',
-          ptj_name: 'FAKULTI KEJURUTERAAN MEKANIKAL',
-          ptj_abb: 'EM',
+          ptj_id: "A1610",
+          ptj_name: "FAKULTI KEJURUTERAAN MEKANIKAL",
+          ptj_abb: "EM",
           target: 300000.0,
           pi_number: 66,
           achievement: [
@@ -28428,9 +28438,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1611',
-          ptj_name: 'FAKULTI KEJURUTERAAN ELEKTRIK',
-          ptj_abb: 'EE',
+          ptj_id: "A1611",
+          ptj_name: "FAKULTI KEJURUTERAAN ELEKTRIK",
+          ptj_abb: "EE",
           target: 400000.0,
           pi_number: 66,
           achievement: [
@@ -28482,9 +28492,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1665',
-          ptj_name: 'PUSAT ASASI',
-          ptj_abb: 'PI',
+          ptj_id: "A1665",
+          ptj_name: "PUSAT ASASI",
+          ptj_abb: "PI",
           target: 90500.0,
           pi_number: 66,
           achievement: [
@@ -28536,9 +28546,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'D0000',
-          ptj_name: 'UiTM CAWANGAN KELANTAN',
-          ptj_abb: 'D',
+          ptj_id: "D0000",
+          ptj_name: "UiTM CAWANGAN KELANTAN",
+          ptj_abb: "D",
           target: 80000.0,
           pi_number: 66,
           achievement: [
@@ -28590,9 +28600,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'J0000',
-          ptj_name: 'UiTM CAWANGAN JOHOR',
-          ptj_abb: 'J',
+          ptj_id: "J0000",
+          ptj_name: "UiTM CAWANGAN JOHOR",
+          ptj_abb: "J",
           target: 80000.0,
           pi_number: 66,
           achievement: [
@@ -28644,9 +28654,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'N0000',
-          ptj_name: 'UiTM CAWANGAN NEGERI SEMBILAN',
-          ptj_abb: 'N',
+          ptj_id: "N0000",
+          ptj_name: "UiTM CAWANGAN NEGERI SEMBILAN",
+          ptj_abb: "N",
           target: 80000.0,
           pi_number: 66,
           achievement: [
@@ -28698,9 +28708,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'S0000',
-          ptj_name: 'UiTM CAWANGAN SABAH',
-          ptj_abb: 'S',
+          ptj_id: "S0000",
+          ptj_name: "UiTM CAWANGAN SABAH",
+          ptj_abb: "S",
           target: 50000.0,
           pi_number: 66,
           achievement: [
@@ -28752,9 +28762,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'W0000',
-          ptj_name: 'UiTM CAWANGAN SARAWAK',
-          ptj_abb: 'Q',
+          ptj_id: "W0000",
+          ptj_name: "UiTM CAWANGAN SARAWAK",
+          ptj_abb: "Q",
           target: 100000.0,
           pi_number: 66,
           achievement: [
@@ -28806,9 +28816,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0638',
-          ptj_name: 'FAKULTI PENGURUSAN MAKLUMAT',
-          ptj_abb: 'IM',
+          ptj_id: "A0638",
+          ptj_name: "FAKULTI PENGURUSAN MAKLUMAT",
+          ptj_abb: "IM",
           target: 44000.0,
           pi_number: 66,
           achievement: [
@@ -28850,19 +28860,19 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 8.0,
               achievement: 10000.0,
-              achievement_p: 0.227272727,
+              achievement_p: 0.22727272699999998,
             },
             {
               month: 9.0,
               achievement: 10000.0,
-              achievement_p: 0.227272727,
+              achievement_p: 0.22727272699999998,
             },
           ],
         },
         {
-          ptj_id: 'K0000',
-          ptj_name: 'UiTM CAWANGAN PERAK',
-          ptj_abb: 'A',
+          ptj_id: "K0000",
+          ptj_name: "UiTM CAWANGAN PERAK",
+          ptj_abb: "A",
           target: 100000.0,
           pi_number: 66,
           achievement: [
@@ -28914,9 +28924,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'H0000',
-          ptj_name: 'UiTM CAWANGAN KEDAH',
-          ptj_abb: 'K',
+          ptj_id: "H0000",
+          ptj_name: "UiTM CAWANGAN KEDAH",
+          ptj_abb: "K",
           target: 70000.0,
           pi_number: 66,
           achievement: [
@@ -28968,9 +28978,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0692',
-          ptj_name: 'AKADEMI PENGAJIAN ISLAM KONTEMPORARI',
-          ptj_abb: 'IC',
+          ptj_id: "A0692",
+          ptj_name: "AKADEMI PENGAJIAN ISLAM KONTEMPORARI",
+          ptj_abb: "IC",
           target: 63000.0,
           pi_number: 66,
           achievement: [
@@ -29025,24 +29035,24 @@ const TNC_PI_PORTFOLIO = {
     },
     {
       tp_id: 67,
-      pi_id: '010067',
+      pi_id: "010067",
       pi_number: 67,
-      pi_name: 'Total amount of research grants: b) National funded.',
+      pi_name: "Total amount of research grants:rnb) National funded.",
       operation_definition:
-        '&#160;<font color="#000000" face="Times New Roman">  </font><font color="#000000" face="Times New Roman">  </font><font color="#000000" face="Times New Roman">    </font><font color="#000000" face="Times New Roman">   </font><font color="#000000" face="Times New Roman"> </font>Total amount of national funded grant received and registered with Research Management Center (RMC) for the current year.',
-      pi_owner: 'A0163',
-      pi_owner_ptj_name: 'PUSAT PENGURUSAN PENYELIDIKAN',
-      pi_owner_abbreviation: 'RMC',
-      kpi_id: 'KPI10',
-      kpi_id_kpi_order: '10',
-      strategic_id: 'ST204',
+        "Total amount of national funded grant received and registered with Research Management Center (RMC) for the current year.",
+      pi_owner: "A0163",
+      pi_owner_ptj_name: "PUSAT PENGURUSAN PENYELIDIKAN",
+      pi_owner_abbreviation: "RMC",
+      kpi_id: "KPI10",
+      kpi_id_kpi_order: "10",
+      strategic_id: "ST204",
       strategic_theme:
-        'Translational Research Development, Innovation & Commercilisation',
+        "Translational Research Development, Innovation & Commercilisation",
       pi_by_ptj: [
         {
-          ptj_id: 'A0605',
-          ptj_name: 'FAKULTI SENIBINA PERANCANGAN DAN UKUR',
-          ptj_abb: 'AP',
+          ptj_id: "A0605",
+          ptj_name: "FAKULTI SENIBINA PERANCANGAN DAN UKUR",
+          ptj_abb: "AP",
           target: 500000.0,
           pi_number: 67,
           achievement: [
@@ -29094,9 +29104,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0607',
-          ptj_name: 'AKADEMI PENGAJIAN BAHASA',
-          ptj_abb: 'LG',
+          ptj_id: "A0607",
+          ptj_name: "AKADEMI PENGAJIAN BAHASA",
+          ptj_abb: "LG",
           target: 400000.0,
           pi_number: 67,
           achievement: [
@@ -29148,9 +29158,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0611',
-          ptj_name: 'FAKULTI PENGURUSAN HOTEL DAN PELANCONGAN',
-          ptj_abb: 'HM',
+          ptj_id: "A0611",
+          ptj_name: "FAKULTI PENGURUSAN HOTEL DAN PELANCONGAN",
+          ptj_abb: "HM",
           target: 1500000.0,
           pi_number: 67,
           achievement: [
@@ -29202,9 +29212,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0613',
-          ptj_name: 'FAKULTI KOMUNIKASI DAN PENGAJIAN MEDIA',
-          ptj_abb: 'MC',
+          ptj_id: "A0613",
+          ptj_name: "FAKULTI KOMUNIKASI DAN PENGAJIAN MEDIA",
+          ptj_abb: "MC",
           target: 600000.0,
           pi_number: 67,
           achievement: [
@@ -29256,9 +29266,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0619',
-          ptj_name: 'FAKULTI PENDIDIKAN',
-          ptj_abb: 'ED',
+          ptj_id: "A0619",
+          ptj_name: "FAKULTI PENDIDIKAN",
+          ptj_abb: "ED",
           target: 300000.0,
           pi_number: 67,
           achievement: [
@@ -29310,9 +29320,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0626',
-          ptj_name: 'FAKULTI SAINS SUKAN DAN REKREASI',
-          ptj_abb: 'SR',
+          ptj_id: "A0626",
+          ptj_name: "FAKULTI SAINS SUKAN DAN REKREASI",
+          ptj_abb: "SR",
           target: 1500000.0,
           pi_number: 67,
           achievement: [
@@ -29364,9 +29374,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0636',
-          ptj_name: 'FAKULTI UNDANG-UNDANG',
-          ptj_abb: 'LW',
+          ptj_id: "A0636",
+          ptj_name: "FAKULTI UNDANG-UNDANG",
+          ptj_abb: "LW",
           target: 500000.0,
           pi_number: 67,
           achievement: [
@@ -29418,9 +29428,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0638',
-          ptj_name: 'FAKULTI PENGURUSAN MAKLUMAT',
-          ptj_abb: 'IM',
+          ptj_id: "A0638",
+          ptj_name: "FAKULTI PENGURUSAN MAKLUMAT",
+          ptj_abb: "IM",
           target: 1500000.0,
           pi_number: 67,
           achievement: [
@@ -29472,9 +29482,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0639',
-          ptj_name: 'FAKULTI SAINS KOMPUTER DAN MATEMATIK',
-          ptj_abb: 'CS',
+          ptj_id: "A0639",
+          ptj_name: "FAKULTI SAINS KOMPUTER DAN MATEMATIK",
+          ptj_abb: "CS",
           target: 1050000.0,
           pi_number: 67,
           achievement: [
@@ -29526,9 +29536,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0643',
-          ptj_name: 'FAKULTI PERUBATAN',
-          ptj_abb: 'MD',
+          ptj_id: "A0643",
+          ptj_name: "FAKULTI PERUBATAN",
+          ptj_abb: "MD",
           target: 3550000.0,
           pi_number: 67,
           achievement: [
@@ -29580,9 +29590,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0644',
-          ptj_name: 'FAKULTI SAINS KESIHATAN',
-          ptj_abb: 'HS',
+          ptj_id: "A0644",
+          ptj_name: "FAKULTI SAINS KESIHATAN",
+          ptj_abb: "HS",
           target: 1550000.0,
           pi_number: 67,
           achievement: [
@@ -29634,9 +29644,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0646',
-          ptj_name: 'FAKULTI MUZIK',
-          ptj_abb: 'MU',
+          ptj_id: "A0646",
+          ptj_name: "FAKULTI MUZIK",
+          ptj_abb: "MU",
           target: 200000.0,
           pi_number: 67,
           achievement: [
@@ -29688,9 +29698,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0647',
-          ptj_name: 'FAKULTI PERLADANGAN DAN AGROTEKNOLOGI',
-          ptj_abb: 'AT',
+          ptj_id: "A0647",
+          ptj_name: "FAKULTI PERLADANGAN DAN AGROTEKNOLOGI",
+          ptj_abb: "AT",
           target: 4000000.0,
           pi_number: 67,
           achievement: [
@@ -29742,9 +29752,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0660',
-          ptj_name: 'FAKULTI PERGIGIAN',
-          ptj_abb: 'DS',
+          ptj_id: "A0660",
+          ptj_name: "FAKULTI PERGIGIAN",
+          ptj_abb: "DS",
           target: 2050000.0,
           pi_number: 67,
           achievement: [
@@ -29796,9 +29806,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0683',
-          ptj_name: 'FAKULTI FILEM, TEATER DAN ANIMASI',
-          ptj_abb: 'FF',
+          ptj_id: "A0683",
+          ptj_name: "FAKULTI FILEM, TEATER DAN ANIMASI",
+          ptj_abb: "FF",
           target: 350000.0,
           pi_number: 67,
           achievement: [
@@ -29850,9 +29860,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1608',
-          ptj_name: 'FAKULTI KEJURUTERAAN KIMIA',
-          ptj_abb: 'EH',
+          ptj_id: "A1608",
+          ptj_name: "FAKULTI KEJURUTERAAN KIMIA",
+          ptj_abb: "EH",
           target: 1550000.0,
           pi_number: 67,
           achievement: [
@@ -29904,9 +29914,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1665',
-          ptj_name: 'PUSAT ASASI',
-          ptj_abb: 'PI',
+          ptj_id: "A1665",
+          ptj_name: "PUSAT ASASI",
+          ptj_abb: "PI",
           target: 500000.0,
           pi_number: 67,
           achievement: [
@@ -29958,9 +29968,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'C0000',
-          ptj_name: 'UiTM CAWANGAN PAHANG',
-          ptj_abb: 'C',
+          ptj_id: "C0000",
+          ptj_name: "UiTM CAWANGAN PAHANG",
+          ptj_abb: "C",
           target: 1000000.0,
           pi_number: 67,
           achievement: [
@@ -30012,9 +30022,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'J0000',
-          ptj_name: 'UiTM CAWANGAN JOHOR',
-          ptj_abb: 'J',
+          ptj_id: "J0000",
+          ptj_name: "UiTM CAWANGAN JOHOR",
+          ptj_abb: "J",
           target: 1000000.0,
           pi_number: 67,
           achievement: [
@@ -30066,9 +30076,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'K0000',
-          ptj_name: 'UiTM CAWANGAN PERAK',
-          ptj_abb: 'A',
+          ptj_id: "K0000",
+          ptj_name: "UiTM CAWANGAN PERAK",
+          ptj_abb: "A",
           target: 1000000.0,
           pi_number: 67,
           achievement: [
@@ -30120,9 +30130,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'S0000',
-          ptj_name: 'UiTM CAWANGAN SABAH',
-          ptj_abb: 'S',
+          ptj_id: "S0000",
+          ptj_name: "UiTM CAWANGAN SABAH",
+          ptj_abb: "S",
           target: 300000.0,
           pi_number: 67,
           achievement: [
@@ -30174,9 +30184,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'T0000',
-          ptj_name: 'UiTM CAWANGAN TERENGGANU',
-          ptj_abb: 'T',
+          ptj_id: "T0000",
+          ptj_name: "UiTM CAWANGAN TERENGGANU",
+          ptj_abb: "T",
           target: 1000000.0,
           pi_number: 67,
           achievement: [
@@ -30228,9 +30238,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'W0000',
-          ptj_name: 'UiTM CAWANGAN SARAWAK',
-          ptj_abb: 'Q',
+          ptj_id: "W0000",
+          ptj_name: "UiTM CAWANGAN SARAWAK",
+          ptj_abb: "Q",
           target: 300000.0,
           pi_number: 67,
           achievement: [
@@ -30282,9 +30292,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0602',
-          ptj_name: 'FAKULTI PERAKAUNAN',
-          ptj_abb: 'AC',
+          ptj_id: "A0602",
+          ptj_name: "FAKULTI PERAKAUNAN",
+          ptj_abb: "AC",
           target: 1500000.0,
           pi_number: 67,
           achievement: [
@@ -30301,44 +30311,44 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 3.0,
               achievement: 761567.0,
-              achievement_p: 0.507711333,
+              achievement_p: 0.5077113329999999,
             },
             {
               month: 4.0,
               achievement: 761567.0,
-              achievement_p: 0.507711333,
+              achievement_p: 0.5077113329999999,
             },
             {
               month: 5.0,
               achievement: 10000.0,
-              achievement_p: 0.006666667,
+              achievement_p: 0.006666666999999999,
             },
             {
               month: 6.0,
               achievement: 10000.0,
-              achievement_p: 0.006666667,
+              achievement_p: 0.006666666999999999,
             },
             {
               month: 7.0,
               achievement: 10000.0,
-              achievement_p: 0.006666667,
+              achievement_p: 0.006666666999999999,
             },
             {
               month: 8.0,
               achievement: 10000.0,
-              achievement_p: 0.006666667,
+              achievement_p: 0.006666666999999999,
             },
             {
               month: 9.0,
               achievement: 10000.0,
-              achievement_p: 0.006666667,
+              achievement_p: 0.006666666999999999,
             },
           ],
         },
         {
-          ptj_id: 'A0604',
-          ptj_name: 'FAKULTI SAINS GUNAAN',
-          ptj_abb: 'AS',
+          ptj_id: "A0604",
+          ptj_name: "FAKULTI SAINS GUNAAN",
+          ptj_abb: "AS",
           target: 1250000.0,
           pi_number: 67,
           achievement: [
@@ -30390,9 +30400,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0610',
-          ptj_name: 'FAKULTI SENI LUKIS DAN SENI REKA',
-          ptj_abb: 'AD',
+          ptj_id: "A0610",
+          ptj_name: "FAKULTI SENI LUKIS DAN SENI REKA",
+          ptj_abb: "AD",
           target: 1500000.0,
           pi_number: 67,
           achievement: [
@@ -30444,9 +30454,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0637',
-          ptj_name: 'FAKULTI SAINS PENTADBIRAN DAN PENGAJIAN POLISI',
-          ptj_abb: 'AM',
+          ptj_id: "A0637",
+          ptj_name: "FAKULTI SAINS PENTADBIRAN DAN PENGAJIAN POLISI",
+          ptj_abb: "AM",
           target: 500000.0,
           pi_number: 67,
           achievement: [
@@ -30498,9 +30508,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0640',
-          ptj_name: 'FAKULTI FARMASI',
-          ptj_abb: 'PH',
+          ptj_id: "A0640",
+          ptj_name: "FAKULTI FARMASI",
+          ptj_abb: "PH",
           target: 3050000.0,
           pi_number: 67,
           achievement: [
@@ -30532,29 +30542,29 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 6.0,
               achievement: 1894800.0,
-              achievement_p: 0.621245902,
+              achievement_p: 0.6212459020000001,
             },
             {
               month: 7.0,
               achievement: 1894800.0,
-              achievement_p: 0.621245902,
+              achievement_p: 0.6212459020000001,
             },
             {
               month: 8.0,
               achievement: 1894800.0,
-              achievement_p: 0.621245902,
+              achievement_p: 0.6212459020000001,
             },
             {
               month: 9.0,
               achievement: 1894800.0,
-              achievement_p: 0.621245902,
+              achievement_p: 0.6212459020000001,
             },
           ],
         },
         {
-          ptj_id: 'A0654',
-          ptj_name: 'FAKULTI PENGURUSAN DAN PERNIAGAAN',
-          ptj_abb: 'BA',
+          ptj_id: "A0654",
+          ptj_name: "FAKULTI PENGURUSAN DAN PERNIAGAAN",
+          ptj_abb: "BA",
           target: 1500000.0,
           pi_number: 67,
           achievement: [
@@ -30606,9 +30616,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1609',
-          ptj_name: 'FAKULTI KEJURUTERAAN AWAM',
-          ptj_abb: 'EC',
+          ptj_id: "A1609",
+          ptj_name: "FAKULTI KEJURUTERAAN AWAM",
+          ptj_abb: "EC",
           target: 2050000.0,
           pi_number: 67,
           achievement: [
@@ -30660,9 +30670,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1610',
-          ptj_name: 'FAKULTI KEJURUTERAAN MEKANIKAL',
-          ptj_abb: 'EM',
+          ptj_id: "A1610",
+          ptj_name: "FAKULTI KEJURUTERAAN MEKANIKAL",
+          ptj_abb: "EM",
           target: 2550000.0,
           pi_number: 67,
           achievement: [
@@ -30704,7 +30714,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 2.0,
               achievement: 2255360.0,
-              achievement_p: 0.902144,
+              achievement_p: 0.9021440000000001,
             },
             {
               month: 9.0,
@@ -30714,9 +30724,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1611',
-          ptj_name: 'FAKULTI KEJURUTERAAN ELEKTRIK',
-          ptj_abb: 'EE',
+          ptj_id: "A1611",
+          ptj_name: "FAKULTI KEJURUTERAAN ELEKTRIK",
+          ptj_abb: "EE",
           target: 3550000.0,
           pi_number: 67,
           achievement: [
@@ -30733,17 +30743,17 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 3.0,
               achievement: 324976.0,
-              achievement_p: 0.092850286,
+              achievement_p: 0.09285028599999999,
             },
             {
               month: 4.0,
               achievement: 324976.0,
-              achievement_p: 0.092850286,
+              achievement_p: 0.09285028599999999,
             },
             {
               month: 5.0,
               achievement: 324976.0,
-              achievement_p: 0.092850286,
+              achievement_p: 0.09285028599999999,
             },
             {
               month: 6.0,
@@ -30768,9 +30778,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'B0000',
-          ptj_name: 'UiTM CAWANGAN PULAU PINANG',
-          ptj_abb: 'P',
+          ptj_id: "B0000",
+          ptj_name: "UiTM CAWANGAN PULAU PINANG",
+          ptj_abb: "P",
           target: 1200000.0,
           pi_number: 67,
           achievement: [
@@ -30822,9 +30832,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'D0000',
-          ptj_name: 'UiTM CAWANGAN KELANTAN',
-          ptj_abb: 'D',
+          ptj_id: "D0000",
+          ptj_name: "UiTM CAWANGAN KELANTAN",
+          ptj_abb: "D",
           target: 500000.0,
           pi_number: 67,
           achievement: [
@@ -30876,9 +30886,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'M0000',
-          ptj_name: 'UiTM CAWANGAN MELAKA',
-          ptj_abb: 'M',
+          ptj_id: "M0000",
+          ptj_name: "UiTM CAWANGAN MELAKA",
+          ptj_abb: "M",
           target: 1200000.0,
           pi_number: 67,
           achievement: [
@@ -30930,9 +30940,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'N0000',
-          ptj_name: 'UiTM CAWANGAN NEGERI SEMBILAN',
-          ptj_abb: 'N',
+          ptj_id: "N0000",
+          ptj_name: "UiTM CAWANGAN NEGERI SEMBILAN",
+          ptj_abb: "N",
           target: 1200000.0,
           pi_number: 67,
           achievement: [
@@ -30979,14 +30989,14 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 9.0,
               achievement: 123950.0,
-              achievement_p: 0.103291667,
+              achievement_p: 0.10329166699999999,
             },
           ],
         },
         {
-          ptj_id: 'P0000',
-          ptj_name: 'UiTM CAWANGAN PERLIS',
-          ptj_abb: 'R',
+          ptj_id: "P0000",
+          ptj_name: "UiTM CAWANGAN PERLIS",
+          ptj_abb: "R",
           target: 800000.0,
           pi_number: 67,
           achievement: [
@@ -31038,9 +31048,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0595',
-          ptj_name: 'ARSHAD AYUB GRADUATE BUSINESS SCHOOL',
-          ptj_abb: 'AA',
+          ptj_id: "A0595",
+          ptj_name: "ARSHAD AYUB GRADUATE BUSINESS SCHOOL",
+          ptj_abb: "AA",
           target: 500000.0,
           pi_number: 67,
           achievement: [
@@ -31092,9 +31102,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'H0000',
-          ptj_name: 'UiTM CAWANGAN KEDAH',
-          ptj_abb: 'K',
+          ptj_id: "H0000",
+          ptj_name: "UiTM CAWANGAN KEDAH",
+          ptj_abb: "K",
           target: 500000.0,
           pi_number: 67,
           achievement: [
@@ -31146,9 +31156,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0692',
-          ptj_name: 'AKADEMI PENGAJIAN ISLAM KONTEMPORARI',
-          ptj_abb: 'IC',
+          ptj_id: "A0692",
+          ptj_name: "AKADEMI PENGAJIAN ISLAM KONTEMPORARI",
+          ptj_abb: "IC",
           target: 450000.0,
           pi_number: 67,
           achievement: [
@@ -31203,24 +31213,24 @@ const TNC_PI_PORTFOLIO = {
     },
     {
       tp_id: 68,
-      pi_id: '010068',
+      pi_id: "010068",
       pi_number: 68,
-      pi_name: 'Total amount of research grants: c) Industrial funded.',
+      pi_name: "Total amount of research grants:rnc) Industrial funded.",
       operation_definition:
-        'Total amount of industry funded grant received and registered with Research Management Center (RMC) for the current year.',
-      pi_owner: 'A0163',
-      pi_owner_ptj_name: 'PUSAT PENGURUSAN PENYELIDIKAN',
-      pi_owner_abbreviation: 'RMC',
-      kpi_id: 'KPI10',
-      kpi_id_kpi_order: '10',
-      strategic_id: 'ST204',
+        "Total amount of industry funded grant received and registered with Research Management Center (RMC) for the current year.",
+      pi_owner: "A0163",
+      pi_owner_ptj_name: "PUSAT PENGURUSAN PENYELIDIKAN",
+      pi_owner_abbreviation: "RMC",
+      kpi_id: "KPI10",
+      kpi_id_kpi_order: "10",
+      strategic_id: "ST204",
       strategic_theme:
-        'Translational Research Development, Innovation & Commercilisation',
+        "Translational Research Development, Innovation & Commercilisation",
       pi_by_ptj: [
         {
-          ptj_id: 'A0602',
-          ptj_name: 'FAKULTI PERAKAUNAN',
-          ptj_abb: 'AC',
+          ptj_id: "A0602",
+          ptj_name: "FAKULTI PERAKAUNAN",
+          ptj_abb: "AC",
           target: 150000.0,
           pi_number: 68,
           achievement: [
@@ -31272,9 +31282,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0605',
-          ptj_name: 'FAKULTI SENIBINA PERANCANGAN DAN UKUR',
-          ptj_abb: 'AP',
+          ptj_id: "A0605",
+          ptj_name: "FAKULTI SENIBINA PERANCANGAN DAN UKUR",
+          ptj_abb: "AP",
           target: 100000.0,
           pi_number: 68,
           achievement: [
@@ -31326,9 +31336,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0607',
-          ptj_name: 'AKADEMI PENGAJIAN BAHASA',
-          ptj_abb: 'LG',
+          ptj_id: "A0607",
+          ptj_name: "AKADEMI PENGAJIAN BAHASA",
+          ptj_abb: "LG",
           target: 50000.0,
           pi_number: 68,
           achievement: [
@@ -31380,9 +31390,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0610',
-          ptj_name: 'FAKULTI SENI LUKIS DAN SENI REKA',
-          ptj_abb: 'AD',
+          ptj_id: "A0610",
+          ptj_name: "FAKULTI SENI LUKIS DAN SENI REKA",
+          ptj_abb: "AD",
           target: 150000.0,
           pi_number: 68,
           achievement: [
@@ -31434,9 +31444,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0611',
-          ptj_name: 'FAKULTI PENGURUSAN HOTEL DAN PELANCONGAN',
-          ptj_abb: 'HM',
+          ptj_id: "A0611",
+          ptj_name: "FAKULTI PENGURUSAN HOTEL DAN PELANCONGAN",
+          ptj_abb: "HM",
           target: 50000.0,
           pi_number: 68,
           achievement: [
@@ -31488,9 +31498,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0613',
-          ptj_name: 'FAKULTI KOMUNIKASI DAN PENGAJIAN MEDIA',
-          ptj_abb: 'MC',
+          ptj_id: "A0613",
+          ptj_name: "FAKULTI KOMUNIKASI DAN PENGAJIAN MEDIA",
+          ptj_abb: "MC",
           target: 50000.0,
           pi_number: 68,
           achievement: [
@@ -31542,9 +31552,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0619',
-          ptj_name: 'FAKULTI PENDIDIKAN',
-          ptj_abb: 'ED',
+          ptj_id: "A0619",
+          ptj_name: "FAKULTI PENDIDIKAN",
+          ptj_abb: "ED",
           target: 50000.0,
           pi_number: 68,
           achievement: [
@@ -31596,9 +31606,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0626',
-          ptj_name: 'FAKULTI SAINS SUKAN DAN REKREASI',
-          ptj_abb: 'SR',
+          ptj_id: "A0626",
+          ptj_name: "FAKULTI SAINS SUKAN DAN REKREASI",
+          ptj_abb: "SR",
           target: 100000.0,
           pi_number: 68,
           achievement: [
@@ -31650,9 +31660,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0636',
-          ptj_name: 'FAKULTI UNDANG-UNDANG',
-          ptj_abb: 'LW',
+          ptj_id: "A0636",
+          ptj_name: "FAKULTI UNDANG-UNDANG",
+          ptj_abb: "LW",
           target: 50000.0,
           pi_number: 68,
           achievement: [
@@ -31704,9 +31714,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0637',
-          ptj_name: 'FAKULTI SAINS PENTADBIRAN DAN PENGAJIAN POLISI',
-          ptj_abb: 'AM',
+          ptj_id: "A0637",
+          ptj_name: "FAKULTI SAINS PENTADBIRAN DAN PENGAJIAN POLISI",
+          ptj_abb: "AM",
           target: 50000.0,
           pi_number: 68,
           achievement: [
@@ -31758,9 +31768,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0638',
-          ptj_name: 'FAKULTI PENGURUSAN MAKLUMAT',
-          ptj_abb: 'IM',
+          ptj_id: "A0638",
+          ptj_name: "FAKULTI PENGURUSAN MAKLUMAT",
+          ptj_abb: "IM",
           target: 100000.0,
           pi_number: 68,
           achievement: [
@@ -31812,9 +31822,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0639',
-          ptj_name: 'FAKULTI SAINS KOMPUTER DAN MATEMATIK',
-          ptj_abb: 'CS',
+          ptj_id: "A0639",
+          ptj_name: "FAKULTI SAINS KOMPUTER DAN MATEMATIK",
+          ptj_abb: "CS",
           target: 150000.0,
           pi_number: 68,
           achievement: [
@@ -31866,9 +31876,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0640',
-          ptj_name: 'FAKULTI FARMASI',
-          ptj_abb: 'PH',
+          ptj_id: "A0640",
+          ptj_name: "FAKULTI FARMASI",
+          ptj_abb: "PH",
           target: 150000.0,
           pi_number: 68,
           achievement: [
@@ -31920,9 +31930,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0646',
-          ptj_name: 'FAKULTI MUZIK',
-          ptj_abb: 'MU',
+          ptj_id: "A0646",
+          ptj_name: "FAKULTI MUZIK",
+          ptj_abb: "MU",
           target: 50000.0,
           pi_number: 68,
           achievement: [
@@ -31974,9 +31984,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0647',
-          ptj_name: 'FAKULTI PERLADANGAN DAN AGROTEKNOLOGI',
-          ptj_abb: 'AT',
+          ptj_id: "A0647",
+          ptj_name: "FAKULTI PERLADANGAN DAN AGROTEKNOLOGI",
+          ptj_abb: "AT",
           target: 50000.0,
           pi_number: 68,
           achievement: [
@@ -32028,9 +32038,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0660',
-          ptj_name: 'FAKULTI PERGIGIAN',
-          ptj_abb: 'DS',
+          ptj_id: "A0660",
+          ptj_name: "FAKULTI PERGIGIAN",
+          ptj_abb: "DS",
           target: 150000.0,
           pi_number: 68,
           achievement: [
@@ -32082,9 +32092,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0683',
-          ptj_name: 'FAKULTI FILEM, TEATER DAN ANIMASI',
-          ptj_abb: 'FF',
+          ptj_id: "A0683",
+          ptj_name: "FAKULTI FILEM, TEATER DAN ANIMASI",
+          ptj_abb: "FF",
           target: 50000.0,
           pi_number: 68,
           achievement: [
@@ -32136,9 +32146,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0692',
-          ptj_name: 'AKADEMI PENGAJIAN ISLAM KONTEMPORARI',
-          ptj_abb: 'IC',
+          ptj_id: "A0692",
+          ptj_name: "AKADEMI PENGAJIAN ISLAM KONTEMPORARI",
+          ptj_abb: "IC",
           target: 50000.0,
           pi_number: 68,
           achievement: [
@@ -32190,9 +32200,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1610',
-          ptj_name: 'FAKULTI KEJURUTERAAN MEKANIKAL',
-          ptj_abb: 'EM',
+          ptj_id: "A1610",
+          ptj_name: "FAKULTI KEJURUTERAAN MEKANIKAL",
+          ptj_abb: "EM",
           target: 200000.0,
           pi_number: 68,
           achievement: [
@@ -32244,9 +32254,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1611',
-          ptj_name: 'FAKULTI KEJURUTERAAN ELEKTRIK',
-          ptj_abb: 'EE',
+          ptj_id: "A1611",
+          ptj_name: "FAKULTI KEJURUTERAAN ELEKTRIK",
+          ptj_abb: "EE",
           target: 100000.0,
           pi_number: 68,
           achievement: [
@@ -32298,9 +32308,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1665',
-          ptj_name: 'PUSAT ASASI',
-          ptj_abb: 'PI',
+          ptj_id: "A1665",
+          ptj_name: "PUSAT ASASI",
+          ptj_abb: "PI",
           target: 50000.0,
           pi_number: 68,
           achievement: [
@@ -32352,9 +32362,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'C0000',
-          ptj_name: 'UiTM CAWANGAN PAHANG',
-          ptj_abb: 'C',
+          ptj_id: "C0000",
+          ptj_name: "UiTM CAWANGAN PAHANG",
+          ptj_abb: "C",
           target: 50000.0,
           pi_number: 68,
           achievement: [
@@ -32406,9 +32416,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'D0000',
-          ptj_name: 'UiTM CAWANGAN KELANTAN',
-          ptj_abb: 'D',
+          ptj_id: "D0000",
+          ptj_name: "UiTM CAWANGAN KELANTAN",
+          ptj_abb: "D",
           target: 50000.0,
           pi_number: 68,
           achievement: [
@@ -32460,9 +32470,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'H0000',
-          ptj_name: 'UiTM CAWANGAN KEDAH',
-          ptj_abb: 'K',
+          ptj_id: "H0000",
+          ptj_name: "UiTM CAWANGAN KEDAH",
+          ptj_abb: "K",
           target: 50000.0,
           pi_number: 68,
           achievement: [
@@ -32514,9 +32524,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'J0000',
-          ptj_name: 'UiTM CAWANGAN JOHOR',
-          ptj_abb: 'J',
+          ptj_id: "J0000",
+          ptj_name: "UiTM CAWANGAN JOHOR",
+          ptj_abb: "J",
           target: 50000.0,
           pi_number: 68,
           achievement: [
@@ -32568,9 +32578,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'K0000',
-          ptj_name: 'UiTM CAWANGAN PERAK',
-          ptj_abb: 'A',
+          ptj_id: "K0000",
+          ptj_name: "UiTM CAWANGAN PERAK",
+          ptj_abb: "A",
           target: 50000.0,
           pi_number: 68,
           achievement: [
@@ -32622,9 +32632,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'M0000',
-          ptj_name: 'UiTM CAWANGAN MELAKA',
-          ptj_abb: 'M',
+          ptj_id: "M0000",
+          ptj_name: "UiTM CAWANGAN MELAKA",
+          ptj_abb: "M",
           target: 50000.0,
           pi_number: 68,
           achievement: [
@@ -32676,9 +32686,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'P0000',
-          ptj_name: 'UiTM CAWANGAN PERLIS',
-          ptj_abb: 'R',
+          ptj_id: "P0000",
+          ptj_name: "UiTM CAWANGAN PERLIS",
+          ptj_abb: "R",
           target: 100000.0,
           pi_number: 68,
           achievement: [
@@ -32725,14 +32735,14 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 2.0,
               achievement: 113051.0,
-              achievement_p: 0.2826275,
+              achievement_p: 0.28262750000000003,
             },
           ],
         },
         {
-          ptj_id: 'S0000',
-          ptj_name: 'UiTM CAWANGAN SABAH',
-          ptj_abb: 'S',
+          ptj_id: "S0000",
+          ptj_name: "UiTM CAWANGAN SABAH",
+          ptj_abb: "S",
           target: 50000.0,
           pi_number: 68,
           achievement: [
@@ -32784,9 +32794,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'T0000',
-          ptj_name: 'UiTM CAWANGAN TERENGGANU',
-          ptj_abb: 'T',
+          ptj_id: "T0000",
+          ptj_name: "UiTM CAWANGAN TERENGGANU",
+          ptj_abb: "T",
           target: 100000.0,
           pi_number: 68,
           achievement: [
@@ -32838,9 +32848,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0604',
-          ptj_name: 'FAKULTI SAINS GUNAAN',
-          ptj_abb: 'AS',
+          ptj_id: "A0604",
+          ptj_name: "FAKULTI SAINS GUNAAN",
+          ptj_abb: "AS",
           target: 200000.0,
           pi_number: 68,
           achievement: [
@@ -32892,9 +32902,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0643',
-          ptj_name: 'FAKULTI PERUBATAN',
-          ptj_abb: 'MD',
+          ptj_id: "A0643",
+          ptj_name: "FAKULTI PERUBATAN",
+          ptj_abb: "MD",
           target: 200000.0,
           pi_number: 68,
           achievement: [
@@ -32946,9 +32956,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0644',
-          ptj_name: 'FAKULTI SAINS KESIHATAN',
-          ptj_abb: 'HS',
+          ptj_id: "A0644",
+          ptj_name: "FAKULTI SAINS KESIHATAN",
+          ptj_abb: "HS",
           target: 150000.0,
           pi_number: 68,
           achievement: [
@@ -33000,9 +33010,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0654',
-          ptj_name: 'FAKULTI PENGURUSAN DAN PERNIAGAAN',
-          ptj_abb: 'BA',
+          ptj_id: "A0654",
+          ptj_name: "FAKULTI PENGURUSAN DAN PERNIAGAAN",
+          ptj_abb: "BA",
           target: 50000.0,
           pi_number: 68,
           achievement: [
@@ -33034,29 +33044,29 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 6.0,
               achievement: 125700.0,
-              achievement_p: 2.514,
+              achievement_p: 2.5140000000000002,
             },
             {
               month: 7.0,
               achievement: 125700.0,
-              achievement_p: 2.514,
+              achievement_p: 2.5140000000000002,
             },
             {
               month: 8.0,
               achievement: 125700.0,
-              achievement_p: 2.514,
+              achievement_p: 2.5140000000000002,
             },
             {
               month: 9.0,
               achievement: 125700.0,
-              achievement_p: 2.514,
+              achievement_p: 2.5140000000000002,
             },
           ],
         },
         {
-          ptj_id: 'A1609',
-          ptj_name: 'FAKULTI KEJURUTERAAN AWAM',
-          ptj_abb: 'EC',
+          ptj_id: "A1609",
+          ptj_name: "FAKULTI KEJURUTERAAN AWAM",
+          ptj_abb: "EC",
           target: 200000.0,
           pi_number: 68,
           achievement: [
@@ -33108,9 +33118,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'B0000',
-          ptj_name: 'UiTM CAWANGAN PULAU PINANG',
-          ptj_abb: 'P',
+          ptj_id: "B0000",
+          ptj_name: "UiTM CAWANGAN PULAU PINANG",
+          ptj_abb: "P",
           target: 200000.0,
           pi_number: 68,
           achievement: [
@@ -33162,9 +33172,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'N0000',
-          ptj_name: 'UiTM CAWANGAN NEGERI SEMBILAN',
-          ptj_abb: 'N',
+          ptj_id: "N0000",
+          ptj_name: "UiTM CAWANGAN NEGERI SEMBILAN",
+          ptj_abb: "N",
           target: 200000.0,
           pi_number: 68,
           achievement: [
@@ -33186,7 +33196,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 2.0,
               achievement: 3517.0,
-              achievement_p: 0.005861667,
+              achievement_p: 0.005861666999999999,
             },
             {
               month: 5.0,
@@ -33216,9 +33226,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'W0000',
-          ptj_name: 'UiTM CAWANGAN SARAWAK',
-          ptj_abb: 'Q',
+          ptj_id: "W0000",
+          ptj_name: "UiTM CAWANGAN SARAWAK",
+          ptj_abb: "Q",
           target: 50000.0,
           pi_number: 68,
           achievement: [
@@ -33270,9 +33280,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0595',
-          ptj_name: 'ARSHAD AYUB GRADUATE BUSINESS SCHOOL',
-          ptj_abb: 'AA',
+          ptj_id: "A0595",
+          ptj_name: "ARSHAD AYUB GRADUATE BUSINESS SCHOOL",
+          ptj_abb: "AA",
           target: 100000.0,
           pi_number: 68,
           achievement: [
@@ -33324,9 +33334,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1608',
-          ptj_name: 'FAKULTI KEJURUTERAAN KIMIA',
-          ptj_abb: 'EH',
+          ptj_id: "A1608",
+          ptj_name: "FAKULTI KEJURUTERAAN KIMIA",
+          ptj_abb: "EH",
           target: 200000.0,
           pi_number: 68,
           achievement: [
@@ -33381,24 +33391,24 @@ const TNC_PI_PORTFOLIO = {
     },
     {
       tp_id: 69,
-      pi_id: '010069',
+      pi_id: "010069",
       pi_number: 69,
-      pi_name: 'Total amount of research grants: d) International funded.',
+      pi_name: "Total amount of research grants:rnd) International funded.",
       operation_definition:
-        'Total amount of international funded grant received and registered with Research Management Center (RMC) for the current year.',
-      pi_owner: 'A0163',
-      pi_owner_ptj_name: 'PUSAT PENGURUSAN PENYELIDIKAN',
-      pi_owner_abbreviation: 'RMC',
-      kpi_id: 'KPI10',
-      kpi_id_kpi_order: '10',
-      strategic_id: 'ST204',
+        "Total amount of international funded grant received and registered with Research Management Center (RMC) for the current year.",
+      pi_owner: "A0163",
+      pi_owner_ptj_name: "PUSAT PENGURUSAN PENYELIDIKAN",
+      pi_owner_abbreviation: "RMC",
+      kpi_id: "KPI10",
+      kpi_id_kpi_order: "10",
+      strategic_id: "ST204",
       strategic_theme:
-        'Translational Research Development, Innovation & Commercilisation',
+        "Translational Research Development, Innovation & Commercilisation",
       pi_by_ptj: [
         {
-          ptj_id: 'A0595',
-          ptj_name: 'ARSHAD AYUB GRADUATE BUSINESS SCHOOL',
-          ptj_abb: 'AA',
+          ptj_id: "A0595",
+          ptj_name: "ARSHAD AYUB GRADUATE BUSINESS SCHOOL",
+          ptj_abb: "AA",
           target: 400000.0,
           pi_number: 69,
           achievement: [
@@ -33450,9 +33460,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0602',
-          ptj_name: 'FAKULTI PERAKAUNAN',
-          ptj_abb: 'AC',
+          ptj_id: "A0602",
+          ptj_name: "FAKULTI PERAKAUNAN",
+          ptj_abb: "AC",
           target: 400000.0,
           pi_number: 69,
           achievement: [
@@ -33504,9 +33514,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0605',
-          ptj_name: 'FAKULTI SENIBINA PERANCANGAN DAN UKUR',
-          ptj_abb: 'AP',
+          ptj_id: "A0605",
+          ptj_name: "FAKULTI SENIBINA PERANCANGAN DAN UKUR",
+          ptj_abb: "AP",
           target: 200000.0,
           pi_number: 69,
           achievement: [
@@ -33558,9 +33568,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0607',
-          ptj_name: 'AKADEMI PENGAJIAN BAHASA',
-          ptj_abb: 'LG',
+          ptj_id: "A0607",
+          ptj_name: "AKADEMI PENGAJIAN BAHASA",
+          ptj_abb: "LG",
           target: 80000.0,
           pi_number: 69,
           achievement: [
@@ -33612,9 +33622,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0610',
-          ptj_name: 'FAKULTI SENI LUKIS DAN SENI REKA',
-          ptj_abb: 'AD',
+          ptj_id: "A0610",
+          ptj_name: "FAKULTI SENI LUKIS DAN SENI REKA",
+          ptj_abb: "AD",
           target: 200000.0,
           pi_number: 69,
           achievement: [
@@ -33666,9 +33676,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0611',
-          ptj_name: 'FAKULTI PENGURUSAN HOTEL DAN PELANCONGAN',
-          ptj_abb: 'HM',
+          ptj_id: "A0611",
+          ptj_name: "FAKULTI PENGURUSAN HOTEL DAN PELANCONGAN",
+          ptj_abb: "HM",
           target: 200000.0,
           pi_number: 69,
           achievement: [
@@ -33720,9 +33730,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0613',
-          ptj_name: 'FAKULTI KOMUNIKASI DAN PENGAJIAN MEDIA',
-          ptj_abb: 'MC',
+          ptj_id: "A0613",
+          ptj_name: "FAKULTI KOMUNIKASI DAN PENGAJIAN MEDIA",
+          ptj_abb: "MC",
           target: 120000.0,
           pi_number: 69,
           achievement: [
@@ -33774,9 +33784,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0619',
-          ptj_name: 'FAKULTI PENDIDIKAN',
-          ptj_abb: 'ED',
+          ptj_id: "A0619",
+          ptj_name: "FAKULTI PENDIDIKAN",
+          ptj_abb: "ED",
           target: 200000.0,
           pi_number: 69,
           achievement: [
@@ -33828,9 +33838,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0626',
-          ptj_name: 'FAKULTI SAINS SUKAN DAN REKREASI',
-          ptj_abb: 'SR',
+          ptj_id: "A0626",
+          ptj_name: "FAKULTI SAINS SUKAN DAN REKREASI",
+          ptj_abb: "SR",
           target: 250000.0,
           pi_number: 69,
           achievement: [
@@ -33882,9 +33892,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0636',
-          ptj_name: 'FAKULTI UNDANG-UNDANG',
-          ptj_abb: 'LW',
+          ptj_id: "A0636",
+          ptj_name: "FAKULTI UNDANG-UNDANG",
+          ptj_abb: "LW",
           target: 100000.0,
           pi_number: 69,
           achievement: [
@@ -33936,9 +33946,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0637',
-          ptj_name: 'FAKULTI SAINS PENTADBIRAN DAN PENGAJIAN POLISI',
-          ptj_abb: 'AM',
+          ptj_id: "A0637",
+          ptj_name: "FAKULTI SAINS PENTADBIRAN DAN PENGAJIAN POLISI",
+          ptj_abb: "AM",
           target: 250000.0,
           pi_number: 69,
           achievement: [
@@ -33990,9 +34000,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0639',
-          ptj_name: 'FAKULTI SAINS KOMPUTER DAN MATEMATIK',
-          ptj_abb: 'CS',
+          ptj_id: "A0639",
+          ptj_name: "FAKULTI SAINS KOMPUTER DAN MATEMATIK",
+          ptj_abb: "CS",
           target: 400000.0,
           pi_number: 69,
           achievement: [
@@ -34044,9 +34054,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0640',
-          ptj_name: 'FAKULTI FARMASI',
-          ptj_abb: 'PH',
+          ptj_id: "A0640",
+          ptj_name: "FAKULTI FARMASI",
+          ptj_abb: "PH",
           target: 320000.0,
           pi_number: 69,
           achievement: [
@@ -34098,9 +34108,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0644',
-          ptj_name: 'FAKULTI SAINS KESIHATAN',
-          ptj_abb: 'HS',
+          ptj_id: "A0644",
+          ptj_name: "FAKULTI SAINS KESIHATAN",
+          ptj_abb: "HS",
           target: 200000.0,
           pi_number: 69,
           achievement: [
@@ -34152,9 +34162,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0646',
-          ptj_name: 'FAKULTI MUZIK',
-          ptj_abb: 'MU',
+          ptj_id: "A0646",
+          ptj_name: "FAKULTI MUZIK",
+          ptj_abb: "MU",
           target: 100000.0,
           pi_number: 69,
           achievement: [
@@ -34206,9 +34216,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0647',
-          ptj_name: 'FAKULTI PERLADANGAN DAN AGROTEKNOLOGI',
-          ptj_abb: 'AT',
+          ptj_id: "A0647",
+          ptj_name: "FAKULTI PERLADANGAN DAN AGROTEKNOLOGI",
+          ptj_abb: "AT",
           target: 200000.0,
           pi_number: 69,
           achievement: [
@@ -34260,9 +34270,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0660',
-          ptj_name: 'FAKULTI PERGIGIAN',
-          ptj_abb: 'DS',
+          ptj_id: "A0660",
+          ptj_name: "FAKULTI PERGIGIAN",
+          ptj_abb: "DS",
           target: 300000.0,
           pi_number: 69,
           achievement: [
@@ -34314,9 +34324,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0692',
-          ptj_name: 'AKADEMI PENGAJIAN ISLAM KONTEMPORARI',
-          ptj_abb: 'IC',
+          ptj_id: "A0692",
+          ptj_name: "AKADEMI PENGAJIAN ISLAM KONTEMPORARI",
+          ptj_abb: "IC",
           target: 80000.0,
           pi_number: 69,
           achievement: [
@@ -34368,9 +34378,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1608',
-          ptj_name: 'FAKULTI KEJURUTERAAN KIMIA',
-          ptj_abb: 'EH',
+          ptj_id: "A1608",
+          ptj_name: "FAKULTI KEJURUTERAAN KIMIA",
+          ptj_abb: "EH",
           target: 400000.0,
           pi_number: 69,
           achievement: [
@@ -34422,9 +34432,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1609',
-          ptj_name: 'FAKULTI KEJURUTERAAN AWAM',
-          ptj_abb: 'EC',
+          ptj_id: "A1609",
+          ptj_name: "FAKULTI KEJURUTERAAN AWAM",
+          ptj_abb: "EC",
           target: 400000.0,
           pi_number: 69,
           achievement: [
@@ -34476,9 +34486,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1611',
-          ptj_name: 'FAKULTI KEJURUTERAAN ELEKTRIK',
-          ptj_abb: 'EE',
+          ptj_id: "A1611",
+          ptj_name: "FAKULTI KEJURUTERAAN ELEKTRIK",
+          ptj_abb: "EE",
           target: 400000.0,
           pi_number: 69,
           achievement: [
@@ -34530,9 +34540,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1665',
-          ptj_name: 'PUSAT ASASI',
-          ptj_abb: 'PI',
+          ptj_id: "A1665",
+          ptj_name: "PUSAT ASASI",
+          ptj_abb: "PI",
           target: 100000.0,
           pi_number: 69,
           achievement: [
@@ -34584,9 +34594,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'B0000',
-          ptj_name: 'UiTM CAWANGAN PULAU PINANG',
-          ptj_abb: 'P',
+          ptj_id: "B0000",
+          ptj_name: "UiTM CAWANGAN PULAU PINANG",
+          ptj_abb: "P",
           target: 250000.0,
           pi_number: 69,
           achievement: [
@@ -34638,9 +34648,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'C0000',
-          ptj_name: 'UiTM CAWANGAN PAHANG',
-          ptj_abb: 'C',
+          ptj_id: "C0000",
+          ptj_name: "UiTM CAWANGAN PAHANG",
+          ptj_abb: "C",
           target: 250000.0,
           pi_number: 69,
           achievement: [
@@ -34692,9 +34702,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'D0000',
-          ptj_name: 'UiTM CAWANGAN KELANTAN',
-          ptj_abb: 'D',
+          ptj_id: "D0000",
+          ptj_name: "UiTM CAWANGAN KELANTAN",
+          ptj_abb: "D",
           target: 250000.0,
           pi_number: 69,
           achievement: [
@@ -34746,9 +34756,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'J0000',
-          ptj_name: 'UiTM CAWANGAN JOHOR',
-          ptj_abb: 'J',
+          ptj_id: "J0000",
+          ptj_name: "UiTM CAWANGAN JOHOR",
+          ptj_abb: "J",
           target: 250000.0,
           pi_number: 69,
           achievement: [
@@ -34800,9 +34810,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'K0000',
-          ptj_name: 'UiTM CAWANGAN PERAK',
-          ptj_abb: 'A',
+          ptj_id: "K0000",
+          ptj_name: "UiTM CAWANGAN PERAK",
+          ptj_abb: "A",
           target: 250000.0,
           pi_number: 69,
           achievement: [
@@ -34854,9 +34864,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'M0000',
-          ptj_name: 'UiTM CAWANGAN MELAKA',
-          ptj_abb: 'M',
+          ptj_id: "M0000",
+          ptj_name: "UiTM CAWANGAN MELAKA",
+          ptj_abb: "M",
           target: 250000.0,
           pi_number: 69,
           achievement: [
@@ -34908,9 +34918,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'N0000',
-          ptj_name: 'UiTM CAWANGAN NEGERI SEMBILAN',
-          ptj_abb: 'N',
+          ptj_id: "N0000",
+          ptj_name: "UiTM CAWANGAN NEGERI SEMBILAN",
+          ptj_abb: "N",
           target: 250000.0,
           pi_number: 69,
           achievement: [
@@ -34962,9 +34972,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'P0000',
-          ptj_name: 'UiTM CAWANGAN PERLIS',
-          ptj_abb: 'R',
+          ptj_id: "P0000",
+          ptj_name: "UiTM CAWANGAN PERLIS",
+          ptj_abb: "R",
           target: 250000.0,
           pi_number: 69,
           achievement: [
@@ -35016,9 +35026,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'S0000',
-          ptj_name: 'UiTM CAWANGAN SABAH',
-          ptj_abb: 'S',
+          ptj_id: "S0000",
+          ptj_name: "UiTM CAWANGAN SABAH",
+          ptj_abb: "S",
           target: 250000.0,
           pi_number: 69,
           achievement: [
@@ -35070,9 +35080,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'T0000',
-          ptj_name: 'UiTM CAWANGAN TERENGGANU',
-          ptj_abb: 'T',
+          ptj_id: "T0000",
+          ptj_name: "UiTM CAWANGAN TERENGGANU",
+          ptj_abb: "T",
           target: 250000.0,
           pi_number: 69,
           achievement: [
@@ -35124,9 +35134,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'W0000',
-          ptj_name: 'UiTM CAWANGAN SARAWAK',
-          ptj_abb: 'Q',
+          ptj_id: "W0000",
+          ptj_name: "UiTM CAWANGAN SARAWAK",
+          ptj_abb: "Q",
           target: 250000.0,
           pi_number: 69,
           achievement: [
@@ -35172,15 +35182,15 @@ const TNC_PI_PORTFOLIO = {
             },
             {
               month: 4.0,
-              achievement: 4570813.8799999999,
+              achievement: 4570813.88,
               achievement_p: 9.14162776,
             },
           ],
         },
         {
-          ptj_id: 'A0604',
-          ptj_name: 'FAKULTI SAINS GUNAAN',
-          ptj_abb: 'AS',
+          ptj_id: "A0604",
+          ptj_name: "FAKULTI SAINS GUNAAN",
+          ptj_abb: "AS",
           target: 200000.0,
           pi_number: 69,
           achievement: [
@@ -35232,9 +35242,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0643',
-          ptj_name: 'FAKULTI PERUBATAN',
-          ptj_abb: 'MD',
+          ptj_id: "A0643",
+          ptj_name: "FAKULTI PERUBATAN",
+          ptj_abb: "MD",
           target: 400000.0,
           pi_number: 69,
           achievement: [
@@ -35261,7 +35271,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 5.0,
               achievement: 37847.0,
-              achievement_p: 0.037847,
+              achievement_p: 0.037847000000000006,
             },
             {
               month: 6.0,
@@ -35281,14 +35291,14 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 9.0,
               achievement: 1077147.0,
-              achievement_p: 2.6928675,
+              achievement_p: 2.6928674999999997,
             },
           ],
         },
         {
-          ptj_id: 'A0654',
-          ptj_name: 'FAKULTI PENGURUSAN DAN PERNIAGAAN',
-          ptj_abb: 'BA',
+          ptj_id: "A0654",
+          ptj_name: "FAKULTI PENGURUSAN DAN PERNIAGAAN",
+          ptj_abb: "BA",
           target: 400000.0,
           pi_number: 69,
           achievement: [
@@ -35305,7 +35315,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 3.0,
               achievement: 374142.0,
-              achievement_p: 0.374142,
+              achievement_p: 0.37414200000000003,
             },
             {
               month: 4.0,
@@ -35340,9 +35350,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A0683',
-          ptj_name: 'FAKULTI FILEM, TEATER DAN ANIMASI',
-          ptj_abb: 'FF',
+          ptj_id: "A0683",
+          ptj_name: "FAKULTI FILEM, TEATER DAN ANIMASI",
+          ptj_abb: "FF",
           target: 100000.0,
           pi_number: 69,
           achievement: [
@@ -35374,17 +35384,17 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 7.0,
               achievement: 20627.0,
-              achievement_p: 0.20627,
+              achievement_p: 0.20626999999999998,
             },
             {
               month: 8.0,
               achievement: 20627.0,
-              achievement_p: 0.20627,
+              achievement_p: 0.20626999999999998,
             },
             {
               month: 9.0,
               achievement: 20627.0,
-              achievement_p: 0.20627,
+              achievement_p: 0.20626999999999998,
             },
             {
               month: 2.0,
@@ -35394,9 +35404,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'A1610',
-          ptj_name: 'FAKULTI KEJURUTERAAN MEKANIKAL',
-          ptj_abb: 'EM',
+          ptj_id: "A1610",
+          ptj_name: "FAKULTI KEJURUTERAAN MEKANIKAL",
+          ptj_abb: "EM",
           target: 400000.0,
           pi_number: 69,
           achievement: [
@@ -35433,24 +35443,24 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 7.0,
               achievement: 377272.0,
-              achievement_p: 0.94318,
+              achievement_p: 0.9431799999999999,
             },
             {
               month: 8.0,
               achievement: 377272.0,
-              achievement_p: 0.94318,
+              achievement_p: 0.9431799999999999,
             },
             {
               month: 9.0,
               achievement: 377272.0,
-              achievement_p: 0.94318,
+              achievement_p: 0.9431799999999999,
             },
           ],
         },
         {
-          ptj_id: 'A0638',
-          ptj_name: 'FAKULTI PENGURUSAN MAKLUMAT',
-          ptj_abb: 'IM',
+          ptj_id: "A0638",
+          ptj_name: "FAKULTI PENGURUSAN MAKLUMAT",
+          ptj_abb: "IM",
           target: 200000.0,
           pi_number: 69,
           achievement: [
@@ -35502,9 +35512,9 @@ const TNC_PI_PORTFOLIO = {
           ],
         },
         {
-          ptj_id: 'H0000',
-          ptj_name: 'UiTM CAWANGAN KEDAH',
-          ptj_abb: 'K',
+          ptj_id: "H0000",
+          ptj_name: "UiTM CAWANGAN KEDAH",
+          ptj_abb: "K",
           target: 250000.0,
           pi_number: 69,
           achievement: [
@@ -35559,24 +35569,24 @@ const TNC_PI_PORTFOLIO = {
     },
     {
       tp_id: 70,
-      pi_id: '010070',
+      pi_id: "010070",
       pi_number: 70,
-      pi_name: 'Percentage of research projects completed on time.',
+      pi_name: "Percentage of research projects completed on time.",
       operation_definition:
-        'Minimum 60% of research projects completed without extention over total of research projects for the current year.',
-      pi_owner: 'A0163',
-      pi_owner_ptj_name: 'PUSAT PENGURUSAN PENYELIDIKAN',
-      pi_owner_abbreviation: 'RMC',
-      kpi_id: 'KPI10',
-      kpi_id_kpi_order: '10',
-      strategic_id: 'ST204',
+        "Minimum 60% of research projects completed without extention over total of research projects for the current year.",
+      pi_owner: "A0163",
+      pi_owner_ptj_name: "PUSAT PENGURUSAN PENYELIDIKAN",
+      pi_owner_abbreviation: "RMC",
+      kpi_id: "KPI10",
+      kpi_id_kpi_order: "10",
+      strategic_id: "ST204",
       strategic_theme:
-        'Translational Research Development, Innovation & Commercilisation',
+        "Translational Research Development, Innovation & Commercilisation",
       pi_by_ptj: [
         {
-          ptj_id: 'A0163',
-          ptj_name: 'PUSAT PENGURUSAN PENYELIDIKAN',
-          ptj_abb: 'RMC',
+          ptj_id: "A0163",
+          ptj_name: "PUSAT PENGURUSAN PENYELIDIKAN",
+          ptj_abb: "RMC",
           target: 60.0,
           pi_number: 70,
           achievement: [
@@ -35593,7 +35603,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 1.0,
               achievement: 100.0,
-              achievement_p: 1.666666667,
+              achievement_p: 1.6666666669999999,
             },
             {
               month: 4.0,
@@ -35623,7 +35633,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 9.0,
               achievement: 44.9,
-              achievement_p: 0.748333333,
+              achievement_p: 0.7483333329999999,
             },
           ],
         },
@@ -35631,26 +35641,26 @@ const TNC_PI_PORTFOLIO = {
     },
     {
       tp_id: 71,
-      pi_id: '011071',
+      pi_id: "011071",
       pi_number: 71,
-      pi_name: 'Number of patents filed.',
+      pi_name: "Number of patents filed.",
       operation_definition:
-        'Total number of new certificates of patents filed for the current year.',
-      pi_owner: 'A0596',
+        "Total number of new certificates of patents filed for the current year.",
+      pi_owner: "A0596",
       pi_owner_ptj_name:
-        'BUSINESS INNOVATION AND TECHNOLOGY COMMERCIALIZATION CENTRE',
-      pi_owner_abbreviation: 'BITCOM',
-      kpi_id: 'KPI11',
-      kpi_id_kpi_order: '11',
-      strategic_id: 'ST204',
+        "BUSINESS INNOVATION AND TECHNOLOGY COMMERCIALIZATION CENTRE",
+      pi_owner_abbreviation: "BITCOM",
+      kpi_id: "KPI11",
+      kpi_id_kpi_order: "11",
+      strategic_id: "ST204",
       strategic_theme:
-        'Translational Research Development, Innovation & Commercilisation',
+        "Translational Research Development, Innovation & Commercilisation",
       pi_by_ptj: [
         {
-          ptj_id: 'A0596',
+          ptj_id: "A0596",
           ptj_name:
-            'BUSINESS INNOVATION AND TECHNOLOGY COMMERCIALIZATION CENTRE',
-          ptj_abb: 'BITCOM',
+            "BUSINESS INNOVATION AND TECHNOLOGY COMMERCIALIZATION CENTRE",
+          ptj_abb: "BITCOM",
           target: 15.0,
           pi_number: 71,
           achievement: [
@@ -35697,7 +35707,7 @@ const TNC_PI_PORTFOLIO = {
             {
               month: 9.0,
               achievement: 7.0,
-              achievement_p: 0.466666667,
+              achievement_p: 0.46666666700000003,
             },
           ],
         },
@@ -35705,26 +35715,26 @@ const TNC_PI_PORTFOLIO = {
     },
     {
       tp_id: 72,
-      pi_id: '011072',
+      pi_id: "011072",
       pi_number: 72,
-      pi_name: 'Number of other IPRs.',
+      pi_name: "Number of other IPRs.",
       operation_definition:
-        'Other IPRs (Other than patents, commercialized products, technology know-how and books). Intellectual property other than patent is a recognized intellectual property including trademarks, copyrights, industrial designs, circuit, building plan, software, song lyrics, poetry, architectural drawing, Geographical Indication (example&#58; Chili Bangi), Layout Design, Utility Innovation, New Plant Variety (NPV) and New Microbial Species produced by academics.',
-      pi_owner: 'A0596',
+        "Other IPRs (Other than patents, commercialized products, technology know-how and books). Intellectual property other than patent is a recognized intellectual property including trademarks, copyrights, industrial designs, circuit, building plan, software, song lyrics, poetry, architectural drawing, Geographical Indication (example&#58; Chili Bangi), Layout Design, Utility Innovation, New Plant Variety (NPV) and New Microbial Species produced by academics.",
+      pi_owner: "A0596",
       pi_owner_ptj_name:
-        'BUSINESS INNOVATION AND TECHNOLOGY COMMERCIALIZATION CENTRE',
-      pi_owner_abbreviation: 'BITCOM',
-      kpi_id: 'KPI11',
-      kpi_id_kpi_order: '11',
-      strategic_id: 'ST204',
+        "BUSINESS INNOVATION AND TECHNOLOGY COMMERCIALIZATION CENTRE",
+      pi_owner_abbreviation: "BITCOM",
+      kpi_id: "KPI11",
+      kpi_id_kpi_order: "11",
+      strategic_id: "ST204",
       strategic_theme:
-        'Translational Research Development, Innovation & Commercilisation',
+        "Translational Research Development, Innovation & Commercilisation",
       pi_by_ptj: [
         {
-          ptj_id: 'A0596',
+          ptj_id: "A0596",
           ptj_name:
-            'BUSINESS INNOVATION AND TECHNOLOGY COMMERCIALIZATION CENTRE',
-          ptj_abb: 'BITCOM',
+            "BUSINESS INNOVATION AND TECHNOLOGY COMMERCIALIZATION CENTRE",
+          ptj_abb: "BITCOM",
           target: 200.0,
           pi_number: 72,
           achievement: [
@@ -35779,27 +35789,27 @@ const TNC_PI_PORTFOLIO = {
     },
     {
       tp_id: 73,
-      pi_id: '012073',
+      pi_id: "012073",
       pi_number: 73,
       pi_name:
-        'Number of innovation products/services successfully commercialised.',
+        "Number of innovation products/services successfully commercialised.",
       operation_definition:
-        'Number of innovation products/services successfully commercialised for the market.',
-      pi_owner: 'A0596',
+        "Number of innovation products/services successfully commercialised for the market.",
+      pi_owner: "A0596",
       pi_owner_ptj_name:
-        'BUSINESS INNOVATION AND TECHNOLOGY COMMERCIALIZATION CENTRE',
-      pi_owner_abbreviation: 'BITCOM',
-      kpi_id: 'KPI12',
-      kpi_id_kpi_order: '12',
-      strategic_id: 'ST204',
+        "BUSINESS INNOVATION AND TECHNOLOGY COMMERCIALIZATION CENTRE",
+      pi_owner_abbreviation: "BITCOM",
+      kpi_id: "KPI12",
+      kpi_id_kpi_order: "12",
+      strategic_id: "ST204",
       strategic_theme:
-        'Translational Research Development, Innovation & Commercilisation',
+        "Translational Research Development, Innovation & Commercilisation",
       pi_by_ptj: [
         {
-          ptj_id: 'A0596',
+          ptj_id: "A0596",
           ptj_name:
-            'BUSINESS INNOVATION AND TECHNOLOGY COMMERCIALIZATION CENTRE',
-          ptj_abb: 'BITCOM',
+            "BUSINESS INNOVATION AND TECHNOLOGY COMMERCIALIZATION CENTRE",
+          ptj_abb: "BITCOM",
           target: 8.0,
           pi_number: 73,
           achievement: [
@@ -35854,26 +35864,26 @@ const TNC_PI_PORTFOLIO = {
     },
     {
       tp_id: 74,
-      pi_id: '012074',
+      pi_id: "012074",
       pi_number: 74,
-      pi_name: 'Number of technology know-how licensing.',
+      pi_name: "Number of technology know-how licensing.",
       operation_definition:
-        'Number of technology or know how licenced or sold outright (including trade secret).',
-      pi_owner: 'A0596',
+        "Number of technology or know how licenced or sold outright (including trade secret).",
+      pi_owner: "A0596",
       pi_owner_ptj_name:
-        'BUSINESS INNOVATION AND TECHNOLOGY COMMERCIALIZATION CENTRE',
-      pi_owner_abbreviation: 'BITCOM',
-      kpi_id: 'KPI12',
-      kpi_id_kpi_order: '12',
-      strategic_id: 'ST204',
+        "BUSINESS INNOVATION AND TECHNOLOGY COMMERCIALIZATION CENTRE",
+      pi_owner_abbreviation: "BITCOM",
+      kpi_id: "KPI12",
+      kpi_id_kpi_order: "12",
+      strategic_id: "ST204",
       strategic_theme:
-        'Translational Research Development, Innovation & Commercilisation',
+        "Translational Research Development, Innovation & Commercilisation",
       pi_by_ptj: [
         {
-          ptj_id: 'A0596',
+          ptj_id: "A0596",
           ptj_name:
-            'BUSINESS INNOVATION AND TECHNOLOGY COMMERCIALIZATION CENTRE',
-          ptj_abb: 'BITCOM',
+            "BUSINESS INNOVATION AND TECHNOLOGY COMMERCIALIZATION CENTRE",
+          ptj_abb: "BITCOM",
           target: 14.0,
           pi_number: 74,
           achievement: [
@@ -35928,5 +35938,4 @@ const TNC_PI_PORTFOLIO = {
     },
   ],
 };
-
-export default TNC_PI_PORTFOLIO;
+export default ST04_STRATEGIC_THEME;

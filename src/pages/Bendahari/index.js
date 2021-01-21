@@ -1,23 +1,13 @@
-import React from "react";
-import { Container } from "reactstrap";
+import React from 'react';
+import PortfolioTemplate from 'components/Common/PortfolioTemplate';
+import BENDAHARI_DATA from 'data/portfolio/bendahari';
 
-//Import Breadcrumb
-import Breadcrumbs from "../../components/Common/Breadcrumb";
+const BENDAHARI = () => (
+  <PortfolioTemplate
+    data={BENDAHARI_DATA}
+    title="Bendahari"
+    shortTitle="Bendahari"
+  />
+);
 
-const UitmPage = (props) => {
-  return (
-    <>
-      <div className="page-content">
-        <Container fluid>
-          {/* Render Breadcrumbs */}
-          <Breadcrumbs title="UITM" breadcrumbItem="Finale" />
-
-        </Container>
-      </div>
-    </>
-  );
-};
-
-export default UitmPage;
-
-// Step 1: Buat file ni. tengok nama folder. Uitm/index.js. tekan next tab
+export default BENDAHARI;

@@ -1,23 +1,13 @@
-import React from "react";
-import { Container } from "reactstrap";
+import React from 'react';
+import PortfolioTemplate from 'components/Common/PortfolioTemplate';
+import TNC_HEP_DATA from 'data/portfolio/tnchep';
 
-//Import Breadcrumb
-import Breadcrumbs from "../../components/Common/Breadcrumb";
+const TNCHEP = () => (
+  <PortfolioTemplate
+    data={TNC_HEP_DATA}
+    title="Timbalan Naib Canselor HEP"
+    shortTitle="TNCHEP"
+  />
+);
 
-const UitmPage = (props) => {
-  return (
-    <>
-      <div className="page-content">
-        <Container fluid>
-          {/* Render Breadcrumbs */}
-          <Breadcrumbs title="UITM" breadcrumbItem="Finale" />
-
-        </Container>
-      </div>
-    </>
-  );
-};
-
-export default UitmPage;
-
-// Step 1: Buat file ni. tengok nama folder. Uitm/index.js. tekan next tab
+export default TNCHEP;

@@ -44,9 +44,9 @@ const MainDash = (props) => {
     const [modal, setmodal] = useState(false);
 
     const reports = [
-        { title : "Quality Education", icon : "mdi mdi-school", color : "warning", value : "$ 9134.39", desc : "+ 0.0012 ( 0.2 % )", series : series1, options : options1 },
-        { title : "Global Excellence", icon : "mdi mdi-earth", color : "primary", value : "$ 9134.39", desc : "- 4.102 ( 0.1 % )", series : series2, options : options2 },
-        { title : "Value-driven Products", icon : "mdi mdi-package-variant", color : "info", value : "$ 245.44", desc : "+ 1.792 ( 0.1 % )", series : series3, options : options3 },
+        { title : "Quality Education", icon : "mdi mdi-school", color : "warning", value : "70%", desc : "+ 0.0012 ( 0.2 % )", series : series1, options : options1 },
+        { title : "Global Excellence", icon : "mdi mdi-earth", color : "primary", value : "94%", desc : "- 4.102 ( 0.1 % )", series : series2, options : options2 },
+        { title : "Value-driven Products", icon : "mdi mdi-package-variant", color : "info", value : "87.5%", desc : "+ 1.792 ( 0.1 % )", series : series3, options : options3 },
     ];
     // const reports = [
     //       { title: "Orders", iconClass: "bx-copy-alt", description: "1,235" },

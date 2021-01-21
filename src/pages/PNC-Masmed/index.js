@@ -1,23 +1,13 @@
-import React from "react";
-import { Container } from "reactstrap";
+import React from 'react';
+import PortfolioTemplate from 'components/Common/PortfolioTemplate';
+import PNC_MASMED_DATA from 'data/portfolio/pncmasmed';
 
-//Import Breadcrumb
-import Breadcrumbs from "../../components/Common/Breadcrumb";
+const PNC_MASMED = () => (
+  <PortfolioTemplate
+    data={PNC_MASMED_DATA}
+    title="PNC MASMED"
+    shortTitle="PNC MASMED"
+  />
+);
 
-const UitmPage = (props) => {
-  return (
-    <>
-      <div className="page-content">
-        <Container fluid>
-          {/* Render Breadcrumbs */}
-          <Breadcrumbs title="UITM" breadcrumbItem="Finale" />
-
-        </Container>
-      </div>
-    </>
-  );
-};
-
-export default UitmPage;
-
-// Step 1: Buat file ni. tengok nama folder. Uitm/index.js. tekan next tab
+export default PNC_MASMED;
