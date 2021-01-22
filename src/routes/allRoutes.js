@@ -154,6 +154,7 @@ import TNCPI from '../pages/TNC-PI';
 import TNCPPII from '../pages/TNC-PPII';
 import UitmPage from '../pages/Uitm';
 import MainDash from '../pages/Main-Dashboard';
+import TestPage from '../pages/Test';
 // import UitmPage from "../pages/Uitm"
 // import UitmPage from "../pages/Uitm"
 // import UitmPage from "../pages/Uitm"
@@ -300,6 +301,8 @@ const userRoutes = [
   { path: '/pages-timeline', component: PagesTimeline },
   { path: '/pages-faqs', component: PagesFaqs },
   { path: '/pages-pricing', component: PagesPricing },
+
+  { path: '/test', component: TestPage },
 
   // this route should be at the end of all other routes
   { path: '/', exact: true, component: () => <Redirect to="/kpi-dashboard" /> },

@@ -1,4 +1,4 @@
-score = [
+const score = [
   {
     st_id: 'ST101',
     st_theme: 'THEME1',
@@ -104,7 +104,7 @@ score = [
     ],
   },
   {
-    st_id: ST103,
+    st_id: 'ST103',
     st_theme: 'THEME3',
     st_thrust: 'THRUST1',
     score: [
@@ -468,3 +468,5 @@ score = [
     ],
   },
 ];
+
+export default score;
