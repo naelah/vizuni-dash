@@ -3,35 +3,47 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { useState } from 'react';
-import { FormGroup } from 'reactstrap';
 import Slider from 'react-rangeslider';
 import 'react-rangeslider/lib/index.css';
-
-import { connect } from 'react-redux';
-
 // SimpleBar
 import SimpleBar from 'simplebar-react';
-
 import { Link } from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux';
 import {
-  changeLayout,
-  changeLayoutWidth,
-  changeSidebarTheme,
-  changeSidebarType,
-  changePreloader,
-  changeTopbarTheme,
+  changeParams,
+  clearParams,
   showRightSidebarAction,
-} from '../../store/actions';
+} from 'store/actions';
 
 import './rightbar.scss';
-// Import images
-import layout1 from '../../assets/images/layouts/layout-1.jpg';
-import layout2 from '../../assets/images/layouts/layout-2.jpg';
-import layout3 from '../../assets/images/layouts/layout-3.jpg';
 
-const RightSidebar = (props) => {
-  const [def, setdef] = useState(10);
-  const [def2, setdef2] = useState(20);
+const RightSidebar = () => {
+  const dispatch = useDispatch();
+  const params = useSelector(({ Params }) => Params);
+  const updateParams = (value) => dispatch(changeParams(value));
+  const closeSidebar = () => dispatch(showRightSidebarAction(false));
+
+  const renderSlider = (key, title) => (
+    <div className="py-2">
+      <div className="d-flex justify-content-between mb-3 mt-0">
+        <h5 className="font-size-14">{title || key}</h5>
+        <b>{params[key] || 1}</b>
+      </div>
+      <span className="float-left mt-4">1</span>
+      <span className="float-right  mt-4">40</span>
+      <Slider
+        tooltip={false}
+        min={1}
+        max={40}
+        value={params[key]}
+        orientation="horizontal"
+        onChange={(value) => {
+          updateParams({ [`${key}`]: value });
+        }}
+      />
+    </div>
+  );
+
   return (
     <>
       <div className="right-bar">
@@ -40,10 +52,7 @@ const RightSidebar = (props) => {
             <div className="rightbar-title px-3 py-4">
               <Link
                 to="#"
-                onClick={(e) => {
-                  e.preventDefault();
-                  props.showRightSidebarAction(false);
-                }}
+                onClick={closeSidebar}
                 className="right-bar-toggle float-right"
               >
                 <i className="mdi mdi-close noti-icon" />
@@ -54,340 +63,34 @@ const RightSidebar = (props) => {
             <hr className="my-0" />
 
             <div className="p-4">
-              <div className="py-2">
-                <h5 className="font-size-14 mb-3 mt-0">Params</h5>
-                <span className="float-left mt-4">0</span>{' '}
-                <span className="float-right  mt-4">40</span>
-                <Slider
-                  max={40}
-                  value={def}
-                  orientation="horizontal"
-                  onChange={(value) => {
-                    setdef(value);
-                  }}
-                />
-              </div>
-              <div className="py-2">
-                <h5 className="font-size-14 mb-3 mt-0">Params 2</h5>
-                <span className="float-left mt-4">0</span>{' '}
-                <span className="float-right  mt-4">40</span>
-                <Slider
-                  max={40}
-                  value={def2}
-                  orientation="horizontal"
-                  onChange={(value) => {
-                    setdef2(value);
-                  }}
-                />
-              </div>
-              <div className="radio-toolbar">
-                <span className="mb-2 d-block">Layouts</span>
-                <input
-                  type="radio"
-                  id="radioVertical"
-                  name="radioFruit"
-                  value="vertical"
-                  checked={props.layoutType === 'vertical'}
-                  onChange={(e) => {
-                    if (e.target.checked) {
-                      props.changeLayout(e.target.value);
-                    }
-                  }}
-                />
-                <label htmlFor="radioVertical">Vertical</label>
-                {'   '}
-                <input
-                  type="radio"
-                  id="radioHorizontal"
-                  name="radioFruit"
-                  value="horizontal"
-                  checked={props.layoutType === 'horizontal'}
-                  onChange={(e) => {
-                    if (e.target.checked) {
-                      props.changeLayout(e.target.value);
-                    }
-                  }}
-                />
-                <label htmlFor="radioHorizontal">Horizontal</label>
-              </div>
-
-              <hr className="mt-1" />
-
-              <div className="radio-toolbar">
-                <span className="mb-2 d-block" id="radio-title">
-                  Layout Width
-                </span>
-                <input
-                  type="radio"
-                  id="radioFluid"
-                  name="radioWidth"
-                  value="fluid"
-                  checked={props.layoutWidth !== 'boxed'}
-                  onChange={(e) => {
-                    if (e.target.checked) {
-                      props.changeLayoutWidth(e.target.value);
-                    }
-                  }}
-                />
-                <label htmlFor="radioFluid">Fluid</label>
-                {'   '}
-                <input
-                  type="radio"
-                  id="radioBoxed"
-                  name="radioWidth"
-                  value="boxed"
-                  checked={props.layoutWidth === 'boxed'}
-                  onChange={(e) => {
-                    if (e.target.checked) {
-                      props.changeLayoutWidth(e.target.value);
-                    }
-                  }}
-                />
-                <label htmlFor="radioBoxed">Boxed</label>
-              </div>
-              <hr className="mt-1" />
-
-              <div className="radio-toolbar">
-                <span className="mb-2 d-block" id="radio-title">
-                  Topbar Theme
-                </span>
-                <input
-                  type="radio"
-                  id="radioThemeLight"
-                  name="radioTheme"
-                  value="light"
-                  checked={props.topbarTheme === 'light'}
-                  onChange={(e) => {
-                    if (e.target.checked) {
-                      props.changeTopbarTheme(e.target.value);
-                    }
-                  }}
-                />
-                <label htmlFor="radioThemeLight">Light</label>
-                {'   '}
-                <input
-                  type="radio"
-                  id="radioThemeDark"
-                  name="radioTheme"
-                  value="dark"
-                  checked={props.topbarTheme === 'dark'}
-                  onChange={(e) => {
-                    if (e.target.checked) {
-                      props.changeTopbarTheme(e.target.value);
-                    }
-                  }}
-                />
-
-                <label htmlFor="radioThemeDark">Dark</label>
-                {'   '}
-                {props.layoutType === 'vertical' ? null : (
-                  <>
-                    {' '}
-                    <input
-                      type="radio"
-                      id="radioThemeColored"
-                      name="radioTheme"
-                      value="colored"
-                      checked={props.topbarTheme === 'colored'}
-                      onChange={(e) => {
-                        if (e.target.checked) {
-                          props.changeTopbarTheme(e.target.value);
-                        }
-                      }}
-                    />
-                    <label htmlFor="radioThemeColored">Colored</label>{' '}
-                  </>
-                )}
-              </div>
-
-              {props.layoutType === 'vertical' ? (
-                <>
-                  <hr className="mt-1" />
-                  <div className="radio-toolbar">
-                    <span className="mb-2 d-block" id="radio-title">
-                      Left Sidebar Type{' '}
-                    </span>
-                    <input
-                      type="radio"
-                      id="sidebarDefault"
-                      name="sidebarType"
-                      value="default"
-                      checked={props.leftSideBarType === 'default'}
-                      onChange={(e) => {
-                        if (e.target.checked) {
-                          props.changeSidebarType(e.target.value);
-                        }
-                      }}
-                    />
-                    <label htmlFor="sidebarDefault">Default</label>
-                    {'   '}
-                    <input
-                      type="radio"
-                      id="sidebarCompact"
-                      name="sidebarType"
-                      value="compact"
-                      checked={props.leftSideBarType === 'compact'}
-                      onChange={(e) => {
-                        if (e.target.checked) {
-                          props.changeSidebarType(e.target.value);
-                        }
-                      }}
-                    />
-                    <label htmlFor="sidebarCompact">Compact</label>
-                    {'   '}
-                    <input
-                      type="radio"
-                      id="sidebarIcon"
-                      name="sidebarType"
-                      value="icon"
-                      checked={props.leftSideBarType === 'icon'}
-                      onChange={(e) => {
-                        if (e.target.checked) {
-                          props.changeSidebarType(e.target.value);
-                        }
-                      }}
-                    />
-                    <label htmlFor="sidebarIcon">Icon</label>
-                  </div>
-
-                  <hr className="mt-1" />
-
-                  <div className="radio-toolbar">
-                    <span className="mb-2 d-block" id="radio-title">
-                      Left Sidebar Color
-                    </span>
-                    <input
-                      type="radio"
-                      id="leftsidebarThemelight"
-                      name="leftsidebarTheme"
-                      value="light"
-                      checked={props.leftSideBarTheme === 'light'}
-                      onChange={(e) => {
-                        if (e.target.checked) {
-                          props.changeSidebarTheme(e.target.value);
-                        }
-                      }}
-                    />
-
-                    <label htmlFor="leftsidebarThemelight">Light</label>
-                    {'   '}
-                    <input
-                      type="radio"
-                      id="leftsidebarThemedark"
-                      name="leftsidebarTheme"
-                      value="dark"
-                      checked={props.leftSideBarTheme === 'dark'}
-                      onChange={(e) => {
-                        if (e.target.checked) {
-                          props.changeSidebarTheme(e.target.value);
-                        }
-                      }}
-                    />
-
-                    <label htmlFor="leftsidebarThemedark">Dark</label>
-                    {'   '}
-                    <input
-                      type="radio"
-                      id="leftsidebarThemecolored"
-                      name="leftsidebarTheme"
-                      value="colored"
-                      checked={props.leftSideBarTheme === 'colored'}
-                      onChange={(e) => {
-                        if (e.target.checked) {
-                          props.changeSidebarTheme(e.target.value);
-                        }
-                      }}
-                    />
-
-                    <label htmlFor="leftsidebarThemecolored">Colored</label>
-                  </div>
-                  <hr className="mt-1" />
-                </>
-              ) : null}
-
-              <FormGroup>
-                <span className="mb-2 d-block" id="radio-title">
-                  Preloader
-                </span>
-
-                <div className="custom-control custom-switch">
-                  <input
-                    type="checkbox"
-                    className="custom-control-input checkbox"
-                    id="checkbox_1"
-                    checked={props.isPreloader}
-                    onChange={() => {
-                      props.changePreloader(!props.isPreloader);
-                    }}
-                  />
-
-                  <label className="custom-control-label" htmlFor="checkbox_1">
-                    Preloader
-                  </label>
-                </div>
-              </FormGroup>
-
-              <h6 className="text-center">Choose Layouts</h6>
-
-              <div className="mb-2">
-                <Link
-                  to="//skote-v-light.react.themesbrand.com"
-                  target="_blank"
-                >
-                  <img
-                    src={layout1}
-                    className="img-fluid img-thumbnail"
-                    alt=""
-                  />
-                </Link>
-              </div>
-
-              <div className="mb-2">
-                <Link to="//skote-v-dark.react.themesbrand.com" target="_blank">
-                  <img
-                    src={layout2}
-                    className="img-fluid img-thumbnail"
-                    alt=""
-                  />
-                </Link>
-              </div>
-
-              <div className="mb-2">
-                <Link to="//skote-v-rtl.react.themesbrand.com" target="_blank">
-                  <img
-                    src={layout3}
-                    className="img-fluid img-thumbnail"
-                    alt=""
-                  />
-                </Link>
-              </div>
-
-              <Link
-                to="#"
-                className="btn btn-primary btn-block mt-3"
-                target="_blank"
+              <button
+                className="btn btn-light btn-block mt-3"
+                type="button"
+                onClick={() => dispatch(clearParams())}
               >
-                <i className="mdi mdi-cart mr-1" /> Purchase Now
-              </Link>
+                <i className="mdi mdi-filter-remove-outline mr-1" />
+                Clear Parameters
+              </button>
+              {renderSlider('ST101')}
+              {renderSlider('ST102')}
+              {renderSlider('ST103')}
+              {renderSlider('ST204')}
+              {renderSlider('ST205')}
+              {renderSlider('ST206')}
+              {renderSlider('ST307')}
+              {renderSlider('ST308')}
+              {renderSlider('ST309')}
             </div>
           </div>
         </SimpleBar>
       </div>
-      <div className="rightbar-overlay" />
+      <div
+        className="rightbar-overlay"
+        onClick={closeSidebar}
+        role="presentation"
+      />
     </>
   );
 };
 
-const mapStatetoProps = (state) => {
-  return { ...state.Layout };
-};
-
-export default connect(mapStatetoProps, {
-  changeLayout,
-  changeSidebarTheme,
-  changeSidebarType,
-  changeLayoutWidth,
-  changeTopbarTheme,
-  changePreloader,
-  showRightSidebarAction,
-})(RightSidebar);
+export default RightSidebar;
