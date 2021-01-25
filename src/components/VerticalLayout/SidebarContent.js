@@ -107,39 +107,39 @@ const SidebarContent = (props) => {
             </Link>
             <ul className="sub-menu" aria-expanded="false">
               <li>
-                <Link to="tnc-aa">{props.t('Education 5.0@UiTM')}</Link>
+                <Link to="st101">{props.t('Education 5.0@UiTM')}</Link>
               </li>
               <li>
-                <Link to="tnc-pi">
+                <Link to="st102">
                   {props.t('Entrepreneurial & Well-Balanced Graduates')}
                 </Link>
               </li>
               <li>
-                <Link to="tnc-ican">{props.t('Widened Access')}</Link>
+                <Link to="st103">{props.t('Widened Access')}</Link>
               </li>
               <li>
-                <Link to="bendahari">
+                <Link to="st204">
                   {props.t(
                     'Translational Research Development, Innovation & Commercialisation'
                   )}
                 </Link>
               </li>
               <li>
-                <Link to="tnc-ppii">
+                <Link to="st205">
                   {props.t('Industry, Community & Alumni Smart Partnership')}
                 </Link>
               </li>
               <li>
-                <Link to="pendaftar">{props.t('Talent Excellence')}</Link>
+                <Link to="st206">{props.t('Talent Excellence')}</Link>
               </li>
               <li>
-                <Link to="tnc-hep">{props.t('Agile Governance')}</Link>
+                <Link to="st307">{props.t('Agile Governance')}</Link>
               </li>
               <li>
-                <Link to="pnc-masmed">{props.t('PNC Smart Campus')}</Link>
+                <Link to="st308">{props.t('Smart Campus')}</Link>
               </li>
               <li>
-                <Link to="pnc-masmed">{props.t('Sustainable Funding')}</Link>
+                <Link to="st309">{props.t('Sustainable Funding')}</Link>
               </li>
             </ul>
           </li>
