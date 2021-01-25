@@ -155,12 +155,15 @@ import TNCPPII from '../pages/TNC-PPII';
 import UitmPage from '../pages/Uitm';
 import MainDash from '../pages/Main-Dashboard';
 import TestPage from '../pages/Test';
-// import UitmPage from "../pages/Uitm"
-// import UitmPage from "../pages/Uitm"
-// import UitmPage from "../pages/Uitm"
-// import UitmPage from "../pages/Uitm"
-// import UitmPage from "../pages/Uitm"
-// import UitmPage from "../pages/Uitm"
+import ST01 from '../pages/ST101';
+import ST02 from '../pages/ST102';
+import ST03 from '../pages/ST103';
+import ST04 from '../pages/ST204';
+import ST05 from '../pages/ST205';
+import ST06 from '../pages/ST206';
+import ST07 from '../pages/ST307';
+import ST08 from '../pages/ST308';
+import ST09 from '../pages/ST309';
 
 const userRoutes = [
   // backup
@@ -177,6 +180,15 @@ const userRoutes = [
   { path: '/tnc-pi', component: TNCPI },
   { path: '/tnc-ppii', component: TNCPPII },
   { path: '/uitm', component: UitmPage },
+  { path: '/st101', component: ST01 },
+  { path: '/st102', component: ST02 },
+  { path: '/st103', component: ST03 },
+  { path: '/st204', component: ST04 },
+  { path: '/st205', component: ST05 },
+  { path: '/st206', component: ST06 },
+  { path: '/st307', component: ST07 },
+  { path: '/st308', component: ST08 },
+  { path: '/st309', component: ST09 },
   // step 3: tambah path kat sini, dalam component kena nama import kat atas tu
   //  nama path tu address dia. tengok browser
   // ni just define routing, belum tambah menu kat sidebar
