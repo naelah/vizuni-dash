@@ -64,6 +64,14 @@ const RightSidebar = () => {
 
             <div className="p-4">
               <button
+                type="button"
+                className="btn btn-success waves-effect waves-light"
+              >
+                <i className="bx bx-check-double font-size-16 align-middle mr-2"></i>{' '}
+                Consistency Ratio is optimal
+              </button>
+
+              <button
                 className="btn btn-light btn-block mt-3"
                 type="button"
                 onClick={() => dispatch(clearParams())}
