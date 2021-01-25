@@ -95,3 +95,32 @@ export const processPortfolioData = (data) => {
     piScore,
   };
 };
+
+export const getThrustScores = (thrustArr) => {
+  const arr = [];
+
+  for (let index = 0; index < thrustArr[0].score.length; index += 1) {
+    const avgOfScoreOfMonthOfEachThemeArr = [];
+    const themeMonth = ({ month }) => month === index + 1;
+
+    thrustArr.forEach((element) => {
+      const elementScoreOfMonth = element.score.find(themeMonth);
+
+      avgOfScoreOfMonthOfEachThemeArr.push({
+        score: elementScoreOfMonth.score * elementScoreOfMonth.weight,
+        weight: elementScoreOfMonth.weight,
+      });
+    });
+
+    arr.push(
+      Number(
+        (
+          getAvg(avgOfScoreOfMonthOfEachThemeArr, 'score') /
+          getAvg(avgOfScoreOfMonthOfEachThemeArr, 'weight')
+        ).toFixed(2)
+      )
+    );
+  }
+
+  return arr;
+};
