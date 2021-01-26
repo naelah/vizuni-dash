@@ -54,7 +54,7 @@ const Earning = ({ data }) => {
               <div className="input-group input-group-sm">
                 <select
                   className="custom-select custom-select-sm"
-                  onChange={(e) => setThrust(e)}
+                  onChange={(e) => setThrust(e.target.value)}
                 >
                   <option defaultValue value={0}>
                     Quality Education
