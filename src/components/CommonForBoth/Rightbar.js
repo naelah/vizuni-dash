@@ -2,7 +2,7 @@
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable react/prop-types */
 /* eslint-disable jsx-a11y/label-has-associated-control */
-import React, { useState } from 'react';
+import React from 'react';
 import Slider from 'react-rangeslider';
 import 'react-rangeslider/lib/index.css';
 // SimpleBar
@@ -14,6 +14,7 @@ import {
   clearParams,
   showRightSidebarAction,
 } from 'store/actions';
+import { getAvg } from 'utils';
 
 import './rightbar.scss';
 
@@ -44,6 +45,9 @@ const RightSidebar = () => {
     </div>
   );
 
+  const paramsTotal = getAvg(Object.values(params));
+  const paramsIsOptimal = paramsTotal < 20;
+
   return (
     <>
       <div className="right-bar">
@@ -65,10 +69,12 @@ const RightSidebar = () => {
             <div className="p-4">
               <button
                 type="button"
-                className="btn btn-success waves-effect waves-light"
+                className={`btn btn-${
+                  paramsIsOptimal ? 'success' : 'warning'
+                } waves-effect waves-light`}
               >
-                <i className="bx bx-check-double font-size-16 align-middle mr-2"></i>{' '}
-                Consistency Ratio is optimal
+                <i className="bx bx-check-double font-size-16 align-middle mr-2" />
+                Consistency Ratio is {!paramsIsOptimal && 'not'} optimal
               </button>
 
               <button

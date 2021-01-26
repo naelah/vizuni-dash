@@ -56,10 +56,10 @@ const walletOptions = {
           fontFamily: undefined,
           fontWeight: 600,
           formatter(e) {
-            return `${
+            return `${(
               e.globals.seriesTotals.reduce((total, next) => total + next, 0) /
               e.globals.seriesTotals.length
-            }%`;
+            ).toFixed(2)}%`;
           },
         },
       },

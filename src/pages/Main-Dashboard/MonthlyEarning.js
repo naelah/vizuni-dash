@@ -2,7 +2,7 @@
 import React from 'react';
 import { Row, Card, CardBody, CardTitle } from 'reactstrap';
 import ReactApexChart from 'react-apexcharts';
-import { getAvg } from 'utils';
+import { getAvg, getThrustScores } from 'utils';
 
 const walletOptions = {
   plotOptions: {
@@ -55,9 +55,10 @@ const walletOptions = {
           fontFamily: null,
           fontWeight: 600,
           formatter(e) {
-            return `${e.globals.seriesTotals.reduce((next, t) => {
-              return next + t;
-            }, 0)}%`;
+            return `${(
+              e.globals.seriesTotals.reduce((total, next) => total + next, 0) /
+              e.globals.seriesTotals.length
+            ).toFixed(2)}%`;
           },
         },
       },
@@ -66,7 +67,7 @@ const walletOptions = {
   stroke: {
     lineCap: 'round',
   },
-  colors: ['#3452e1', '#f1b44c', '#50a5f1'],
+  colors: ['#f1b44c', '#3452e1', '#50a5f1'],
   labels: ['Quality Education', 'Global Excellence', 'Value-driven Products'],
   legend: { show: !1 },
 };
@@ -78,12 +79,9 @@ const MonthlyEarning = ({ data }) => {
   THRUST.forEach((element) => {
     avgScores.push(
       getAvg(
-        data
-          .filter((item) => item.st_thrust === element)
-          .map((item) =>
-            item.score.find(({ month }) => month === item.score.length - 1)
-          ),
-        'score'
+        getThrustScores(
+          data.filter(({ st_thrust: thrust }) => thrust === element)
+        )
       )
     );
   });

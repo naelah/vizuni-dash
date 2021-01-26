@@ -31,16 +31,19 @@ const DATA = {
   },
 };
 const Earning = ({ data }) => {
-  const thrust1 = getThrustScores(
-    data.filter(({ st_thrust: thrust }) => thrust === 'THRUST1')
-  );
-  const thrust2 = getThrustScores(
-    data.filter(({ st_thrust: thrust }) => thrust === 'THRUST2')
-  );
-  const thrust3 = getThrustScores(
-    data.filter(({ st_thrust: thrust }) => thrust === 'THRUST3')
-  );
-  const [month, setMonth] = useState(thrust1);
+  const [thrustId, setThrust] = useState(0);
+  const THRUST = ['THRUST1', 'THRUST2', 'THRUST3'];
+  const thrustSores = [];
+
+  THRUST.forEach((element) => {
+    const scores = getThrustScores(
+      data.filter(({ st_thrust: thrust }) => thrust === element)
+    );
+    thrustSores.push({
+      avgScore: getAvg(scores),
+      scores,
+    });
+  });
 
   return (
     <Col xl="12">
@@ -51,17 +54,13 @@ const Earning = ({ data }) => {
               <div className="input-group input-group-sm">
                 <select
                   className="custom-select custom-select-sm"
-                  onChange={(e) =>
-                    setMonth(
-                      e.target.value.split(',').map((item) => Number(item))
-                    )
-                  }
+                  onChange={(e) => setThrust(e)}
                 >
-                  <option defaultValue value={thrust1}>
+                  <option defaultValue value={0}>
                     Quality Education
                   </option>
-                  <option value={thrust2}>Global Excellence</option>
-                  <option value={thrust3}>Value-driven Products</option>
+                  <option value={1}>Global Excellence</option>
+                  <option value={2}>Value-driven Products</option>
                 </select>
                 {/* <div className="input-group-append">
                   <label className="input-group-text">Month</label>
@@ -76,7 +75,7 @@ const Earning = ({ data }) => {
               <div className="text-muted">
                 <div className="mb-4">
                   <p>Selected Strategy</p>
-                  <h4>{getAvg(month)}%</h4>
+                  <h4>{thrustSores[thrustId].avgScore}%</h4>
                 </div>
               </div>
             </Col>
@@ -87,7 +86,7 @@ const Earning = ({ data }) => {
                   series={[
                     {
                       name: '',
-                      data: month,
+                      data: thrustSores[thrustId].scores,
                     },
                   ]}
                   options={DATA.options}
