@@ -1,3 +1,4 @@
+/* eslint-disable no-nested-ternary */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable react/prop-types */
@@ -31,11 +32,11 @@ const RightSidebar = () => {
         <b>{params[key] || 1}</b>
       </div>
       <span className="float-left mt-4">1</span>
-      <span className="float-right  mt-4">40</span>
+      <span className="float-right  mt-4">9</span>
       <Slider
         tooltip={false}
         min={1}
-        max={40}
+        max={9}
         value={params[key]}
         orientation="horizontal"
         onChange={(value) => {
@@ -46,7 +47,8 @@ const RightSidebar = () => {
   );
 
   const paramsTotal = getAvg(Object.values(params));
-  const paramsIsOptimal = paramsTotal < 20;
+  const paramsIsOptimal = paramsTotal < 5;
+  const paramsIsHigh = paramsTotal > 8;
 
   return (
     <>
@@ -70,11 +72,18 @@ const RightSidebar = () => {
               <button
                 type="button"
                 className={`btn btn-${
-                  paramsIsOptimal ? 'success' : 'warning'
+                  paramsIsOptimal
+                    ? 'success'
+                    : paramsIsHigh
+                    ? 'danger'
+                    : 'warning'
                 } waves-effect waves-light`}
               >
                 <i className="bx bx-check-double font-size-16 align-middle mr-2" />
-                Consistency Ratio is {!paramsIsOptimal && 'not'} optimal
+                Consistency Ratio is{' '}
+                {paramsIsHigh
+                  ? 'very suboptimal'
+                  : `${!paramsIsOptimal && 'not'} optimal`}
               </button>
 
               <button
