@@ -45,7 +45,7 @@ class Layout extends Component {
     window.scrollTo(0, 0);
     const currentage = this.capitalizeFirstLetter(this.props.location.pathname);
 
-    document.title = `${currentage} | UITM - KPI Visual`;
+    document.title = `${currentage} | UITM - Vizuni`;
     if (this.props.leftSideBarTheme) {
       this.props.changeSidebarTheme(this.props.leftSideBarTheme);
     }

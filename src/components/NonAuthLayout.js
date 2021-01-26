@@ -10,7 +10,7 @@ const NonAuthLayout = ({ location, children }) => {
   useEffect(() => {
     const currentage = capitalizeFirstLetter(location.pathname);
 
-    document.title = `${currentage} | UITM - KPI Visual`;
+    document.title = `${currentage} | UITM - Vizuni`;
   }, [location.pathname]);
 
   return children;
